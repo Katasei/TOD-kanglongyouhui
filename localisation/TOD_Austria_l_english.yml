@@ -1,0 +1,32 @@
+﻿l_english:
+
+### parties ###
+AUS_totalism_party:0 "统合党"
+AUS_totalism_party_long:0 "大奥地利统合党"
+AUS_despotism_party:0 "救国军"
+AUS_despotism_party_long:0 "救国军同盟"
+AUS_authoritarianism_party:0 "保皇党"
+AUS_authoritarianism_party_long:0 "哈布斯堡派"
+AUS_conservatism_party:0 "基督社会党"
+AUS_conservatism_party_long:0 "奥地利基督社会党"
+AUS_liberalism_party:0 "独立者联盟"
+AUS_liberalism_party_long:0 "内莱塔尼亚独立者联盟"
+AUS_reformism_party:0 "社民工党（改良派）"
+AUS_reformism_party_long:0 "奥地利社会民主工人党（改良派）"
+AUS_socialism_party:0 "社民工党（社会派）"
+AUS_socialism_party_long:0 "奥地利社会民主工人党（社会派）"
+AUS_radicalism_party:0 "安那其联合"
+AUS_radicalism_party_long:0 "内莱塔尼亚无政府主义者联盟"
+
+### country names ###
+AUS_totalism:0 "大德意志"
+AUS_despotism:0 "奥地利军政府"
+AUS_authoritarianism:0 "奥地利帝国"
+AUS_conservatism:0 "内莱塔尼亚"
+AUS_liberalism:0 "内莱塔尼亚"
+AUS_reformism:0 "内莱塔尼亚"
+AUS_socialism:0 "奥地利麦西里斯"
+AUS_radicalism:0 "中欧公社"
+
+### leaders desc ###
+POLITICS_FRANZ_FERDINAND_I_DESC:0 "弗朗茨·斐迪南一世是哈布斯堡家族的正统继承人，在一战后期，他果断地选择退出这次战争，使得奥地利保留了其在波西米亚的领地，最大限度地挽回了损失"

@@ -1,0 +1,33 @@
+capital = 526
+
+oob = "empty"
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1934.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalism = 14
+	despotism = 40
+	authoritarianism = 38
+	conservatism = 0
+	liberalism = 0
+	reformism = 0
+	socialism = 8
+	radicalism = 0
+}
+
+create_country_leader = {
+	name = "Shang Shun"
+	desc = "POLITICS_SHANG_SHUN_DESC"
+	picture = "Portrait_RYU_Shang_Shun.png"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+}
+
+add_ideas = {
+	DesMnc_type
+}

@@ -1,0 +1,22 @@
+state={
+	id=585
+	name="STATE_585"
+
+	history={
+		add_core_of = UZB
+		owner = UZB
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = RUS
+
+	}
+
+	provinces={
+		1493 1614 1649 7541 7618 10348 10395 10435 10485 12233 12324 12454 12465 12474 13207
+	}
+	manpower=1033721
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

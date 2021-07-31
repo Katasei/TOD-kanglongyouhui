@@ -1,0 +1,184 @@
+ideas = {
+  
+  ################################################################################################################################################################################################
+  ### MEX
+  ################################################################################################################################################################################################
+
+	TOD_minister_head = { ### Head of Government ###
+		MEX_Bernardo_Reyes_hog_aut = {
+			allowed = { original_tag = MEX }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea MEX_Bernardo_Reyes_hog_aut"
+			}
+			traits = {
+				TOD_minister_head
+				authoritarianism
+				hog_respected_war_hero
+			}
+		}
+		MEX_Emilio_Portes_Gil_hog_con = {
+			allowed = { original_tag = MEX }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea MEX_Emilio_Portes_Gil_hog_con"
+			}
+			traits = {
+				TOD_minister_head
+				conservatism
+				hog_pragmatic_statesman
+			}
+		}
+		MEX_Rosendo_Salazar_hog_ref = {
+			allowed = { original_tag = MEX }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea MEX_Rosendo_Salazar_hog_ref"
+			}
+			traits = {
+				TOD_minister_head
+				reformism
+				hog_silent_workhorse
+			}
+		}
+		}
+	TOD_foreign_minister = { ### foreign minister ###
+		MEX_Leopoldo_Ortiz_for_aut = {
+			allowed = { original_tag = MEX }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea MEX_Leopoldo_Ortiz_for_aut"
+			}
+			traits = {
+				TOD_foreign_minister
+				authoritarianism
+				for_biased_intellectual
+			}
+		}
+		}
+	TOD_economy_minister = { ### economy minister ###
+		MEX_Luis_Montes_de_Oca_eco_aut = {
+			allowed = { original_tag = MEX }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea Luis_Montes_de_Oca_eco_aut"
+			}
+			traits = {
+				TOD_economy_minister
+				authoritarianism
+				eco_balanced_budget_economy
+			}
+		}
+		}
+	TOD_security_minister = { ### security minister ###
+		MEX_Francisco_Cardenas_sec_aut = {
+			allowed = { original_tag = MEX }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea MEX_Francisco_Cardenas_sec_aut"
+			}
+			traits = {
+				TOD_security_minister
+				authoritarianism
+				sec_preserver_of_culture
+			}
+		}
+		}
+	chief_of_staff = { ### 总参谋长 ###
+		MEX_Bernardo_Reyes_cos_sco = {
+			allowed = { original_tag = MEX }
+			available = { }
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea MEX_Bernardo_Reyes_cos_sco"
+			}
+			traits = {
+				chief_of_staff
+				cos_school_of_fire_support
+			}
+			cancel_if_invalid = yes
+		}
+
+	}
+	chief_of_army = { ### 陆军部长 ###
+		MEX_Pancho_Villa_carm_sco = {
+			allowed = { original_tag = MEX }
+			available = { }
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea MEX_Pancho_Villa_carm_sco"
+			}
+			traits = {
+				chief_of_army
+				carm_guns_and_butter_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+		}
+	chief_of_navy = { ### 海军部长 ###
+		MEX_OthonP_Blanco_cnav_ade = {
+			allowed = { original_tag = MEX }
+			available = { }
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea MEX_OthonP_Blanco_cnav_ade"
+			}
+			traits = {
+				chief_of_navy
+				cnav_indirect_approach_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+		}
+	chief_of_air_force = { ### 空军部长 ###
+		MEX_Antonio_Cardenas_Rodriguez_cair_ade = {
+			allowed = { original_tag = MEX }
+			available = { }
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea MEX_Antonio_Cardenas_Rodriguez_cair_ade"
+			}
+			traits = {
+				chief_of_air_force
+				cair_battlefield_support_doctrine
+			}
+			cancel_if_invalid = yes
+		}
+		}
+
+		
+
+	}
+	

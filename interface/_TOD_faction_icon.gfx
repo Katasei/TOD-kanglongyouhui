@@ -1,0 +1,60 @@
+spriteTypes = {
+
+	
+
+	spriteType = {
+		name = "GFX_TOD_Ming_Dusi_icon"
+		texturefile = "gfx//faction//puppets//GFX_TOD_Ming_Dusi_icon.dds"  legacy_lazy_load = no }
+
+
+
+
+	spriteType = {
+		name = "GFX_TOD_fi_ming_sphere"
+		texturefile = "gfx//faction//GFX_TOD_fi_ming_sphere.dds"  legacy_lazy_load = no }
+
+
+
+
+	spriteType = {
+		name = "GFX_TOD_Faction_Icon_radicalism"
+		texturefile = "gfx//faction//radicalism.tga"  legacy_lazy_load = no }
+	
+	spriteType = {
+		name = "GFX_TOD_Faction_Icon_socialism"
+		texturefile = "gfx//faction//socialism.tga" legacy_lazy_load = no }
+	
+	
+	spriteType = {
+		name = "GFX_TOD_Faction_Icon_reformism"
+		texturefile = "gfx//faction//reformism.tga"  legacy_lazy_load = no }
+	
+	
+	spriteType = {
+		name = "GFX_TOD_Faction_Icon_liberalism"
+		texturefile = "gfx//faction//liberalism.tga"  legacy_lazy_load = no }
+	
+	
+	spriteType = {
+		name = "GFX_TOD_Faction_Icon_conservatism"
+		texturefile = "gfx//faction//conservatism.tga"  legacy_lazy_load = no }
+	
+	
+	spriteType = {
+		name = "GFX_TOD_Faction_Icon_authoritarianism"
+		texturefile = "gfx//faction//authoritarianism.tga"  legacy_lazy_load = no }
+	
+	
+	spriteType = {
+		name = "GFX_TOD_Faction_Icon_despotism"
+		texturefile = "gfx//faction//despotism.tga"  legacy_lazy_load = no }
+	
+	
+	spriteType = {
+		name = "GFX_TOD_Faction_Icon_totalism"
+		texturefile = "gfx//faction//totalism.tga"  legacy_lazy_load = no }
+
+
+
+
+}

@@ -1,0 +1,36 @@
+﻿capital = 111
+
+oob = "empty"
+
+set_politics = {
+	ruling_party = socialism
+	last_election = "1921.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalism = 0
+	despotism = 0
+	authoritarianism = 0
+	conservatism = 0
+	liberalism = 11
+	reformism = 35
+	socialism = 39
+	radicalism = 15
+}
+
+create_country_leader = {
+	name = "Otto Kuusinen"
+	desc = "POLITICS_OTTO_KUUSINEN_DESC"
+	picture = "Portrait_FIN_Otto_Kuusinen.png"
+	expire = "1965.1.1"
+	ideology = socialism_subtype
+}
+
+add_ideas = {
+	SocMod_type
+	FIN_Industrial_construction
+	FIN_External_threats
+	FIN_Brave_Army
+}

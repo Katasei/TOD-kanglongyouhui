@@ -1,0 +1,22 @@
+### FRL focus ###
+focus_tree = {
+	id = Louisiana_Focus
+	country = {
+		factor = 0
+		
+		modifier = {
+			tag = FRL
+			add = 10
+		}
+	}
+	focus = {
+		id = FRL_everything_will_be_fine
+		cost = 1
+		completion_reward = {
+			add_political_power = 100
+			country_event = frl.1
+		
+		}
+		x = 3
+		y = 0
+	}

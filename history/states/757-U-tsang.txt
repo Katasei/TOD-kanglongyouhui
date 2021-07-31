@@ -1,0 +1,27 @@
+
+state={
+	id=757
+	name="STATE_757"
+
+	history={
+		owner = UTS
+		add_core_of = UTS
+		victory_points = {
+			5033 5 
+		}
+		victory_points = {
+			4994 2 
+		}
+		victory_points = {
+			2098 1 
+		}
+
+	}
+
+	provinces={
+		2010 2014 2093 2098 4435 4900 4994 5033 5094 8010 8121 12322 12730 12807 12860 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=town
+}

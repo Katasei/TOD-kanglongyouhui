@@ -1,0 +1,32 @@
+﻿capital = 10
+
+oob = "empty"
+
+set_politics = {
+	ruling_party = liberalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalism = 0
+	despotism = 25
+	authoritarianism = 0
+	conservatism = 25
+	liberalism = 45
+	reformism = 5
+	socialism = 0
+	radicalism = 0
+}
+
+create_country_leader = {
+	name = "Ignacy Moscicki"
+	desc = "POLITICS_IGNACY_MOSCICKI_DESC"
+	picture = "Portrait_POL_Ignacy_Moscicki.png"
+	expire = "1965.1.1"
+	ideology = liberalism_subtype
+}
+
+
+

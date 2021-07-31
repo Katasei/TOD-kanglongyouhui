@@ -1,0 +1,221 @@
+
+ideologies = {
+
+	radicalism = {
+		types = {
+			radicalism_subtype = {} #generic
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_RADICALISM_1"
+			"FACTION_NAME_RADICALISM_2"
+			"FACTION_NAME_RADICALISM_3"
+			"FACTION_NAME_RADICALISM_4"
+			"FACTION_NAME_RADICALISM_5"
+			"FACTION_NAME_RADICALISM_6"
+		}
+		color = { 127 0 0 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 1
+			generate_wargoal_tension = 1
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+	socialism = {
+		types = {
+			socialism_subtype = {} #generic
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIALISM_1"
+			"FACTION_NAME_SOCIALISM_2"
+			"FACTION_NAME_SOCIALISM_3"
+			"FACTION_NAME_SOCIALISM_4"
+			"FACTION_NAME_SOCIALISM_5"
+			"FACTION_NAME_SOCIALISM_6"
+		}
+		color = { 255 0 0 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 1
+			generate_wargoal_tension = 1
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+
+	}
+
+	reformism = {
+		types = {
+			reformism_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_REFORMISM_1"
+			"FACTION_NAME_REFORMISM_2"
+			"FACTION_NAME_REFORMISM_3"
+			"FACTION_NAME_REFORMISM_4"
+			"FACTION_NAME_REFORMISM_5"
+			"FACTION_NAME_REFORMISM_6"
+		}
+		color = { 250 70 140 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 1
+			generate_wargoal_tension = 1
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+
+	}
+
+	liberalism = {
+		types = {
+			liberalism_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_LIBERALISM_1"
+			"FACTION_NAME_LIBERALISM_2"
+			"FACTION_NAME_LIBERALISM_3"
+			"FACTION_NAME_LIBERALISM_4"
+			"FACTION_NAME_LIBERALISM_5"
+			"FACTION_NAME_LIBERALISM_6"
+		}
+		color = { 0 180 255 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 1
+			generate_wargoal_tension = 1
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+	conservatism = {
+		types = {
+			conservatism_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_CONSERVATISM_1"
+			"FACTION_NAME_CONSERVATISM_2"
+			"FACTION_NAME_CONSERVATISM_3"
+			"FACTION_NAME_CONSERVATISM_4"
+			"FACTION_NAME_CONSERVATISM_5"
+			"FACTION_NAME_CONSERVATISM_6"
+		}
+		color = { 120 150 240 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 1
+			generate_wargoal_tension = 1
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+	authoritarianism = {
+		types = {
+			authoritarianism_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_AUTHORITARIANISM_1"
+			"FACTION_NAME_AUTHORITARIANISM_2"
+			"FACTION_NAME_AUTHORITARIANISM_3"
+			"FACTION_NAME_AUTHORITARIANISM_4"
+			"FACTION_NAME_AUTHORITARIANISM_5"
+			"FACTION_NAME_AUTHORITARIANISM_6"
+		}
+		color = { 60 60 120 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 1
+			generate_wargoal_tension = 1
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+	despotism = {
+		types = {
+			despotism_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_DESPOTISM_1"
+			"FACTION_NAME_DESPOTISM_2"
+			"FACTION_NAME_DESPOTISM_3"
+			"FACTION_NAME_DESPOTISM_4"
+			"FACTION_NAME_DESPOTISM_5"
+			"FACTION_NAME_DESPOTISM_6"
+		}
+		color = { 125 125 125 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 1
+			generate_wargoal_tension = 1
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+	totalism = {
+		types = {
+			totalism_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_TOTALISM_1"
+			"FACTION_NAME_TOTALISM_2"
+			"FACTION_NAME_TOTALISM_3"
+			"FACTION_NAME_TOTALISM_4"
+			"FACTION_NAME_TOTALISM_5"
+			"FACTION_NAME_TOTALISM_6"
+		}
+		color = { 30 30 30 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 1
+			generate_wargoal_tension = 1
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+}

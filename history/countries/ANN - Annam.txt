@@ -1,0 +1,6 @@
+﻿capital = 671
+
+oob = "empty"
+
+
+

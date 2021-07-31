@@ -1,0 +1,29 @@
+﻿l_english:
+
+### parties ###
+BUL_totalism_party:0 "民族联盟"
+BUL_totalism_party_long:0 "保加利亚民族联盟"
+BUL_despotism_party:0 "保皇党"
+BUL_despotism_party_long:0 "保皇党"
+BUL_authoritarianism_party:0 "反运动党"
+BUL_authoritarianism_party_long:0 "保加利亚反运动党"
+BUL_conservatism_party:0 "农业联盟"
+BUL_conservatism_party_long:0 "保加利亚农业联盟"
+BUL_liberalism_party:0 "民主党"
+BUL_liberalism_party_long:0 "保加利亚民主党"
+BUL_reformism_party:0 "人民进步党"
+BUL_reformism_party_long:0 "保加利亚人民进步党"
+BUL_socialism_party:0 "社民工党"
+BUL_socialism_party_long:0 "保加利亚社会民主工人党"
+BUL_radicalism_party:0 "自由公社"
+BUL_radicalism_party_long:0 "自由公社派"
+
+### country names ###
+BUL_totalism:0 "大保加利亚"
+BUL_despotism:0 "保加利亚沙皇国"
+BUL_authoritarianism:0 "保加利亚"
+BUL_conservatism:0 "保加利亚共和国"
+BUL_liberalism:0 "保加利亚共和国"
+BUL_reformism:0 "保加利亚共和国"
+BUL_socialism:0 "保加利亚人民共和国"
+BUL_radicalism:0 "自由公社"

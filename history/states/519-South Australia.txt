@@ -1,0 +1,21 @@
+
+state={
+	id=519
+	name="STATE_519"
+	manpower = 200800
+	
+	state_category = pastoral
+
+	history={
+		owner = ZHR
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = ZHR
+	}
+
+	provinces={
+		2130 2219 5183 5197 5211 5225 7567 8186 8220 8249 10925 10927 12910 12918 12924 
+	}
+}

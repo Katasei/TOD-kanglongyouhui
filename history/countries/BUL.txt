@@ -1,0 +1,29 @@
+﻿capital = 48
+
+oob = "empty"
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalism = 14
+	despotism = 15
+	authoritarianism = 8
+	conservatism = 28
+	liberalism = 23
+	reformism = 0
+	socialism = 12
+	radicalism = 0
+}
+
+create_country_leader = {
+	name = "Alexander Stamboliski"
+	desc = "POLITICS_ALEXANDER_STAMBOLISKI_DESC"
+	picture = "Portrait_BUL_Alexander_Stamboliski.png"
+	expire = "1965.1.1"
+	ideology = conservatism_subtype
+}

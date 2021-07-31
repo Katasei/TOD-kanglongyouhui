@@ -1,0 +1,40 @@
+﻿l_english:
+
+### parties ###
+FIN_totalism_party:0 "国家社会党"
+FIN_totalism_party_long:0 "芬兰国家社会党"
+FIN_despotism_party:0 "护国军"
+FIN_despotism_party_long:0 "芬兰护国军"
+FIN_authoritarianism_party:0 "保守党"
+FIN_authoritarianism_party_long:0 "芬兰保守党"
+FIN_conservatism_party:0 "民主党"
+FIN_conservatism_party_long:0 "芬兰民主党党"
+FIN_liberalism_party:0 "新自由党"
+FIN_liberalism_party_long:0 "芬兰新自由主义党"
+FIN_reformism_party:0 "社会民主党"
+FIN_reformism_party_long:0 "芬兰社会民主党"
+FIN_socialism_party:0 "联合阵线"
+FIN_socialism_party_long:0 "芬兰社会主义联合阵线"
+FIN_radicalism_party:0 "公社派"
+FIN_radicalism_party_long:0 "芬兰社会民主党（公社派）"
+
+### country names ###
+FIN_totalism:0 "芬兰"
+FIN_despotism:0 "芬兰军政府"
+FIN_authoritarianism:0 "芬兰"
+FIN_conservatism:0 "芬兰共和国"
+FIN_liberalism:0 "芬兰共和国"
+FIN_reformism:0 "芬兰民主共和国"
+FIN_socialism:0 "芬兰社会主义工人共和国"
+FIN_radicalism:0 "芬兰公社"
+
+### ideas ###
+FIN_Industrial_construction:0 "工业建设"
+FIN_Industrial_construction_desc:0 "芬兰地处北欧，不适宜大面积的农业种植吗，但却拥有丰富的森林资源，家具制造和纸张制造等产业十分适宜在芬兰发展，芬兰在经济危机中没有受到任何影响，顺利地进行了初步的工业化，一座座工厂在芬兰建设了起来。"
+FIN_External_threats:0 "周围的威胁"
+FIN_External_threats_desc:0 "纵使芬兰的左派势力在战斗中取得了胜利，但是芬兰周遭的环境却并不十分理想，瑞典人和俄国人企图再次奴役芬兰，但是站起来的人民的力量是无穷的！"
+FIN_Brave_Army:0 "苍茫雪原上的战士"
+FIN_Brave_Army_desc:0 "芬兰的军队早就适应了在寒冷地区作战，在雪地和森林里出其不意地袭击敌人。"
+
+### leaders desc ###
+POLITICS_OTTO_KUUSINEN_DESC:0 "奥托·库西宁1881年出生于芬兰，于1911年参加革命运动，1917年成为芬兰社会民主工人党主席。1921年芬兰社会主义民主工人党投身芬兰的独立战争，并与其他左翼势力建立联合战线最终成功地完成了革命，库西宁在大选中接连胜利，并一直作为芬兰的领导人组织社会主义建设和生产活动"

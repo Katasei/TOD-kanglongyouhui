@@ -1,0 +1,58 @@
+﻿l_english:
+
+### parties ###
+FRL_totalism_party:0 "统合党"
+FRL_totalism_party_long:0 "大北美统合党"
+FRL_despotism_party:0 "爱国军联盟"
+FRL_despotism_party_long:0 "路易斯安那爱国军联盟"
+FRL_authoritarianism_party:0 "人民阵线"
+FRL_authoritarianism_party_long:0 "路易斯安那人民合作阵线"
+FRL_conservatism_party:0 "前进党"
+FRL_conservatism_party_long:0 "联邦前进党"
+FRL_liberalism_party:0 "新联合党"
+FRL_liberalism_party_long:0 "新自由主义联合党"
+FRL_reformism_party:0 "左翼行动党"
+FRL_reformism_party_long:0 "团结左翼行动党"
+FRL_socialism_party:0 "社会工党"
+FRL_socialism_party_long:0 "路易斯安那社会主义工党"
+FRL_radicalism_party:0 "安那其联合"
+FRL_radicalism_party_long:0 "路易斯安那无政府主义者联盟"
+
+### country names ###
+FRL_totalism:0 "路易斯安那联邦共和国"
+FRL_despotism:0 "路易斯安那联邦共和国"
+FRL_authoritarianism:0 "路易斯安那联邦共和国"
+FRL_conservatism:0 "路易斯安那联邦共和国"
+FRL_liberalism:0 "路易斯安那联邦共和国"
+FRL_reformism:0 "路易斯安那联邦共和国"
+FRL_socialism:0 "路易斯安那联邦共和国"
+FRL_radicalism:0 "路易斯安那联邦共和国"
+
+### ideas ###
+FRL_home_of_free:0 "自由之乡"
+FRL_home_of_free_desc:0 "作为世界上第一个民主国家，新大陆的繁华依然吸引着欧洲各国的人不断涌入，为路易斯安那带来了更多的活力。"
+FRL_economic_crisis:0 "大萧条的影响"
+FRL_economic_crisis_desc:0 "1930年大明钱荒之后，路易斯安那的外向型经济就遭受了重大打击。新联合党在数年间的应对措施并没有让经济产生太多的好转，整个路易斯安那仍然在经济危机和大萧条的阴影之下。"
+FRL_economic_crisis_1:0 "真正的大萧条"
+FRL_economic_crisis_1_desc:0 "发生了什么！为什么会这样！"
+FRL_connect_two_ocean:0 "联通两洋"
+FRL_connect_two_ocean_desc:0 "在终结一切战争的战争之后，路易斯安那从加拿大获取了最后一条不在其控制中的横贯北美铁路，掌握了整个北美的交通命脉并从中获得了大量的利益。"
+FRL_cold_war:0 "冷战之中"
+FRL_cold_war_desc:0 "路美两国持续了百年的仇恨，虽然在大战之中面对共同的敌人站在了一起。但战后由于各种分配不均产生的极端矛盾使得两国外交保持着令人压抑的沉默，军队保持着高强度的对峙，边境也互相封锁，民间对此的怨言越来越大。"
+FRL_political_crisis:0 "政治制度遭到挑战"
+FRL_political_crisis_desc:0 "1934年大选，应对大萧条不利的自由党在选举中大败，一口气丢掉了24%的议会席位，异常勉强的保持了剩余30%的席位，虽然仍是议会第一大党但却史无前例的要请求其他政党进行合作组阁，最终在前进党和左翼党的支持下组阁成功。但自由党仍然破坏着经济的复苏，不断有党员退党进入执政联盟的其他党派，而一些极端主义者也趁机抬头，路易斯安那的政治制度遭到了极大挑战。"
+
+### leaders desc ###
+POLITICS_LOUIS_LUCIEN_KLOSE_DESC:0 "路易斯·吕西安·克洛泽1880年出生于新奥尔良，作为自由党的资深议员在党内有着较高的声望。且与其他议会各党的领导人有着很深的私交，于是在1934年选举自由联合大败之后他不情不愿的被党内同仁推举出来作为联合政府的领袖。虽然很不情愿，但他还是很好的维持住了执政联盟，但随着经济问题和外交问题越来越严重，这个联盟距离分崩离析也不远了……"
+
+###national focuses###
+FRL_everything_will_be_fine:0 "一切都会好起来的"
+FRL_everything_will_be_fine_desc:0 "虽然自由党政府的无能导致路易斯安那的政局愈发动荡，但我们可以相信在克洛泽阁下的带领下，一切都会慢慢好起来的。
+
+### events ###
+frl.1.t:0 "路易斯安那政治现状"
+frl.1.d:0 "糟糕"
+frl.1.a:0 "一切都会好起来的"
+frl.2.t:0 "全新的危机！"
+frl.2.d:0 "在1930年大崩盘之后一直缓慢回升的新奥尔良股市，再次崩盘了。"
+frl.2.a:0 "完了，全完了！"

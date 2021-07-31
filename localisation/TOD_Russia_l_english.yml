@@ -1,0 +1,29 @@
+﻿l_english:
+
+### parties ###
+RUS_totalism_party:0 "复兴同盟"
+RUS_totalism_party_long:0 "俄罗斯复兴同盟"
+RUS_despotism_party:0 "全军联盟"
+RUS_despotism_party_long:0 "俄罗斯全军联盟"
+RUS_authoritarianism_party:0 "统一党"
+RUS_authoritarianism_party_long:0 "统一俄罗斯党"
+RUS_conservatism_party:0 "社会革命党"
+RUS_conservatism_party_long:0 "俄罗斯社会革命党"
+RUS_liberalism_party:0 "立宪民主党"
+RUS_liberalism_party_long:0 "俄罗斯立宪民主党"
+RUS_reformism_party:0 "人民社会工党"
+RUS_reformism_party_long:0 "俄罗斯人民社会工党"
+RUS_socialism_party:0 "社民工党"
+RUS_socialism_party_long:0 "俄罗斯社会民主工人党"
+RUS_radicalism_party:0 "布尔什维克"
+RUS_radicalism_party_long:0 "布尔什维克派派"
+
+### country names ###
+RUS_totalism:0 "俄罗斯帝国"
+RUS_despotism:0 "俄罗斯帝国"
+RUS_authoritarianism:0 "俄罗斯帝国"
+RUS_conservatism:0 "俄罗斯帝国"
+RUS_liberalism:0 "俄罗斯帝国"
+RUS_reformism:0 "俄罗斯帝国"
+RUS_socialism:0 "俄罗斯麦西里斯"
+RUS_radicalism:0 "俄罗斯苏维埃"

@@ -1,0 +1,27 @@
+
+state={
+	id=654
+	name="STATE_654"
+
+	history={
+		owner = MOB
+		add_core_of = MOB
+		victory_points = {
+			1774 2 
+		}
+		victory_points = {
+			12544 1 
+		}
+		victory_points = {
+			4823 1 
+		}
+
+	}
+
+	provinces={
+		1676 1689 1702 1749 1774 1779 1818 1855 1864 1877 4680 4751 4777 4781 4800 4823 4849 4858 7680 7693 7703 7731 7799 7804 7808 7819 7822 7843 7870 7890 10531 10539 10563 10597 10627 10634 10646 10669 10695 10713 12427 12509 12520 12544 12610 12625 12695 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=town
+}

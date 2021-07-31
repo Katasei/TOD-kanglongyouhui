@@ -1,0 +1,31 @@
+﻿capital = 2
+
+oob = "empty"
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalism = 26
+	despotism = 0
+	authoritarianism = 0
+	conservatism = 5
+	liberalism = 12
+	reformism = 15
+	socialism = 36
+	radicalism = 18
+}
+
+create_country_leader = {
+	name = "Vittorio Emanuele III"
+	desc = "POLITICS_VITTORIO_EMANUELE_III_DESC"
+	picture = "Portrait_ITA_Vittorio_Emanuele_III.png"
+	expire = "1965.1.1"
+	ideology = conservatism_subtype
+}
+
+

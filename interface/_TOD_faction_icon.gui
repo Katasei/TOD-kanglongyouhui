@@ -1,0 +1,35 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "tod_nofaction_icon"
+		
+	
+	instantTextboxType ={
+			name ="TOD_fi_generic"
+			font = "hoi_18mbs"
+			text = "[TOD_Faction_Icon]"
+			pdx_tooltip = "TOD_Faction_Icon_tt"
+			pdx_tooltip_delayed = "TOD_Faction_Icon_td"			
+			clipping = no
+			position = { x= 255 y = 305 }
+			
+		}	
+
+	}		
+	containerWindowType = {
+		
+		name = "tod_hasfaction_icon"
+		buttonType ={
+			name ="TOD_fi_ming_sphere"
+			spriteType = "GFX_TOD_fi_ming_sphere"
+			position = { x= 256 y = 296 }
+			Orientation = "UPPER_LEFT"
+			frame = 1
+			pdx_tooltip = "TOD_fi_tt"
+			pdx_tooltip_delayed = "TOD_fi_td"	
+		}	 
+	
+
+		
+	}
+}

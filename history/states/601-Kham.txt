@@ -1,0 +1,24 @@
+
+state={
+	id=601
+	name="STATE_601"
+
+	history={
+		owner = UTS
+		add_core_of = UTS
+		victory_points = {
+			10856 1 
+		}
+		victory_points = {
+			5018 1 
+		}
+
+	}
+
+	provinces={
+		1116 1996 4407 5018 5080 5102 7926 8041 8059 10741 10755 10810 10856 10918 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=town
+}

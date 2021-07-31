@@ -1,0 +1,23 @@
+state={
+	id=858
+	name="STATE_858"
+
+	history={
+		owner = LAN
+		add_core_of = LAN
+		victory_points = {
+			1464 10 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+
+	provinces={
+		1362 1390 1464 1507 1520 4260 7075 7356 10326 12332 
+	}
+	manpower=1580000
+	state_category=four
+}

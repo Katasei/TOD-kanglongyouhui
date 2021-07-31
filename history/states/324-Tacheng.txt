@@ -1,0 +1,18 @@
+
+state={
+	id=324
+	name="STATE_324"
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+
+	}
+
+	provinces={
+		1708 4674 7784 10610 12564 12590 12662 12737 13507 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=town
+}

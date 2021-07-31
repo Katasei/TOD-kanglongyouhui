@@ -1,0 +1,35 @@
+capital = 378
+
+oob = "empty"
+
+set_politics = {
+	ruling_party = liberalism
+	last_election = "1934.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalism = 15
+	despotism = 4
+	authoritarianism = 8
+	conservatism = 27
+	liberalism = 15
+	reformism = 12
+	socialism = 19
+}
+
+create_country_leader = {
+	name = "宋子文"
+	desc = "POLITICS_SongZiWen_DESC"
+	picture = "Portrait_YZR_Song_Zi_Wen.png"
+	expire = "1965.1.1"
+	ideology = liberalism_subtype
+}
+
+add_ideas = {
+    free_trade
+	LibMrk_type
+	YZR_West_Coast_Pearl
+	YZR_Song_Family_Group
+}

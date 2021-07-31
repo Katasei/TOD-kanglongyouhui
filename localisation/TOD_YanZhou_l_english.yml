@@ -1,0 +1,35 @@
+﻿l_english:
+
+### parties ###
+YZR_totalism_party:0 "炎州复兴党"
+YZR_totalism_party_long:0 "炎州复兴党"
+YZR_despotism_party:0 "军方派"
+YZR_despotism_party_long:0 "炎州军方派"
+YZR_authoritarianism_party:0 "大同（强）"
+YZR_authoritarianism_party_long:0 "炎州大同党（强硬派）"
+YZR_conservatism_party:0 "炎州保守党"
+YZR_conservatism_party_long:0 "炎州保守党"
+YZR_liberalism_party:0 "大同（财）"
+YZR_liberalism_party_long:0 "炎州大同党（财阀派）"
+YZR_reformism_party:0 "大同（正）"
+YZR_reformism_party_long:0 "炎州大同党（正统派）"
+YZR_socialism_party:0 "社会工党"
+YZR_socialism_party_long:0 "炎州社会主义工党"
+
+### country names ###
+YZR_totalism:0 "炎州共和国"
+YZR_despotism:0 "炎州共和国"
+YZR_authoritarianism:0 "炎州共和国"
+YZR_conservatism:0 "炎州共和国"
+YZR_liberalism:0 "炎州共和国"
+YZR_reformism:0 "炎州共和国"
+YZR_socialism:0 "炎州共和国"
+
+### ideas ###
+YZR_West_Coast_Pearl:0 "西海岸的明珠"
+YZR_West_Coast_Pearl_desc:0 "炎州是整个美洲太平洋西岸最发达的国家，国内充满机遇，有盛名在外的石油出口，并较早的建立起了民主政治，民权与民生首屈一指，成为广大汉人移民北美的不二之选"
+YZR_Song_Family_Group:0 "宋家集团"
+YZR_Song_Family_Group_desc:0 "宋子文旗下的宋氏集团与宋氏家族是支持他政治生涯的重要支柱，这也让他的新政能够更好的调配国家的资源，毕竟自己本身就是资本家，就算那些小商人掀起的大风大浪也不过只能给宋氏集团挠痒痒罢了。"
+
+### leaders desc ###
+POLITICS_SongZiWen_DESC:0 "宋子文的大名在炎州无人不知无人不晓，炎州第一大集团宋氏集团的董事长，更是炎州第一大家族宋氏家族的家主。而自从他1926年当选炎州总统以来，他所推行的新政使炎州受到的经济危机远远小于美洲其他国家。在他的统治下，炎州平稳的渡过了危机，并继续向前高速发展着。但是毕竟人有私心，虽然他为国家做了很多实事，但是他也的确从中为集团与家族捞到了不少利益，宋氏集团日益壮大，甚至逐渐开始控制整个炎州。而1935年的大选仍然以宋子文高票当选而告终。若宋子文继续领导炎州十年，那么炎州或许将会彻底的被宋氏集团所控制。"

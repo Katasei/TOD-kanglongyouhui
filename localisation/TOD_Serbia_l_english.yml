@@ -1,0 +1,29 @@
+﻿l_english:
+
+### parties ###
+SER_totalism_party:0 "黑手党"
+SER_totalism_party_long:0 "塞尔维亚黑手党"
+SER_despotism_party:0 "爱国军"
+SER_despotism_party_long:0 "爱国军同盟"
+SER_authoritarianism_party:0 "保王党"
+SER_authoritarianism_party_long:0 "塞尔维亚保王党"
+SER_conservatism_party:0 "国防会"
+SER_conservatism_party_long:0 "塞尔维亚国防会"
+SER_liberalism_party:0 "人民激进党"
+SER_liberalism_party_long:0 "塞尔维亚人民激进党"
+SER_reformism_party:0 "国家团结党"
+SER_reformism_party_long:0 "塞尔维亚国家团结党"
+SER_socialism_party:0 "社民工党"
+SER_socialism_party_long:0 "塞尔维亚社会民主工人党"
+SER_radicalism_party:0 "自由公社"
+SER_radicalism_party_long:0 "自由公社派"
+
+### country names ###
+SER_totalism:0 "大塞尔维亚"
+SER_despotism:0 "塞尔维亚军政府"
+SER_authoritarianism:0 "塞尔维亚王国"
+SER_conservatism:0 "塞尔维亚王国"
+SER_liberalism:0 "塞尔维亚"
+SER_reformism:0 "塞尔维亚"
+SER_socialism:0 "南斯拉夫人民共和国"
+SER_radicalism:0 "自由公社"

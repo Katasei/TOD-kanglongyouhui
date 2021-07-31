@@ -1,0 +1,87 @@
+spriteTypes = {
+
+
+		spriteType = {
+		name = "GFX_AthCfc_icon"             texturefile = "gfx//subideas//AthCfc.tga"  legacy_lazy_load = no }
+
+
+		spriteType = {
+		name = "GFX_AthDem_icon"             texturefile = "gfx//subideas//AthDem.tga"  legacy_lazy_load = no }
+
+
+		spriteType = {
+		name = "GFX_AthOlg_icon"             texturefile = "gfx//subideas//AthOlg.tga"  legacy_lazy_load = no }
+
+
+		spriteType = {
+		name = "GFX_ConSoc_icon"             texturefile = "gfx//subideas//ConSoc.tga"  legacy_lazy_load = no }
+
+
+		spriteType = {
+		name = "GFX_ConTrd_icon"             texturefile = "gfx//subideas//ConTrd.tga"  legacy_lazy_load = no }
+
+
+		spriteType = {
+		name = "GFX_DesDic_icon"             texturefile = "gfx//subideas//DesDic.tga"  legacy_lazy_load = no }
+
+
+		spriteType = {
+		name = "GFX_DesMnc_icon"             texturefile = "gfx//subideas//DesMnc.tga"  legacy_lazy_load = no }
+
+
+		spriteType = {
+		name = "GFX_LibMrk_icon"             texturefile = "gfx//subideas//LibMrk.tga"  legacy_lazy_load = no }
+
+
+		spriteType = {
+		name = "GFX_LibSoc_icon"             texturefile = "gfx//subideas//LibSoc.tga"  legacy_lazy_load = no }
+
+
+		spriteType = {
+		name = "GFX_RadAnc_icon"             texturefile = "gfx//subideas//RadAnc.tga"  legacy_lazy_load = no }
+
+
+		spriteType = {
+		name = "GFX_RadNat_icon"             texturefile = "gfx//subideas//RadNat.tga"  legacy_lazy_load = no }
+
+
+		spriteType = {
+		name = "GFX_RadVan_icon"             texturefile = "gfx//subideas//RadVan.tga"  legacy_lazy_load = no }
+
+
+		spriteType = {
+		name = "GFX_RefDem_icon"             texturefile = "gfx//subideas//RefDem.tga"  legacy_lazy_load = no }
+
+
+		spriteType = {
+		name = "GFX_RefTon_icon"             texturefile = "gfx//subideas//RefTon.tga"  legacy_lazy_load = no }
+
+
+		spriteType = {
+		name = "GFX_SocLux_icon"             texturefile = "gfx//subideas//SocLux.tga"
+		legacy_lazy_load = no
+		}
+
+
+		spriteType = {
+		name = "GFX_SocMrk_icon"             texturefile = "gfx//subideas//SocMrk.tga"  legacy_lazy_load = no }
+
+
+		spriteType = {
+		name = "GFX_SocPar_icon"             texturefile = "gfx//subideas//SocPar.tga"  legacy_lazy_load = no }
+
+
+		spriteType = {
+		name = "GFX_TotFmt_icon"             texturefile = "gfx//subideas//TotFmt.tga"  legacy_lazy_load = no }
+
+
+		spriteType = {
+		name = "GFX_TotItg_icon"             texturefile = "gfx//subideas//TotItg.tga"  legacy_lazy_load = no }
+
+
+		spriteType = {
+		name = "GFX_TotRvv_icon"             texturefile = "gfx//subideas//TotRvv.tga"  legacy_lazy_load = no }
+
+
+		
+}

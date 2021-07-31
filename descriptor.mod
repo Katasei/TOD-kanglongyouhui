@@ -1,0 +1,18 @@
+version="1.0"
+tags={
+	"Alternative History"
+	"National Focuses"
+}
+name="TOD"
+supported_version="1.10.x"
+replace_path="common/countries"
+replace_path="common/country_tags"
+replace_path="common/state_category"
+replace_path="common/ideologies"
+replace_path="events"
+replace_path="history/countries"
+replace_path="history/states"
+replace_path="history/units"
+replace_path="map/strategicregions"
+replace_path="map/supplyareas"
+replace_path="localisation"

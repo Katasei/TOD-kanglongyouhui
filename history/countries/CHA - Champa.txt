@@ -1,0 +1,57 @@
+﻿capital = 286
+
+oob = "empty"
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}	
+
+set_popularities = {
+	authoritarianism = 85
+	despotism = 10
+	totalism = 5
+	reformism = 0
+}
+
+create_country_leader = {
+	name = "Lee Hoon Leong"
+	desc = "POLITICS_LEE_HOON_LEONG_DESC"
+	picture = "Portrait_CHA_Lee_Hoon_Leong.png"
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "Huang Jinyong"
+	desc = "POLITICS_HUANG_JINYONG_DESC"
+	picture = "Portrait_CHA_Huang_Jinyong.png"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+}
+
+create_country_leader = {
+	name = "Phan Cong Tac"
+	desc = "POLITICS_PHAN_CONG_TAC_DESC"
+	picture = "Portrait_CHA_Phan_Cong_Tac.png"
+	expire = "1965.1.1"
+	ideology = totalism_subtype
+}
+
+#create_country_leader = {
+#	name = "He Qitang"
+#	desc = "POLITICS_HE_QITANG_DESC"
+#	picture = "Portrait_CHA_He_Qitang.png"
+#	expire = "1965.1.1"
+#	ideology = authoritarianism_subtype
+#}
+
+create_country_leader = {
+	name = "Phan Boi Chau"
+	desc = "POLITICS_PHAN_BOI_CHAU_DESC"
+	picture = "Portrait_CHA_Phan_Boi_Chau.png"
+	expire = "1965.1.1"
+	ideology = reformism_subtype
+}

@@ -1,0 +1,33 @@
+﻿capital = 141
+
+oob = "empty"
+
+set_politics = {
+	ruling_party = reformism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalism = 36
+	despotism = 20
+	authoritarianism = 0
+	conservatism = 25
+	liberalism = 2
+	reformism = 15
+	socialism = 2
+	radicalism = 0
+}
+
+create_country_leader = {
+	name = "Per Albin Hansson"
+	desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
+	picture = "Portrait_SWE_Per_Albin_Hansson.png"
+	expire = "1965.1.1"
+	ideology = reformism_subtype
+}
+
+
+
+

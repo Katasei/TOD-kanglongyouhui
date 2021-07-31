@@ -1,0 +1,29 @@
+﻿l_english:
+
+### parties ###
+HUN_totalism_party:0 "箭十字党"
+HUN_totalism_party_long:0 "箭十字党"
+HUN_despotism_party:0 "摄政会议"
+HUN_despotism_party_long:0 "摄政会议"
+HUN_authoritarianism_party:0 "统一党"
+HUN_authoritarianism_party_long:0 "匈牙利民族统一党"
+HUN_conservatism_party:0 "生活党"
+HUN_conservatism_party_long:0 "匈牙利生活党"
+HUN_liberalism_party:0 "独立小农党"
+HUN_liberalism_party_long:0 "匈牙利独立小农党"
+HUN_reformism_party:0 "工人党"
+HUN_reformism_party_long:0 "匈牙利工人党"
+HUN_socialism_party:0 "社民工党"
+HUN_socialism_party_long:0 "匈牙利社会民主工人党"
+HUN_radicalism_party:0 "共产党"
+HUN_radicalism_party_long:0 "匈牙利共产党"
+
+### country names ###
+HUN_totalism:0 "大匈牙利"
+HUN_despotism:0 "匈牙利"
+HUN_authoritarianism:0 "匈牙利"
+HUN_conservatism:0 "匈牙利共和国"
+HUN_liberalism:0 "匈牙利共和国"
+HUN_reformism:0 "匈牙利共和国"
+HUN_socialism:0 "匈牙利社会主义共和国"
+HUN_radicalism:0 "匈牙利人民共和国"

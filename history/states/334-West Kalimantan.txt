@@ -1,0 +1,21 @@
+
+state={
+	id=334
+	name="STATE_334"
+
+	history={
+		owner = LAF
+		add_core_of = INS
+		victory_points = {
+			1208 2 
+		}
+
+	}
+
+	provinces={
+		1208 1230 1304 1316 2170 2222 4216 4279 4335 4409 10282 12129 12905 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=town
+}

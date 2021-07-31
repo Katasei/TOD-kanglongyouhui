@@ -1,0 +1,30 @@
+capital = 126
+
+oob = "empty"
+
+set_politics = {
+	ruling_party = totalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalism = 80
+	authoritarianism = 10
+	despotism = 5
+	conservatism = 5
+}
+
+add_ideas = {
+	extensive_conscription
+	partial_economic_mobilisation
+}
+
+create_country_leader = {
+	name = "Rotha Lintorn"
+	desc = "POLITICS_ROTHA_LINTORN_DESC"
+	picture = "Portrait_ENG_Rotha_Lintorn.png"
+	expire = 1965.1.1
+	ideology = totalism_subtype
+}

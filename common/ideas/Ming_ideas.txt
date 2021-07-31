@@ -1,0 +1,17 @@
+ideas = {
+	country = {
+		MNG_test_1 = {
+			picture = MNG_test_1
+			modifier = {
+			}
+		}
+		MNG_test_2 = {
+		}
+		MNG_test_3 = {
+		}
+		MNG_test_4 = {
+		}
+		MNG_test_5 = {
+		}
+	}
+}

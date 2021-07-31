@@ -1,0 +1,38 @@
+﻿capital = 78
+
+oob = "empty"
+
+set_politics = {
+	ruling_party = liberalism
+	last_election = "1934.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalism = 0
+	despotism = 10
+	authoritarianism = 0
+	conservatism = 0
+	liberalism = 50
+	reformism = 0
+	socialism = 0
+	radicalism = 40
+}
+
+create_country_leader = {
+	name = "Daniel Ciugureanu"
+	desc = "POLITICS_DANIEL_CIUGUREANU_DESC"
+	picture = "Portrait_MOL_Daniel_Ciugureanu.png"
+	expire = "1965.1.1"
+	ideology = liberalism_subtype
+}
+
+create_country_leader = {
+	name = "Nestor Ivanovic Macheno"
+	desc = "POLITICS_NESTOR_IVANOVIC_MACHENO_DESC"
+	picture = "Portrait_MOL_Nestor_Ivanovic_Macheno.png"
+	expire = "1965.1.1"
+	ideology = radicalism_subtype
+}
+

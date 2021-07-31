@@ -1,0 +1,35 @@
+spriteTypes = {
+
+
+
+
+
+	spriteType = {
+		name = "GFX_lf_fbg_TAG_x1"
+		texturefile = "gfx//LF_focus_bg//lf_fbg_TAG_x1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_lf_fbg_TAG_x2"
+		texturefile = "gfx//LF_focus_bg//lf_fbg_TAG_x2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_lf_fbg_default"
+		texturefile = "gfx//LF_focus_bg//lf_fbg_default.dds"
+		legacy_lazy_load = no
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+}

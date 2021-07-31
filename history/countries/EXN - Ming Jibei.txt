@@ -1,0 +1,24 @@
+capital = 463
+
+oob = "empty"
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1934.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalism = 15
+	despotism = 35
+	authoritarianism = 50
+}
+
+create_country_leader = {
+	name = "康同璧"
+	desc = "POLITICS_KANG_TONGBI_DESC"
+	picture = "Portrait_EXN_KangTongbi.png"
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
+}

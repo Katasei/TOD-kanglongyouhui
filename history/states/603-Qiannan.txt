@@ -1,0 +1,31 @@
+
+state={
+	id=603
+	name="STATE_603"
+	resources={
+		aluminium=34
+	}
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		victory_points = {
+			13284 10 
+		}
+		victory_points = {
+			13287 1 
+		}
+
+	}
+
+	provinces={
+		1884 4192 4504 4532 7521 7549 7577 8095 10819 12841 13279 13280 13283 13284 13285 13286 13287 13288 13289 13290 
+	}
+	manpower=4537619
+	buildings_max_level_factor=1.000
+	state_category=four
+}

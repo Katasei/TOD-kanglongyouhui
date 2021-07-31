@@ -1,0 +1,30 @@
+﻿capital = 43
+
+oob = "empty"
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalism = 12
+	despotism = 0
+	authoritarianism = 35
+	conservatism = 17
+	liberalism = 16
+	reformism = 12
+	socialism = 8
+	radicalism = 0
+}
+
+create_country_leader = {
+	name = "Horthy Miklós"
+	desc = "POLITICS_HORTHY_MIKLOS_DESC"
+	picture = "Portrait_HUN_Horthy_Miklós.png"
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
+}
+

@@ -1,0 +1,44 @@
+capital = 608
+
+oob = "empty"
+
+add_ideas = {
+	MNG_test_3
+	MNG_test_2
+	MNG_test_5
+	MNG_test_1
+	MNG_test_4
+	AthCfc_type
+}
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalism = 2
+	despotism = 23
+	authoritarianism = 32
+	conservatism = 20
+	liberalism = 8
+	reformism = 8
+	socialism = 3
+	radicalism = 4
+}
+
+
+create_country_leader = {
+	name = "Changde"
+	desc = "POLITICS_CHANGDE_DESC"
+	picture = "Portrait_MNG_Changde.png"
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
+}
+
+country_event = { id = mng.1 hours = 2 }
+country_event = { id = mng.3 days = 12 }
+country_event = { id = mng.6 days = 107 }
+country_event = { id = mng.5 days = 244 }

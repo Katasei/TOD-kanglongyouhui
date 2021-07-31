@@ -1,0 +1,204 @@
+###Greece National Focuses###
+focus_tree = {
+	id = greece_focus
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = GRE
+		}
+	}
+	default = no
+	
+	focus = {
+		id = GRE_end_protectionism
+		x = 4
+		y = 0
+		mutually_exclusive = { focus = GRE_new_proposal }
+	}
+	
+	focus = {
+		id = GRE_new_proposal
+		x = 8
+		y = 0
+		mutually_exclusive = { focus = GRE_end_protectionism }
+	}
+	
+	focus = {
+		id = GRE_paris_agreement
+		cost = 1.00
+		prerequisite = { focus = GRE_end_protectionism }
+		x = 1
+		y = 1
+			
+	}
+	
+	focus = {
+		id = GRE_cancel_french_tariff
+		cost = 2.00
+		prerequisite = { focus = GRE_paris_agreement }
+		x = 1
+		y = 2
+		completion_reward = {
+			add_ideas = { free_trade }
+			add_ideas = { GRE_paris_agreement_observer }
+			GRE_crisis_level_down = yes
+		}
+	}
+	
+	focus = {
+		id = GRE_export_paris_agreement
+		cost = 2.00
+		prerequisite = { focus = GRE_cancel_french_tariff }
+		x = 1
+		y = 3
+		completion_reward = {
+			GRE_crisis_level_down = yes
+		}
+	}
+	
+	focus = {
+		id = GRE_to_berlin
+		cost = 1.00
+		prerequisite = { focus = GRE_end_protectionism }
+		x = 3
+		y = 1
+		
+	}
+	
+	focus = {
+		id = GRE_olive_and_cotton
+		cost = 2.00
+		prerequisite = { focus = GRE_to_berlin }
+		x = 3 
+		y = 2
+		completion_reward = {
+			GRE_crisis_level_down = yes
+		}
+	}
+	
+	focus = {
+		id = GRE_new_trade_parter
+		cost = 2.00
+		prerequisite = { focus = GRE_olive_and_cotton }
+		x = 3
+		y = 3
+		completion_reward = {
+			GRE_crisis_level_down = yes
+		}			
+	}
+	
+	focus = {
+		id = GRE_new_oversea_order
+		icon = GFX_focus_RUS_bear
+		cost = 3.00
+		prerequisite = { focus = GRE_export_paris_agreement }
+		prerequisite = { focus = GRE_new_trade_parter }
+		x = 2
+		y = 4
+		completion_reward = {
+			GRE_crisis_level_down = yes
+		}
+	}
+	
+	focus = {
+		id = GRE_modern_tourism
+		prerequisite = {
+			focus = GRE_end_protectionism
+			focus = GRE_new_proposal
+		}
+		x = 6
+		y = 1
+	}
+	
+	focus = {
+		id = GRE_tourist_law
+		prerequisite = { focus = GRE_modern_tourism }
+		x = 6
+		y = 2
+	}
+	
+	focus = {
+		id = GRE_image_project
+		prerequisite = { focus = GRE_tourist_law }
+		x = 6
+		y = 3
+	}
+	
+	focus = {
+		id = GRE_welcome_to_aegean
+		prerequisite = { focus = GRE_image_project }
+		x = 6
+		y = 4
+	}
+	
+	focus = {
+		id = GRE_maximum_working_hours
+		prerequisite = { focus = GRE_new_proposal }
+		x = 9
+		y = 1
+	}
+	
+	focus = {
+		id = GRE_legal_holidays
+		prerequisite = { focus = GRE_maximum_working_hours }
+		x = 9
+		y = 2
+	}
+	
+	focus = {
+		id = GRE_registered_coupon
+		prerequisite = { focus = GRE_legal_holidays }
+		x = 9
+		y = 3
+	}
+	
+	focus = {
+		id = GRE_exploit_foreign_capital
+		prerequisite = { focus = GRE_new_proposal }
+		x = 11
+		y = 1
+	}
+	
+	focus = {
+		id = GRE_international_socialism
+		prerequisite = { focus = GRE_exploit_foreign_capital }
+		x = 11
+		y = 2
+	}
+	
+	focus = {
+		id = GRE_railway_project
+		prerequisite = { focus = GRE_international_socialism }
+		x = 11
+		y = 3
+	}
+	
+	focus = {
+		id = GRE_consumerism
+		prerequisite = { focus = GRE_railway_project }
+		prerequisite = { focus = GRE_registered_coupon }
+		x = 10
+		y = 4
+	}
+	
+	focus = {
+		id = GRE_situatoin_relieved
+		prerequisite = { focus = GRE_new_oversea_order }
+		prerequisite = { focus = GRE_welcome_to_aegean }
+		x = 4
+		y = 5
+	}
+	
+	focus = {
+		id = GRE_new_prosperity
+		prerequisite = { focus = GRE_consumerism }
+		prerequisite = { focus = GRE_welcome_to_aegean }
+		x = 8
+		y = 5
+	}
+		
+	
+}
+	

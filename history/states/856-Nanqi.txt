@@ -1,0 +1,26 @@
+state={
+	id=856
+	name="STATE_856"
+
+	history={
+		owner = ANN
+		add_core_of = ANN
+		victory_points = {
+			10162 5 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			10162 = {
+				naval_base = 4
+			}
+		}
+	}
+
+	provinces={
+		1248 1285 1300 1328 1605 4255 4334 4363 4405 7229 7271 7380 10137 10162 10180 10309 12109 12150 12176 
+	}
+	manpower=3110000
+	state_category=three
+}

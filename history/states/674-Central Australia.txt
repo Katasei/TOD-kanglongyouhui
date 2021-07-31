@@ -1,0 +1,22 @@
+
+state={
+	id=674
+	name="STATE_674"
+	manpower = 30000
+	
+	state_category = wasteland
+
+	history={
+		owner = ZHR
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ZHR
+	}
+
+	provinces={
+		2205 2221 2223 5138 5206 7623 8165 8206 8237 10336 10955 10979 10991 11013 12906 12915 12936 12992 
+	}
+	impassable = yes
+}

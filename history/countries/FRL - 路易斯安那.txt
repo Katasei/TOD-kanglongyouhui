@@ -1,0 +1,181 @@
+capital = 373
+
+oob = "FRL"
+
+set_fuel_ratio = 0.7
+set_research_slots = 4
+set_convoys = 500
+set_stability = 0.75
+set_war_support = 0.2
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	basic_heavy_tank = 1
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	strategic_bomber1 = 1
+	CAS1 = 1
+	naval_bomber1 = 1
+	marines = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	marines = 1
+	mountaineers = 1
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		early_carrier = 1
+		basic_carrier = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		basic_torpedo = 1
+		sonar = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+		improved_secondary_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
+		mtg_transport = 1
+		improved_airplane_launcher = 1
+	}
+}
+
+set_politics = {
+	ruling_party = liberalism
+	last_election = "1934.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalism = 1
+	despotism = 4
+	authoritarianism = 5
+	conservatism = 25
+	liberalism = 30
+	reformism = 25
+	socialism = 8
+	radicalism = 2
+}
+
+create_country_leader = {
+	name = "路易斯·吕西安·克洛泽"
+	desc = "POLITICS_LOUIS_LUCIEN_KLOSE_DESC"
+	picture = "Portrait_FRL_Louis_Lucien_Klose.png"
+	expire = "1965.1.1"
+	ideology = liberalism_subtype
+}
+
+create_country_leader = {
+	name = "约翰·史密斯"
+	desc = "POLITICS_John_Smith_DESC"
+	picture = "Portrait_FRL_John_Smith.tga"
+	expire = "1965.1.1"
+	ideology = totalism_subtype
+}
+
+create_country_leader = {
+	name = "莱斯利·麦克奈尔"
+	desc = "POLITICS_Lesley_J_McNair_DESC"
+	picture = "Portrait_FRL_Lesley_J_McNair.tga"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+}
+
+create_country_leader = {
+	name = "罗斯·迈克康奈尔"
+	desc = "POLITICS_Rose_McConnell_DESC"
+	picture = "Portrait_FRL_Rose_McConnell.tga"
+	expire = "1970.5.27"
+	ideology = authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "夏尔·布里恩"
+	desc = "POLITICS_Charles_Brien_DESC"
+	picture = "Portrait_FRL_Charles_Brien.tga"
+	expire = "1965.1.1"
+	ideology = conservatism_subtype
+}
+
+create_country_leader = {
+	name = "罗伯特·拉福莱特"
+	desc = "POLITICS_Robert_La_Follette_DESC"
+	picture = "Portrait_FRL_Robert_La_Follette.tga"
+	expire = "1965.1.1"
+	ideology = reformism_subtype
+}
+
+create_country_leader = {
+	name = "艾尔弗雷德·瓦根克内希特"
+	desc = "POLITICS_Alfred_Wagenknecht_DESC"
+	picture = "Portrait_FRL_Alfred_Wagenknecht.tga"
+	expire = "1965.1.1"
+	ideology = socialism_subtype
+}
+
+create_country_leader = {
+	name = "亚历山大·贝克曼"
+	desc = "POLITICS_Alexander Berkman_DESC"
+	picture = "Portrait_FRL_Alexander Berkman.tga"
+	expire = "1965.1.1"
+	ideology = radicalism_subtype
+}
+
+
+
+
+add_ideas = {
+    free_trade
+	LibMrk_type
+	FRL_home_of_free
+	FRL_economic_crisis
+	FRL_connect_two_ocean
+	FRL_cold_war
+	FRL_political_crisis
+}
+
+country_event = { id = frl.2 days = 60 } #噔噔咚

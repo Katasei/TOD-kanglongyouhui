@@ -1,0 +1,21 @@
+
+state={
+	id=758
+	name="STATE_758"
+
+	history={
+		owner = UTS
+		add_core_of = UTS
+		victory_points = {
+			1961 1 
+		}
+
+	}
+
+	provinces={
+		1961 1991 8029 8068 10802 12784 12801 13470 13471 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,22 @@
+state= {
+	id=341
+	name="STATE_341"
+	manpower = 204509
+	resources={
+		chromium=20 # was: 84
+		steel = 5 # was: 20
+	}
+	
+	state_category = city
+
+	history= {
+		add_claim_by = GRE
+		owner = GRE
+		
+		
+		add_core_of = TUR
+	}
+	provinces=
+	{
+849 922 3879 3893 6895 11842 	}
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=522
+	name="STATE_522"
+	
+	manpower = 367200
+	state_category = rural
+
+	history={
+		owner = ZHR
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 1
+			1652 = {
+				naval_base = 1
+				coastal_bunker = 1
+			}
+		}
+		victory_points = {
+			1652 3 
+		}
+		add_core_of = ZHR
+	}
+
+	provinces={
+		1526 1652 2157 2191 4630 5175 7453 7579 7608 8130 8228 8243 10473 10949 10983 10997 11011 12948 12962 12976 12990 13634 13635 13636 13637 13638 13639
+	}
+}

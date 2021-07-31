@@ -1,0 +1,13 @@
+state = {
+	id = 887
+	name = "STATE_887"
+	
+	history = {
+		owner = BNG
+		add_core_of = BNG
+	}
+	
+	manpower = 0
+	state_category = one
+	provinces = { 4616 7565 7662 10389 10443 12338 13573 }
+}

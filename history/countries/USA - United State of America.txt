@@ -1,0 +1,35 @@
+capital = 361
+
+oob = "empty"
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1934.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalism = 8
+	despotism = 1
+	authoritarianism = 38
+	conservatism = 0
+	liberalism = 27
+	reformism = 19
+	socialism = 7
+	radicalism = 0
+}
+
+create_country_leader = {
+	name = "Herbert Henry Lehman"
+	desc = "POLITICS_LEHMAN_DESC"
+	picture = "Portrait_USA_Herbert_Henry_Lehman.png"
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
+}
+
+add_ideas = {
+	USA_army_mobilization 
+	USA_pending_bradley_act
+	USA_military_industrial_complex
+}
