@@ -1,0 +1,131 @@
+###MNG National Focuses###
+focus_tree = {
+	id = MNG_start_focus
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = MNG
+		}
+	}
+	default = no
+	
+	continuous_focus_position = { x = 2000 y = 2000 }
+	
+	
+	focus = { #中 天保定尔
+		id = MNG_god_save_the_emperor
+		#icon = 
+		x = 7
+		y = 1
+		cost = 7
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			}
+	}
+	
+	focus = { #左 龙日春福
+		id = MNG_spring_festival
+		#icon = 
+		
+		x = 2
+		y = 2
+		cost = 7
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available = {
+			hidden_trigger = { always = no }
+		}
+		
+		completion_reward = {
+		
+		    custom_effect_tooltip = unlock_focuses_no_spring
+		
+	    }
+	}
+	
+	focus = { #中 皇皇者华
+		id = MNG_plan_for_this_year
+		#icon = 
+		prerequisite = {
+		  focus = MNG_god_save_the_emperor
+   		}
+		prerequisite = {
+		  focus = MNG_spring_festival
+   		}
+		relative_position_id = MNG_god_save_the_emperor
+		x = -3
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			}
+	}
+	
+	focus = { #中 市朝微服
+		id = MNG_prince_start_trip
+		#icon = 
+		prerequisite = {
+		  focus = MNG_prepare_tools
+		}
+		
+		prerequisite = {
+		  focus = MNG_prepare_army
+   		}
+		relative_position_id =   MNG_plan_for_this_year
+		x = 0
+		y = 2
+		cost = 7
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			}
+	}
+	
+	focus = { #左 六辔沃若
+		id = MNG_prepare_tools
+		#icon = 
+		prerequisite = {
+		  focus = MNG_plan_for_this_year
+   		  }
+		relative_position_id =  MNG_plan_for_this_year
+		x = -2
+		y = 1
+		cost = 7
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			}
+	}
+	
+	focus = { #右 既差我马
+		id = MNG_prepare_army
+		#icon = 
+		prerequisite = {
+		  focus = MNG_plan_for_this_year
+   		  }
+		relative_position_id =  MNG_plan_for_this_year
+		x = 2
+		y = 1
+		cost = 7
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			}
+	}
+	
+	
+		
+	
+}
+	

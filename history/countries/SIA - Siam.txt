@@ -1,3 +1,74 @@
 capital = 289
 
 oob = "empty"
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}	
+
+set_popularities = {
+	authoritarianism = 65
+	conservatism = 25
+	liberalism = 10
+}
+
+create_country_leader = {
+	name = "华空"
+	desc = "POLITICS_HUA_KONG_DESC"
+	picture = "Portrait_SIA_Hua_Kong.png"
+	expire = "1965.1.1"
+	ideology = conservatism_subtype
+}
+
+create_country_leader = {
+	name = "金裕庭"
+	desc = "POLITICS_JIN_YUTING_DESC"
+	picture = "Portrait_SIA_Jin_Yuting.png"
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "陈家祥"
+	desc = "POLITICS_CHEN_JIAXIANG_DESC"
+	picture = "Portrait_SIA_Chen_Jiaxiang.png"
+	expire = "1965.1.1"
+	ideology = liberalism_subtype
+}
+
+create_country_leader = {
+	name = "吴别"
+	desc = "POLITICS_WU_BIE_DESC"
+	picture = "Portrait_SIA_Wu_Bie.png"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+}
+
+add_ideas = {
+	AthDem_type
+	LibMrk type
+	SIA_the_aftermath_of_the_gengwu_financial_crisis
+	SIA_the_worship_of_thaksin_the_great
+	SIA_guerrillas_of_the_party_of_labor
+}
+
+# DIPLOMACY
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = LAN
+		autonomous_state =  kr_default_puppet
+		freedom_level = 0.2
+	}
+	else = {
+		puppet = LAN
+	}
+}

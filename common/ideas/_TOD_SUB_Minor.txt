@@ -165,6 +165,24 @@ ideas = {
 
 
 
+	LibRev_type = {
+			level = 1
+			cost = 1
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea LibRev_type" 
+				set_country_flag = flag_sub_LibRev
+			
+			}						
+			removal_cost = -1
+				modifier = {
+							}
+			allowed_to_remove = { 
+			 has_country_flag = not_existed_idea_debug
+			 }
+			ai_will_do = {
+			}
+		}
+
+
 
 	LibSoc_type = {
 			level = 1
@@ -225,27 +243,6 @@ ideas = {
 
 
 
-
-	RadVan_type = {
-			level = 1
-			cost = 1
-			on_add = { log = "[GetDateText] [Root.GetName]: add idea RadVan_type" 
-				set_country_flag = flag_sub_RadVan
-			
-			}						
-			removal_cost = -1
-				modifier = {
-							}
-			allowed_to_remove = { 
-			 has_country_flag = not_existed_idea_debug
-			 }
-			ai_will_do = {
-			}
-		}
-
-
-
-
 	RefDem_type = {
 			level = 1
 			cost = 1
@@ -263,6 +260,24 @@ ideas = {
 			}
 		}
 
+
+
+	RefSoc_type = {
+			level = 1
+			cost = 1
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea RefSoc_type" 
+				set_country_flag = flag_sub_RefSoc
+			
+			}						
+			removal_cost = -1
+				modifier = {
+							}
+			allowed_to_remove = { 
+			 has_country_flag = not_existed_idea_debug
+			 }
+			ai_will_do = {
+			}
+		}
 
 
 

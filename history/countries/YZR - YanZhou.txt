@@ -27,9 +27,58 @@ create_country_leader = {
 	ideology = liberalism_subtype
 }
 
+create_country_leader = {
+	name = "张自忠"
+	desc = "POLITICS_ZHANG_ZIZONG_DESC"
+	picture = "Portrait_YZR_Zhang_Zizhong.png"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+}
+
+create_country_leader = {
+	name = "汤恩伯"
+	desc = "POLITICS_TANGENBO_DESC"
+	picture = "Portrait_YZR_Tangenbo.png"
+	expire = "1965.1.1"
+	ideology = totalism_subtype
+}
+
+create_country_leader = {
+	name = "宋庆龄"
+	desc = "POLITICS_SONGQINGLING_DESC"
+	picture = "Portrait_YZR_Songqingling.png"
+	expire = "1965.1.1"
+	ideology = reformism_subtype
+}
+
+create_country_leader = {
+	name = "宋美龄"
+	desc = "POLITICS_SONGMEILING_DESC"
+	picture = "Portrait_YZR_Songmeiling.png"
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "林伯渠"
+	desc = "POLITICS_LINGBOQU_DESC"
+	picture = "Portrait_YZR_Lingboqu.png"
+	expire = "1965.1.1"
+	ideology = socialism_subtype
+}
+
+create_country_leader = {
+	name = "陈演生"
+	desc = "POLITICS_CHENGYANSHENG_DESC"
+	picture = "Portrait_YZR_Chengyansheng.png"
+	expire = "1965.1.1"
+	ideology = conservatism:_subtype
+}
+
 add_ideas = {
     free_trade
 	LibMrk_type
 	YZR_West_Coast_Pearl
 	YZR_Song_Family_Group
+	YZR_yanzhou_revengeism
 }

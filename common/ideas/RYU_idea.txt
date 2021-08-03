@@ -1,0 +1,46 @@
+ideas = {    
+	country = {
+		RYU_vassal_state = {
+			picture = RYU_vassal_state
+			modifier = {
+				war_support_factor = -0.15
+				stability_factor = +0.15
+				political_power_gain = -0.2
+				CONSUMER_GOODS_FACTOR = +0.15
+			}
+		}
+		RYU_the_collapse_of_local_industry = {
+			picture = RYU_the_collapse_of_local_industry
+			modifier = {
+				POLITICAL_POWER_GAIN = -0.2
+				stability_factor = -0.2
+				war_support_factor = -0.15
+				CONSUMER_GOODS_FACTOR = +0.25
+				production_factory_max_efficiency_factor = -0.3
+				monthly_population = -0.15
+				CONSCRIPTION_FACTOR = -0.2
+				RESEARCH_SPEED_FACTOR = -0.1
+			}
+		}
+		RYU_grwat_wall_on_the_sea = {
+			picture = RYU_grwat_wall_on_the_sea
+			modifier = {
+				ARMY_CORE_ATTACK_FACTOR = +0.1
+				ARMY_CORE_DEFENCE_FACTOR = +0.1
+				DIG_IN_SPEED_factor = +0.1
+				production_speed_infrastructure_factor = +0.1
+				production_speed_naval_base_factor = +0.1
+				INDUSTRY_REPAIR_FACTOR = +0.1
+			}
+		}		
+		RYU_min_ryukyu_relationship = {
+			picture = RYU_min_ryukyu_relationship
+			modifier = {
+				stability_factor = -0.15
+				monthly_population = +0.05
+				CONSUMER_GOODS_FACTOR = -0.05
+				production_factory_max_efficiency_factor = +0.1
+			}	
+		}
+	}
+}

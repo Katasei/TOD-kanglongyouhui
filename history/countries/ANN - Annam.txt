@@ -2,5 +2,57 @@
 
 oob = "empty"
 
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}	
+
+set_popularities = {
+	authoritarianism = 100
+}
+
+create_country_leader = {
+	name = "吴庭艳"
+	desc = "POLITICS_NGO_DINH_DIEM_DESC"
+	picture = "Portrait_ANN_Ngo_Dinh_Diem.png"
+	expire = "1965.1.1"
+	ideology = conservatism_subtype
+}
+
+create_country_leader = {
+	name = "成泰"
+	desc = "POLITICS_THANH_THAI_DESC"
+	picture = "Portrait_ANN_Thanh_Thai.png"
+	expire = "1965.1.1"
+	ideology = authoritarianism_subtype
+}
+
+create_country_leader = {
+	name = "成泰"
+	desc = "POLITICS_THANH_THAI_DESC"
+	picture = "Portrait_ANN_Thanh_Thai.png"
+	expire = "1965.1.1"
+	ideology = reformism_subtype
+}
+
+#create_country_leader = {
+#	name = "阮安宁"
+#	desc = "POLITICS_NGUYEN_AN_NINH_DESC"
+#	picture = "Portrait_ANN_Nguyen_An_Ninh.png"
+#	expire = "1965.1.1"
+#	ideology = radicalism_subtype
+#}
+
+add_ideas = {
+	AthCfc_type
+	LibMrk type
+	ANN_celestial_tribute_country
+	ANN_thanh_thai_economics
+	ANN_the_effects_of_the_mexican_war
+	ANN_legacy_of_the_datong_movement
+	ANN_indochina_railway
+}
 
 

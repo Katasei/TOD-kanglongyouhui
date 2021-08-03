@@ -1,0 +1,27 @@
+ideas = {    
+	country = {
+		SIA_the_aftermath_of_the_gengwu_financial_crisis = {
+			picture = SIA_the_aftermath_of_the_gengwu_financial_crisis
+			modifier = {
+				PRODUCTION_SPEED_BUILDINGS_FACTOR = -0.1
+				LINE_CHANGE_PRODUCTION_EFFICIENCY_FACTOR = -0.1
+				industrial_capacity_factory = -0.1
+				CONSUMER_GOODS_FACTOR = +0.03
+			}
+		}
+		SIA_the_worship_of_thaksin_the_great = {
+			picture = SIA_the_worship_of_thaksin_the_great
+			modifier = {
+				stability_factor = +0.15
+			}
+		}
+		SIA_guerrillas_of_the_party_of_labor = {
+			picture = SIA_guerrillas_of_the_party_of_labor
+			modifier = {
+				stability_factor = -0.05
+				POLITICAL_POWER_GAIN = -0.1
+				ARMY_ORG_FACTOR = -0.1
+			}	
+		}
+	}
+}

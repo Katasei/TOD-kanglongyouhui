@@ -21,15 +21,17 @@ text = { trigger = { has_idea = DesMnc_type } localization_key = DesMnc_type }
 
 text = { trigger = { has_idea = LibMrk_type } localization_key = LibMrk_type }
 
+text = { trigger = { has_idea = LibRev_type } localization_key = LibRev_type }
+
 text = { trigger = { has_idea = LibSoc_type } localization_key = LibSoc_type }
 
 text = { trigger = { has_idea = RadAnc_type } localization_key = RadAnc_type }
 
 text = { trigger = { has_idea = RadNat_type } localization_key = RadNat_type }
 
-text = { trigger = { has_idea = RadVan_type } localization_key = RadVan_type }
-
 text = { trigger = { has_idea = RefDem_type } localization_key = RefDem_type }
+
+text = { trigger = { has_idea = RefSoc_type } localization_key = RefSoc_type }
 
 text = { trigger = { has_idea = RefTon_type } localization_key = RefTon_type }
 
@@ -66,15 +68,17 @@ text = { trigger = { has_idea = DesMnc_type } localization_key = DesMnc_desc }
 
 text = { trigger = { has_idea = LibMrk_type } localization_key = LibMrk_desc }
 
+text = { trigger = { has_idea = LibRev_type } localization_key = LibRev_desc }
+
 text = { trigger = { has_idea = LibSoc_type } localization_key = LibSoc_desc }
 
 text = { trigger = { has_idea = RadAnc_type } localization_key = RadAnc_desc }
 
 text = { trigger = { has_idea = RadNat_type } localization_key = RadNat_desc }
 
-text = { trigger = { has_idea = RadVan_type } localization_key = RadVan_desc }
-
 text = { trigger = { has_idea = RefDem_type } localization_key = RefDem_desc }
+
+text = { trigger = { has_idea = RefSoc_type } localization_key = RefSoc_desc }
 
 text = { trigger = { has_idea = RefTon_type } localization_key = RefTon_desc }
 
@@ -110,15 +114,17 @@ text = { trigger = { has_idea = DesMnc_type } localization_key = DesMnc_mt }
 
 text = { trigger = { has_idea = LibMrk_type } localization_key = LibMrk_mt }
 
+text = { trigger = { has_idea = LibRev_type } localization_key = LibRev_mt }
+
 text = { trigger = { has_idea = LibSoc_type } localization_key = LibSoc_mt }
 
 text = { trigger = { has_idea = RadAnc_type } localization_key = RadAnc_mt }
 
 text = { trigger = { has_idea = RadNat_type } localization_key = RadNat_mt }
 
-text = { trigger = { has_idea = RadVan_type } localization_key = RadVan_mt }
-
 text = { trigger = { has_idea = RefDem_type } localization_key = RefDem_mt }
+
+text = { trigger = { has_idea = RefSoc_type } localization_key = RefSoc_mt }
 
 text = { trigger = { has_idea = RefTon_type } localization_key = RefTon_mt }
 
@@ -155,15 +161,17 @@ text = { trigger = { has_idea = DesMnc_type } localization_key = DesMnc_icon }
 
 text = { trigger = { has_idea = LibMrk_type } localization_key = LibMrk_icon }
 
+text = { trigger = { has_idea = LibRev_type } localization_key = LibRev_icon }
+
 text = { trigger = { has_idea = LibSoc_type } localization_key = LibSoc_icon }
 
 text = { trigger = { has_idea = RadAnc_type } localization_key = RadAnc_icon }
 
 text = { trigger = { has_idea = RadNat_type } localization_key = RadNat_icon }
 
-text = { trigger = { has_idea = RadVan_type } localization_key = RadVan_icon }
-
 text = { trigger = { has_idea = RefDem_type } localization_key = RefDem_icon }
+
+text = { trigger = { has_idea = RefSoc_type } localization_key = RefSoc_icon }
 
 text = { trigger = { has_idea = RefTon_type } localization_key = RefTon_icon }
 

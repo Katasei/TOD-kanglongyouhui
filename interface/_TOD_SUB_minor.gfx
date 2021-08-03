@@ -59,6 +59,11 @@ spriteTypes = {
 	}
 
 
+	spriteType = {
+		name = "GFX_idea_LibRev_type"
+		texturefile = "gfx//subideas_m//LibRev_type.tga"
+	}
+
 
 	spriteType = {
 		name = "GFX_idea_LibSoc_type"
@@ -82,15 +87,15 @@ spriteTypes = {
 
 
 	spriteType = {
-		name = "GFX_idea_RadVan_type"
-		texturefile = "gfx//subideas_m//RadVan_type.tga"
+		name = "GFX_idea_RefDem_type"
+		texturefile = "gfx//subideas_m//RefDem_type.tga"
 	}
 
 
 
 	spriteType = {
-		name = "GFX_idea_RefDem_type"
-		texturefile = "gfx//subideas_m//RefDem_type.tga"
+		name = "GFX_idea_RefSoc_type"
+		texturefile = "gfx//subideas_m//RefSoc_type.tga"
 	}
 
 

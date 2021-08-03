@@ -3,13 +3,25 @@ capital = 608
 oob = "empty"
 
 add_ideas = {
-	MNG_test_3
-	MNG_test_2
-	MNG_test_5
-	MNG_test_1
-	MNG_test_4
+	MNG_Undesirable_economic_recovery
+	MNG_Disharmony_within_the_Constitutional_Party
+	MNG_Dominant_power_of_Far_East
+	MNG_A_Suspected_Army
+	MNG_Unsettled_Republicians
+	
+	
+	
+	MNG_zhang_wei_han_hog_con
+	MNG_zhu_zhao_xin_for_con
+	MNG_zhang_guo_gan_eco_con
+	MNG_yin_wu_lou_sec_con
+	MNG_bao_gui_qing_carm_sco
+	MNG_sa_zhen_bing_cnav_ade
+	MNG_jiang_yan_xing_cos_sco
+	
 	AthCfc_type
 }
+
 
 set_politics = {
 	ruling_party = authoritarianism
@@ -31,14 +43,113 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "Changde"
+	name = "昌德"
 	desc = "POLITICS_CHANGDE_DESC"
 	picture = "Portrait_MNG_Changde.png"
 	expire = "1965.1.1"
 	ideology = authoritarianism_subtype
 }
 
-country_event = { id = mng.1 hours = 2 }
-country_event = { id = mng.3 days = 12 }
-country_event = { id = mng.6 days = 107 }
-country_event = { id = mng.5 days = 244 }
+country_lock_all_division_template = yes
+
+# DIPLOMACY
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = EXN
+		autonomous_state = tod_ming_haiwaidusi
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = MEA
+		autonomous_state = tod_ming_haiwaidusi
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = ZHR
+		autonomous_state = tod_ming_tongzhidusi
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = LAF
+		autonomous_state = tod_ming_tongzhidusi
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = BNG
+		autonomous_state = tod_ming_tongzhidusi
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = EZO
+		autonomous_state = tod_ming_tongzhidusi
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = MOB
+		autonomous_state = tod_ming_zhishudusi
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = UTS
+		autonomous_state = tod_ming_zhishudusi
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = LPC
+		autonomous_state = tod_ming_xuanfusi
+		freedom_level = 0.2
+	}
+		set_autonomy = {
+		target = BRM
+		autonomous_state = kr_occupied_puppet
+		freedom_level = 0.2
+	}
+	else = {
+		puppet = MOB
+		puppet = UTS
+		puppet = ZHR
+		puppet = LAF
+		puppet = BNG
+		puppet = EZO
+		puppet = LPC
+		puppet = EXN
+		puppet = MEA
+		puppet = BRM
+	}
+}
+
+
+create_faction = "天朝体系"
+add_to_faction = MNG
+add_to_faction = MOB
+add_to_faction = UTS
+add_to_faction = LPC
+add_to_faction = ZHR
+add_to_faction = LAF
+add_to_faction = BNG
+add_to_faction = EZO
+add_to_faction = EXN
+add_to_faction = MEA
+add_to_faction = KOR
+add_to_faction = WJP
+add_to_faction = EDO
+add_to_faction = BRM
+add_to_faction = SIA
+add_to_faction = LAN
+add_to_faction = ANN
+add_to_faction = KHM
+add_to_faction = CHA
+add_to_faction = SUL
+add_to_faction = QQD
+add_to_faction = YZR
+add_to_faction = JAV
+add_to_faction = ACH
+add_to_faction = BRN
+add_to_faction = RYU
+add_to_faction = TAC

@@ -2,5 +2,41 @@
 
 oob = "empty"
 
+set_politics = {
+	ruling_party = despotism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}	
 
+set_popularities = {
+	despotism = 75
+	totalism = 25
+}
+
+create_country_leader = {
+	name = "杜固·乌马"
+	desc = "POLITICS_CHEN_LIANBO_DESC"
+	picture = "Portrait_LAF_Chen_Lianbo.png"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+}
+
+create_country_leader = {
+	name = "阿劳丁·穆罕默德·达乌德·西亚"
+	desc = "POLITICS_CHEN_LIANBO_DESC"
+	picture = "Portrait_LAF_Chen_Lianbo.png"
+	expire = "1965.1.1"
+	ideology = totalism_subtype
+}
+
+add_ideas = {
+	DesDic_type
+	LibMrk type
+    ACH_1
+	ACH_2
+	ACH_3
+	ACH_4
+	ACH_5
+}
 

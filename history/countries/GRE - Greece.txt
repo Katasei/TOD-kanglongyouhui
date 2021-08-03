@@ -89,3 +89,10 @@ create_country_leader = {
 	ideology = liberalism_subtype
 }
 
+
+create_faction = "巴尔干同盟"
+add_to_faction = GRE
+add_to_faction = CRO
+add_to_faction = AUS
+add_to_faction = ROM
+add_to_faction = SER

@@ -45,21 +45,14 @@ country_event = {
 	is_triggered_only = yes
 
 		option = {
- 		name = DBG.radicalism1
+		name = DBG.radicalism1
 			set_politics = { ruling_party = radicalism } 
-			add_ideas = RadVan_type
-			country_event = DBG.3
-			
-		}
-		
-		option = {
-			name = DBG.radicalism2
 			add_ideas = RadNat_type
 			country_event = DBG.3
 		}
 		
 		option = {
-			name = DBG.radicalism3
+			name = DBG.radicalism2
 			add_ideas = RadAnc_type
 			country_event = DBG.3
 		}
@@ -80,23 +73,16 @@ country_event = {
 
 
 	is_triggered_only = yes
-
-		option = {
- 		name = DBG.radicalism1
-			set_politics = { ruling_party = radicalism } 
-			add_ideas = RadVan_type
-			country_event = DBG.2
-			
-		}
 		
 		option = {
-			name = DBG.radicalism2
+		name = DBG.radicalism1
+			set_politics = { ruling_party = radicalism } 
 			add_ideas = RadNat_type
 			country_event = DBG.2
 		}
 		
 		option = {
-			name = DBG.radicalism3
+			name = DBG.radicalism2
 			add_ideas = RadAnc_type
 			country_event = DBG.2
 		}
@@ -202,10 +188,16 @@ country_event = {
 			country_event = DBG.7
 			
 		}
-		
+
 		option = {
-			name = DBG.reformism2
-			add_ideas = RefTon_type
+			name = DBG.reformism3
+			add_ideas = RefSoc_type
+			country_event = DBG.7
+		}		
+
+		option = {
+			name = DBG.reformism3
+			add_ideas = RefSoc_type
 			country_event = DBG.7
 		}
 	
@@ -233,9 +225,16 @@ country_event = {
 			country_event = DBG.6
 			
 		}
+
+
+		option = {
+			name = DBG.reformism3
+			add_ideas = RefSoc_type
+			country_event = DBG.7
+		}		
 		
 		option = {
-			name = DBG.reformism2
+			name = DBG.reformism3
 			add_ideas = RefTon_type
 			country_event = DBG.6
 		}
@@ -271,7 +270,13 @@ country_event = {
 			add_ideas = LibMrk_type
 			country_event = DBG.9
 		}
-	
+
+		option = {
+			name = DBG.liberalism3
+			add_ideas = LibRev_type
+			country_event = DBG.9
+		}	
+
 		option = {
 			name = DBG.next
 			
@@ -302,7 +307,13 @@ country_event = {
 			add_ideas = LibMrk_type
 			country_event = DBG.8
 		}
-	
+
+		option = {
+			name = DBG.liberalism3
+			add_ideas = LibRev_type
+			country_event = DBG.9
+		}		
+
 		option = {
 			name = DBG.next
 			

@@ -7,7 +7,7 @@ state=
 	
 	history=
 	{
-		owner = ENG
+		owner = ZHR
 		buildings = {
 			infrastructure = 1
 			1280 = {

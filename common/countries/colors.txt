@@ -15,20 +15,20 @@ BLT = {
 	color_ui = rgb { 0 127 14 }
 }
 BNG = {
-	color = rgb { 190 200 90 }
-	color_ui = rgb { 190 200 90 }
+	color = rgb { 194 179 65 }
+	color_ui = rgb { 194 179 65 }
 }
 BRA = {
 	color = rgb { 76 145 63 }
 	color_ui = rgb { 99 189 82 }
 }
 BRM = {
-	color = rgb { 40 130 40 }
-	color_ui = rgb { 40 130 40 }
+	color = rgb { 105 140 131 }
+	color_ui = rgb { 105 140 131 }
 }
 BRN = {
-	color = rgb { 80 120 180 }
-	color_ui = rgb { 80 120 180 }
+	color = rgb { 26 114 14 }
+	color_ui = rgb { 26 114 14 }
 }
 CAN = {
 	color = rgb { 18 47 127 }
@@ -55,8 +55,8 @@ CRI = {
 	color_ui = rgb { 178 195 189 }
 }
 EDO = {
-	color = rgb { 180 100 50 }
-	color_ui = rgb { 180 100 50 }
+	color = rgb { 176 98 83 }
+	color_ui = rgb { 176 98 83 }
 }
 EGY = {
 	color = rgb { 230 230 70 }
@@ -71,12 +71,12 @@ ETH = {
 	color_ui = rgb { 0 63 112 }
 }
 EXN = {
-	color = rgb { 180 178 157 }
-	color_ui = rgb { 180 178 157 }
+	color = rgb { 148 163 176 }
+	color_ui = rgb { 148 163 176 }
 }
 EZO = {
-	color = rgb { 170 150 150 }
-	color_ui = rgb { 170 150 150 }
+	color = rgb { 125 91 91 }
+	color_ui = rgb { 125 91 91 }
 }
 FRL = {
 	color = rgb { 30 95 150 }
@@ -91,12 +91,12 @@ HDF = {
 	color_ui = rgb { 181 148 155 }
 }
 INU = {
-	color = rgb { 103 92 40 }
-	color_ui = rgb { 103 92 40 }
+	color = rgb { 82 99 110 }
+	color_ui = rgb { 82 99 110 }
 }
 JAV = {
-	color = rgb { 180 100 100 }
-	color_ui = rgb { 180 100 100 }
+	color = rgb { 153 43 43 }
+	color_ui = rgb { 153 43 43 }
 }
 KHM = {
 	color = rgb { 120 110 160 }
@@ -111,20 +111,20 @@ KOR = {
 	color_ui = rgb { 40 80 160 }
 }
 LAF = {
-	color = rgb { 210 190 80 }
-	color_ui = rgb { 210 190 80 }
+	color = rgb { 46 48 153 }
+	color_ui = rgb { 46 48 153 }
 }
 LAN = {
 	color = rgb { 140 180 140 }
 	color_ui = rgb { 140 180 140 }
 }
 LPC = {
-	color = rgb { 190 180 100 }
-	color_ui = rgb { 190 180 100 }
+	color = rgb { 202 155 66 }
+	color_ui = rgb { 202 155 66 }
 }
 MEA = {
-	color = rgb { 200 191 0 }
-	color_ui = rgb { 200 191 0 }
+	color = rgb { 206 176 138 }
+	color_ui = rgb { 206 176 138 }
 }
 MEX = {
 	color = rgb { 12 73 20 }
@@ -135,12 +135,12 @@ MES = {
 	color_ui = rgb { 254 215 84 }
 }
 MNG = {
-	color = rgb { 210 190 90 }
-	color_ui = rgb { 210 190 90 }
+	color = rgb { 202 155 66 }
+	color_ui = rgb { 202 155 66 }
 }
 MOB = {
-	color = rgb { 210 180 80 }
-	color_ui = rgb { 210 180 80 }
+	color = rgb { 202 155 66 }
+	color_ui = rgb { 202 155 66 }
 }
 MSR = {
 	color = rgb { 190 16 24 }
@@ -163,8 +163,8 @@ RUS = {
 	color_ui = rgb { 0 127 14 }
 }
 RYU = {
-	color = rgb { 110 170 180 }
-	color_ui = rgb { 110 170 180 }
+	color = rgb { 0 33 180 }
+	color_ui = rgb { 0 33 180 }
 }
 SAR = {
 	color = rgb { 243 165 108 }
@@ -179,8 +179,8 @@ SMT = {
 	color_ui = rgb { 40 130 90 }
 }
 SUL = {
-	color = rgb { 100 160 120 }
-	color_ui = rgb { 100 160 120 }
+	color = rgb { 132 41 182 }
+	color_ui = rgb { 132 41 182 }
 }
 TUR = {
 	color = rgb { 158 17 17 }
@@ -203,8 +203,8 @@ UTA = {
 	color_ui = rgb { 104 98 110 }
 }
 UTS = {
-	color = rgb { 200 190 100 }
-	color_ui = rgb { 200 190 100 }
+	color = rgb { 202 155 66 }
+	color_ui = rgb { 202 155 66 }
 }
 VEN = {
 	color = rgb { 29 94 194 }
@@ -219,16 +219,16 @@ XBJ = {
 	color_ui = rgb { 100 100 100 }
 }
 ZHR = {
-	color = rgb { 180 200 95 }
-	color_ui = rgb { 180 200 95 }
+	color = rgb { 207 69 94 }
+	color_ui = rgb { 207 69 94 }
 }
 YZR = {
-	color = rgb { 241 142 50 }
-	color_ui = rgb { 241 142 50 }
+	color = rgb { 209 128 71 }
+	color_ui = rgb { 209 128 71 }
 }
 QQD = {
-	color = rgb { 67 121 87 }
-	color_ui = rgb { 67 121 87 }
+	color = rgb { 109 161 135 }
+	color_ui = rgb { 109 161 135 }
 }
 HOL = {
 	color = rgb { 203  138  74 }
@@ -363,8 +363,8 @@ COE = {
 	color_ui = rgb { 126  5  196 }
 }
 PER = {
-	color = rgb { 180 100 50 }
-	color_ui = rgb { 180 100 50 }
+	color = rgb { 180 78 50 }
+	color_ui = rgb { 180 78 50 }
 }
 SRL = {
 	color = rgb { 70  196  35 }
@@ -375,8 +375,8 @@ NZL = {
 	color_ui = rgb { 230 5 43 }
 }
 AFG = {
-	color = rgb { 180 150 130 }
-	color_ui = rgb { 180 150 130 }
+	color = rgb { 180 102 155 }
+	color_ui = rgb { 180 102 155 }
 }
 PUN = {
 	color = rgb { 130 140 160 }
@@ -419,38 +419,88 @@ OMA = {
 	color_ui = rgb { 230 70 70 }
 }
 SYR = {
-	color = rgb { 67  127  63 }
-	color_ui = rgb { 67  127  63 }
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 67 127 63 }
 }
 ARM = {
-	color = rgb { 180 178 230 }
+	color = rgb { 18 178 230 }
 	color_ui = rgb { 180 178 230 }
 }
 GEO = {
-	color = rgb { 170  150  150 }
-	color_ui = rgb { 170  150  150 }
+	color = rgb { 170 150 150 }
+	color_ui = rgb { 170 150 150 }
 }
 AZR = {
-	color = rgb { 255  55  55 }
-	color_ui = rgb { 255  55  55 }
+	color = rgb { 255 55 55 }
+	color_ui = rgb { 25  55 55 }
 }
 UZB = {
-	color = rgb { 180  150  130 }
-	color_ui = rgb { 180  150  130 }
+	color = rgb { 180 150 130 }
+	color_ui = rgb { 180 150 130 }
 }
 TAJ = {
-	color = rgb { 18  47  127 }
-	color_ui = rgb { 18  47  127 }
+	color = rgb { 18 47 127 }
+	color_ui = rgb { 18 47 127 }
 }
 KAZ = {
-	color = rgb { 178  195  189 }
-	color_ui = rgb { 178  195  189 }
+	color = rgb { 178 195 189 }
+	color_ui = rgb { 178 195 189 }
 }
 JOF = {
-	color = rgb { 57  113  228 }
-	color_ui = rgb { 57  113  228 }
+	color = rgb { 57 113 228 }
+	color_ui = rgb { 57 113 228 }
 }
 AOF = {
-	color = rgb { 57  113  228 }
-	color_ui = rgb { 57  113  228 }
+	color = rgb { 57 113 228 }
+	color_ui = rgb { 57 113 228 }
 }
+TAC = {
+	color = rgb { 179 109 97 }
+	color_ui = rgb { 179 109 97 }
+}
+
+#俄罗斯的四个小伙伴
+
+CAU = {
+	color = rgb { 0 127 14 }
+	color_ui = rgb { 0 127 14 }
+}
+KYR = {
+	color = rgb { 0 127 14 }
+	color_ui = rgb { 0 127 14 }
+}
+SIB = {
+	color = rgb { 0 127 14 }
+	color_ui = rgb { 0 127 14 }
+}
+FET = {
+	color = rgb { 0 127 14 }
+	color_ui = rgb { 0 127 14 }
+}
+
+#大明势力
+NAC = {#西北
+	color = rgb { 247 238 214 }
+	color_ui = rgb { 247 238 214 }
+}
+GPS = {#关东司
+	color = rgb { 70 160 130 }
+	color_ui = rgb { 70 160 130 }
+}
+SRC = {#红军
+	color = rgb { 222 41 16 }
+	color_ui = rgb { 222 41 16 }
+}
+XIN = {#西南
+	color = rgb { 109 105 95 }
+	color_ui = rgb { 109 105 95 }
+}
+USC = {#共和军
+	color = rgb { 0 18 255 }
+	color_ui = rgb { 0 18 255 }
+}
+ROC = {#大同党
+	color = rgb { 46 109 71 }
+	color_ui = rgb { 46 109 71 }
+}
+

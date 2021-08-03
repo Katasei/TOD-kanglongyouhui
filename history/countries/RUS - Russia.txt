@@ -27,3 +27,44 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = authoritarianism_subtype
 }
+
+# DIPLOMACY
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = BLT
+		autonomous_state =  kr_default_puppet
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = CAU
+		autonomous_state =  kr_default_puppet
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = KYR
+		autonomous_state =  kr_default_puppet
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = SIB
+		autonomous_state =  kr_default_puppet
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = FET
+		autonomous_state =  kr_default_puppet
+		freedom_level = 0.2
+	}
+	else = {
+		puppet = BLT
+		puppet = CAU
+		puppet = KYR
+		puppet = SIB
+		puppet = FET
+}

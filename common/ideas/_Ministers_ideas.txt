@@ -1,5 +1,91 @@
 ideas = {
-  
+ideas = {
+
+  ################################################################################################################################################################################################
+  ### EDO
+  ################################################################################################################################################################################################
+
+	TOD_minister_head = { ### Head of Government ###
+		EDO_Sakai_Tadamasa_hog_con = {
+			allowed = { original_tag = EDO }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea EDO_Sakai_Tadamasa_hog_con"
+			}
+			traits = {
+				TOD_minister_head
+				conservatism
+				hog_pragmatic_statesman
+			}
+		}
+	}
+	TOD_foreign_minister = { ### foreign minister ###
+		EDO_Kone_Fumimaru_for_con = {
+			allowed = { original_tag = EDO }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea EDO_Kone_Fumimaru_for_con"
+			}
+			traits = {
+				TOD_foreign_minister
+				conservatism
+				for_general_staffer
+			}
+		}
+		}
+	TOD_economy_minister = { ### economy minister ###
+		EDO_Tokugawa_Muneyoshi_eco_con = {
+			allowed = { original_tag = EDO }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea EDO_Tokugawa_Muneyoshi_eco_con"
+			}
+			traits = {
+				TOD_economy_minister
+				conservatism
+				eco_economic_organizer
+			}
+		}
+		}
+	TOD_security_minister = { ### security minister ###
+		EDO_Ikeda_Nakahiro_sec_con = {
+			allowed = { original_tag = EDO }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea EDO_Ikeda_Nakahiro_sec_con"
+			}
+			traits = {
+				TOD_security_minister
+				conservatism
+				sec_crime_fighter
+			}
+		}
+		}
+	    
   ################################################################################################################################################################################################
   ### MEX
   ################################################################################################################################################################################################
@@ -181,4 +267,136 @@ ideas = {
 		
 
 	}
+	
+  ################################################################################################################################################################################################
+  ### MNG
+  ################################################################################################################################################################################################
+
+	TOD_minister_head = { ### Head of Government ###
+		MNG_zhang_wei_han_hog_con = {
+			allowed = { original_tag = MNG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea MNG_zhang_wei_han_hog_con"
+			}
+			traits = {
+				TOD_minister_head
+				conservatism
+				hog_pragmatic_statesman
+			}
+		}
+	}
+	TOD_foreign_minister = { ### foreign minister ###
+		MNG_zhu_zhao_xin_for_con = {
+			allowed = { original_tag = MNG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea MNG_zhu_zhao_xin_for_con"
+			}
+			traits = {
+				TOD_foreign_minister
+				
+			}
+		}
+	}
+	TOD_economy_minister = { ### economy minister ###
+		MNG_zhang_guo_gan_eco_con = {
+			allowed = { original_tag = MNG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea MNG_zhang_guo_gan_eco_con"
+			}
+			traits = {
+				TOD_economy_minister
+				
+			}
+		}
+	}
+	TOD_security_minister = { ### security minister ###
+		MNG_yin_wu_lou_sec_con = {
+			allowed = { original_tag = MNG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea MNG_yin_wu_lou_sec_con"
+			}
+			traits = {
+				TOD_security_minister
+				
+			}
+		}
+	}
+	  
+
+
+    chief_of_staff = { ### Chief of Staff ###
+		MNG_jiang_yan_xing_cos_sco = {
+			allowed = { original_tag = MNG }
+			available = { }
+			
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea MNG_jiang_yan_xing_cos_sco"
+			}
+			traits = {
+				chief_of_staff
+				
+			}
+			cancel_if_invalid = yes
+		}
+
+	}
+	chief_of_army = { ### Chief of Army ###
+		MNG_bao_gui_qing_carm_sco = {
+			allowed = { original_tag = MNG }
+			available = { }
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea MNG_bao_gui_qing_carm_sco"
+			}
+			traits = {
+				chief_of_army
+				
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	chief_of_navy = { ### 海军部长 ###
+		MNG_sa_zhen_bing_cnav_ade = {
+			allowed = { original_tag = MNG }
+			available = { }
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea MNG_sa_zhen_bing_cnav_ade"
+			}
+			traits = {
+				chief_of_navy
+				
+			}
+			cancel_if_invalid = yes
+		}
+	}
+
+
+}
 	

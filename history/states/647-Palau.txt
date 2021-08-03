@@ -6,8 +6,7 @@ state=
 	manpower = 12100
 	history=
 	{
-		owner = JAP
-		add_core_of = FSM
+		owner = ZHR
 		buildings = {
 			infrastructure = 3
 			air_base = 1

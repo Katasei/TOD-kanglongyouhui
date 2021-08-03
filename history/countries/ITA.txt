@@ -28,4 +28,31 @@ create_country_leader = {
 	ideology = conservatism_subtype
 }
 
-
+# DIPLOMACY
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = INA
+		autonomous_state =  kr_default_puppet
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = SYR
+		autonomous_state =  kr_default_puppet
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = IEA
+		autonomous_state =  kr_default_puppet
+		freedom_level = 0.2
+	}
+		puppet = INA
+		puppet = SYR
+		puppet = IEA
+	}
+}

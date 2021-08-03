@@ -34,6 +34,10 @@ spriteTypes = {
 
 
 		spriteType = {
+		name = "GFX_LibRev_icon"             texturefile = "gfx//subideas//LibRev.tga"  legacy_lazy_load = no }
+
+
+		spriteType = {
 		name = "GFX_LibSoc_icon"             texturefile = "gfx//subideas//LibSoc.tga"  legacy_lazy_load = no }
 
 
@@ -46,13 +50,13 @@ spriteTypes = {
 
 
 		spriteType = {
-		name = "GFX_RadVan_icon"             texturefile = "gfx//subideas//RadVan.tga"  legacy_lazy_load = no }
-
-
-		spriteType = {
 		name = "GFX_RefDem_icon"             texturefile = "gfx//subideas//RefDem.tga"  legacy_lazy_load = no }
 
 
+		spriteType = {
+		name = "GFX_RefSoc_icon"             texturefile = "gfx//subideas//RefSoc.tga"  legacy_lazy_load = no }
+		
+		
 		spriteType = {
 		name = "GFX_RefTon_icon"             texturefile = "gfx//subideas//RefTon.tga"  legacy_lazy_load = no }
 

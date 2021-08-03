@@ -33,3 +33,21 @@ add_ideas = {
 	USA_pending_bradley_act
 	USA_military_industrial_complex
 }
+
+# DIPLOMACY
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = SMT
+		autonomous_state =  kr_default_puppet
+		freedom_level = 0.2
+	}
+	else = {
+		puppet = SMT
+	}
+}

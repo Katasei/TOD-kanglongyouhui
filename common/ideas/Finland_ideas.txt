@@ -1,0 +1,26 @@
+### FIN ideas ###
+ideas = {
+	country = {
+	    FIN_Industrial_construction = {
+		    picture = FIN_Industrial_construction
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.1
+				stability_factor = -0.1
+			}
+		}
+		FIN_External_threats = {
+		    picture = FIN_External_threats
+			modifier = {
+				war_support_factor = -0.1
+				production_speed_buildings_factor = -0.2
+				drift_defence_factor = -0.3
+				conversion_cost_mil_to_civ_factor = -0.5
+			}
+		}
+		FIN_Brave_Army = {
+		    picture = FIN_Brave_Army
+			modifier = {
+				air_weather_penalty = -0.50
+				org_loss_when_moving = -0.1
+			}
+		}

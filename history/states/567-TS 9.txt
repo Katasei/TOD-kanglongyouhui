@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = RUS
+		owner = SIB
 		buildings = {
 			infrastructure = 3
 		}

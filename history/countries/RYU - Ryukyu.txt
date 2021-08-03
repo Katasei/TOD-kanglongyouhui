@@ -30,4 +30,8 @@ create_country_leader = {
 
 add_ideas = {
 	DesMnc_type
+	RYU_vassal_state
+	RYU_the_collapse_of_local_industry
+	RYU_grwat_wall_on_the_sea
+	RYU_min_ryukyu_relationship
 }

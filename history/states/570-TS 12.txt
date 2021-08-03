@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = RUS
+		owner = SIB
 		victory_points = {
 			7274 3 
 		}

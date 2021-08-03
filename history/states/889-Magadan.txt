@@ -3,7 +3,7 @@ state = {
 	name = "STATE_889"
 	
 	history = {
-		owner = RUS
+		owner = FET
 		add_core_of = RUS
 	}
 	

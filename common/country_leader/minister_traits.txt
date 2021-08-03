@@ -113,7 +113,7 @@ leader_traits = {
 
 		random = no
 	}
-
+	
 	hog_political_protege = {
 		political_power_gain = 0.11
 

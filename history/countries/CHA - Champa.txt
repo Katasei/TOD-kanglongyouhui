@@ -17,7 +17,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Lee Hoon Leong"
+	name = "李云龙"
 	desc = "POLITICS_LEE_HOON_LEONG_DESC"
 	picture = "Portrait_CHA_Lee_Hoon_Leong.png"
 	expire = "1965.1.1"
@@ -25,7 +25,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Huang Jinyong"
+	name = "黄锦镛"
 	desc = "POLITICS_HUANG_JINYONG_DESC"
 	picture = "Portrait_CHA_Huang_Jinyong.png"
 	expire = "1965.1.1"
@@ -33,7 +33,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Phan Cong Tac"
+	name = "范公稷"
 	desc = "POLITICS_PHAN_CONG_TAC_DESC"
 	picture = "Portrait_CHA_Phan_Cong_Tac.png"
 	expire = "1965.1.1"
@@ -41,7 +41,7 @@ create_country_leader = {
 }
 
 #create_country_leader = {
-#	name = "He Qitang"
+#	name = "何启棠"
 #	desc = "POLITICS_HE_QITANG_DESC"
 #	picture = "Portrait_CHA_He_Qitang.png"
 #	expire = "1965.1.1"
@@ -49,9 +49,16 @@ create_country_leader = {
 #}
 
 create_country_leader = {
-	name = "Phan Boi Chau"
+	name = "潘文珊"
 	desc = "POLITICS_PHAN_BOI_CHAU_DESC"
 	picture = "Portrait_CHA_Phan_Boi_Chau.png"
 	expire = "1965.1.1"
 	ideology = reformism_subtype
+}
+
+add_ideas = {
+	AthOlg_type
+	LibMrk type
+	CHA_limited_international_trade
+	CHA_qing_gang
 }

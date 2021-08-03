@@ -1,11 +1,98 @@
 bookmarks = {
 	bookmark = {
-		name = "KR_SCENARIO_NAME"
-		desc = "KR_SCENARIO_DESC"
+		name = "TOD_SCENARIO_NAME"
+		desc = "TOD_SCENARIO_DESC"
 		date = 1936.1.1.1
 		picture = "GFX_select_date_1936"
-		default_country = "GER"
+		default_country = "MNG"
 		default = yes
+
+
+		"MNG" = {
+			history = "MNG_TOD_GATHERING_STORM_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+				MNG_Dominant_power_of_Far_East
+				MNG_Undesirable_economic_recovery
+				MNG_A_Suspected_Army
+			}
+
+			focuses = {
+				
+			}
+		}
+
+		"FRA" = {
+			history = "FRA_TOD_GATHERING_STORM_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+				
+			}
+
+			focuses = {
+				
+			}
+		}
+
+		"GER" = {
+			history = "GER_TOD_GATHERING_STORM_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+				
+			}
+
+			focuses = {
+				
+			}
+		}
+
+		"ENG" = {
+			history = "ENG_TOD_GATHERING_STORM_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+				
+			}
+
+			focuses = {
+				
+			}
+		}
+
+		"RUS" = {
+			history = "RUS_TOD_GATHERING_STORM_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+				
+			}
+
+			focuses = {
+				
+			}
+		}
+
+		"FRL" = {
+			history = "FRL_TOD_GATHERING_STORM_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+				
+			}
+
+			focuses = {
+			
+			}
+		}
+
+		"USA" = {
+			history = "USA_TOD_GATHERING_STORM_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+				
+			}
+
+			focuses = {
+				
+			}
+		}
 
 		
 

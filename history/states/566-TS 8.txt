@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = RUS
+		owner = FET
 		victory_points = {
 			4797 3 
 		}

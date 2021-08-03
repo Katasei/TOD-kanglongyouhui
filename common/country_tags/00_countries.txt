@@ -112,3 +112,20 @@ TAJ = "countries/Asian.txt"
 KAZ = "countries/Asian.txt"
 JOF = "countries/WestEur.txt"
 AOF = "countries/WestEur.txt"
+TAC = "countries/WestEur.txt"
+
+#俄罗斯和他的四个小伙伴
+RUS = "countries/EastEur.txt"
+CAU = "countries/EastEur.txt"
+KYR = "countries/EastEur.txt"
+SIB = "countries/EastEur.txt"
+FET = "countries/EastEur.txt"
+
+#大明势力
+
+NAC = "countries/Asian.txt" #西北军
+GPS = "countries/Asian.txt" #关东司
+SRC = "countries/Asian.txt" #东北红军
+XIN = "countries/Asian.txt" #西南军都督府/西南互保/三省联合
+USC = "countries/Asian.txt" #共和军
+ROC = "countries/Asian.txt" #大同党

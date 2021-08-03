@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = RUS
+		owner = FET
 		buildings = {
 			infrastructure = 3
 			air_base = 2

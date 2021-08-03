@@ -1,4 +1,9 @@
 ﻿l_english:
+ EDO_Sakai_Tadamasa_hog_con:0 "酒井忠正"
+ EDO_Kone_Fumimaru_for_con:0 "近卫文麿"
+ EDO_Tokugawa_Muneyoshi_eco_con:0 "德川宗敬"
+ EDO_Ikeda_Nakahiro_sec_con:0 "池田仲博"
+
  MEX_Bernardo_Reyes_hog_aut:0 "贝尔纳多·雷耶斯"
  MEX_Emilio_Portes_Gil_hog_con:0 "埃米利奥·波特斯·吉尔"
  MEX_Rosendo_Salazar_hog_ref:0 "罗森多·萨拉萨"
@@ -9,3 +14,11 @@
  MEX_Bernardo_Reyes_cos_sco:0 "贝尔纳多·雷耶斯"
  MEX_Pancho_Villa_carm_sco:0 "潘乔·维亚"
  MEX_Antonio_Cardenas_Rodriguez_cair_ade:0 "安东尼奥·卡德纳斯·罗德里格斯"
+
+ MNG_zhang_wei_han_hog_con:0 "张维翰"
+ MNG_zhu_zhao_xin_for_con:0 "朱兆莘"
+ MNG_zhang_guo_gan_eco_con:0 "张国淦"
+ MNG_yin_wu_lou_sec_con:0 "荫午楼"
+ MNG_bao_gui_qing_carm_sco:0 "鲍贵卿"
+ MNG_sa_zhen_bing_cnav_ade:0 "萨镇冰"
+ MNG_jiang_yan_xing_cos_sco:0 "蒋雁行"
