@@ -73,8 +73,12 @@ bookmarks = {
 		"FRL" = {
 			history = "FRL_TOD_GATHERING_STORM_DESC"
 			ideology = authoritarian_democrat
-			ideas = {
-				
+			ideas = { 
+				FRL_home_of_free
+				FRL_economic_crisis
+				FRL_political_crisis
+				FRL_connect_two_ocean
+				FRL_cold_war
 			}
 
 			focuses = {
