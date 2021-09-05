@@ -3,8 +3,8 @@ state={
 	id=600
 	name="STATE_600"
 	resources={
-		steel=6
-		tungsten=4
+		steel=6.000
+		tungsten=4.000
 	}
 
 	history={
@@ -14,32 +14,22 @@ state={
 			arms_factory = 1
 			industrial_complex = 2
 			air_base = 2
-		}
 
+		}
 		victory_points = {
 			3992 10 
 		}
-
 		victory_points = {
 			4185 2 
 		}
-
-		victory_points = {
-			4156 1 
-		}
-
-		victory_points = {
-			7199 1 
-		}
-
 		add_core_of = MNG
 
 	}
 
 	provinces={
-		1628 3992 4083 4156 4183 4185 7172 7199 7653 10057 10114 10501 11988 12495
+		1628 3992 4083 4185 7653 10114 11988 
 	}
-	manpower=11675644
+	manpower=7895644
 	buildings_max_level_factor=1.000
-	state_category=seven
+	state_category=eight
 }

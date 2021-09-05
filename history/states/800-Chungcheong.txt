@@ -3,7 +3,7 @@ state={
 	name="STATE_800"
 	
 	manpower=1000001
-	state_category=four
+	state_category=five
 	buildings_max_level_factor=1.000
 	
 	history={

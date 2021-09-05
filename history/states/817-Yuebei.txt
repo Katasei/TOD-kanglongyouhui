@@ -20,6 +20,6 @@ state={
 		9970 9997 10080 12014 13237 
 	}
 	manpower=1356411
-	state_category=four
+	state_category=five
 	buildings_max_level_factor=1.000
 }

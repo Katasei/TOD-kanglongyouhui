@@ -7,7 +7,7 @@ state = {
 		add_core_of = MOB
 	}
 	
-	manpower = 0
+	manpower = 3620
 	state_category = wasteland
 	impassable = yes
 	provinces = { 1781 4786 4856 4873 12669 }

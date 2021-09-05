@@ -1,15 +1,18 @@
-state = {
-	id = 894
-	name = "STATE_894"
-	
-	history = {
+
+state={
+	id=894
+	name="STATE_894"
+
+	history={
 		owner = ZHR
 		add_core_of = ZHR
+
 	}
-	
-	manpower = 0
-	state_category = one
-	provinces = {
-		1557 4517 4632 5198 5227 7610 8230 10936 10941 11006 12949
+
+	provinces={
+		10336 10936 10941 10955 11006 
 	}
+	manpower=421650
+	buildings_max_level_factor=1.000
+	state_category=large_town
 }

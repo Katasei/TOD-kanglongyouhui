@@ -1,3 +1,4 @@
+
 state={
 	id=822
 	name="STATE_822"
@@ -7,20 +8,18 @@ state={
 		add_core_of = MNG
 		buildings = {
 			infrastructure = 5
+
 		}
 		victory_points = {
-			12350 5 
-		}
-		victory_points = {
-			9982 1 
+			9982 2 
 		}
 
 	}
 
 	provinces={
-		1448 7159 9982 11918 12053 12350 12378 13244 13245 
+		1448 9982 11918 12378 13244 13245 
 	}
-	manpower=6227456
+	manpower=5227456
 	buildings_max_level_factor=1.000
-	state_category=three
+	state_category=five
 }

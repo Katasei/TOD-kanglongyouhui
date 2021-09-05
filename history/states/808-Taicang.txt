@@ -27,6 +27,6 @@ state={
 		7014 
 	}
 	manpower=4610000
-	state_category=eleven
+	state_category=twelve
 	buildings_max_level_factor=1.000
 }

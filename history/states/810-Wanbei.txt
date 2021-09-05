@@ -22,6 +22,6 @@ state={
 		4079 4158 7007 7094 9937 10079 11916 12036 
 	}
 	manpower=9427611
-	state_category=four
+	state_category=five
 	buildings_max_level_factor=1.000
 }

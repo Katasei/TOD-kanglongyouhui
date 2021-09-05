@@ -25,6 +25,6 @@ state=
 		7108 10062
 	}
 	manpower=2047681
-	state_category=eight
+	state_category=eleven
 	buildings_max_level_factor=1.000
 }

@@ -3,7 +3,7 @@ state={
 	id=622
 	name="STATE_622"
 	resources={
-		oil = 32
+		oil=32.000
 	}
 
 	history={
@@ -12,6 +12,7 @@ state={
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
+
 		}
 		victory_points = {
 			8049 5 
@@ -19,16 +20,13 @@ state={
 		victory_points = {
 			7659 1 
 		}
-		victory_points = {
-			12356 1 
-		}
 
 	}
 
 	provinces={
-		517 1458 4939 5007 7208 7314 7659 8049 10733 10880 12156 12356 13436 
+		1458 4939 7314 7659 8049 10733 10880 12156 13436 
 	}
-	manpower=1667531
+	manpower=977531
 	buildings_max_level_factor=1.000
 	state_category=three
 }

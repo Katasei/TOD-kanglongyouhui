@@ -8,6 +8,6 @@ state = {
 	}
 	
 	manpower = 0
-	state_category = one
+	state_category = three
 	provinces = { 2843 4162 7078 7124 9935 10035 11911 }
 }

@@ -16,9 +16,9 @@ state={
 	}
 
 	provinces={
-		1116 1996 4407 5018 5080 5102 7926 8041 8059 10741 10755 10810 10856 10918 
+		4407 5018 5080 5102 7926 8041 8059 10741 10755 10856 10918 
 	}
-	manpower=0
+	manpower=92010
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=rural
 }

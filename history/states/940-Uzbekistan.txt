@@ -1,9 +1,10 @@
+
 state={
 	id=940
 	name="azhe"
 
 	history={
-		add_core_of = UZB
+		add_core_of = KAZ
 		owner = KAZ
 		buildings = {
 			infrastructure = 3
@@ -14,7 +15,7 @@ state={
 	}
 
 	provinces={
-		1479 1532 1554 1576 4488 4499 4618 7501 7507 7682 10420 11687 12471
+		1554 7501 7507 10420 
 	}
 	manpower=1033721
 	buildings_max_level_factor=1.000

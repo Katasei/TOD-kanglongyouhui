@@ -30,5 +30,5 @@ state={
 		993 1097 1113 1182 4100 4184 4188 7016 
 	}
 	manpower=1178000
-	state_category=eight
+	state_category=nine
 }

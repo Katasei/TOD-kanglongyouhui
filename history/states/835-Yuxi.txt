@@ -1,8 +1,9 @@
+
 state={
 	id=835
 	name="STATE_835"
 	resources={
-		aluminium=48
+		aluminium=48.000
 	}
 
 	history={
@@ -11,17 +12,15 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-		}
-		victory_points = {
-			11931 5 
+
 		}
 
 	}
 
 	provinces={
-		1004 1603 6932 7508 11931 12012 13378 13379 13380 13381 13382 13389 
+		1004 1603 6932 7508 12012 13378 13379 13380 13382 13389 
 	}
-	manpower=3276131
+	manpower=2776131
 	buildings_max_level_factor=1.000
-	state_category=five
+	state_category=six
 }

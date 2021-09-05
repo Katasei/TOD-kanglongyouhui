@@ -7,15 +7,15 @@ state={
 		owner = MNG
 		add_core_of = MNG
 		victory_points = {
-			2015 5
+			2015 5 
 		}
 
 	}
 
 	provinces={
-		1766 1970 2015 4828 5087 7519 7949 8027 10417 10821 12119 12805 13483 13484 13485 
+		1766 5087 7519 8027 10417 10821 12805 13483 
 	}
-	manpower=0
+	manpower=486980
 	buildings_max_level_factor=1.000
 	state_category=town
 }

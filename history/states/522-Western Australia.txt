@@ -2,9 +2,6 @@
 state={
 	id=522
 	name="STATE_522"
-	
-	manpower = 367200
-	state_category = rural
 
 	history={
 		owner = ZHR
@@ -15,15 +12,24 @@ state={
 			1652 = {
 				naval_base = 1
 				coastal_bunker = 1
+
 			}
+
 		}
 		victory_points = {
-			1652 3 
+			1652 15 
+		}
+		victory_points = {
+			8228 10 
 		}
 		add_core_of = ZHR
+
 	}
 
 	provinces={
-		1526 1652 2157 2191 4630 5175 7453 7579 7608 8130 8228 8243 10473 10949 10983 10997 11011 12948 12962 12976 12990 13634 13635 13636 13637 13638 13639
+		1526 1652 2157 4630 5175 7453 8130 8228 8243 10983 11011 13637 13639 
 	}
+	manpower=1467200
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
 }

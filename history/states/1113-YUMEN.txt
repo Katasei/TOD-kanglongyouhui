@@ -1,0 +1,24 @@
+state={
+	id=1113
+	name="STATE_1113"
+	resources={
+		oil=14.000
+	}
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		1778 5076 7727 7971 8102 12596 12820 
+	}
+	manpower=582610
+	buildings_max_level_factor=1.000
+	state_category=three
+}

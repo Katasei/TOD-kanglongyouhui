@@ -7,31 +7,16 @@ state={
 		owner = MNG
 		buildings = {
 			infrastructure = 5
-			arms_factory = 1
-			industrial_complex = 1
-			1168 = {
-				naval_base = 8
-			}
-		}
 
-		victory_points = {
-			11920 1 
 		}
-		victory_points = {
-			7174 1 
-		}
-		victory_points = {
-			1168 2 
-		}
-
 		add_core_of = MNG
 
 	}
 
 	provinces={
-		1055 1168 1195 4013 4099 7086 7174 9944 9972 10086 11920 11947 12059 
+		1055 4013 4099 7086 9972 11947 
 	}
-	manpower=11534567
+	manpower=5134567
 	buildings_max_level_factor=1.000
-	state_category=six
+	state_category=seven
 }

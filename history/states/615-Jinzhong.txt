@@ -3,7 +3,7 @@ state={
 	id=615
 	name="STATE_615"
 	resources={
-		steel=24
+		steel=24.000
 	}
 
 	history={
@@ -13,6 +13,7 @@ state={
 			infrastructure = 5
 			arms_factory = 2
 			industrial_complex = 1
+
 		}
 		victory_points = {
 			1519 20 
@@ -27,9 +28,9 @@ state={
 	}
 
 	provinces={
-		1027 1203 1438 1519 1531 4074 4174 4469 4538 4634 10367 12078 12300 12344 13423 13424 13425 13428 
+		1027 1203 1519 4174 4469 4538 4634 10421 12078 12344 13425 13427 
 	}
-	manpower=6037651
+	manpower=5437651
 	buildings_max_level_factor=1.000
 	state_category=six
 }

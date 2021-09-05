@@ -1,3 +1,4 @@
+
 state={
 	id=728
 	name="STATE_728"
@@ -10,31 +11,26 @@ state={
 			industrial_complex = 1
 			11981 = {
 				naval_base = 6
+
 			}
-		}
 
-		victory_points = {
-			 13240 5 
 		}
-
 		victory_points = {
-			 4160 2 
+			4160 2 
 		}
-
 		victory_points = {
-			 11981 1 
+			11981 1 
 		}
-
 		victory_points = {
-			 9963 1 
+			9963 1 
 		}
 
 	}
+
 	provinces={
-		1087 1187 4092 4160 7135 9963 11938 11941 11981 12077 13240 13241 13242 
+		4160 7135 9963 11981 12077 13241 13242 
 	}
-	manpower=5957651
-	state_category=six
+	manpower=3057651
 	buildings_max_level_factor=1.000
+	state_category=six
 }
-

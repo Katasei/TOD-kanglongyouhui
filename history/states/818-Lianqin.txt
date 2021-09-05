@@ -20,6 +20,6 @@ state={
 		1131 7039 13243 
 	}
 	manpower=1155141
-	state_category=two
+	state_category=three
 	buildings_max_level_factor=1.000
 }

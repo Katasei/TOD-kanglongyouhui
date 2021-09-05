@@ -1,22 +1,23 @@
-state= {
+
+state={
 	id=341
 	name="STATE_341"
-	manpower = 204509
 	resources={
-		chromium=20 # was: 84
-		steel = 5 # was: 20
+		chromium=20.000
+		steel=5.000
 	}
-	
-	state_category = city
 
-	history= {
+	history={
 		add_claim_by = GRE
 		owner = GRE
-		
-		
 		add_core_of = TUR
+
 	}
-	provinces=
-	{
-849 922 3879 3893 6895 11842 	}
+
+	provinces={
+		922 11842 
+	}
+	manpower=434509
+	buildings_max_level_factor=1.000
+	state_category=city
 }

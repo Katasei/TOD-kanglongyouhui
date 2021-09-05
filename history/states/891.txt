@@ -1,16 +1,18 @@
-state = {
-	id = 891
-	name = "STATE_891"
-	
-	history = {
+
+state={
+	id=891
+	name="STATE_891"
+
+	history={
 		owner = ZHR
 		add_core_of = ZHR
+
 	}
-	
-	manpower = 0
-	state_category = wasteland
-	provinces = {
-		2133 2177 2186 8134 8155 8200 10969 12904 12912 12926 
+
+	provinces={
+		2133 2177 5138 8134 8155 8165 10969 11013 12912 12926 
 	}
-	impassable = yes
+	manpower=15640
+	buildings_max_level_factor=1.000
+	state_category=wasteland
 }

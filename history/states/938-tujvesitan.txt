@@ -6,7 +6,7 @@ state={
 	history={
 		owner = KAZ
 		add_core_of = KAZ
-		
+		add_core_of = RUS
 		buildings = {
 			infrastructure = 1
 
@@ -16,9 +16,9 @@ state={
 	}
 
 	provinces={
-		4300 4578 4581 4636 4638 7243 7486 7597 7600 7657 7777 10353 10366 12329
+		4578 4636 7597 7657 10353 12329 
 	}
 	manpower=667036
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=rural
 }

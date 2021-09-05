@@ -10,28 +10,21 @@ state={
 			infrastructure = 6
 			arms_factory = 1
 			industrial_complex = 2
+
 		}
 		victory_points = {
-			1188 2
+			1188 5 
 		}
 		victory_points = {
-			12062 1
+			12062 3 
 		}
-		victory_points = {
-			4093 2
-		}
-		victory_points = {
-			13412 10
-		}
-		victory_points = {
-			12026 1
-		}
+
 	}
 
 	provinces={
-		1134 1169 1188 4032 4058 4093 4190 4208 6828 7000 7092 7109 10003 10022 10053 11761 11980 12026 12062 13405 13406 13407 13408 13409 13410 13411 13412 
+		1169 1188 4058 4190 7092 10003 11980 12062 13405 13406 13407 13408 
 	}
-	manpower=12978651
+	manpower=7978651
 	buildings_max_level_factor=1.000
 	state_category=ten
 }

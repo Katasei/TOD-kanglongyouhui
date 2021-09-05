@@ -3,9 +3,9 @@ state={
 	id=744
 	name="STATE_744"
 	resources={
-		aluminium=6
-		tungsten=17
-		steel=32
+		aluminium=6.000
+		tungsten=17.000
+		steel=32.000
 	}
 
 	history={
@@ -17,6 +17,7 @@ state={
 			industrial_complex = 1
 			synthetic_refinery = 1
 			air_base = 5
+
 		}
 		victory_points = {
 			7418 25 
@@ -31,7 +32,7 @@ state={
 	}
 
 	provinces={
-		1976 2006 4256 5092 7406 7418 10257 12713 13437 13438 13439 13440 13447 13448 13449 
+		1976 2006 4256 5092 7406 7418 10257 13439 13440 13447 13448 13449 
 	}
 	manpower=7397123
 	buildings_max_level_factor=1.000

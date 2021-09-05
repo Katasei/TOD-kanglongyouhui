@@ -13,6 +13,7 @@ state={
 		}
 		add_core_of = RUS
 		add_core_of = KAZ
+		add_core_of = KYR
 		victory_points = {
 			3618 1
 		}

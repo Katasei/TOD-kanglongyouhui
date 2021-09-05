@@ -3,7 +3,7 @@ tags={
 	"Alternative History"
 	"National Focuses"
 }
-name="TOD-20210803"
+name="TOD-20210824"
 supported_version="1.10.*"
 replace_path="common/countries"
 replace_path="common/country_tags"
@@ -17,3 +17,4 @@ replace_path="history/units"
 replace_path="map/strategicregions"
 replace_path="map/supplyareas"
 replace_path="localisation"
+replace_path="gfx/loadingscreen"

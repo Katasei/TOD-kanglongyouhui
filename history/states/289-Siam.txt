@@ -1,3 +1,4 @@
+
 state={
 	id=289
 	name="STATE_289"
@@ -5,15 +6,14 @@ state={
 	history={
 		owner = SIA
 		add_core_of = SIA
-
 		victory_points = {
-			7408 30
+			7408 30 
 		}
 		victory_points = {
-			1427 10
+			1427 10 
 		}
 		victory_points = {
-			10411 3
+			10411 3 
 		}
 		buildings = {
 			infrastructure = 5
@@ -23,11 +23,17 @@ state={
 			dockyard = 1
 			7408 = {
 				naval_base = 4
+
 			}
+
 		}
+
 	}
 
-	provinces={	1427 4319 4348 4392 4566 4582 7338 7353 7367 7408 7544 7572 7587 10193 10221 10250 10398 10411 12122 12173 13561 }
-	manpower=10030000
+	provinces={
+		1427 4319 4348 4392 7338 7367 7408 7587 10250 12122 
+	}
+	manpower=7830000
+	buildings_max_level_factor=1.000
 	state_category=nine
 }

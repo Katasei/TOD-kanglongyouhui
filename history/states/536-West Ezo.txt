@@ -36,5 +36,5 @@ state={
 		3962 7532 10444 10512 12352 13544 13545 13546 13547 
 	}
 	manpower=2356000
-	state_category=seven
+	state_category=eight
 }

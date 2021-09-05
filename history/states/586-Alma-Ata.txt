@@ -12,13 +12,14 @@ state={
 	history={
 		owner = KAZ
 		add_core_of = KAZ
+		add_core_of = RUS
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 3
 
 		}
 		victory_points = {
-			1459 3 
+			1459 5 
 		}
 		add_core_of = RUS
 		1939.1.1 = {
@@ -32,9 +33,9 @@ state={
 	}
 
 	provinces={
-		1459 1483 2058 4492 4686 4773 7556 7706 10148 10187 10408 10488 10506 10530 10601 10603 12340 12385 12397 12581 12640 12658 10660
+		1459 2058 10187 10488 11687 11687 12581 
 	}
-	manpower=2563404
+	manpower=2363404
 	buildings_max_level_factor=1.000
 	state_category=city
 }

@@ -1,3 +1,4 @@
+
 state={
 	id=841
 	name="STATE_841"
@@ -8,6 +9,7 @@ state={
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
+
 		}
 		victory_points = {
 			7571 1 
@@ -16,15 +18,15 @@ state={
 			13435 1 
 		}
 		victory_points = {
-			13426 2
+			13426 2 
 		}
 
 	}
 
 	provinces={
-		1034 1180 1575 7571 10421 13426 13427 13429 13430 13431 13432 13433 13434 13435 
+		1180 1575 7571 13426 13429 13430 13431 13432 13434 13435 
 	}
-	manpower=5234617
+	manpower=4734617
 	buildings_max_level_factor=1.000
 	state_category=six
 }

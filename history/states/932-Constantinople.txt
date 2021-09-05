@@ -7,7 +7,7 @@ state= {
 		steel = 5 # was: 20
 	}
 	
-	state_category = city
+	state_category = large_city
 
 	history= {
 		add_claim_by = COE
