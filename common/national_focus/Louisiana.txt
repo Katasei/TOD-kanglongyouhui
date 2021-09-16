@@ -15,6 +15,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 100
 			country_event = frl.1
+			add_stability = 0.1
 		
 		}
 		x = 3
