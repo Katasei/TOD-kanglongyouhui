@@ -1,0 +1,47 @@
+add_namespace = TODhungary
+#解决斯洛伐克问题
+country_event = {
+	id = TODhungary.1
+	title = TODhungary.1.t
+	desc =TODhungary.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.1.a
+		ai_chance = { factor = 50 }
+		set_country_flag = siluofakebeimanzu
+		add_ideas = HUN_buchangsiluofake
+	}
+	option = { 
+		name = TODhungary.1.b
+		ai_chance = { factor = 50 }
+	}
+}
+#解决罗马尼亚问题
+country_event = {
+	id = TODhungary.2
+	title = TODhungary.2.t
+	desc =TODhungary.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.2.a
+		ai_chance = { factor = 50 }
+		set_country_flag = luomaniyabeimanzu
+		add_ideas = HUN_buchangluomaniya
+	}
+	option = { 
+		name = TODhungary.2.b
+		ai_chance = { factor = 50 }
+	}
+}
