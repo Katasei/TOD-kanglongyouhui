@@ -1,0 +1,698 @@
+﻿
+focus_tree = {
+	id = hungarian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = HUN
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 2000 y = 2000 }
+
+#	focus = {
+#		id = HUN_
+#		icon = GFX_
+#		prerequisite = { focus = }
+#		mutually_exclusive = { focus =  }
+#		x = -3
+#		y = 0
+#		relative_position_id = 
+#
+#		cost = 10
+#
+#		ai_will_do = {
+#			factor = 1
+#		}
+#
+#		available = {
+#
+#		}
+#		
+#		bypass = {
+#
+#		}
+#
+#		cancel_if_invalid = yes
+#		continue_if_invalid = no
+#		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+#
+#		completion_reward = {
+#
+#		}
+#	}
+	#政治改革
+	focus = {
+		id = HUN_zhengzhigaige
+		icon = GFX_goal_generic_war_with_comintern
+		x = 11
+		y = 1
+
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {add_political_power = 150 }
+	}
+	#进行自由化改革
+	focus = {
+		id = HUN_jinxinziyouhuagaige
+		icon = GFX_goal_generic_war_with_comintern
+		x = 7
+		y = 2
+		
+		prerequisite = { focus = HUN_zhengzhigaige }
+		mutually_exclusive = { focus = HUN_baochiducaitongzhi }
+
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {add_ideas = HUN_ziyoudechengfeng}
+	}
+	#保持独裁统治
+	focus = {
+		id = HUN_baochiducaitongzhi
+		icon = GFX_goal_generic_war_with_comintern
+		x = 9
+		y = 2
+		
+		prerequisite = { focus = HUN_zhengzhigaige }
+		mutually_exclusive = { focus = HUN_jinxinziyouhuagaige }
+
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		
+		completion_reward = {
+			add_stability = 0.1
+			set_country_flag = baochiducaitongzhi
+			
+		}
+	}
+	
+	
+	#经济改革
+	focus = {
+		id = HUN_jinjigaige
+		icon = GFX_goal_generic_war_with_comintern
+		x = 11
+		y = 2
+		
+		available = {has_ideas = HUN_jinjiweijideyubo	}
+		
+		prerequisite = { focus = HUN_zhengzhigaige }
+
+		cost = 10
+
+		ai_will_do = {factor = 2}
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.1
+			remove_ideas = HUN_jinjiweijideyubo
+		}
+	}
+	#基建建设
+	focus = {
+		id = HUN_jijianjianshe
+		icon = GFX_goal_generic_war_with_comintern
+		x = 11
+		y = 3
+
+		prerequisite = { focus = HUN_jinjigaige }
+		
+		cost = 5
+
+		ai_will_do = {factor = 2}
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			43 = {
+				add_building_construction = {	
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			155 = {
+				add_building_construction = {	
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			981 = {
+				add_building_construction = {	
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+	#发展多瑙河经济带
+	focus = {
+		id = HUN_fazhanduonaohejinjidai
+		icon = GFX_goal_generic_war_with_comintern
+		x = 13
+		y = 4
+
+		prerequisite = { focus =HUN_jijianjianshe }
+		
+		cost = 5
+
+		ai_will_do = {factor = 2}
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			43 = {
+				add_building_c onstruction = {	
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			155 = {
+				add_building_construction = {	
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			981 = {
+				add_building_construction = {	
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+	#扩建曼弗雷德·韦斯钢铁厂
+	focus = {
+		id = HUN_expand_the_manfred_weiss_steel_works
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = { focus = HUN_fazhanduonaohejinjidai }
+		x=13
+		y=5
+
+		cost = 10
+
+		ai_will_do = {factor = 10}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = HUN_expand_the_manfred_weiss_steel_works_IC
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_resource = {
+					type = steel
+					amount = 8
+				}
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 43 }
+				limit = {
+					ROOT = { has_full_control_of_state = PREV } 
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = HUN_expand_the_manfred_weiss_steel_works_IC
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+			}
+		}
+	}
+	#扩建铝矿工业
+	focus = {
+		id = HUN_expand_the_aluminum_industry
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = { focus = HUN_fazhanduonaohejinjidai }
+		x = 15
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {factor = 10}
+
+		available = {ROOT = { has_full_control_of_state = 43 }}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			43 = {
+				add_resource = {
+					type = aluminium
+					amount = 16
+				}
+			}
+		}
+	}
+	#发展农业
+	focus = {
+		id = HUN_fazhannongye
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = { focus = HUN_jijianjianshe }
+		x = 11
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {factor = 10}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			swap_ideas = { 
+				remove_idea = HUN_nongyeguojia
+				add_idea = HUN_fadadenongyeguojia
+			}	
+		}
+	}
+	#科技发展
+	focus = {
+		id = HUN_kejifazhan
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = {focus = HUN_fazhanduonaohejinjidai}
+		prerequisite = {focus = HUN_fazhannongye}
+		x = 11
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {factor = 10}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {add_research_slot = 1}
+	}
+	#解决民族纷争
+	focus = {
+		id = HUN_jiejueminzufenzhneng
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = {focus = HUN_zhengzhigaige}
+		x = 13
+		y = 2
+
+		cost = 5
+		
+		available = {has_ideas = HUN_jinjiweiji	}
+		
+		ai_will_do = {factor = 10}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {remove_ideas = HUN_minzufenzheng}
+	}
+	#解决斯洛伐克问题
+	focus = {
+		id = HUN_jiejuesiluofakewenti
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = {focus = HUN_jiejueminzufenzhneng}
+		x = 13
+		y = 3
+
+		cost = 5
+		
+		available = {
+			has_full_control_of_state = 84
+			has_full_control_of_state = 70
+			has_full_control_of_state = 989
+			has_full_control_of_state = 71
+			has_full_control_of_state = 73
+		}
+		
+		ai_will_do = {factor = 10}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.05
+			HUN = {country_event = { id = TODhungary.1 }}
+		}
+	}
+	#解决罗马尼亚问题
+	focus = {
+		id = HUN_jiejueluomaniyawenti
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = {focus = HUN_jiejueminzufenzhneng}
+		x = 15
+		y = 3
+
+		cost = 5
+		
+		available = {
+			has_full_control_of_state = 80
+			has_full_control_of_state = 956
+			has_full_control_of_state = 979
+			has_full_control_of_state = 79
+		}
+		
+		ai_will_do = {factor = 10}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.05
+			HUN = {country_event = { id = TODhungary.2 }}
+		}
+	}
+	#军事线
+	#重整军备
+	focus = {
+		id = HUN_chongzhengjunbei
+		icon = GFX_goal_generic_construct_civilian
+		x = 21
+		y = 1
+
+		cost = 5
+		
+		
+		ai_will_do = {factor = 10}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_war_support = 0.1
+			army_experience = 10
+		}
+	}
+	#发展海军
+	focus = {
+		id = HUN_fazhanhaijun
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = {focus = HUN_chongzhengjunbei}
+		x = 18
+		y = 2
+
+		cost = 5
+		
+		available = {
+			any_state = {
+				is_controlled_by = HUN
+				is_coastal = yes
+			}
+		}
+		
+		ai_will_do = {factor = 10}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			navy_experience = 15
+			add_ideas = HUN_naval_warfare
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = HUN_ganz_danubius
+		}
+	}
+	#以防御代替进攻
+	focus = {
+		id = HUN_yifangyudaitijingong
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = {focus = HUN_chongzhengjunbei}
+		mutually_exclusive = { focus = HUN_yijingongdaitifangyu }
+		x = 20
+		y = 2
+
+		cost = 5
+		
+		available = {
+		}
+		
+		ai_will_do = {factor = 10}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {add_ideas = HUN_fangshou}
+	}
+	#以进攻代替防御
+	focus = {
+		id = HUN_yijingongdaitifangyu
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = {focus = HUN_chongzhengjunbei}
+		mutually_exclusive = { focus = HUN_yifangyudaitijingong }
+		x = 22
+		y = 2
+
+		cost = 5
+		
+		available = {
+		}
+		
+		ai_will_do = {factor = 10}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {add_ideas = HUN_jingong}
+	}
+	#沿奥地利修建堡垒
+	focus = {
+		id = HUN_yanaodilixiujianbaolei
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = {focus = HUN_yifangyudaitijingong}
+		x = 20
+		y = 3
+
+		cost = 10
+		
+		
+		ai_will_do = {factor = 10}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			898 = {
+				add_building_construction = {
+					type = bunker
+					province = {id = 11539}
+					level = 2
+					instant_build = yes
+				}
+			}
+			70 = {
+				add_building_construction = {
+					type = bunker
+					province = {
+						id = 3484
+						id = 9539
+						id = 9682
+					}
+					level = 2
+					instant_build = yes
+				}
+			}
+			155 = {
+				add_building_construction = {
+					type = bunker
+					province = {
+						id = 6720
+						id = 686
+						id = 11627
+						id = 3670
+					}
+					level = 2
+					instant_build = yes
+				}
+			}
+			set_country_flag = aodilidiaobaobeixiujian
+		}
+	}
+	#沿塞尔维亚修建堡垒
+	focus = {
+		id = HUN_yansaierweiyaxiujianbaolei
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = {focus = HUN_yifangyudaitijingong}
+		x =18
+		y = 3
+
+		cost = 5
+		
+		
+		ai_will_do = {factor = 10}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			764 = {
+				add_building_construction = {
+					type = bunker
+					province = {
+						id = 3614
+						id = 614
+					}
+					level = 2
+					instant_build = yes
+				}
+			}
+			82 = {
+				add_building_construction = {
+					type = bunker
+					province = {id = 3649}
+					level = 2
+					instant_build = yes
+				}
+			}
+			set_country_flag = saierweiyadiaobaobeixiujian
+		}
+	}
+	#向奥地利修建铁路
+	focus = {
+		id = HUN_xiangaodilixiujiantielu
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = {focus = HUN_yijingongdaitifangyu}
+		x = 22
+		y = 3
+
+		cost = 10
+		
+		
+		ai_will_do = {factor = 10}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			70 = {
+				add_building_construction = {	
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			155 = {
+				add_building_construction = {	
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			644 = {
+				add_building_construction = {	
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			989 = {
+				add_building_construction = {	
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			set_country_flag = aodilitielubeixiujian
+		}
+	}
+	#向塞尔维亚修建铁路
+	focus = {
+		id = HUN_xiangsaierweiyaxiujiantielu
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = {focus = HUN_yijingongdaitifangyu}
+		x =24
+		y = 3
+
+		cost = 5
+		
+		
+		ai_will_do = {factor = 10}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			764 = {
+				add_building_construction = {	
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			82 = {
+				add_building_construction = {	
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			set_country_flag = saierweiyatielubeixiujian
+		}
+	}
+}
