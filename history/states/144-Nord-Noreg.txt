@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = DEN
+		owner = NOR
 		buildings = {
 			infrastructure = 3
 			air_base = 1
