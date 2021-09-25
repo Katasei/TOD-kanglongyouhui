@@ -450,7 +450,7 @@ JOF = {
 	color = rgb { 57 113 228 }
 	color_ui = rgb { 57 113 228 }
 }
-AOF = {
+AOI = {
 	color = rgb { 57 113 228 }
 	color_ui = rgb { 57 113 228 }
 }
@@ -504,3 +504,15 @@ ROC = {#大同党
 	color_ui = rgb { 46 109 71 }
 }
 
+FTS = {#法属突尼斯
+	color = rgb { 101  35  232 }
+	color_ui = rgb { 101  35  232 }
+}
+SHE = {#希贾兹·哈希姆埃米尔国
+	color = rgb { 0 127 14 }
+	color_ui = rgb { 0 127 14 }
+}
+TSO = {#特鲁西尔·阿曼酋长国
+	color = rgb { 158 17 17 }
+	color_ui = rgb { 158 17 17 }
+}
