@@ -111,7 +111,7 @@ UZB = "countries/Asian.txt"
 TAJ = "countries/Asian.txt"
 KAZ = "countries/Asian.txt"
 JOF = "countries/WestEur.txt"
-AOF = "countries/WestEur.txt"
+AOI = "countries/WestEur.txt"
 TAC = "countries/WestEur.txt"
 
 #俄罗斯和他的四个小伙伴
@@ -129,3 +129,10 @@ SRC = "countries/Asian.txt" #东北红军
 XIN = "countries/Asian.txt" #西南军都督府/西南互保/三省联合
 USC = "countries/Asian.txt" #共和军
 ROC = "countries/Asian.txt" #大同党
+
+#中东和北非势力
+
+TSO = "countries/MidEast.txt"#特鲁西尔·阿曼酋长国
+NJE = "countries/MidEast.txt"#纳季德埃米尔国
+SHE = "countries/MidEast.txt"#希贾兹·哈希姆埃米尔国
+FTS = "countries/MidEast.txt"#法属突尼斯

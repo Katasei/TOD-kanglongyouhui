@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = INA
+		owner = ITA
 		
 		victory_points = {
 			1149 10 
@@ -20,7 +20,7 @@ state={
 			}
 		}
 		add_core_of = LBA
-		add_core_of = INA
+		add_core_of = ITA
 	}
 
 	provinces={

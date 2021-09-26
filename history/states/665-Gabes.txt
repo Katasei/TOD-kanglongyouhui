@@ -4,7 +4,7 @@ state={
 	name="STATE_665"
 
 	history={
-		owner = INA
+		owner = FTS
 		add_core_of = TUN
 		victory_points = {
 			7005 1 

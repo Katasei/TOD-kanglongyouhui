@@ -11,7 +11,7 @@ state={
 
 
 	history={
-		owner = SAX
+		owner = RIN
 		buildings = {
 			infrastructure = 7
 			arms_factory = 2

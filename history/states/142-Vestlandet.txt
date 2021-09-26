@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = DEN
+		owner = NOR
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2

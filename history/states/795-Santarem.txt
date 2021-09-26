@@ -5,7 +5,7 @@ state={
 		chromium=20.000 #added due to portugal setup
 	}
 	history={
-		owner = POR
+		owner = KSN
 		victory_points = {
 			9869 1 
 		}

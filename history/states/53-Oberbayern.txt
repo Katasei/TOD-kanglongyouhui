@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = BAV
+		owner = RIN
 		buildings = {
 			infrastructure = 6
 		}

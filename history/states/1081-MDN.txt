@@ -3,7 +3,7 @@ state={
 	name="STATE_1081"
 
 	history={
-		owner = INA
+		owner = FTS
 		add_core_of = TUN
 		buildings = {
 			infrastructure = 3

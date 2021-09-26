@@ -42,7 +42,7 @@ if = {
 		freedom_level = 0.2
 	}
 	set_autonomy = {
-		target = SYR
+		target = AOI
 		autonomous_state =  kr_default_puppet
 		freedom_level = 0.2
 	}
