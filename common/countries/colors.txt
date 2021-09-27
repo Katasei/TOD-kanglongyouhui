@@ -290,6 +290,10 @@ RIN = {
 	color = rgb { 33  14  220 }
 	color_ui = rgb { 33  14  220 }
 }
+NOR= {
+	color = rgb { 33  14  220 }
+	color_ui = rgb { 33  14  220 }
+}
 GER = {
 	color = rgb { 255  55  55 }
 	color_ui = rgb { 255  55  55 }
