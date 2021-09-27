@@ -1,9 +1,9 @@
-version="1.0"
+version="0.0.3"
 tags={
 	"Alternative History"
 	"National Focuses"
 }
-name="TOD-20210824"
+name="TOD-kanglongyouhui"
 supported_version="1.10.*"
 replace_path="common/countries"
 replace_path="common/country_tags"
