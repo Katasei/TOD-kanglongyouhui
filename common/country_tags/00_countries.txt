@@ -114,6 +114,7 @@ KAZ = "countries/Asian.txt"
 JOF = "countries/WestEur.txt"
 AOI = "countries/WestEur.txt"
 TAC = "countries/WestEur.txt"
+NOR = "countries/WestEur.txt"
 
 #俄罗斯和他的四个小伙伴
 RUS = "countries/EastEur.txt"

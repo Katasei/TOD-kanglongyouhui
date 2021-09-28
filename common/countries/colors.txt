@@ -462,6 +462,10 @@ TAC = {
 	color = rgb { 179 109 97 }
 	color_ui = rgb { 179 109 97 }
 }
+NOR = {#挪威
+	color = rgb { 66 183 234 }
+	color_ui = rgb { 66 183 234 }
+}
 
 #俄罗斯的四个小伙伴
 
