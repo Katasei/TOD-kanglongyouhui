@@ -53,6 +53,9 @@ focus_tree = {
 		prerequisite = {
 		  focus = MNG_check_our_weapon
    		  }
+		mutually_exclusive = {
+			focus = MNG_make_in_our_country
+		}
 		relative_position_id = MNG_check_our_weapon
 		x = -2
 		y = 1
@@ -105,6 +108,9 @@ focus_tree = {
 		prerequisite = {
 		  focus = MNG_check_our_weapon
    		  }
+		mutually_exclusive = {
+			focus = MNG_better_to_buy
+		}
 		relative_position_id = MNG_check_our_weapon
 		x = 2
 		y = 1
@@ -177,6 +183,9 @@ focus_tree = {
 		prerequisite = {
 		  focus = MNG_stimulate_the_economy
    		  }
+        mutually_exclusive = {
+			focus = MNG_the_easy_way
+		}
 		relative_position_id = MNG_stimulate_the_economy
 		x = -2
 		y = 1
@@ -228,6 +237,9 @@ focus_tree = {
 		prerequisite = {
 		  focus = MNG_stimulate_the_economy
    		  }
+        mutually_exclusive = {
+			focus = MNG_the_hard_way
+		}
 		relative_position_id = MNG_stimulate_the_economy
 		x = 2
 		y = 1
