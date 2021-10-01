@@ -6,9 +6,8 @@ state={
 	history={
 		owner = MOB
 		add_core_of = MOB
-
 	}
-
+	resources={chromium=4}
 	provinces={
 		1702 1749 1779 1818 4781 4800 7680 7822 7890 10531 10713 12427 
 	}

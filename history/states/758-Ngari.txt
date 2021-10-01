@@ -9,9 +9,8 @@ state={
 		victory_points = {
 			1961 1 
 		}
-
 	}
-
+	resources={ tungsten= 4}
 	provinces={
 		1961 8029 8068 10802 12801 13470 13471 
 	}
