@@ -4,7 +4,6 @@ oob = "MNG"
 
 set_fuel_ratio = 0.7
 set_research_slots = 4
-set_convoys = 500
 set_stability = 0.5
 set_war_support = 0.2
 
