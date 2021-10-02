@@ -83,5 +83,69 @@ ideas = {
 			}
 		}
 		
+		MNG_infantry_equipment = {
+			
+				equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				}
+			removal_cost = -1
+			picture = MNG_every_man_a_gun
+		}
+		
+		MNG_capital_ship = {
+		
+				equipment_bonus = {
+				capital_ship = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+			removal_cost = -1
+			picture = MNG_kantai_ready
+		}
+		
+		MNG_consumer_goods_factor ={
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+			removal_cost = -1
+			picture = MNG_stimulate_the_economy
+		}
+		
+		MNG_compromise_with_shi_rong = {
+			modifier = {
+				liberalism_drift = 0.10
+			}
+			removal_cost = -1
+			picture = MNG_smile_to_the_money
+		}
+		
+		MNG_suppress_the_armed_forces_department = {
+			modifier = {
+				despotism_drift = -0.10
+			}
+			removal_cost = -1
+			picture = MNG_stop_the_army
+		}
+		
+		MNG_support_the_forbidden_system = {
+			modifier = {
+				authoritarianism_drift = 0.05
+			}
+			removal_cost = -1
+			picture = MNG_our_friends_inside
+		}
+		
+		MNG_suppress_the_armed_forces_department_two = {
+			modifier = {
+				despotism_drift = -0.05
+			}
+			removal_cost = -1
+			picture = MNG_shake_hands_soldier
+		}
+		
 	}	
 }
