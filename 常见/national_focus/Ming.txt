@@ -23,7 +23,9 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {
-			}
+			custom_effect_tooltip = MNG_increase_politics
+			add_political_power = 100
+		}
 	}
 	
 ###左###	
@@ -44,18 +46,22 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {
+			custom_effect_tooltip = MNG_1
+			navy_experience = 10
+			army_experience = 10
+			air_experience = 10
 			}
 	}
 	focus = { #俱收并蓄
 		id = MNG_better_to_buy
 		icon = GFX_focus_MNG_better_to_buy
-
+		mutually_exclusive = {
+			focus = MNG_make_in_our_country
+			}
+			
 		prerequisite = {
 		  focus = MNG_check_our_weapon
    		  }
-		mutually_exclusive = {
-			focus = MNG_make_in_our_country
-		}
 		relative_position_id = MNG_check_our_weapon
 		x = -2
 		y = 1
@@ -64,6 +70,8 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {
+			custom_effect_tooltip = MNG_2
+			add_political_power = -100
 			}
 	}
 	focus = { #四牡暌暌
@@ -81,6 +89,8 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {
+			custom_effect_tooltip = MNG_3
+			add_equipment_to_stockpile = { type = light_tank_equipment_2 amount = 100 }
 			}
 	}
 	focus = { #骖鸾驭鹤
@@ -98,19 +108,21 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {
-			}
+			custom_effect_tooltip = MNG_4
+			add_equipment_to_stockpile = { type = fighter_equipment_1 amount = 100 }
+		} 
 	}
 	
 	focus = { #自力更生
 		id = MNG_make_in_our_country
 		icon = GFX_focus_MNG_zi_li_geng_sheng
+		mutually_exclusive = {
+			focus = MNG_better_to_buy
+			}
 
 		prerequisite = {
 		  focus = MNG_check_our_weapon
    		  }
-		mutually_exclusive = {
-			focus = MNG_better_to_buy
-		}
 		relative_position_id = MNG_check_our_weapon
 		x = 2
 		y = 1
@@ -119,9 +131,11 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {
+			custom_effect_tooltip = MNG_5
+			add_political_power = -50
 			}
 	}
-	focus = { #骆骑角弓
+	focus = { #翩其反矣
 		id = MNG_every_man_a_gun
 		icon = GFX_focus_MNG_luo_qi_jiao_gong
 
@@ -136,6 +150,8 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {
+			custom_effect_tooltip = MNG_6
+			add_ideas = MNG_infantry_equipment
 			}
 	}
 	focus = { #艨艟御日
@@ -153,6 +169,8 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {
+			custom_effect_tooltip = MNG_7
+			add_ideas = MNG_capital_ship
 			}
 	}
 
@@ -174,6 +192,8 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {
+			custom_effect_tooltip = MNG_8
+			add_ideas = MNG_consumer_goods_factor
 			}
 	}
 	focus = { #斩钉截铁
@@ -183,7 +203,7 @@ focus_tree = {
 		prerequisite = {
 		  focus = MNG_stimulate_the_economy
    		  }
-        mutually_exclusive = {
+		mutually_exclusive = {
 			focus = MNG_the_easy_way
 		}
 		relative_position_id = MNG_stimulate_the_economy
@@ -194,6 +214,8 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {
+			custom_effect_tooltip = MNG_9
+			add_political_power = -100
 			}
 	}
 	focus = { #倾心秦淮
@@ -211,6 +233,8 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {
+			custom_effect_tooltip = MNG_10
+			add_ideas = MNG_compromise_with_shi_rong
 			}
 	}
 	focus = { #仁至义尽
@@ -228,7 +252,9 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {
-			}
+			custom_effect_tooltip = MNG_11
+			add_ideas = MNG_suppress_the_armed_forces_department
+		}
 	}
 	focus = { #润物无声
 		id = MNG_the_easy_way
@@ -237,9 +263,9 @@ focus_tree = {
 		prerequisite = {
 		  focus = MNG_stimulate_the_economy
    		  }
-        mutually_exclusive = {
+		mutually_exclusive = { 
 			focus = MNG_the_hard_way
-		}
+			}
 		relative_position_id = MNG_stimulate_the_economy
 		x = 2
 		y = 1
@@ -248,6 +274,8 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {
+			custom_effect_tooltip = MNG_12
+			add_political_power = -50
 			}
 	}
 	focus = { #委信心腹
@@ -265,7 +293,9 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {
-			}
+			custom_effect_tooltip = MNG_13
+			add_ideas = MNG_support_the_forbidden_system
+		}
 	}
 	focus = { #息事宁人
 		id = MNG_shake_hands_soldier
@@ -282,7 +312,9 @@ focus_tree = {
 			factor = 100
 		}
 		completion_reward = {
-			}
+			custom_effect_tooltip = MNG_14
+			add_ideas = MNG_suppress_the_armed_forces_department_two
+		}
 	}
 
 	
