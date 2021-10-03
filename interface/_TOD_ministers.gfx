@@ -88,5 +88,22 @@ spriteTypes = {
 		name = "GFX_idea_MNG_yin_wu_lou_sec_con"
 		texturefile = "gfx/interface/ministers/MNG/MNG_yin_wu_lou_sec_con.dds"
 	}
+	
+	### 总参谋长
+	spriteType = {
+		name = "GFX_idea_MNG_jiang_yan_xing_cos_sco"
+		texturefile = "gfx/interface/ministers/MNG/MNG_jiang_yan_xing_cos_sco.dds"
+	}
+	### 陆军部长
+	spriteType = {
+		name = "GFX_idea_MNG_bao_gui_qing_carm_sco"
+		texturefile = "gfx/interface/ministers/MNG/MNG_bao_gui_qing_carm_sco.dds"
+	}
+
+	### 海军部长
+	spriteType = {
+		name = "GFX_idea_MNG_sa_zhen_bing_cnav_ade"
+		texturefile = "gfx/interface/ministers/MNG/MNG_sa_zhen_bing_cnav_ade.dds"
+	}
 
 	}

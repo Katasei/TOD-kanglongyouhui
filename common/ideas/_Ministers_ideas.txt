@@ -305,7 +305,8 @@ ideas = {
 			}
 			traits = {
 				TOD_foreign_minister
-				
+				liberalism
+				for_genius_diplomat
 			}
 		}
 	}
@@ -324,7 +325,8 @@ ideas = {
 			}
 			traits = {
 				TOD_economy_minister
-				
+				conservatism
+				eco_outstanding_mediator
 			}
 		}
 	}
@@ -343,6 +345,8 @@ ideas = {
 			}
 			traits = {
 				TOD_security_minister
+				authoritarianism
+				sec_silent_fire_watcher
 				
 			}
 		}
@@ -360,7 +364,7 @@ ideas = {
 			}
 			traits = {
 				chief_of_staff
-				
+				cos_school_of_defence
 			}
 			cancel_if_invalid = yes
 		}
@@ -375,7 +379,7 @@ ideas = {
 			}
 			traits = {
 				chief_of_army
-				
+				carm_elastic_defence_doctrine
 			}
 			cancel_if_invalid = yes
 		}
@@ -389,7 +393,7 @@ ideas = {
 			}
 			traits = {
 				chief_of_navy
-				
+				cnav_open_seas_doctrine
 			}
 			cancel_if_invalid = yes
 		}
