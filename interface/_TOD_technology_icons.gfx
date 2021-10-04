@@ -3,10 +3,39 @@ spriteTypes = {
 	#按照TAG排序, 不要按照名字排序
 
 	### 大明（MNG） ###
+	### 大明步兵装备
+	SpriteType = {
+		name = "GFX_MNG_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/MNG/MNG_infantry_weapons.dds"
+	}
+	SpriteType = {
+		name = "GFX_MNG_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/MNG/MNG_infantry_weapons1.dds"
+	}
+	SpriteType = {
+		name = "GFX_MNG_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/MNG/MNG_improved_infantry_weapons.dds"
+	}
+	SpriteType = {
+		name = "GFX_MNG_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/MNG/MNG_advanced_infantry_weapons.dds"
+	}
 	### 大明卡车
 	SpriteType = {
 		name = "GFX_MNG_motorised_infantry_medium"
-		texturefile = "gfx/interface/technologies/MNG/MNG_motorised_infantry.png"
+		texturefile = "gfx/interface/technologies/MNG/MNG_motorised_infantry.dds"
+	}
+	SpriteType = {
+		name = "GFX_MNG_mechanised_infantry_medium"
+		texturefile = "gfx/interface/technologies/MNG/MNG_mechanized_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_MNG_mechanised_infantry2_medium"
+		texturefile = "gfx/interface/technologies/MNG/MNG_mechanized_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MNG_mechanised_infantry3_medium"
+		texturefile = "gfx/interface/technologies/MNG/MNG_mechanized_equipment_3.dds"
 	}
 	### 大明坦克
 	SpriteType = {
@@ -39,6 +68,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/MNG/MNG_CAS_1.png"
 	}
 	SpriteType = {
+		name = "GFX_MNG_CAS2_medium"
+		texturefile = "gfx/interface/technologies/MNG/MNG_CAS_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MNG_CAS3_medium"
+		texturefile = "gfx/interface/technologies/MNG/MNG_CAS_3.dds"
+	}
+	SpriteType = {
 		name = "GFX_MNG_fighter1_medium"
 		texturefile = "gfx/interface/technologies/MNG/MNG_fighter_1.png"
 	}
@@ -49,5 +86,17 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_MNG_fighter3_medium"
 		texturefile = "gfx/interface/technologies/MNG/MNG_fighter_3.png"
+	}
+	SpriteType = {
+		name = "GFX_MNG_naval_bomber1_medium"
+		texturefile = "gfx/interface/technologies/MNG/MNG_naval_bomber1.dds"
+	}
+	SpriteType = {
+		name = "GFX_MNG_naval_bomber2_medium"
+		texturefile = "gfx/interface/technologies/MNG/MNG_naval_bomber2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MNG_naval_bomber3_medium"
+		texturefile = "gfx/interface/technologies/MNG/MNG_naval_bomber3.dds"
 	}
 	}
