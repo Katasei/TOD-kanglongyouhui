@@ -64,6 +64,10 @@ spriteTypes = {
 	}
 	### 大明飞机
 	SpriteType = {
+		name = "GFX_MNG_early_fighter_medium"
+		texturefile = "gfx/interface/technologies/MNG/MNG_early_fighter.png"
+	}
+	SpriteType = {
 		name = "GFX_MNG_CAS1_medium"
 		texturefile = "gfx/interface/technologies/MNG/MNG_CAS_1.png"
 	}
