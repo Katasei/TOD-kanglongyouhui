@@ -1,6 +1,10 @@
 state={
 	id=844
 	name="STATE_844"
+	resources={
+		chromium=4
+		tungsten=2
+	}
 
 	history={
 		owner = MNG

@@ -2,6 +2,11 @@
 state={
 	id=618
 	name="STATE_618"
+	resources={
+		oil=6.000
+		steel=10
+	}
+
 
 	history={
 		owner = MNG
