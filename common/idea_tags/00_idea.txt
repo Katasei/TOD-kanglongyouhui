@@ -27,7 +27,7 @@ idea_categories = {
 		slot = mobilization_laws
 		slot = trade_laws
 		slot = economy
-		slot = TOD_Subtype
+		#slot = TOD_Subtype# 子意识形态界面占位符
 		
 		
 		ledger = civilian
