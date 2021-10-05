@@ -1,0 +1,44 @@
+guiTypes = {
+
+		
+	containerWindowType = {
+		name = "sub_ideas_container"
+		clipping = no
+				
+		instantTextboxType = {
+			name = "TOD_SUB_texticon"
+			position = { x = 20 y = 423 }
+			font = "hoi_18mbs"
+			text = "[todsub_texticon]"
+			pdx_tooltip = "todsub_tt"
+			pdx_tooltip_delayed = "todsub_td"			
+			maxWidth = 155
+			maxHeight = 20
+			format = upper_left
+			clipping = no
+		}
+		instantTextboxType = {
+			name = "TOD_SUB_title"
+			position = { x = 95 y = 398 }
+			font = "hoi_18mbs"
+			text = "[todsub_tt]"
+			pdx_tooltip = "todsub_tt"
+			pdx_tooltip_delayed = "todsub_td"			
+			maxWidth = 155
+			maxHeight = 20
+			format = center
+		}
+		instantTextboxType = {
+			name = "TOD_SUB_motto"
+			position = { x = 98 y = 422 }
+			font = "hoi_16mbs"
+			text = "[todsub_mt]"
+			maxWidth = 155
+			maxHeight = 20
+		}
+
+
+	}	
+
+		
+}

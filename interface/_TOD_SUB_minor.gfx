@@ -1,0 +1,164 @@
+spriteTypes = {
+
+
+
+
+
+	spriteType = {
+		name = "GFX_idea_AthCfc_type"
+		texturefile = "gfx//subideas_m//AthCfc_type.tga"
+	}
+
+
+
+	spriteType = {
+		name = "GFX_idea_AthDem_type"
+		texturefile = "gfx//subideas_m//AthDem_type.tga"
+	}
+
+
+
+	spriteType = {
+		name = "GFX_idea_AthOlg_type"
+		texturefile = "gfx//subideas_m//AthOlg_type.tga"
+	}
+
+
+
+	spriteType = {
+		name = "GFX_idea_ConSoc_type"
+		texturefile = "gfx//subideas_m//ConSoc_type.tga"
+	}
+
+
+
+	spriteType = {
+		name = "GFX_idea_ConTrd_type"
+		texturefile = "gfx//subideas_m//ConTrd_type.tga"
+	}
+
+
+
+	spriteType = {
+		name = "GFX_idea_DesDic_type"
+		texturefile = "gfx//subideas_m//DesDic_type.tga"
+	}
+
+
+
+	spriteType = {
+		name = "GFX_idea_DesMnc_type"
+		texturefile = "gfx//subideas_m//DesMnc_type.tga"
+	}
+
+
+
+	spriteType = {
+		name = "GFX_idea_LibMrk_type"
+		texturefile = "gfx//subideas_m//LibMrk_type.tga"
+	}
+
+
+	spriteType = {
+		name = "GFX_idea_LibRev_type"
+		texturefile = "gfx//subideas_m//LibRev_type.tga"
+	}
+
+
+	spriteType = {
+		name = "GFX_idea_LibSoc_type"
+		texturefile = "gfx//subideas_m//LibSoc_type.tga"
+	}
+
+
+
+	spriteType = {
+		name = "GFX_idea_RadAnc_type"
+		texturefile = "gfx//subideas_m//RadAnc_type.tga"
+	}
+
+
+
+	spriteType = {
+		name = "GFX_idea_RadNat_type"
+		texturefile = "gfx//subideas_m//RadNat_type.tga"
+	}
+
+
+
+	spriteType = {
+		name = "GFX_idea_RefDem_type"
+		texturefile = "gfx//subideas_m//RefDem_type.tga"
+	}
+
+
+
+	spriteType = {
+		name = "GFX_idea_RefSoc_type"
+		texturefile = "gfx//subideas_m//RefSoc_type.tga"
+	}
+
+
+
+	spriteType = {
+		name = "GFX_idea_RefTon_type"
+		texturefile = "gfx//subideas_m//RefTon_type.tga"
+	}
+
+
+
+	spriteType = {
+		name = "GFX_idea_SocLux_type"
+		texturefile = "gfx//subideas_m//SocLux_type.tga"
+	}
+
+
+
+	spriteType = {
+		name = "GFX_idea_SocMrk_type"
+		texturefile = "gfx//subideas_m//SocMrk_type.tga"
+	}
+
+
+
+	spriteType = {
+		name = "GFX_idea_SocPar_type"
+		texturefile = "gfx//subideas_m//SocPar_type.tga"
+	}
+
+
+
+	spriteType = {
+		name = "GFX_idea_TotFmt_type"
+		texturefile = "gfx//subideas_m//TotFmt_type.tga"
+	}
+
+
+
+	spriteType = {
+		name = "GFX_idea_TotItg_type"
+		texturefile = "gfx//subideas_m//TotItg_type.tga"
+	}
+
+
+
+	spriteType = {
+		name = "GFX_idea_TotRvv_type"
+		texturefile = "gfx//subideas_m//TotRvv_type.tga"
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
