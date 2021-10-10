@@ -1,0 +1,40 @@
+###########################
+#关于在巴尔干内战中的各种一定会发生的事件的统合
+#单独小事件应添加到各势力文件内
+###########################
+
+add_namespace = balkancivwar
+
+###新闻事件 news 
+
+news_event = {
+	id = balkancivwar.1001
+	title = balkancivwar.1001.t
+	picture = GFX_balkancivwar
+	desc = balkancivwar.1001.d
+	
+	major = yes
+	fire_only_once = yes
+	mean_time_to_happen = {days = 0}
+	trigger = {
+		tag = GRE
+		date > 1936.12.05
+	}
+	option = {name = balkancivwar.1001.a}
+}
+news_event = {
+	id = balkancivwar.1002
+	title = balkancivwar.1002.t
+	picture = GFX_Constantinople
+	desc = balkancivwar.1002.d
+	
+	major = yes
+	fire_only_once = yes
+	mean_time_to_happen = {days = 0}
+	trigger = {
+		tag = TUR
+		932 = { is_controlled_by = TUR }
+	}
+	option = {name = balkancivwar.1002.a}
+}
+
