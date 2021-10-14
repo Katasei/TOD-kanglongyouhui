@@ -53,7 +53,7 @@ focus_tree = {
 	#政治改革
 	focus = {
 		id = HUN_zhengzhigaige
-		icon = GFX_goal_generic_war_with_comintern
+		icon = GFX_focus_HUN_political_restructuring
 		x = 11
 		y = 1
 
@@ -67,7 +67,7 @@ focus_tree = {
 	#进行自由化改革
 	focus = {
 		id = HUN_jinxinziyouhuagaige
-		icon = GFX_goal_generic_war_with_comintern
+		icon = GFX_focus_HUN_liberalization
 		x = 7
 		y = 2
 		
@@ -84,7 +84,7 @@ focus_tree = {
 	#保持独裁统治
 	focus = {
 		id = HUN_baochiducaitongzhi
-		icon = GFX_goal_generic_war_with_comintern
+		icon = GFX_focus_HUN_autocracy
 		x = 9
 		y = 2
 		
@@ -106,7 +106,7 @@ focus_tree = {
 	#经济改革
 	focus = {
 		id = HUN_jinjigaige
-		icon = GFX_goal_generic_war_with_comintern
+		icon = GFX_focus_HUN_economic_reform
 		x = 11
 		y = 2
 		
@@ -131,7 +131,7 @@ focus_tree = {
 	#基建建设
 	focus = {
 		id = HUN_jijianjianshe
-		icon = GFX_goal_generic_war_with_comintern
+		icon = GFX_goal_generic_construction
 		x = 11
 		y = 3
 
@@ -176,7 +176,7 @@ focus_tree = {
 	#发展多瑙河经济带
 	focus = {
 		id = HUN_fazhanduonaohejinjidai
-		icon = GFX_goal_generic_war_with_comintern
+		icon = GFX_focus_HUN_duonaohe
 		x = 13
 		y = 4
 
@@ -221,7 +221,7 @@ focus_tree = {
 	#扩建曼弗雷德·韦斯钢铁厂
 	focus = {
 		id = HUN_expand_the_manfred_weiss_steel_works
-		icon = GFX_goal_generic_construct_civilian
+		icon = GFX_focus_generic_steel
 		prerequisite = { focus = HUN_fazhanduonaohejinjidai }
 		x=13
 		y=5
@@ -278,7 +278,7 @@ focus_tree = {
 	#扩建铝矿工业
 	focus = {
 		id = HUN_expand_the_aluminum_industry
-		icon = GFX_goal_generic_construct_civilian
+		icon = GFX_focus_generic_aluminum
 		prerequisite = { focus = HUN_fazhanduonaohejinjidai }
 		x = 15
 		y = 5
@@ -305,7 +305,7 @@ focus_tree = {
 	#发展农业
 	focus = {
 		id = HUN_fazhannongye
-		icon = GFX_goal_generic_construct_civilian
+		icon = GFX_focus_HUN_fzny
 		prerequisite = { focus = HUN_jijianjianshe }
 		x = 11
 		y = 4
@@ -328,7 +328,7 @@ focus_tree = {
 	#科技发展
 	focus = {
 		id = HUN_kejifazhan
-		icon = GFX_goal_generic_construct_civilian
+		icon = GFX_focus_research
 		prerequisite = {focus = HUN_fazhanduonaohejinjidai}
 		prerequisite = {focus = HUN_fazhannongye}
 		x = 11
@@ -347,7 +347,7 @@ focus_tree = {
 	#解决民族纷争
 	focus = {
 		id = HUN_jiejueminzufenzhneng
-		icon = GFX_goal_generic_construct_civilian
+		icon = GFX_focus_HUN_bridging_ethnic_tensions
 		prerequisite = {focus = HUN_zhengzhigaige}
 		x = 13
 		y = 2
@@ -367,7 +367,7 @@ focus_tree = {
 	#解决斯洛伐克问题
 	focus = {
 		id = HUN_jiejuesiluofakewenti
-		icon = GFX_goal_generic_construct_civilian
+		icon = GFX_focus_HUN_slfk
 		prerequisite = {focus = HUN_jiejueminzufenzhneng}
 		x = 13
 		y = 3
@@ -396,7 +396,7 @@ focus_tree = {
 	#解决罗马尼亚问题
 	focus = {
 		id = HUN_jiejueluomaniyawenti
-		icon = GFX_goal_generic_construct_civilian
+		icon = GFX_focus_HUN_lmny
 		prerequisite = {focus = HUN_jiejueminzufenzhneng}
 		x = 15
 		y = 3
@@ -425,7 +425,7 @@ focus_tree = {
 	#重整军备
 	focus = {
 		id = HUN_chongzhengjunbei
-		icon = GFX_goal_generic_construct_civilian
+		icon = GFX_goal_generic_army_artillery
 		x = 21
 		y = 1
 
@@ -446,7 +446,7 @@ focus_tree = {
 	#发展海军
 	focus = {
 		id = HUN_fazhanhaijun
-		icon = GFX_goal_generic_construct_civilian
+		icon = GFX_goal_generic_build_navy
 		prerequisite = {focus = HUN_chongzhengjunbei}
 		x = 18
 		y = 2
@@ -476,7 +476,7 @@ focus_tree = {
 	#以防御代替进攻
 	focus = {
 		id = HUN_yifangyudaitijingong
-		icon = GFX_goal_generic_construct_civilian
+		icon = GFX_focus_HUN_fangyu
 		prerequisite = {focus = HUN_chongzhengjunbei}
 		mutually_exclusive = { focus = HUN_yijingongdaitifangyu }
 		x = 20
@@ -498,7 +498,7 @@ focus_tree = {
 	#以进攻代替防御
 	focus = {
 		id = HUN_yijingongdaitifangyu
-		icon = GFX_goal_generic_construct_civilian
+		icon = GFX_focus_HUN_jingong
 		prerequisite = {focus = HUN_chongzhengjunbei}
 		mutually_exclusive = { focus = HUN_yifangyudaitijingong }
 		x = 22
@@ -520,7 +520,7 @@ focus_tree = {
 	#沿奥地利修建堡垒
 	focus = {
 		id = HUN_yanaodilixiujianbaolei
-		icon = GFX_goal_generic_construct_civilian
+		icon = GFX_goal_generic_construct_military
 		prerequisite = {focus = HUN_yifangyudaitijingong}
 		x = 20
 		y = 3
@@ -574,7 +574,7 @@ focus_tree = {
 	#沿塞尔维亚修建堡垒
 	focus = {
 		id = HUN_yansaierweiyaxiujianbaolei
-		icon = GFX_goal_generic_construct_civilian
+		icon = GFX_goal_generic_construct_military
 		prerequisite = {focus = HUN_yifangyudaitijingong}
 		x =18
 		y = 3
@@ -614,7 +614,7 @@ focus_tree = {
 	#向奥地利修建铁路
 	focus = {
 		id = HUN_xiangaodilixiujiantielu
-		icon = GFX_goal_generic_construct_civilian
+		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = {focus = HUN_yijingongdaitifangyu}
 		x = 22
 		y = 3
@@ -663,7 +663,7 @@ focus_tree = {
 	#向塞尔维亚修建铁路
 	focus = {
 		id = HUN_xiangsaierweiyaxiujiantielu
-		icon = GFX_goal_generic_construct_civilian
+		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = {focus = HUN_yijingongdaitifangyu}
 		x =24
 		y = 3
