@@ -18,7 +18,7 @@ ideas = {
 		HUN_nongyeguojia = {
 			name = HUN_nongyeguojia
 
-			picture = MNG_Undesirable_economic_recovery
+			picture = nygj
 
 			allowed = { original_tag = HUN }
 
@@ -26,7 +26,7 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = 0.05
-				stability_factor = 0.1
+				training_time_army_factor = 0.05
 			}
 		}
 		HUN_fadadenongyeguojia = {
@@ -38,15 +38,12 @@ ideas = {
 
 			removal_cost = -1
 
-			modifier = {
-				consumer_goods_factor = -0.05
-				stability_factor = 0.1
-			}
+			modifier = {consumer_goods_factor = -0.05}
 		}
 		HUN_minzufenzheng = {
 			name = HUN_minzufenzheng
 
-			picture = 
+			picture = mzmd
 
 			allowed = { original_tag = HUN }
 
@@ -60,7 +57,7 @@ ideas = {
 		HUN_fangshou = {
 			name = HUN_fangshou
 
-			picture = 
+			picture = fangyu
 
 			allowed = { original_tag = HUN }
 
@@ -75,7 +72,7 @@ ideas = {
 		HUN_jingong = {
 			name = HUN_jingong
 
-			picture = 
+			picture = jingong
 
 			allowed = { original_tag = HUN }
 
@@ -90,7 +87,7 @@ ideas = {
 		
 			name = HUN_buchangsiluofake
 
-			picture = 
+			picture = slfk
 
 			allowed = { original_tag = HUN }
 
@@ -105,7 +102,7 @@ ideas = {
 		
 			name = HUN_buchangluomaniya
 
-			picture = 
+			picture = lmny
 
 			allowed = { original_tag = HUN }
 
@@ -120,7 +117,7 @@ ideas = {
 		
 			name = HUN_ziyoudechengfeng
 
-			picture = 
+			picture = zydcf
 
 			allowed = { original_tag = HUN }
 
