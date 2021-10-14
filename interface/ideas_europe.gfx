@@ -1,0 +1,31 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_idea_nygj"
+		texturefile = "gfx/interface/ideas/ideas/nygj.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_mzmd"
+		texturefile = "gfx/interface/ideas/ideas/mzmd.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_fangyu"
+		texturefile = "gfx/interface/ideas/ideas/fangyu.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_jingong"
+		texturefile = "gfx/interface/ideas/ideas/jingong.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slfk"
+		texturefile = "gfx/interface/ideas/ideas/slfk.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lmny"
+		texturefile = "gfx/interface/ideas/ideas/lmny.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_zydcf"
+		texturefile = "gfx/interface/ideas/ideas/zydcf.dds"
+	}
+}
