@@ -58,7 +58,23 @@
  TODhungary.2.d:0 "罗马尼亚人派出了他们使者来与我们共同商讨民族问题，他们愿意不计前嫌，加我们匈牙利大家庭，只要他们以往受到的伤害得到我们的补偿"
  TODhungary.2.a:0 "希望他们能做的像他们说的一样"
  TODhungary.2.b:0 "还想要补偿，想得美"
- 
+ TODhungary.3.t:0 "科技投资"
+ TODhungary.3.d:0 "匈牙利工业和农业的发展给我们带来了一定的资金，我们应该妥善的利用。比如投资到科技方面，相信这会给我们带来丰厚的回报"
+ TODhungary.3.a:0 "让我们看看有哪些投资项目吧"
+ TODhungary.4.t:0 "投资陆军"
+ TODhungary.4.d:0 "在陆军的研究院中，有大量项目需要资金支援，我们的选择将决定陆军下一步的发展方向"
+ TODhungary.4.a:0 "步兵是胜利的决定因素"
+ TODhungary.4.b:0 "爆炸声将会掩盖敌人的惨叫"
+ TODhungary.4.c:0 "装甲车将冲破一切阻拦"
+ TODhungary.5.t:0 "投资空军"
+ TODhungary.5.d:0 "空军作为一战中新生的武器，在我们的独立战争中也发挥过一定的作用。飞机有着多种多样的作用，我们要根据我们的需要进行投资"
+ TODhungary.5.a:0 "陆地上的冲锋需要来自空中的支援"
+ TODhungary.5.b:0 "地上的士兵不会受到空中的干扰" 
+ TODhungary.6.t:0 "投资工业"
+ TODhungary.6.d:0 "工业是匈牙利经济的重要组成部分，对于战争也同样必不可少"
+ TODhungary.6.a:0 "用计算机来规划炮弹的弹道"
+ TODhungary.6.b:0 "用工厂来生产强力的武器"
+ TODhungary.6.c:0 "用燃油来提供前进的动力"
   
  ### names###
 
@@ -84,7 +100,7 @@
  HUN_expand_the_aluminum_industry_desc:0 "我们需要所有可供出口和国内使用的资源。虽然我们的铝业已经得到扩张，但还有进一步改进的空间，我们应立即将资源投入到这一领域。"
  HUN_fazhannongye:0 "发展农业"
  HUN_fazhannongye_desc:0 "我们拥有着引以为傲的自然条件，极其有利于我们的农业发展。既然如此，为什么不大力发展我们的农业呢？"
- HUN_kejifazhan:0 "科技发展"
+ HUN_kejifazhan:0 "科技投资"
  HUN_kejifazhan_desc:0 "在发展了农业和工业之后，我们终于有足够的资金来发展我们的科学技术了，相信这会给我们带来丰厚的回报"
  HUN_jiejueminzufenzhneng:0 "解决民族纷争"
  HUN_jiejueminzufenzhneng_desc:0 "我们不成功的民族政策使得国内的少数民族怨声载道，我们需要及时调整对待他们的民族政策，否则以后会造成大的问题"
