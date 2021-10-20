@@ -18,7 +18,7 @@ ideas = {
 		HUN_nongyeguojia = {
 			name = HUN_nongyeguojia
 
-			picture = nygj
+			picture = HUN_nongyeguojia
 
 			allowed = { original_tag = HUN }
 
@@ -32,7 +32,7 @@ ideas = {
 		HUN_fadadenongyeguojia = {
 			name = HUN_fadadenongyeguojia
 
-			picture = 
+			picture = HUN_fadadenongyeguojia
 
 			allowed = { original_tag = HUN }
 
@@ -43,7 +43,7 @@ ideas = {
 		HUN_minzufenzheng = {
 			name = HUN_minzufenzheng
 
-			picture = mzmd
+			picture = HUN_minzufenzheng
 
 			allowed = { original_tag = HUN }
 
@@ -57,7 +57,7 @@ ideas = {
 		HUN_fangshou = {
 			name = HUN_fangshou
 
-			picture = fangyu
+			picture = HUN_fangshou
 
 			allowed = { original_tag = HUN }
 
@@ -72,7 +72,7 @@ ideas = {
 		HUN_jingong = {
 			name = HUN_jingong
 
-			picture = jingong
+			picture = HUN_jingong
 
 			allowed = { original_tag = HUN }
 
@@ -87,7 +87,7 @@ ideas = {
 		
 			name = HUN_buchangsiluofake
 
-			picture = slfk
+			picture = HUN_buchangsiluofake
 
 			allowed = { original_tag = HUN }
 
@@ -102,7 +102,7 @@ ideas = {
 		
 			name = HUN_buchangluomaniya
 
-			picture = lmny
+			picture = HUN_buchangluomaniya
 
 			allowed = { original_tag = HUN }
 
@@ -117,7 +117,7 @@ ideas = {
 		
 			name = HUN_ziyoudechengfeng
 
-			picture = zydcf
+			picture = HUN_ziyoudechengfeng
 
 			allowed = { original_tag = HUN }
 
