@@ -14450,8 +14450,8 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_focus_HUN_political_restructuring_shine"
-		texturefile = "gfx/interface/goals/HUN_political_restructuring.dds"
+		name = "GFX_HUN_zhengzhigaige_shine"
+		texturefile = "gfx/HUN/goals/HUN_zhengzhigaige.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/HUN_political_restructuring.dds"
@@ -14482,8 +14482,8 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_focus_HUN_economic_reform_shine"
-		texturefile = "gfx/interface/goals/HUN_economic_reform.dds"
+		name = "GFX_HUN_jinjigaige_shine"
+		texturefile = "gfx/HUN/goals/HUN_zhengzhigaige.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/HUN_economic_reform.dds"
@@ -14499,7 +14499,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/HUN_economic_reform.dds"
+			animationmaskfile = "gfx/HUN/goals/HUN_jinjigaige.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -14514,8 +14514,8 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_focus_HUN_liberalization_shine"
-		texturefile = "gfx/interface/goals/HUN_liberalization.dds"
+		name = "GFX_HUN_jinxinziyouhuagaige_shine"
+		texturefile = "gfx/HUN/goals/HUN_jinxinziyouhuagaige.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/HUN_liberalization.dds"
@@ -14531,7 +14531,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/HUN_liberalization.dds"
+			animationmaskfile = "gfx/HUN/goals/HUN_jinxinziyouhuagaige.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -14547,8 +14547,8 @@ spriteTypes = {
 
 	
 	SpriteType = {
-		name = "GFX_focus_HUN_autocracy_shine"
-		texturefile = "gfx/interface/goals/HUN_autocracy.dds"
+		name = "GFX_HUN_baochiducaitongzhi_shine"
+		texturefile = "gfx/HUN/goals/HUN_baochiducaitongzhi.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/HUN_autocracy.dds"
@@ -14564,7 +14564,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/HUN_autocracy.dds"
+			animationmaskfile = "gfx/HUN/goals/HUN_baochiducaitongzhi.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -14579,8 +14579,8 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_focus_HUN_bridging_ethnic_tensions_shine"
-		texturefile = "gfx/interface/goals/HUN_bridging_ethnic_tensions.dds"
+		name = "GFX_HUN_jiejueminzufenzheng_shine"
+		texturefile = "gfx/HUN/goals/HUN_jiejueminzufenzheng.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/HUN_bridging_ethnic_tensions.dds"
@@ -14596,7 +14596,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/HUN_bridging_ethnic_tensions.dds"
+			animationmaskfile = "gfx/HUN/goals/HUN_jiejueminzufenzheng.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -14610,25 +14610,8 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	
-	SpriteType = {
-		name = "GFX_focus_HUN_slfk_shine"
-		texturefile = "gfx/interface/goals/HUN_slfk.dds"
-				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/HUN_slfk.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
-			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
-			animationlooping = no			# yes or no ;)
-			animationtime = 0.75				# in seconds
-			animationdelay = 0			# in seconds
-			animationblendmode = "add"       #add, multiply, overlay
-			animationtype = "scrolling"      #scrolling, rotating, pulsing
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 2.0 y = 1.0 } 
-		}
-
-		animation = {
-			animationmaskfile = "gfx/interface/goals/HUN_slfk.dds"
+			animationmaskfile = "gfx/HUN/goals/HUN_yifangyudaitijingong.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -14641,74 +14624,9 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-		
 	SpriteType = {
-		name = "GFX_focus_HUN_fangyu_shine"
-		texturefile = "gfx/interface/goals/HUN_fangyu.dds"
-				effectFile = "gfx/FX/buttonstate.lua"
-		animation = {
-			animationmaskfile = "gfx/interface/goals/HUN_fangyu.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
-			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
-			animationlooping = no			# yes or no ;)
-			animationtime = 0.75				# in seconds
-			animationdelay = 0			# in seconds
-			animationblendmode = "add"       #add, multiply, overlay
-			animationtype = "scrolling"      #scrolling, rotating, pulsing
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 2.0 y = 1.0 } 
-		}
-
-		animation = {
-			animationmaskfile = "gfx/interface/goals/HUN_fangyu.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
-			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
-			animationlooping = no			# yes or no ;)
-			animationtime = 0.75				# in seconds
-			animationdelay = 0			# in seconds
-			animationblendmode = "add"       #add, multiply, overlay
-			animationtype = "scrolling"      #scrolling, rotating, pulsing
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		legacy_lazy_load = no
-	}
-	
-	SpriteType = {
-		name = "GFX_focus_HUN_slfk_shine"
-		texturefile = "gfx/interface/goals/HUN_slfk.dds"
-				effectFile = "gfx/FX/buttonstate.lua"
-		animation = {
-			animationmaskfile = "gfx/interface/goals/HUN_slfk.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
-			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
-			animationlooping = no			# yes or no ;)
-			animationtime = 0.75				# in seconds
-			animationdelay = 0			# in seconds
-			animationblendmode = "add"       #add, multiply, overlay
-			animationtype = "scrolling"      #scrolling, rotating, pulsing
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 2.0 y = 1.0 } 
-		}
-
-		animation = {
-			animationmaskfile = "gfx/interface/goals/HUN_slfk.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
-			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
-			animationlooping = no			# yes or no ;)
-			animationtime = 0.75				# in seconds
-			animationdelay = 0			# in seconds
-			animationblendmode = "add"       #add, multiply, overlay
-			animationtype = "scrolling"      #scrolling, rotating, pulsing
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		legacy_lazy_load = no
-	}
-		
-	SpriteType = {
-		name = "GFX_focus_HUN_jingong_shine"
-		texturefile = "gfx/interface/goals/HUN_jingong.dds"
+		name = "GFX_HUN_yijingongdaitifangyu_shine"
+		texturefile = "gfx/HUN/goals/HUN_yijingongdaitifangyu.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/HUN_jingong.dds"
@@ -14724,7 +14642,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/HUN_jingong.dds"
+			animationmaskfile = "gfx/HUN/goals/HUN_yijingongdaitifangyu.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -14739,8 +14657,8 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_focus_HUN_slfk_shine"
-		texturefile = "gfx/interface/goals/HUN_slfk.dds"
+		name = "GFX_HUN_jiejuesiluofakewenti"
+		texturefile = "gfx/HUN/goals/HUN_jiejuesiluofakewenti.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/HUN_slfk.dds"
@@ -14756,7 +14674,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/HUN_slfk.dds"
+			animationmaskfile = "gfx/HUN/goals/HUN_jiejuesiluofakewenti.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -14771,8 +14689,8 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_focus_HUN_lmny_shine"
-		texturefile = "gfx/interface/goals/HUN_lmny.dds"
+		name = "GFX_HUN_jiejueluomaniyawenti_shine"
+		texturefile = "gfx/HUN/goals/HUN_jiejueluomaniyawenti.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/HUN_lmny.dds"
@@ -14788,7 +14706,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/HUN_lmny.dds"
+			animationmaskfile = "gfx/HUN/goals/HUN_jiejueluomaniyawenti.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -14803,8 +14721,8 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_focus_HUN_duonaohe_shine"
-		texturefile = "gfx/interface/goals/HUN_duonaohe.dds"
+		name = "GFX_HUN_fazhanduonaohejinjidai_shine"
+		texturefile = "gfx/HUN/goals/HUN_fazhanduonaohejinjidai.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/HUN_duonaohe.dds"
@@ -14820,7 +14738,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/HUN_duonaohe.dds"
+			animationmaskfile = "gfx/HUN/goals/HUN_fazhanduonaohejinjidai.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -14835,8 +14753,8 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_focus_HUN_fzny_shine"
-		texturefile = "gfx/interface/goals/HUN_fzny.dds"
+		name = "GFX_HUN_fazhannongye_shine"
+		texturefile = "gfx/HUN/goals/HUN_fazhannongye.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/HUN_fzny.dds"
@@ -14852,7 +14770,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/HUN_fzny.dds"
+			animationmaskfile = "gfx/HUN/goals/HUN_fazhannongye.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
