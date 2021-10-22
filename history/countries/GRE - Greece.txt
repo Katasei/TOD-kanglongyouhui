@@ -12,11 +12,10 @@ if = {
 set_research_slots = 3
 
 add_ideas = {
-	limited_conscription
-	GRE_origin_of_democracy
-	GRE_aftermath_of_crisis_0
-	GRE_catastrophic_agriculture
-	LibSco_type
+	GRE_dozhonghaideziyoudengta
+	GRE_dakonghuangdeyubo
+	GRE_jiaoaodelujun
+	GRE_jinjifuxinjihua
 }
 
 set_technology = {
@@ -27,6 +26,10 @@ set_technology = {
 	tech_recon = 1
 	gw_artillery = 1
 	interwar_antiair = 1
+	tech_mountaineers = 1
+	tech_marines = 1
+	gwtank = 1
+	basic_light_tank = 1
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
