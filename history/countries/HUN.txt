@@ -12,6 +12,11 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+add_ideas = {
+	export_focus
+	limited_conscription
+	partial_economic_mobilisation
+}
 
 set_technology = {
 	basic_light_tank = 1
