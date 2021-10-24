@@ -223,21 +223,6 @@ focus_tree = {
 		
 		completion_reward = { }
 	}
-	#那么，战争来了
-	focus = {
-		id = GRE_zhanzhenglaile
-		icon = GFX_HUN_zhengzhigaige
-		x = 11
-		y = 6
-		prerequisite = { focus = GRE_qingliIMRO}
-
-		cost = 5
-		
-		ai_will_do = {factor = 10}
-		available = {}
-		
-		completion_reward = { }
-	}
 	#清除政坛不稳定因素
 	focus = {
 		id = GRE_qingchuzhengtanbuwendingyinsu
@@ -272,8 +257,8 @@ focus_tree = {
 	focus = {
 		id = GRE_qinglibaowangdang
 		icon = GFX_HUN_zhengzhigaige
-		x = 12
-		y = 7
+		x = 11
+		y = 6
 		prerequisite = { focus = GRE_qingchuzhengtanbuwendingyinsu}
 
 		cost = 5
@@ -283,13 +268,45 @@ focus_tree = {
 		
 		completion_reward = { }
 	}
-	#禁止赤匪
+	#压制社民工党
 	focus = {
-		id = GRE_jinzhichifei
+		id = GRE_yazhishemingongdang
 		icon = GFX_HUN_zhengzhigaige
-		x = 14
-		y = 7
+		x = 13
+		y = 6
 		prerequisite = { focus = GRE_qingchuzhengtanbuwendingyinsu}
+
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = { }
+	}
+	#驯服军队
+	focus = {
+		id = GRE_xunfujundui
+		icon = GFX_HUN_zhengzhigaige
+		x = 15
+		y = 6
+		prerequisite = { focus = GRE_qingchuzhengtanbuwendingyinsu}
+
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = { }
+	}
+	#共和国宪法
+	focus = {
+		id = GRE_gongheguoxianfa
+		icon = GFX_HUN_zhengzhigaige
+		x = 13
+		y = 7
+		prerequisite = { focus = GRE_qinglibaowangdang}
+		prerequisite = { focus = GRE_yazhishemingongdang}
+		prerequisite = { focus = GRE_xunfujundui}
 
 		cost = 5
 		
@@ -304,8 +321,7 @@ focus_tree = {
 		icon = GFX_HUN_zhengzhigaige
 		x = 10
 		y = 8
-		prerequisite = { focus = GRE_jinzhichifei}
-		prerequisite = { focus = GRE_qinglibaowangdang}
+		prerequisite = { focus = GRE_gongheguoxianfa}
 		prerequisite = { focus = GRE_xiladedaxue}
 		prerequisite = { focus = GRE_kuangyetouzi}
 		prerequisite = { focus = GRE_xilazaochuanjituan}
@@ -958,7 +974,7 @@ focus_tree = {
 		icon = GFX_HUN_zhengzhigaige
 		x = 53
 		y = 5
-		prerequisite = { focus = GRE_bianjiangfenghuo}
+		prerequisite = { focus = GRE_yingduizaiyedangdetiaozhan}
 		mutually_exclusive = { focus = GRE_xiaye }
 		cost = 5
 		
