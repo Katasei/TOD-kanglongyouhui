@@ -112,3 +112,7 @@ add_to_faction = MSO
 add_to_faction = TAV
 add_to_faction = MOR
 add_to_faction = OMA
+add_to_faction = EGY
+add_to_faction = IRQ
+add_to_faction = SHE
+add_to_faction = YEM

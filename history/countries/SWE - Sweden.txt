@@ -15,15 +15,22 @@ set_popularities = {
 	authoritarianism = 0
 	conservatism = 25
 	liberalism = 2
-	reformism = 15
+	reformism = 30
 	socialism = 2
 	radicalism = 0
 }
 
+add_ideas = {
+	SWE_tiekuangmaoyi
+	SWE_hunluandejundui
+	SWE_jiujinpeiji
+	SWE_Statare
+}
+
 create_country_leader = {
-	name = "Per Albin Hansson"
-	desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
-	picture = "Portrait_SWE_Per_Albin_Hansson.png"
+	name = "Carl·Gustaf·Ekman"
+	desc = "POLITICS_Carl_Gustaf_Ekman_DESC"
+	picture = "gfx/leaders/SWE/Carl·Gustaf·Ekman.png"
 	expire = "1965.1.1"
 	ideology = reformism_subtype
 }
