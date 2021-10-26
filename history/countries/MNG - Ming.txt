@@ -267,6 +267,10 @@ add_to_faction = ACH
 add_to_faction = BRN
 add_to_faction = RYU
 add_to_faction = TAC
+add_to_faction = PER
+add_to_faction = TSO
+add_to_faction = OMA
+
 
 ### 战舰型号 ###
 
