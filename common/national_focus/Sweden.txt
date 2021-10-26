@@ -1,0 +1,914 @@
+﻿
+focus_tree = {
+	id = swedish_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SWE
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 2000 y = 2000 }
+
+#	focus = {
+#		id = SWE_
+#		icon = GFX_
+#		prerequisite = { focus = }
+#		mutually_exclusive = { focus =  }
+#		x = -3
+#		y = 0
+#		relative_position_id = 
+#
+#		cost = 10
+#
+#		ai_will_do = {
+#			factor = 1
+#		}
+#
+#		available = {
+#
+#		}
+#		
+#		bypass = {
+#
+#		}
+#
+#		cancel_if_invalid = yes
+#		continue_if_invalid = no
+#		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+#
+#		completion_reward = {
+#
+#		}
+#	}
+	#1936年议会不信任案
+	focus = {
+		id = SWE_1936nianyihuibuxinrenan
+		icon = GFX_HUN_zhengzhigaige
+		x = 14
+		y = 1
+
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#1936年大选
+	focus = {
+		id = SWE_1936niandaxuan
+		icon = GFX_HUN_zhengzhigaige
+		x = 14
+		y = 2
+
+		cost = 5
+		prerequisite = { focus = SWE_1936nianyihuibuxinrenan}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#社会民主工党赢得多数
+	focus = {
+		id = SWE_shehuiminzhugongdangyingdeduoshu
+		icon = GFX_HUN_zhengzhigaige
+		x = 9
+		y = 3
+
+		cost = 5
+		prerequisite = { focus = SWE_1936niandaxuan}
+		mutually_exclusive = { focus =  SWE_zongxuanjulianmengbaoliuduoshu}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {add_political_power = 150 }
+	}
+	#社会福利与医疗保障
+	focus = {
+		id = SWE_shehuifuli
+		icon = GFX_HUN_zhengzhigaige
+		x = 6
+		y = 4
+
+		cost = 5
+		prerequisite = { focus = SWE_shehuiminzhugongdangyingdeduoshu}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#教育投资
+	focus = {
+		id = SWE_jiaoyutouzi
+		icon = GFX_HUN_zhengzhigaige
+		x = 5
+		y = 5
+
+		cost = 5
+		prerequisite = { focus = SWE_shehuifuli}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#计划工业
+	focus = {
+		id = SWE_jihuagongye
+		icon = GFX_HUN_zhengzhigaige
+		x = 7
+		y = 5
+
+		cost = 5
+		prerequisite = { focus = SWE_shehuifuli}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#与工会合作
+	focus = {
+		id = SWE_yugonghuihezuo
+		icon = GFX_HUN_zhengzhigaige
+		x = 6
+		y = 6
+
+		cost = 5
+		prerequisite = { focus = SWE_jiaoyutouzi}
+		prerequisite = { focus = SWE_jihuagongye}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#国有化重要企业
+	focus = {
+		id = SWE_guoyouhuazhongyaoqiye
+		icon = GFX_HUN_zhengzhigaige
+		x = 8
+		y = 6
+
+		cost = 5
+		prerequisite = { focus = SWE_jihuagongye}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#废除包身工制度
+	focus = {
+		id = SWE_feichubaoshengongzhidu
+		icon = GFX_HUN_zhengzhigaige
+		x = 9
+		y = 4
+
+		cost = 5
+		prerequisite = { focus = SWE_shehuiminzhugongdangyingdeduoshu}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#改革酒精配给制度
+	focus = {
+		id = SWE_gaigejiujingpeijizhidu
+		icon = GFX_HUN_zhengzhigaige
+		x = 9
+		y = 5
+
+		cost = 5
+		prerequisite = { focus = SWE_feichubaoshengongzhidu}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#巩固左翼联盟
+	focus = {
+		id = SWE_gongguzuoyilianmeng
+		icon = GFX_HUN_zhengzhigaige
+		x = 12
+		y = 4
+
+		cost = 5
+		prerequisite = { focus = SWE_shehuiminzhugongdangyingdeduoshu}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#邀请农民联盟组阁
+	focus = {
+		id = SWE_yaoqingnonminlianmengzuge
+		icon = GFX_HUN_zhengzhigaige
+		x = 11
+		y = 5
+
+		cost = 5
+		prerequisite = { focus = SWE_gongguzuoyilianmeng}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#妇女权利法案
+	focus = {
+		id = SWE_funvquanlifaan
+		icon = GFX_HUN_zhengzhigaige
+		x = 13
+		y = 5
+
+		cost = 5
+		prerequisite = { focus = SWE_gongguzuoyilianmeng}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#瑞典国防计划修订法案
+	focus = {
+		id = SWE_ruidianguofangjihuaxiudingfaan
+		icon = GFX_HUN_zhengzhigaige
+		x = 12
+		y = 6
+
+		cost = 5
+		prerequisite = { focus = SWE_yaoqingnonminlianmengzuge}
+		prerequisite = { focus = SWE_funvquanlifaan}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#深化农业改革
+	focus = {
+		id = SWE_shenhuanongyegaige
+		icon = GFX_HUN_zhengzhigaige
+		x = 10
+		y = 6
+
+		cost = 5
+		prerequisite = { focus = SWE_yaoqingnonminlianmengzuge}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#人民家园
+	focus = {
+		id = SWE_renminjiayuan
+		icon = GFX_HUN_zhengzhigaige
+		x = 9
+		y = 7
+
+		cost = 5
+		prerequisite = { focus = SWE_yugonghuihezuo}
+		prerequisite = { focus = SWE_guoyouhuazhongyaoqiye}
+		prerequisite = { focus = SWE_shenhuanongyegaige}
+		prerequisite = { focus = SWE_gaigejiujingpeijizhidu}
+		prerequisite = { focus = SWE_ruidianguofangjihuaxiudingfaan}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#总选举联盟保留多数
+	focus = {
+		id = SWE_zongxuanjulianmengbaoliuduoshu
+		icon = GFX_HUN_zhengzhigaige
+		x = 19
+		y = 3
+
+		cost = 5
+		prerequisite = { focus = SWE_1936niandaxuan}
+		mutually_exclusive = { focus =  SWE_shehuiminzhugongdangyingdeduoshu}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#宣布国家紧急状态
+	focus = {
+		id = SWE_xuanbuguojiajinjizhuangtai
+		icon = GFX_HUN_zhengzhigaige
+		x = 19
+		y = 4
+
+		cost = 5
+		prerequisite = { focus = SWE_zongxuanjulianmengbaoliuduoshu}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	粉碎赤匪叛乱
+	focus = {
+		id = SWE_fensuichifeipanluan
+		icon = GFX_HUN_zhengzhigaige
+		x = 18
+		y = 5
+
+		cost = 5
+		prerequisite = { focus = SWE_xuanbuguojiajinjizhuangtai}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#清洗军队
+	focus = {
+		id = SWE_qingxijundui
+		icon = GFX_HUN_zhengzhigaige
+		x = 18
+		y = 5
+
+		cost = 5
+		prerequisite = { focus = SWE_xuanbuguojiajinjizhuangtai}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#审判叛徒
+	focus = {
+		id = SWE_shenpanpantu
+		icon = GFX_HUN_zhengzhigaige
+		x = 19
+		y = 6
+
+		cost = 5
+		prerequisite = { focus = SWE_fensuichifeipanluan}
+		prerequisite = { focus = SWE_qingxijundui}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#国王归来
+	focus = {
+		id = SWE_guowangguilai
+		icon = GFX_HUN_zhengzhigaige
+		x = 14
+		y = 7
+
+		cost = 5
+		prerequisite = { focus = SWE_shenpanpantu}
+		mutually_exclusive = { focus = SWE_ruidiandehuguogong}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#与农民联盟谈判
+	focus = {
+		id = SWE_yunongminlianmengtanpan
+		icon = GFX_HUN_zhengzhigaige
+		x = 11
+		y = 8
+
+		cost = 5
+		prerequisite = { focus = SWE_guowangguilai}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#保护经济
+	focus = {
+		id = SWE_baohujingji
+		icon = GFX_HUN_zhengzhigaige
+		x = 10
+		y = 9
+
+		cost = 5
+		prerequisite = { focus = SWE_yunongminlianmengtanpan}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#扩建皇家学院
+	focus = {
+		id = SWE_kuojianhuangjiaxueyuan
+		icon = GFX_HUN_zhengzhigaige
+		x = 12
+		y = 9
+
+		cost = 5
+		prerequisite = { focus = SWE_yunongminlianmengtanpan}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#改革包身工制度
+	focus = {
+		id = SWE_gaigebaoshengongzhidu
+		icon = GFX_HUN_zhengzhigaige
+		x = 9
+		y = 10
+
+		cost = 5
+		prerequisite = { focus = SWE_baohujingji}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#私人庄园开发
+	focus = {
+		id = SWE_sirenzhuangyuankaifa
+		icon = GFX_HUN_zhengzhigaige
+		x = 11
+		y = 10
+
+		cost = 5
+		prerequisite = { focus = SWE_baohujingji}
+		prerequisite = { focus = SWE_kuojianhuangjiaxueyuan}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#国有化
+	focus = {
+		id = SWE_guoyouhua
+		icon = GFX_HUN_zhengzhigaige
+		x = 13
+		y = 10
+
+		cost = 5
+		prerequisite = { focus = SWE_kuojianhuangjiaxueyuan}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#新酒精限制法案
+	focus = {
+		id = SWE_xinjiujingxianzhifaan
+		icon = GFX_HUN_zhengzhigaige
+		x = 11
+		y = 11
+
+		cost = 5
+		prerequisite = { focus = SWE_gaigebaoshengongzhidu}
+		prerequisite = { focus = SWE_sirenzhuangyuankaifa}
+		prerequisite = { focus = SWE_guoyouhua}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#北欧粮仓
+	focus = {
+		id = SWE_beiouliangcang
+		icon = GFX_HUN_zhengzhigaige
+		x = 11
+		y = 12
+
+		cost = 5
+		prerequisite = { focus = SWE_xinjiujingxianzhifaan}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#国王之声
+	focus = {
+		id = SWE_guowangzhisheng
+		icon = GFX_HUN_zhengzhigaige
+		x = 14
+		y = 9
+
+		cost = 5
+		prerequisite = { focus = SWE_guowangguilai}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#下放王室土地
+	focus = {
+		id = SWE_xiafangwangshitudi
+		icon = GFX_HUN_zhengzhigaige
+		x = 14
+		y = 11
+
+		cost = 5
+		prerequisite = { focus = SWE_guowangzhisheng}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#温和的手
+	focus = {
+		id = SWE_wenhedeshou
+		icon = GFX_HUN_zhengzhigaige
+		x = 17
+		y = 8
+
+		cost = 5
+		prerequisite = { focus = SWE_guowangguilai}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#国王指导的议会
+	focus = {
+		id = SWE_guowangzhidaodeyihui
+		icon = GFX_HUN_zhengzhigaige
+		x = 17
+		y = 9
+
+		cost = 5
+		prerequisite = { focus = SWE_wenhedeshou}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#工会与左翼政党的命运
+	focus = {
+		id = SWE_gonghuiyuzuoyizhengdangdemingyun
+		icon = GFX_HUN_zhengzhigaige
+		x = 16
+		y = 10
+
+		cost = 5
+		prerequisite = { focus = SWE_guowangzhidaodeyihui}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#重燃烽火
+	focus = {
+		id = SWE_chongranfenghuo
+		icon = GFX_HUN_zhengzhigaige
+		x = 18
+		y = 10
+
+		cost = 5
+		prerequisite = { focus = SWE_guowangzhidaodeyihui}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#新一轮军备计划
+	focus = {
+		id = SWE_xinyilunjunbeijihua
+		icon = GFX_HUN_zhengzhigaige
+		x = 17
+		y = 11
+
+		cost = 5
+		prerequisite = { focus = SWE_gonghuiyuzuoyizhengdangdemingyun}
+		prerequisite = { focus = SWE_chongranfenghuo}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#为了祖国与国王
+	focus = {
+		id = SWE_weilezuguoyuguowang
+		icon = GFX_HUN_zhengzhigaige
+		x = 17
+		y = 12
+
+		cost = 5
+		prerequisite = { focus = SWE_xinyilunjunbeijihua}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#北欧雄狮
+	focus = {
+		id = SWE_beiouxiongshi
+		icon = GFX_HUN_zhengzhigaige
+		x = 14
+		y = 13
+
+		cost = 5
+		prerequisite = { focus = SWE_xiafangwangshitudi}
+		prerequisite = { focus = SWE_beiouliangcang}
+		prerequisite = { focus = SWE_weilezuguoyuguowang}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#瑞典的护国公
+	focus = {
+		id = SWE_ruidiandehuguogong
+		icon = GFX_HUN_zhengzhigaige
+		x = 24
+		y = 7
+
+		cost = 5
+		prerequisite = { focus = SWE_shenpanpantu}
+		mutually_exclusive = { focus = SWE_guowangguilai}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#与企业家合作
+	focus = {
+		id = SWE_yuqiyejiahezuo
+		icon = GFX_HUN_zhengzhigaige
+		x = 21
+		y = 8
+
+		cost = 5
+		prerequisite = { focus = SWE_ruidiandehuguogong}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#包身工企业化
+	focus = {
+		id = SWE_baoshengongqiyehua
+		icon = GFX_HUN_zhengzhigaige
+		x = 20
+		y = 9
+
+		cost = 5
+		prerequisite = { focus = SWE_yuqiyejiahezuo}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#军农集团
+	focus = {
+		id = SWE_junnongjituan
+		icon = GFX_HUN_zhengzhigaige
+		x = 22
+		y = 9
+
+		cost = 5
+		prerequisite = { focus = SWE_yuqiyejiahezuo}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#崭新的“印德尔宁”
+	focus = {
+		id = SWE_zhanxindeyindeerning
+		icon = GFX_HUN_zhengzhigaige
+		x = 21
+		y = 10
+
+		cost = 5
+		prerequisite = { focus = SWE_baoshengongqiyehua}
+		prerequisite = { focus = SWE_junnongjituan}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#企业土地开发
+	focus = {
+		id = SWE_qiyetudikaifa
+		icon = GFX_HUN_zhengzhigaige
+		x = 21
+		y = 11
+
+		cost = 5
+		prerequisite = { focus = SWE_zhanxindeyindeerning}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#瑞典人民奉献精神
+	focus = {
+		id = SWE_ruidianrenminfengxianjingshen
+		icon = GFX_HUN_zhengzhigaige
+		x = 21
+		y = 12
+
+		cost = 5
+		prerequisite = { focus = SWE_qiyetudikaifa}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#国家总动员令
+	focus = {
+		id = SWE_guojiazongdongyuanling
+		icon = GFX_HUN_zhengzhigaige
+		x = 24
+		y = 8
+
+		cost = 5
+		prerequisite = { focus = SWE_ruidiandehuguogong}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#禁酒令
+	focus = {
+		id = SWE_jinjiuling
+		icon = GFX_HUN_zhengzhigaige
+		x = 24
+		y = 10
+
+		cost = 5
+		prerequisite = { focus = SWE_guojiazongdongyuanling}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#强力的手
+	focus = {
+		id = SWE_qianglideshou
+		icon = GFX_HUN_zhengzhigaige
+		x = 27
+		y = 8
+
+		cost = 5
+		prerequisite = { focus = SWE_ruidiandehuguogong}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#粉碎工会
+	focus = {
+		id = SWE_fensuigonghui
+		icon = GFX_HUN_zhengzhigaige
+		x = 26
+		y = 9
+
+		cost = 5
+		prerequisite = { focus = SWE_qianglideshou}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#常态化戒严令
+	focus = {
+		id = SWE_changtaihuajieyanling
+		icon = GFX_HUN_zhengzhigaige
+		x = 28
+		y = 9
+
+		cost = 5
+		prerequisite = { focus = SWE_qianglideshou}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#赤匪的威胁
+	focus = {
+		id = SWE_chifeideweixie
+		icon = GFX_HUN_zhengzhigaige
+		x = 27
+		y = 10
+
+		cost = 5
+		prerequisite = { focus = SWE_fensuigonghui}
+		prerequisite = { focus = SWE_changtaihuajieyanling}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#建立护国公个人崇拜
+	focus = {
+		id = SWE_jianlihuguogonggerenchongbai
+		icon = GFX_HUN_zhengzhigaige
+		x = 26
+		y = 11
+
+		cost = 5
+		prerequisite = { focus = SWE_chifeideweixie}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#先军化社会
+	focus = {
+		id = SWE_xianjunhuashehui
+		icon = GFX_HUN_zhengzhigaige
+		x = 28
+		y = 11
+
+		cost = 5
+		prerequisite = { focus = SWE_chifeideweixie}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#瑞典人民的父亲
+	focus = {
+		id = SWE_ruidianrenmindefuqin
+		icon = GFX_HUN_zhengzhigaige
+		x = 27
+		y = 12
+
+		cost = 5
+		prerequisite = { focus = SWE_jianlihuguogonggerenchongbai}
+		prerequisite = { focus = SWE_xianjunhuashehui}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#骄傲的瑞典
+	focus = {
+		id = SWE_jiaoaoderuidian
+		icon = GFX_HUN_zhengzhigaige
+		x = 24
+		y = 13
+
+		cost = 5
+		prerequisite = { focus = SWE_ruidianrenminfengxianjingshen}
+		prerequisite = { focus = SWE_jinjiuling}
+		prerequisite = { focus = SWE_ruidianrenmindefuqin}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+}
