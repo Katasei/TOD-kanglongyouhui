@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = RIN
+		owner = BAV
 		victory_points = {
 			9517 20 
 		}
@@ -22,7 +22,7 @@ state={
 
 		}
 		add_core_of = GER
-		add_core_of = RIN
+		add_core_of = BAV
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 11
