@@ -327,11 +327,11 @@ focus_tree = {
 		
 		completion_reward = {}
 	}
-	粉碎赤匪叛乱
+	#粉碎赤匪叛乱
 	focus = {
 		id = SWE_fensuichifeipanluan
 		icon = GFX_HUN_zhengzhigaige
-		x = 18
+		x = 20
 		y = 5
 
 		cost = 5
@@ -905,6 +905,855 @@ focus_tree = {
 		prerequisite = { focus = SWE_ruidianrenminfengxianjingshen}
 		prerequisite = { focus = SWE_jinjiuling}
 		prerequisite = { focus = SWE_ruidianrenmindefuqin}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	
+	
+	
+	### 军事线 ###
+	
+	
+	
+	#国防重建委员会
+	focus = {
+		id = SWE_guofangchongjianweiyuanhui
+		icon = GFX_HUN_zhengzhigaige
+		x = 41
+		y = 1
+
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#调整陆军部
+	focus = {
+		id = SWE_tiaozhenglujunbu
+		icon = GFX_HUN_zhengzhigaige
+		x = 33
+		y = 2
+
+		prerequisite = { focus = SWE_guofangchongjianweiyuanhui}
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#1936陆军重建方案
+	focus = {
+		id = SWE_1936lujunchongjianfangan
+		icon = GFX_HUN_zhengzhigaige
+		x = 33
+		y = 3
+
+		prerequisite = { focus = SWE_tiaozhenglujunbu}
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#道格拉斯计划
+	focus = {
+		id = SWE_daogelasijihua
+		icon = GFX_HUN_zhengzhigaige
+		x = 31
+		y = 4
+
+		prerequisite = { focus = SWE_1936lujunchongjianfangan}
+		mutually_exclusive = { focus = SWE_huoermukuisitejihua }
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#实验机动部队演习
+	focus = {
+		id = SWE_shiyanjidongbuduiyanxi
+		icon = GFX_HUN_zhengzhigaige
+		x = 30
+		y = 5
+
+		prerequisite = { focus = SWE_daogelasijihua}
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#机动侦查部队
+	focus = {
+		id = SWE_jidongzhenchabudui
+		icon = GFX_HUN_zhengzhigaige
+		x = 30
+		y = 6
+
+		prerequisite = { focus = SWE_shiyanjidongbuduiyanxi}
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#用机械取代人力
+	focus = {
+		id = SWE_yongjixiequdairenli
+		icon = GFX_HUN_zhengzhigaige
+		x = 30
+		y = 7
+
+		prerequisite = { focus = SWE_jidongzhenchabudui}
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#注意！坦克！
+	focus = {
+		id = SWE_zhuyitank
+		icon = GFX_HUN_zhengzhigaige
+		x = 30
+		y = 8
+
+		prerequisite = { focus = SWE_yongjixiequdairenli}
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#机械化战争委员会
+	focus = {
+		id = SWE_jixiehuazhanzhengweiyuanhui
+		icon = GFX_HUN_zhengzhigaige
+		x = 32
+		y = 5
+
+		prerequisite = { focus = SWE_daogelasijihua}
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#与兰斯威克合作
+	focus = {
+		id = SWE_yulansiweikehezuo
+		icon = GFX_HUN_zhengzhigaige
+		x = 32
+		y = 6
+
+		prerequisite = { focus = SWE_jixiehuazhanzhengweiyuanhui}
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#投资斯堪尼亚汽车厂
+	focus = {
+		id = SWE_touzisikanniyaqichechang
+		icon = GFX_HUN_zhengzhigaige
+		x = 32
+		y = 7
+
+		prerequisite = { focus = SWE_yulansiweikehezuo}
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#AG-42“杨曼”步枪
+	focus = {
+		id = SWE_AG-42
+		icon = GFX_HUN_zhengzhigaige
+		x = 32
+		y = 8
+
+		prerequisite = { focus = SWE_touzisikanniyaqichechang}
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#“维京师”
+	focus = {
+		id = SWE_weijingshi
+		icon = GFX_HUN_zhengzhigaige
+		x = 31
+		y = 9
+
+		prerequisite = { focus = SWE_AG-42}
+		prerequisite = { focus = SWE_zhuyitank}
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#霍尔姆奎斯特计划
+	focus = {
+		id = SWE_huoermukuisitejihua
+		icon = GFX_HUN_zhengzhigaige
+		x = 35
+		y = 4
+
+		prerequisite = { focus = SWE_1936lujunchongjianfangan}
+		mutually_exclusive = { focus = SWE_daogelasijihua}
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#动员国家防御部队
+	focus = {
+		id = SWE_dongyuanguojiafangyubudui
+		icon = GFX_HUN_zhengzhigaige
+		x = 34
+		y = 5
+
+		prerequisite = { focus = SWE_huoermukuisitejihua}
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#扩建卡尔古斯塔夫兵工厂
+	focus = {
+		id = SWE_kuojianbinggongchang
+		icon = GFX_HUN_zhengzhigaige
+		x = 34
+		y = 6
+
+		prerequisite = { focus = SWE_dongyuanguojiafangyubudui}
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#组建陆军工程部队
+	focus = {
+		id = SWE_zujianlujungongchengbudui
+		icon = GFX_HUN_zhengzhigaige
+		x = 34
+		y = 7
+
+		prerequisite = { focus = SWE_kuojianbinggongchang}
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#调整国防服役计划
+	focus = {
+		id = SWE_tiaozhengguofangfuyijihua
+		icon = GFX_HUN_zhengzhigaige
+		x = 34
+		y = 8
+		prerequisite = { focus = SWE_zujianlujungongchengbudui}
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#火力投射方案
+	focus = {
+		id = SWE_huolitoushefangan
+		icon = GFX_HUN_zhengzhigaige
+		x = 36
+		y = 5
+		prerequisite = { focus = SWE_huoermukuisitejihua}
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#与博福斯合作
+	focus = {
+		id = SWE_yubofusihezuo
+		icon = GFX_HUN_zhengzhigaige
+		x = 36
+		y = 6
+		prerequisite = { focus = SWE_huolitoushefangan}
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#改进博福斯火炮生产线
+	focus = {
+		id = SWE_gaijinbofusihuopaoshengchanxian
+		icon = GFX_HUN_zhengzhigaige
+		x = 36
+		y = 7
+		prerequisite = { focus = SWE_yubofusihezuo}
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#瑞典皇家炮兵团
+	focus = {
+		id = SWE_ruidianhuangjiapaobingtuan
+		icon = GFX_HUN_zhengzhigaige
+		x = 36
+		y = 8
+		prerequisite = { focus = SWE_gaijinbofusihuopaoshengchanxian}
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#“卡洛林军团”
+	focus = {
+		id = SWE_kaluolinjuntuan
+		icon = GFX_HUN_zhengzhigaige
+		x = 35
+		y = 9
+		prerequisite = { focus = SWE_ruidianhuangjiapaobingtuan}
+		prerequisite = { focus = SWE_tiaozhengguofangfuyijihua}
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#卡尔十二世的遗产
+	focus = {
+		id = SWE_kaershiershideyichan
+		icon = GFX_HUN_zhengzhigaige
+		x = 33
+		y = 10
+		prerequisite = { focus = SWE_kaluolinjuntuan}
+		prerequisite = { focus = SWE_weijingshi}
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#准备下一次大北方战争
+	focus = {
+		id = SWE_zhunbeixiayicidabeifangzhanzheng
+		icon = GFX_HUN_zhengzhigaige
+		x = 33
+		y = 11
+		prerequisite = { focus = SWE_kaershiershideyichan}
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#整顿海军部
+	focus = {
+		id = SWE_zhengdunhaijunbu
+		icon = GFX_HUN_zhengzhigaige
+		x = 41
+		y = 2
+
+		cost = 5
+		prerequisite = { focus = SWE_guofangchongjianweiyuanhui}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#重提1934年海军计划
+	focus = {
+		id = SWE_chongti1934nianhaijunjihua
+		icon = GFX_HUN_zhengzhigaige
+		x = 41
+		y = 3
+
+		cost = 5
+		prerequisite = { focus = SWE_zhengdunhaijunbu}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#翻新常备舰队
+	focus = {
+		id = SWE_fanxinchangbeijiandui
+		icon = GFX_HUN_zhengzhigaige
+		x = 39
+		y = 4
+
+		cost = 5
+		prerequisite = { focus = SWE_chongti1934nianhaijunjihua}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#重组岸防舰队
+	focus = {
+		id = SWE_chongzuanfangjiandui
+		icon = GFX_HUN_zhengzhigaige
+		x = 39
+		y = 5
+
+		cost = 5
+		prerequisite = { focus = SWE_fanxinchangbeijiandui}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#新护航舰艇
+	focus = {
+		id = SWE_xinhuhangjianting
+		icon = GFX_HUN_zhengzhigaige
+		x = 38
+		y = 6
+
+		cost = 5
+		prerequisite = { focus = SWE_chongzuanfangjiandui}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#与考库姆合作
+	focus = {
+		id = SWE_yukaokumuhezuo
+		icon = GFX_HUN_zhengzhigaige
+		x = 40
+		y = 6
+
+		cost = 5
+		prerequisite = { focus = SWE_chongzuanfangjiandui}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#主力舰艇现代化
+	focus = {
+		id = SWE_zhulijiantingxiandaihua
+		icon = GFX_HUN_zhengzhigaige
+		x = 38
+		y = 7
+
+		cost = 5
+		prerequisite = { focus = SWE_xinhuhangjianting}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#岸防旅
+	focus = {
+		id = SWE_anfanglv
+		icon = GFX_HUN_zhengzhigaige
+		x = 39
+		y = 8
+
+		cost = 5
+		prerequisite = { focus = SWE_zhulijiantingxiandaihua focus = SWE_yukaokumuhezuo}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#组建海岸航空指挥部
+	focus = {
+		id = SWE_zujianhaianhangkongzhihuibu
+		icon = GFX_HUN_zhengzhigaige
+		x = 43
+		y = 4
+
+		cost = 5
+		prerequisite = { focus = SWE_chongti1934nianhaijunjihua}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#新战术构想
+	focus = {
+		id = SWE_xinzhanshugouxiang
+		icon = GFX_HUN_zhengzhigaige
+		x = 42
+		y = 5
+
+		cost = 5
+		prerequisite = { focus = SWE_zujianhaianhangkongzhihuibu}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#扩大约塔造船厂
+	focus = {
+		id = SWE_kuodayuetazaochuanchang
+		icon = GFX_HUN_zhengzhigaige
+		x = 42
+		y = 6
+
+		cost = 5
+		prerequisite = { focus = SWE_xinzhanshugouxiang}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#海岸轰炸机大队
+	focus = {
+		id = SWE_haianhongzhajidadui
+		icon = GFX_HUN_zhengzhigaige
+		x = 44
+		y = 5
+
+		cost = 5
+		prerequisite = { focus = SWE_zujianhaianhangkongzhihuibu}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#舰载轰炸机项目
+	focus = {
+		id = SWE_jianzaihongzhajixiangmu
+		icon = GFX_HUN_zhengzhigaige
+		x = 44
+		y = 7
+
+		cost = 5
+		prerequisite = { focus = SWE_haianhongzhajidadui focus = SWE_B-18}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#海上投射力量
+	focus = {
+		id = SWE_haishangtousheliliang
+		icon = GFX_HUN_zhengzhigaige
+		x = 43
+		y = 8
+
+		cost = 5
+		prerequisite = { focus = SWE_jianzaihongzhajixiangmu focus = SWE_kuodayuetazaochuanchang}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#重开造船厂
+	focus = {
+		id = SWE_chongkaizaochuanchang
+		icon = GFX_HUN_zhengzhigaige
+		x = 41
+		y = 7
+
+		cost = 5
+		prerequisite = { focus = SWE_yukaokumuhezuo}
+		prerequisite = { focus = SWE_kuodayuetazaochuanchang}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#扩大哥德堡海军基地
+	focus = {
+		id = SWE_kuodagedebaohaijunjidi
+		icon = GFX_HUN_zhengzhigaige
+		x = 40
+		y = 9
+
+		cost = 5
+		prerequisite = { focus = SWE_chongkaizaochuanchang}
+		prerequisite = { focus = SWE_anfanglv}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#哥德堡海军军官学院
+	focus = {
+		id = SWE_gedebaohaijunjunguanxueyuan
+		icon = GFX_HUN_zhengzhigaige
+		x = 42
+		y = 9
+
+		cost = 5
+		prerequisite = { focus = SWE_chongkaizaochuanchang}
+		prerequisite = { focus = SWE_haishangtousheliliang}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#掌控波罗的海的舰队
+	focus = {
+		id = SWE_zhangkongboluodihaidejiandui
+		icon = GFX_HUN_zhengzhigaige
+		x = 41
+		y = 10
+
+		cost = 5
+		prerequisite = { focus = SWE_kuodagedebaohaijunjidi}
+		prerequisite = { focus = SWE_gedebaohaijunjunguanxueyuan}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#扩建空军部
+	focus = {
+		id = SWE_kuojiankongjunbu
+		icon = GFX_HUN_zhengzhigaige
+		x = 49
+		y = 2
+
+		cost = 5
+		prerequisite = { focus = SWE_guofangchongjianweiyuanhui}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#统治地面
+	focus = {
+		id = SWE_tongzhidimian
+		icon = GFX_HUN_zhengzhigaige
+		x = 46
+		y = 3
+
+		cost = 5
+		prerequisite = { focus = SWE_kuojiankongjunbu}
+		mutually_exclusive = { focus = SWE_zhangkongtiankong }
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#B-18
+	focus = {
+		id = SWE_B-18
+		icon = GFX_HUN_zhengzhigaige
+		x = 46
+		y = 4
+
+		cost = 5
+		prerequisite = { focus = SWE_tongzhidimian}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#组建空军地面辅助连
+	focus = {
+		id = SWE_zujiankongjundimianfuzulian
+		icon = GFX_HUN_zhengzhigaige
+		x = 47
+		y = 5
+
+		cost = 5
+		prerequisite = { focus = SWE_tongzhidimian}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#掌控天空
+	focus = {
+		id = SWE_zhangkongtiankong
+		icon = GFX_HUN_zhengzhigaige
+		x = 52
+		y = 3
+
+		cost = 5
+		prerequisite = { focus = SWE_kuojiankongjunbu}
+		mutually_exclusive = { focus = SWE_tongzhidimian }
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#J-9
+	focus = {
+		id = SWE_J-9
+		icon = GFX_HUN_zhengzhigaige
+		x = 52
+		y = 4
+
+		cost = 5
+		prerequisite = { focus = SWE_zhangkongtiankong}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#从高速公路上起飞
+	focus = {
+		id = SWE_conggaosugonglushangqifei
+		icon = GFX_HUN_zhengzhigaige
+		x = 51
+		y = 5
+
+		cost = 5
+		prerequisite = { focus = SWE_J-9}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#投资萨博公司
+	focus = {
+		id = SWE_touzisabogongsi
+		icon = GFX_HUN_zhengzhigaige
+		x = 49
+		y = 5
+
+		cost = 5
+		prerequisite = { focus = SWE_J-9 focus = SWE_B-18}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#危险从天而降
+	focus = {
+		id = SWE_weixiancongtianerjiang
+		icon = GFX_HUN_zhengzhigaige
+		x = 48
+		y = 6
+
+		cost = 5
+		prerequisite = { focus = SWE_zujiankongjundimianfuzulian}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#空中骑士
+	focus = {
+		id = SWE_kongzhongqishi
+		icon = GFX_HUN_zhengzhigaige
+		x = 50
+		y = 6
+
+		cost = 5
+		prerequisite = { focus = SWE_conggaosugonglushangqifei}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#战略机场计划
+	focus = {
+		id = SWE_zhanluejichangjihua
+		icon = GFX_HUN_zhengzhigaige
+		x = 49
+		y = 7
+
+		cost = 5
+		prerequisite = { focus = SWE_weixiancongtianerjiang focus = SWE_touzisabogongsi focus = SWE_kongzhongqishi}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#喷气引擎试验
+	focus = {
+		id = SWE_pengqiyinqingshiyan
+		icon = GFX_HUN_zhengzhigaige
+		x = 49
+		y = 8
+
+		cost = 5
+		prerequisite = { focus = SWE_zhanluejichangjihua}
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#远程打击
+	focus = {
+		id = SWE_yuanchengdaji
+		icon = GFX_HUN_zhengzhigaige
+		x = 49
+		y = 9
+
+		cost = 5
+		prerequisite = { focus = SWE_pengqiyinqingshiyan}
 		
 		ai_will_do = {factor = 10}
 		available = {}
