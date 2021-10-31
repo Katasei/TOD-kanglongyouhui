@@ -246,7 +246,7 @@ units = {
 	}
 	
 air_wings = {
-	378 = { #Konigsberg
+	378 = { 
 		fighter_equipment_0 =  {
 			owner = "YZR"
 			amount = 58
