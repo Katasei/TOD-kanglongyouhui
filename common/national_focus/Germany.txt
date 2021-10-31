@@ -1,0 +1,752 @@
+focus_tree = {
+	id = german_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 2000 y = 2000 }
+
+#	focus = {
+#		id = GER_
+#		icon = GFX_
+#		prerequisite = { focus = }
+#		mutually_exclusive = { focus =  }
+#		x = -3
+#		y = 0
+#		relative_position_id = 
+#
+#		cost = 10
+#
+#		ai_will_do = {
+#			factor = 1
+#		}
+#
+#		available = {
+#
+#		}
+#		
+#		bypass = {
+#
+#		}
+#
+#		cancel_if_invalid = yes
+#		continue_if_invalid = no
+#		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+#
+#		completion_reward = {
+#
+#		}
+#	}
+	#再见罗莎
+	focus = {
+		id = GER_zaijianluosha
+		icon = GFX_HUN_zhengzhigaige
+		x = 17
+		y = 1
+
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#民主的灯塔
+	focus = {
+		id = GER_minzhudedengta
+		icon = GFX_HUN_zhengzhigaige
+		x = 10
+		y = 2
+
+		cost = 5
+		prerequisite = { focus = GER_zaijianluosha}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#团结FAUD
+	focus = {
+		id = GER_tuanjieFAUD
+		icon = GFX_HUN_zhengzhigaige
+		x = 9
+		y = 3
+
+		cost = 5
+		prerequisite = { focus = GER_minzhudedengta}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#维系老同志
+	focus = {
+		id = GER_weixilaotongzhi
+		icon = GFX_HUN_zhengzhigaige
+		x = 11
+		y = 3
+
+		cost = 5
+		prerequisite = { focus = GER_minzhudedengta}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#全德工会联合会
+	focus = {
+		id = GER_quandegonghuilianhehui
+		icon = GFX_HUN_zhengzhigaige
+		x = 8
+		y = 4
+
+		cost = 5
+		prerequisite = { focus = GER_tuanjieFAUD}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#工人总动员
+	focus = {
+		id = GER_gongrenzongdongyuan
+		icon = GFX_HUN_zhengzhigaige
+		x = 10
+		y = 4
+
+		cost = 5
+		prerequisite = { focus = GER_tuanjieFAUD focus = GER_weixilaotongzhi}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#地区公共建设委员会
+	focus = {
+		id = GER_diqugonggongjiansheweiyuanhui
+		icon = GFX_HUN_zhengzhigaige
+		x = 12
+		y = 4
+
+		cost = 5
+		prerequisite = {focus = GER_weixilaotongzhi}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#工业分散化
+	focus = {
+		id = GER_gongyefensanhua
+		icon = GFX_HUN_zhengzhigaige
+		x = 8
+		y = 5
+
+		cost = 5
+		prerequisite = {focus = GER_quandegonghuilianhehui}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#自由思想
+	focus = {
+		id = GER_ziyousixiang
+		icon = GFX_HUN_zhengzhigaige
+		x = 10
+		y = 5
+
+		cost = 5
+		prerequisite = {focus = GER_quandegonghuilianhehui focus = GER_gongrenzongdongyuan focus = GER_diqugonggongjiansheweiyuanhui}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#农村工会组织
+	focus = {
+		id = GER_nongcungonghuizuzhi
+		icon = GFX_HUN_zhengzhigaige
+		x = 12
+		y = 5
+
+		cost = 5
+		prerequisite = {focus = GER_diqugonggongjiansheweiyuanhui}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#革命工业精神
+	focus = {
+		id = GER_geminggongyejingshen
+		icon = GFX_HUN_zhengzhigaige
+		x = 9
+		y = 6
+
+		cost = 5
+		prerequisite = {focus = GER_gongyefensanhua}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#同甘共苦
+	focus = {
+		id = GER_tonggangongku
+		icon = GFX_HUN_zhengzhigaige
+		x = 11
+		y = 6
+
+		cost = 5
+		prerequisite = {focus = GER_nongcungonghuizuzhi}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#十一月革命的遗产
+	focus = {
+		id = GER_shiyiyuegemingdeyichan
+		icon = GFX_HUN_zhengzhigaige
+		x = 10
+		y = 7
+
+		cost = 5
+		prerequisite = {focus = GER_geminggongyejingshen}
+		prerequisite = {focus = GER_ziyousixiang}
+		prerequisite = {focus = GER_tonggangongku}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#向未来前进
+	focus = {
+		id = GER_xiangweilaiqianjin
+		icon = GFX_HUN_zhengzhigaige
+		x = 10
+		y = 8
+
+		cost = 5
+		prerequisite = {focus = GER_shiyiyuegemingdeyichan}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#改革的玫瑰
+	focus = {
+		id = GER_gaigedemeigui
+		icon = GFX_HUN_zhengzhigaige
+		x = 17
+		y = 2
+
+		cost = 5
+		prerequisite = {focus = GER_zaijianluosha}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#反对激进主义
+	focus = {
+		id = GER_fanduijijinzhuyi
+		icon = GFX_HUN_zhengzhigaige
+		x = 14
+		y = 3
+
+		cost = 5
+		prerequisite = {focus = GER_gaigedemeigui}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#无产阶级多党民主
+	focus = {
+		id = GER_wuchanjiejiduodangminzhu
+		icon = GFX_HUN_zhengzhigaige
+		x = 16
+		y = 3
+
+		cost = 5
+		prerequisite = {focus = GER_gaigedemeigui}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#放宽市场限制
+	focus = {
+		id = GER_fangkuanshichangxianzhi
+		icon = GFX_HUN_zhengzhigaige
+		x = 18
+		y = 3
+
+		cost = 5
+		prerequisite = {focus = GER_gaigedemeigui}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#部分私有化
+	focus = {
+		id = GER_bufensiyouhua
+		icon = GFX_HUN_zhengzhigaige
+		x = 20
+		y = 3
+
+		cost = 5
+		prerequisite = {focus = GER_gaigedemeigui}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#改善国际关系
+	focus = {
+		id = GER_gaishanguojiguanxi
+		icon = GFX_HUN_zhengzhigaige
+		x = 15
+		y = 4
+
+		cost = 5
+		prerequisite = {focus = GER_fanduijijinzhuyi}
+		prerequisite = {focus = GER_wuchanjiejiduodangminzhu}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#工会监督
+	focus = {
+		id = GER_gonghuijiandu
+		icon = GFX_HUN_zhengzhigaige
+		x = 19
+		y = 4
+
+		cost = 5
+		prerequisite = {focus = GER_fangkuanshichangxianzhi}
+		prerequisite = {focus = GER_bufensiyouhua}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#改良主义革命
+	focus = {
+		id = GER_gailiangzhuyigeming
+		icon = GFX_HUN_zhengzhigaige
+		x = 16
+		y = 5
+
+		cost = 5
+		prerequisite = {focus = GER_gaishanguojiguanxi}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#市场社会主义
+	focus = {
+		id = GER_shichangshehuizhuyi
+		icon = GFX_HUN_zhengzhigaige
+		x = 18
+		y = 5
+
+		cost = 5
+		prerequisite = {focus = GER_gonghuijiandu}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#人道的革命
+	focus = {
+		id = GER_rendaodegeming
+		icon = GFX_HUN_zhengzhigaige
+		x = 17
+		y = 6
+
+		cost = 5
+		prerequisite = {focus = GER_gailiangzhuyigeming}
+		prerequisite = {focus = GER_shichangshehuizhuyi}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#斗争的赤旗
+	focus = {
+		id = GER_douzhengdechiqi
+		icon = GFX_HUN_zhengzhigaige
+		x = 26
+		y = 2
+
+		cost = 5
+		prerequisite = {focus = GER_zaijianluosha}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#导师的理想
+	focus = {
+		id = GER_daoshidelixiang
+		icon = GFX_HUN_zhengzhigaige
+		x = 23
+		y = 3
+
+		cost = 5
+		prerequisite = {focus = GER_douzhengdechiqi}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#成立全国工会中心组织
+	focus = {
+		id = GER_chengliquanguogonghuizhongxinzuzhi
+		icon = GFX_HUN_zhengzhigaige
+		x = 21
+		y = 4
+
+		cost = 5
+		prerequisite = {focus = GER_daoshidelixiang}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#全德中央执行委员会
+	focus = {
+		id = GER_quandezhongyangzhixingweiyuanhui
+		icon = GFX_HUN_zhengzhigaige
+		x = 23
+		y = 4
+
+		cost = 5
+		prerequisite = {focus = GER_daoshidelixiang}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#授权史塔西
+	focus = {
+		id = GER_shouquanshitaxi
+		icon = GFX_HUN_zhengzhigaige
+		x = 25
+		y = 4
+
+		cost = 5
+		prerequisite = {focus = GER_daoshidelixiang}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#确保一党专政
+	focus = {
+		id = GER_quebaoyidangzhuanzheng
+		icon = GFX_HUN_zhengzhigaige
+		x = 23
+		y = 5
+
+		cost = 5
+		prerequisite = {focus = GER_chengliquanguogonghuizhongxinzuzhi}
+		prerequisite = {focus = GER_quandezhongyangzhixingweiyuanhui}
+		prerequisite = {focus = GER_shouquanshitaxi}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#成立集体农庄合作社
+	focus = {
+		id = GER_chenglijitinongzhuanghezuoshe
+		icon = GFX_HUN_zhengzhigaige
+		x = 22
+		y = 6
+
+		cost = 5
+		prerequisite = {focus = GER_quebaoyidangzhuanzheng}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#《土地法令》
+	focus = {
+		id = GER_tudifaling
+		icon = GFX_HUN_zhengzhigaige
+		x = 24
+		y = 6
+
+		cost = 5
+		prerequisite = {focus = GER_quebaoyidangzhuanzheng}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#德意志少年先锋队
+	focus = {
+		id = GER_deyizhishaonianxianfengdui
+		icon = GFX_HUN_zhengzhigaige
+		x = 23
+		y = 7
+
+		cost = 5
+		prerequisite = {focus = GER_chenglijitinongzhuanghezuoshe}
+		prerequisite = {focus = GER_tudifaling}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#十五年的阶级斗争
+	focus = {
+		id = GER_shiwuniandejiejidouzheng
+		icon = GFX_HUN_zhengzhigaige
+		x = 23
+		y = 8
+
+		cost = 5
+		prerequisite = {focus = GER_deyizhishaonianxianfengdui}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#革命先锋
+	focus = {
+		id = GER_gemingxianfeng
+		icon = GFX_HUN_zhengzhigaige
+		x = 23
+		y = 9
+
+		cost = 5
+		prerequisite = {focus = GER_shiwuniandejiejidouzheng}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#魔鬼的契约
+	focus = {
+		id = GER_moguideqiyue
+		icon = GFX_HUN_zhengzhigaige
+		x = 29
+		y = 3
+
+		cost = 5
+		prerequisite = {focus = GER_douzhengdechiqi}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#伟人之死
+	focus = {
+		id = GER_weirenzhisi
+		icon = GFX_HUN_zhengzhigaige
+		x = 29
+		y = 4
+
+		cost = 5
+		prerequisite = {focus = GER_moguideqiyue}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#解散中央委员会
+	focus = {
+		id = GER_jiesanzhongyangweiyuanhui
+		icon = GFX_HUN_zhengzhigaige
+		x = 26
+		y = 5
+
+		cost = 5
+		prerequisite = {focus = GER_weirenzhisi}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#整合士兵委员会
+	focus = {
+		id = GER_zhengheshibingweiyuanhui
+		icon = GFX_HUN_zhengzhigaige
+		x = 28
+		y = 5
+
+		cost = 5
+		prerequisite = {focus = GER_weirenzhisi}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#清洗党内异见者
+	focus = {
+		id = GER_qingxidangneiyijianzhe
+		icon = GFX_HUN_zhengzhigaige
+		x = 30
+		y = 5
+
+		cost = 5
+		prerequisite = {focus = GER_weirenzhisi}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#中间派之死
+	focus = {
+		id = GER_zhongjianpaizhisi
+		icon = GFX_HUN_zhengzhigaige
+		x = 32
+		y = 5
+
+		cost = 5
+		prerequisite = {focus = GER_weirenzhisi}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#全面掌控
+	focus = {
+		id = GER_quanmianzhangkong
+		icon = GFX_HUN_zhengzhigaige
+		x = 27
+		y = 6
+
+		cost = 5
+		prerequisite = {focus = GER_qingxidangneiyijianzhe}
+		prerequisite = {focus = GER_zhongjianpaizhisi}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#兑现承诺
+	focus = {
+		id = GER_duixianchengnuo
+		icon = GFX_HUN_zhengzhigaige
+		x = 31
+		y = 6
+
+		cost = 5
+		prerequisite = {focus = GER_qingxidangneiyijianzhe}
+		prerequisite = {focus = GER_zhengheshibingweiyuanhui}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#全国戒严令
+	focus = {
+		id = GER_quanguojieyanling
+		icon = GFX_HUN_zhengzhigaige
+		x = 29
+		y = 7
+
+		cost = 5
+		prerequisite = {focus = GER_quanmianzhangkong}
+		prerequisite = {focus = GER_duixianchengnuo}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#对法复仇宣传
+	focus = {
+		id = GER_duifafuchouxuanchuan
+		icon = GFX_HUN_zhengzhigaige
+		x = 29
+		y = 8
+
+		cost = 5
+		prerequisite = {focus = GER_quanguojieyanling}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#红色腓特烈
+	focus = {
+		id = GER_hongsefeitelie
+		icon = GFX_HUN_zhengzhigaige
+		x = 29
+		y = 9
+
+		cost = 5
+		prerequisite = {focus = GER_duifafuchouxuanchuan}
+	
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+}
