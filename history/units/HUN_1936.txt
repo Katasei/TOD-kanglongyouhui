@@ -1,8 +1,6 @@
 ﻿division_template = {
 	name = "Gyalogdandár"				# 步兵师
 
-	division_names_group = HUN_INF_01
-
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -15,14 +13,13 @@
 division_template = {
 	name = "Huszár Dandár" 					# 骑兵师
 
-	division_names_group = HUN_CAV_01
-
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
 		cavalry = { x = 0 y = 2 }
-		cavalry = { x = 0 y = 3 }
-		cavalry = { x = 0 y = 4 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
 	}
 	support = {
 		recon = { x = 0 y = 0 }  
@@ -31,8 +28,6 @@ division_template = {
 
 division_template = {
 	name = "tüzérségi körzet" 					#炮兵师
-
-	division_names_group = HUN_ART_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -54,8 +49,6 @@ division_template = {
 division_template = {
 	name = "hegyvidéki körzet" 					#山地师
 
-	division_names_group = HUN_MOU_01
-
 	regiments = {
 		mountaineers = { x = 0 y = 0 }
 		mountaineers = { x = 0 y = 1 }
@@ -67,14 +60,13 @@ division_template = {
 division_template = {
 	name = "Tartály felosztása"					#坦克师
 
-	division_names_group = HUN_Arm_01
-
 	regiments = {
-		light_armor = { x = 0 y = 0 }
+		light_armor= { x = 0 y = 0 }
 		light_armor = { x = 0 y = 1 }
 		light_armor = { x = 0 y = 2 }
-		motorized = { x = 2 y = 0 }
-        motorized = { x = 2 y = 1 }
+		motorized = { x = 1 y = 0 }
+        motorized = { x = 1 y = 1 }
+        motorized = { x = 1 y = 2 }
 	}
 	support = {
         mot_recon = { x = 0 y = 0 }
@@ -92,7 +84,12 @@ units = {
 		location = 9660
 		division_template = "Tartály felosztása"
 		start_experience_factor = 0.3
-	}·
+	}
+	division= {	
+		location = 11659
+		division_template = "Tartály felosztása"
+		start_experience_factor = 0.3
+	}
 	division= {	
 		location = 701
 		division_template = "tüzérségi körzet"
@@ -105,6 +102,11 @@ units = {
 	}
 	division= {	
 		location = 6573
+		division_template = "tüzérségi körzet"
+		start_experience_factor = 0.6
+	}
+	division= {	
+		location = 11627
 		division_template = "tüzérségi körzet"
 		start_experience_factor = 0.6
 	}
@@ -197,6 +199,16 @@ units = {
 		start_equipment_factor = 0.8
 	}
 	division= {	
+		location = 3649
+		division_template = "Gyalogdandár"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		location = 9539
+		division_template = "Gyalogdandár"
+		start_experience_factor = 0.2
+	}
+	division= {	
 		location = 11539
 		division_template = "hegyvidéki körzet"
 		start_experience_factor = 0.4
@@ -232,11 +244,6 @@ units = {
 		start_experience_factor = 0.2
 	}
 	division= {	
-		location = 11610
-		division_template = "Huszár Dandár"
-		start_experience_factor = 0.2
-	}
-	division= {	
 		location = 619
 		division_template = "Huszár Dandár"
 		start_experience_factor = 0.2
@@ -255,11 +262,6 @@ units = {
 		location = 11659
 		division_template = "Huszár Dandár"
 		start_experience_factor = 0.2
-	}
-	division= {	
-		location = 9660
-		division_template = "Huszár Dandár"
-		start_experience_factor = 0.3
 	}
 	division= {	
 		location = 9660
@@ -306,7 +308,17 @@ instant_effect = {
 			type = infantry_equipment_1
 			creator = "HUN"
 		}
-		requested_factories = 8
+		requested_factories = 4
+		progress = 0.68
+		efficiency = 100
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_equipment_1
+			creator = "HUN"
+		}
+		requested_factories = 1
 		progress = 0.68
 		efficiency = 100
 	}
@@ -315,7 +327,16 @@ instant_effect = {
 			type = support_equipment_1
 			creator = "HUN"
 		}
-		requested_factories = 2
+		requested_factories = 3
+		progress = 0.60
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_1
+			creator = "HUN"
+		}
+		requested_factories = 1
 		progress = 0.60
 		efficiency = 100
 	}
@@ -326,6 +347,15 @@ instant_effect = {
 		}
 		requested_factories = 3
 		progress = 0.60
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "MNG" 
+		}
+		requested_factories = 1
+		progress = 0.6
 		efficiency = 100
 	}
 }
