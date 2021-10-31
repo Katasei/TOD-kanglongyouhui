@@ -178,4 +178,310 @@ add_ideas = {
 	FRL_political_crisis
 }
 
+### 陆军元帅 ###
+create_field_marshal = {# 乔治·马歇尔
+	name = "George Marshall"
+	desc = "FRL_GEORGE_MARSHALL_ARMY_DESC"
+	portrait_path = "gfx/leaders/FRL/Portrait_FRL_george_marshall.png"
+	traits = {
+		career_officer
+		politically_connected
+		offensive_doctrine
+		organizer
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+	id = 64
+}
+
+### 陆军将领 ###
+create_corps_commander = {# 亨利·阿诺德
+	name = "Henri H. Arnold"
+	desc = "FRL_HENRY_H_ARNOLD_ARMY_DESC"
+	portrait_path = "gfx/leaders/PSA/Portrait_PSA_Henry_Arnold.png"
+	traits = {
+		career_officer
+		politically_connected
+		inspirational_leader
+		organizer
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+	id = 58
+}
+create_corps_commander = {# 杰弗里·凯伊斯
+	name = "Galfridus Keyes"
+	desc = "FRL_GEOFFREY_KEYES_ARMY_DESC"
+	portrait_path = "gfx/leaders/FRL/Portrait_FRL_Geoffrey_Keyes_KR.png"
+	traits = {
+		cavalry_officer
+		organizer
+	}
+	skill = 1
+
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	id = 954
+}
+create_corps_commander = {# 乔纳森·温赖特
+	name = "Jonathan M. Wainwright"
+	desc = "FRL_JONATHAN_WAINWRIGHT_ARMY_DESC"
+	portrait_path = "gfx/leaders/FRL/Portrait_FRL_Jonathan_Wainwright_KR.png"
+	traits = {
+		cavalry_officer
+		trait_reckless
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	id = 955
+}
+create_corps_commander = {# 莱斯利·麦克奈尔
+	name = "Lesley McNair"
+	desc = "FRL_LESLIE_MCNAIR_ARMY_DESC"
+	portrait_path = "gfx/leaders/FRL/Portrait_FRL_Lesley_McNair_KR.png"
+	traits = {
+		career_officer
+		artillery_officer
+	}
+	skill = 2
+
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+	id = 958
+}
+create_corps_commander = {# 劳埃德·弗雷登道尔
+	name = "Lloyd Fredendall"
+	desc = "FRL_LLOYD_FREDENDALL_ARMY_DESC"
+	portrait_path = "gfx/leaders/FRL/Portrait_FRL_Lloyd_Fredendall_KR.png"
+	traits = {
+		old_guard
+		infantry_officer
+		inflexible_strategist
+	}
+	skill = 1
+
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	id = 959
+}
+create_corps_commander = {# 卢西安·特拉斯科特
+	name = "Lucian Truscott"
+	desc = "FRL_LUCIAN_TRUSCOTT_ARMY_DESC"
+	portrait_path = "gfx/leaders/FRL/Portrait_FRL_Lucian_Truscott_KR.png"
+	traits = {
+		trait_engineer
+		commando
+		cavalry_officer
+	}
+	skill = 2
+
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+	id = 934
+}
+create_corps_commander = {# 沃尔特`克鲁格
+	name = "Walter Krueger"
+	desc = "FRL_WALTER_KRUEGER_ARMY_DESC"
+	portrait_path = "gfx/leaders/FRL/Portrait_FRL_Walter_Krueger_KR.png"
+	traits = {
+		armor_officer
+		career_officer
+		brilliant_strategist
+	}
+	skill = 2
+
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+	id = 961
+}
+create_corps_commander = {# 小阿德纳·霞飞
+	name = "Adna R. Chaffee"
+	desc = "FRL_ADNA_CHAFFEE_ARMY_DESC"
+	portrait_path = "gfx/leaders/FRL/Portrait_FRL_Adna_Chaffee.png"
+	traits = {
+		armor_officer
+	}
+	skill = 3
+
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+	id = 933
+}
+create_corps_commander = {# 丹尼尔·范·沃里斯
+	name = "Daniel Van Voorhis"
+	desc = "FRL_DANIEL_VAN_VOORHIS_ARMY_DESC"
+	portrait_path = "gfx/leaders/FRL/Portrait_FRL_Daniel_Van_Voorhis.png"
+	traits = { commando }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+	id = 647
+}
+create_corps_commander = {# 约翰·李
+	name = "John C. H. Lee"
+	desc = "FRL_JOHN_LEE_ARMY_DESC"
+	portrait_path = "gfx/leaders/FRL/Portrait_FRL_john_lee.png"
+	traits = {
+		career_officer
+		politically_connected
+		trait_engineer
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+	id = 963
+}
+create_corps_commander = {# 詹姆斯·加雷什·奥德
+	name = "James Garesche Ord"
+	desc = "FRL_JAMES_GARESCHE_ORD_ARMY_DESC"
+	portrait_path = "gfx/leaders/FRL/Portrait_FRL_james_ord.png"
+	traits = {
+		trait_reckless
+		armor_officer
+		panzer_leader
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	id = 964
+}
+create_corps_commander = {# 赫伯特·霍尔德里奇
+	name = "Herbert Charles Heitke"
+	desc = "FRL_HERBERT_HOLDRIDGE_ARMY_DESC"
+	portrait_path = "gfx/leaders/FRL/Portrait_FRL_herbert_holdridge.png"
+	traits = { trickster }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+	id = 61
+}
+
+### 海军将领 ###
+create_navy_leader = {# 威廉·D·莱希
+	name = "William D. Leahy"
+	desc = "FRL_WILLIAM_LEAHY_NAVY_DESC"
+	portrait_path = "gfx/leaders/FRL/Portrait_FRL_william_leahy.png"
+	traits = {
+		aviation_enthusiast
+		superior_tactician
+		ironside
+		fleet_protector
+	}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 4
+	id = 990
+}
+create_navy_leader = {# 切斯特·威廉·尼米兹
+	name = "Chester W. Nimitz"
+	desc = "FRL_CHESTER_NIMITZ_NAVY_DESC"
+	portrait_path = "gfx/leaders/FRL/Portrait_FRL_Chester_Nimitz.png"
+	traits = {
+		superior_tactician
+		seawolf
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	maneuvering_skill = 3
+	coordination_skill = 3
+	id = 62
+}
+create_navy_leader = {# 法兰克·杰克·弗莱彻
+	name = "Frank Jack Fletcher"
+	desc = "FRL_FRANK_JACK_FLETCHER_NAVY_DESC"
+	portrait_path = "gfx/leaders/FRL/Portrait_FRL_Frank_Fletcher.png"
+	traits = { 
+	    spotter 
+	    superior_tactician }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 1
+	id = 995
+}
+create_navy_leader = {# 塞缪尔·默里·罗宾逊
+	name = "Samuel Murray Robinson"
+	desc = "FRL_SAMUEL_ROBINSON_NAVY_DESC"
+	portrait_path = "gfx/leaders/FRL/Portrait_FRL_samuel_robinson.png"
+	traits = { old_guard_navy navy_career_officer chief_engineer }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 3
+	id = 66
+}
+create_navy_leader = {# 詹姆斯·瑞查生
+	name = "James O. Richardson"
+	desc = "FRL_JAMES_RICHARDSON_NAVY_DESC"
+	portrait_path = "gfx/leaders/FRL/Portrait_FRL_james_richardson.png"
+	traits = { old_guard_navy superior_tactician blue_water_expert }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	maneuvering_skill = 2
+	coordination_skill = 3
+	id = 992
+}
+create_navy_leader = {# 大卫·W·巴格利
+	name = "David W. Bagley"
+	desc = "FRL_DAVID_BAGLEY_NAVY_DESC"
+	portrait_path = "gfx/leaders/FRL/Portrait_FRL_david_bagley.png"
+	traits = { fleet_protector fly_swatter }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+	id = 993
+}
+create_navy_leader = {# 约翰·S·麦凯恩
+	name = "John S. McCain Sr."
+	desc = "FRL_JOHN_MCCAIN_NAVY_DESC"
+	portrait_path = "gfx/leaders/FRL/Portrait_FRL_john_mccain.png"
+	traits = {
+		superior_tactician
+		aviation_enthusiast
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 2
+	id = 994
+}
+
 country_event = { id = frl.2 days = 60 } #噔噔咚
