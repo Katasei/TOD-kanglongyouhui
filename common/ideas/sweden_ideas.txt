@@ -12,10 +12,11 @@ ideas = {
 			modifier = {
 				production_speed_buildings_factor = 0.10
 				consumer_goods_factor =	-0.05
-				idea_modifier = {
-					target = FRA
-					modifier = BUL_communist_menace_trade
-				}
+			}
+			targeted_modifier = {
+				tag = FRA
+				trade_cost_for_target_factor = -0.8
+				#extra_trade_to_target_factor = 0.5
 			}
 		}
 		SWE_hunluandejundui = {
