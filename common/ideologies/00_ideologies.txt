@@ -1,9 +1,9 @@
 
 ideologies = {
 
-	vanguard_socialism = {
+	communism = {
 		types = {
-			vanguard_socialism_subtype = {} #generic
+			communism_subtype = {} #generic
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_COMMUNISM_1"
@@ -56,7 +56,7 @@ ideologies = {
 
 	}
 	
-	moderate_socialism = {
+	moderate socialism = {
 		types = {
 			moderate socialism_subtype = {} #generic
 		}
