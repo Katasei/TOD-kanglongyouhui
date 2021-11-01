@@ -1,19 +1,19 @@
 
 ideologies = {
 
-	radicalism = {
+	communism = {
 		types = {
-			radicalism_subtype = {} #generic
+			communism_subtype = {} #generic
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_RADICALISM_1"
-			"FACTION_NAME_RADICALISM_2"
-			"FACTION_NAME_RADICALISM_3"
-			"FACTION_NAME_RADICALISM_4"
-			"FACTION_NAME_RADICALISM_5"
-			"FACTION_NAME_RADICALISM_6"
+			"FACTION_NAME_COMMUNISM_1"
+			"FACTION_NAME_COMMUNISM_2"
+			"FACTION_NAME_COMMUNISM_3"
+			"FACTION_NAME_COMMUNISM_4"
+			"FACTION_NAME_COMMUNISM_5"
+			"FACTION_NAME_COMMUNISM_6"
 		}
-		color = { 127 0 0 }
+		color = { 150 0 0 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -28,17 +28,17 @@ ideologies = {
 		can_be_boosted = no
 	}
 
-	socialism = {
+	council_socialism = {
 		types = {
-			socialism_subtype = {} #generic
+			council_socialism_subtype = {} #generic
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_SOCIALISM_1"
-			"FACTION_NAME_SOCIALISM_2"
-			"FACTION_NAME_SOCIALISM_3"
-			"FACTION_NAME_SOCIALISM_4"
-			"FACTION_NAME_SOCIALISM_5"
-			"FACTION_NAME_SOCIALISM_6"
+			"FACTION_NAME_COUNCIL_SOCIALISM_1"
+			"FACTION_NAME_COUNCIL_SOCIALISM_2"
+			"FACTION_NAME_COUNCIL_SOCIALISM_3"
+			"FACTION_NAME_COUNCIL_SOCIALISM_4"
+			"FACTION_NAME_COUNCIL_SOCIALISM_5"
+			"FACTION_NAME_COUNCIL_SOCIALISM_6"
 		}
 		color = { 255 0 0 }
 		rules = {
@@ -55,18 +55,74 @@ ideologies = {
 		can_be_boosted = no
 
 	}
-
-	reformism = {
+	
+	moderate socialism = {
 		types = {
-			reformism_subtype = {}
+			moderate socialism_subtype = {} #generic
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_REFORMISM_1"
-			"FACTION_NAME_REFORMISM_2"
-			"FACTION_NAME_REFORMISM_3"
-			"FACTION_NAME_REFORMISM_4"
-			"FACTION_NAME_REFORMISM_5"
-			"FACTION_NAME_REFORMISM_6"
+			"FACTION_NAME_MODERATE_SOCIALISM_1"
+			"FACTION_NAME_MODERATE_SOCIALISM_2"
+			"FACTION_NAME_MODERATE_SOCIALISM_3"
+			"FACTION_NAME_MODERATE_SOCIALISM_4"
+			"FACTION_NAME_MODERATE_SOCIALISM_5"
+			"FACTION_NAME_MODERATE_SOCIALISM_6"
+		}
+		color = { 230 95 110 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 1
+			generate_wargoal_tension = 1
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+
+	}
+	
+	agroindustrial_socialism = {
+		types = {
+			agroindustrial_socialism_subtype = {} #generic
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_AGROINDUSTRIAL_SOCIALISM_1"
+			"FACTION_NAME_AGROINDUSTRIAL_SOCIALISM_2"
+			"FACTION_NAME_AGROINDUSTRIAL_SOCIALISM_3"
+			"FACTION_NAME_AGROINDUSTRIAL_SOCIALISM_4"
+			"FACTION_NAME_AGROINDUSTRIAL_SOCIALISM_5"
+			"FACTION_NAME_AGROINDUSTRIAL_SOCIALISM_6"
+		}
+		color = { 255 185 85 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 1
+			generate_wargoal_tension = 1
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+
+	}
+
+	social_democrat = {
+		types = {
+			social_democrat_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIAL_DEMOCRAT_1"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_2"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_3"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_4"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_5"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_6"
 		}
 		color = { 250 70 140 }
 		rules = {
@@ -83,18 +139,46 @@ ideologies = {
 		can_be_boosted = no
 
 	}
-
-	liberalism = {
+	
+	consociationalism = {
 		types = {
-			liberalism_subtype = {}
+			consociationalism_subtype = {}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_LIBERALISM_1"
-			"FACTION_NAME_LIBERALISM_2"
-			"FACTION_NAME_LIBERALISM_3"
-			"FACTION_NAME_LIBERALISM_4"
-			"FACTION_NAME_LIBERALISM_5"
-			"FACTION_NAME_LIBERALISM_6"
+			"FACTION_NAME_CONSOCIATIONALISM_1"
+			"FACTION_NAME_CONSOCIATIONALISM_2"
+			"FACTION_NAME_CONSOCIATIONALISM_3"
+			"FACTION_NAME_CONSOCIATIONALISM_4"
+			"FACTION_NAME_CONSOCIATIONALISM_5"
+			"FACTION_NAME_CONSOCIATIONALISM_6"
+		}
+		color = { 245 217 0 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 1
+			generate_wargoal_tension = 1
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+
+	}
+
+	liberal_democracy = {
+		types = {
+			liberal_democracy_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_LIBERAL_DEMOCRACY_1"
+			"FACTION_NAME_LIBERAL_DEMOCRACY_2"
+			"FACTION_NAME_LIBERAL_DEMOCRACY_3"
+			"FACTION_NAME_LIBERAL_DEMOCRACY_4"
+			"FACTION_NAME_LIBERAL_DEMOCRACY_5"
+			"FACTION_NAME_LIBERAL_DEMOCRACY_6"
 		}
 		color = { 0 180 255 }
 		rules = {
@@ -111,17 +195,17 @@ ideologies = {
 		can_be_boosted = no
 	}
 
-	conservatism = {
+	conservative_democracy = {
 		types = {
-			conservatism_subtype = {}
+			conservative_democracy_subtype = {}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_CONSERVATISM_1"
-			"FACTION_NAME_CONSERVATISM_2"
-			"FACTION_NAME_CONSERVATISM_3"
-			"FACTION_NAME_CONSERVATISM_4"
-			"FACTION_NAME_CONSERVATISM_5"
-			"FACTION_NAME_CONSERVATISM_6"
+			"FACTION_NAME_CONSERVATIVE_DEMOCRACY_1"
+			"FACTION_NAME_CONSERVATIVE_DEMOCRACY_2"
+			"FACTION_NAME_CONSERVATIVE_DEMOCRACY_3"
+			"FACTION_NAME_CONSERVATIVE_DEMOCRACY_4"
+			"FACTION_NAME_CONSERVATIVE_DEMOCRACY_5"
+			"FACTION_NAME_CONSERVATIVE_DEMOCRACY_6"
 		}
 		color = { 120 150 240 }
 		rules = {
@@ -138,19 +222,19 @@ ideologies = {
 		can_be_boosted = no
 	}
 
-	authoritarianism = {
+	authoritarian_oligarchy = {
 		types = {
-			authoritarianism_subtype = {}
+			authoritarian_oligarchy_subtype = {}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_AUTHORITARIANISM_1"
-			"FACTION_NAME_AUTHORITARIANISM_2"
-			"FACTION_NAME_AUTHORITARIANISM_3"
-			"FACTION_NAME_AUTHORITARIANISM_4"
-			"FACTION_NAME_AUTHORITARIANISM_5"
-			"FACTION_NAME_AUTHORITARIANISM_6"
+			"FACTION_NAME_AUTHORITARIAN_OLIGARCHY_1"
+			"FACTION_NAME_AUTHORITARIAN_OLIGARCHY_2"
+			"FACTION_NAME_AUTHORITARIAN_OLIGARCHY_3"
+			"FACTION_NAME_AUTHORITARIAN_OLIGARCHY_4"
+			"FACTION_NAME_AUTHORITARIAN_OLIGARCHY_5"
+			"FACTION_NAME_AUTHORITARIAN_OLIGARCHY_6"
 		}
-		color = { 60 60 120 }
+		color = { 200 200 200 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -165,19 +249,19 @@ ideologies = {
 		can_be_boosted = no
 	}
 
-	despotism = {
+	leader_despotism = {
 		types = {
-			despotism_subtype = {}
+			leader_despotism_subtype = {}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_DESPOTISM_1"
-			"FACTION_NAME_DESPOTISM_2"
-			"FACTION_NAME_DESPOTISM_3"
-			"FACTION_NAME_DESPOTISM_4"
-			"FACTION_NAME_DESPOTISM_5"
-			"FACTION_NAME_DESPOTISM_6"
+			"FACTION_NAME_LEADER_DESPOTISM_1"
+			"FACTION_NAME_LEADER_DESPOTISM_2"
+			"FACTION_NAME_LEADER_DESPOTISM_3"
+			"FACTION_NAME_LEADER_DESPOTISM_4"
+			"FACTION_NAME_LEADER_DESPOTISM_5"
+			"FACTION_NAME_LEADER_DESPOTISM_6"
 		}
-		color = { 125 125 125 }
+		color = { 150 150 150 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -191,20 +275,47 @@ ideologies = {
 		ai_neutral = yes
 		can_be_boosted = no
 	}
-
-	totalism = {
+	
+	sacred_revivalism = {
 		types = {
-			totalism_subtype = {}
+			sacred_revivalism_subtype = {}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_TOTALISM_1"
-			"FACTION_NAME_TOTALISM_2"
-			"FACTION_NAME_TOTALISM_3"
-			"FACTION_NAME_TOTALISM_4"
-			"FACTION_NAME_TOTALISM_5"
-			"FACTION_NAME_TOTALISM_6"
+			"FACTION_NAME_SACRED_REVIVALISM_1"
+			"FACTION_NAME_SACRED_REVIVALISM_2"
+			"FACTION_NAME_SACRED_REVIVALISM_3"
+			"FACTION_NAME_SACRED_REVIVALISM_4"
+			"FACTION_NAME_SACRED_REVIVALISM_5"
+			"FACTION_NAME_SACRED_REVIVALISM_6"
 		}
 		color = { 30 30 30 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 1
+			generate_wargoal_tension = 1
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+	national_corporatism = {
+		types = {
+			national_corporatism_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_NATIONAL_CORPORATISM_1"
+			"FACTION_NAME_NATIONAL_CORPORATISM_2"
+			"FACTION_NAME_NATIONAL_CORPORATISM_3"
+			"FACTION_NAME_NATIONAL_CORPORATISM_4"
+			"FACTION_NAME_NATIONAL_CORPORATISM_5"
+			"FACTION_NAME_NATIONAL_CORPORATISM_6"
+		}
+		color = { 120 40 30 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
