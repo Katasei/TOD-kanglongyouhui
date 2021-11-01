@@ -11,10 +11,10 @@
  council_socialism_desc:0 "委员社会主义政府"
  council_socialism_subtype_desc: "激进主义是非社会主义极左翼意识形态的统称。激进主义各个派别之间千差万别，甚至截然相反，它们唯一的共同点就是对德意志社会主义的否定。激进主义的突出派系是社会无政府主义，革命先锋主义和民族社会主义。"
  
- moderate socialism:0 "温和社会主义"
- moderate socialism_noun:0 "温和社会主义"
- moderate socialism_desc:0 "温和社会主义政府"
- moderate socialism_subtype_desc: "激进主义是非社会主义极左翼意识形态的统称。激进主义各个派别之间千差万别，甚至截然相反，它们唯一的共同点就是对德意志社会主义的否定。激进主义的突出派系是社会无政府主义，革命先锋主义和民族社会主义。"
+ moderate_socialism:0 "温和社会主义"
+ moderate_socialism_noun:0 "温和社会主义"
+ moderate_socialism_desc:0 "温和社会主义政府"
+ moderate_socialism_subtype_desc: "激进主义是非社会主义极左翼意识形态的统称。激进主义各个派别之间千差万别，甚至截然相反，它们唯一的共同点就是对德意志社会主义的否定。激进主义的突出派系是社会无政府主义，革命先锋主义和民族社会主义。"
  
  agroindustrial_socialism:0 "农工社会主义"
  agroindustrial_socialism_noun:0 "农工社会主义"

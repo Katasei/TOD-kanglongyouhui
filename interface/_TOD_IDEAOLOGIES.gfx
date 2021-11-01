@@ -1,7 +1,7 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_ideology_communism_group"
-		texturefile = "gfx/interface/ideologies/communism_group.png"
+		name = "GFX_ideology_vanguard_socialism_group"
+		texturefile = "gfx/interface/ideologies/vanguard_socialism_group.png"
 	}
 	
 	spriteType = {
@@ -85,8 +85,8 @@ spriteTypes = {
 
 
 	spriteType = {
-		name = "GFX_communism_small"
-		texturefile = "gfx/interface/ideologies/communism_small.png"
+		name = "GFX_vanguard_socialism_small"
+		texturefile = "gfx/interface/ideologies/vanguard_socialism_small.png"
 	}
 	spriteType = {
 		name = "GFX_council_socialism_small"
