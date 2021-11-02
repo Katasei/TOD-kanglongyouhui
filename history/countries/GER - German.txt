@@ -11,12 +11,14 @@ set_politics = {
 }
 
 set_popularities = {
-	totalism = 0
-	despotism = 0
-	authoritarianism = 0
-	conservatism = 0
-	liberalism = 0
-	reformism = 1
+	national_corporatism = 0
+	sacred_revivalism = 0
+	leader_despotism = 0
+	authoritarian_oligarchy = 0
+	conservative_democracy = 0
+	liberal_democracy = 0
+	consociationalism = 0
+	social_democrat = 1
 	agroindustrial_socialism = 6
 	moderate_socialism = 17
 	council_socialism = 48

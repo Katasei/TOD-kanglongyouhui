@@ -1,35 +1,5 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_ideology_reformism_group"
-		texturefile = "gfx/interface/ideologies/reformism_group.dds"
-	}
-
-	spriteType = {
-		name = "GFX_ideology_liberalism_group"
-		texturefile = "gfx/interface/ideologies/liberalism_group.dds"
-	}
-
-	spriteType = {
-		name = "GFX_ideology_conservatism_group"
-		texturefile = "gfx/interface/ideologies/conservatism_group.dds"
-	}
-
-	spriteType = {
-		name = "GFX_ideology_authoritarianism_group"
-		texturefile = "gfx/interface/ideologies/authoritarianism_group.dds"
-	}
-
-	spriteType = {
-		name = "GFX_ideology_despotism_group"
-		texturefile = "gfx/interface/ideologies/despotism_group.dds"
-	}
-
-	spriteType = {
-		name = "GFX_ideology_totalism_group"
-		texturefile = "gfx/interface/ideologies/totalism_group.dds"
-	}
-	
-	spriteType = {
 		name = "GFX_ideology_vanguard_socialism_group"
 		texturefile = "gfx/interface/ideologies/vanguard_socialism_group.png"
 	}
@@ -114,30 +84,6 @@ spriteTypes = {
 	}
 
 
-	spriteType = {
-		name = "GFX_totalism_small"
-		texturefile = "gfx/interface/ideologies/totalism_small.dds"
-	}
-	spriteType = {
-		name = "GFX_despotism_small"
-		texturefile = "gfx/interface/ideologies/despotism_small.dds"
-	}
-	spriteType = {
-		name = "GFX_authoritarianism_small"
-		texturefile = "gfx/interface/ideologies/authoritarianism_small.dds"
-	}
-	spriteType = {
-		name = "GFX_conservatism_small"
-		texturefile = "gfx/interface/ideologies/conservatism_small.dds"
-	}
-	spriteType = {
-		name = "GFX_liberalism_small"
-		texturefile = "gfx/interface/ideologies/liberalism_small.dds"
-	}
-	spriteType = {
-		name = "GFX_reformism_small"
-		texturefile = "gfx/interface/ideologies/reformism_small.dds"
-	}
 	spriteType = {
 		name = "GFX_vanguard_socialism_small"
 		texturefile = "gfx/interface/ideologies/vanguard_socialism_small.png"

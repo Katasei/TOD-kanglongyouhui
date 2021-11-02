@@ -99,21 +99,25 @@ if = {
 }
 
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = liberal_democracy
 	last_election = "1934.6.15"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	totalism = 1
-	despotism = 4
-	authoritarianism = 5
-	conservatism = 25
-	liberalism = 30
-	reformism = 25
-	socialism = 8
-	radicalism = 2
+	national_corporatism = 1
+	sacred_revivalism = 1
+	leader_despotism = 3
+	authoritarian_oligarchy = 5
+	conservative_democracy = 20
+	liberal_democracy = 30
+	consociationalism = 10
+	social_democrat = 20
+	agroindustrial_socialism = 3
+	moderate_socialism = 0
+	council_socialism = 7
+	vanguard_socialism = 0
 }
 
 create_country_leader = {
@@ -121,7 +125,7 @@ create_country_leader = {
 	desc = "POLITICS_LOUIS_LUCIEN_KLOSE_DESC"
 	picture = "Portrait_FRL_Louis_Lucien_Klose.png"
 	expire = "1965.1.1"
-	ideology = liberalism_subtype
+	ideology = liberal_democracy_subtype
 }
 
 create_country_leader = {
@@ -129,7 +133,7 @@ create_country_leader = {
 	desc = "POLITICS_John_Smith_DESC"
 	picture = "Portrait_FRL_John_Smith.tga"
 	expire = "1965.1.1"
-	ideology = totalism_subtype
+	ideology = national_corporatism_subtype
 }
 
 create_country_leader = {
@@ -137,7 +141,7 @@ create_country_leader = {
 	desc = "POLITICS_Lesley_J_McNair_DESC"
 	picture = "Portrait_FRL_Lesley_J_McNair.tga"
 	expire = "1965.1.1"
-	ideology = despotism_subtype
+	ideology = leader_despotism_subtype
 }
 
 create_country_leader = {
@@ -145,7 +149,7 @@ create_country_leader = {
 	desc = "POLITICS_Rose_McConnell_DESC"
 	picture = "Portrait_FRL_Rose_McConnell.tga"
 	expire = "1970.5.27"
-	ideology = authoritarianism_subtype
+	ideology = authoritarian_oligarchy_subtype
 }
 
 create_country_leader = {
@@ -153,7 +157,7 @@ create_country_leader = {
 	desc = "POLITICS_Charles_Brien_DESC"
 	picture = "Portrait_FRL_Charles_Brien.tga"
 	expire = "1965.1.1"
-	ideology = conservatism_subtype
+	ideology = conservative_democracy_subtype
 }
 
 create_country_leader = {
@@ -161,7 +165,7 @@ create_country_leader = {
 	desc = "POLITICS_Robert_La_Follette_DESC"
 	picture = "Portrait_FRL_Robert_La_Follette.tga"
 	expire = "1965.1.1"
-	ideology = reformism_subtype
+	ideology = social_democrat_subtype
 }
 
 create_country_leader = {
@@ -169,15 +173,15 @@ create_country_leader = {
 	desc = "POLITICS_Alfred_Wagenknecht_DESC"
 	picture = "Portrait_FRL_Alfred_Wagenknecht.tga"
 	expire = "1965.1.1"
-	ideology = socialism_subtype
+	ideology = council_socialism_subtype
 }
 
 create_country_leader = {
 	name = "亚历山大·贝克曼"
-	desc = "POLITICS_Alexander Berkman_DESC"
-	picture = "Portrait_FRL_Alexander Berkman.tga"
+	desc = "POLITICS_Alexander_Berkman_DESC"
+	picture = "Portrait_FRL_Alexander_Berkman.tga"
 	expire = "1965.1.1"
-	ideology = radicalism_subtype
+	ideology = agroindustrial_socialism_subtype
 }
 
 
