@@ -3,17 +3,18 @@ capital = 126
 oob = "empty"
 
 set_politics = {
-	ruling_party = totalism
+	ruling_party = national_corporatism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	totalism = 80
-	authoritarianism = 10
-	despotism = 5
-	conservatism = 5
+	national_corporatism = 80
+	sacred_revivalism = 0
+	leader_despotism = 10
+	authoritarian_oligarchy = 5
+	conservative_democracy = 5
 }
 
 add_ideas = {
@@ -26,5 +27,5 @@ create_country_leader = {
 	desc = "POLITICS_ROTHA_LINTORN_DESC"
 	picture = "Portrait_ENG_Rotha_Lintorn.png"
 	expire = 1965.1.1
-	ideology = totalism_subtype
+	ideology = national_corporatism_subtype
 }
