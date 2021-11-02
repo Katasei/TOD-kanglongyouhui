@@ -139,6 +139,33 @@ ideologies = {
 		can_be_boosted = no
 
 	}
+
+	liberal_democracy = {
+		types = {
+			liberal_democracy_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_LIBERAL_DEMOCRACY_1"
+			"FACTION_NAME_LIBERAL_DEMOCRACY_2"
+			"FACTION_NAME_LIBERAL_DEMOCRACY_3"
+			"FACTION_NAME_LIBERAL_DEMOCRACY_4"
+			"FACTION_NAME_LIBERAL_DEMOCRACY_5"
+			"FACTION_NAME_LIBERAL_DEMOCRACY_6"
+		}
+		color = { 0 180 255 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 1
+			generate_wargoal_tension = 1
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
 	
 	consociationalism = {
 		types = {
@@ -166,33 +193,6 @@ ideologies = {
 		ai_neutral = yes
 		can_be_boosted = no
 
-	}
-
-	liberal_democracy = {
-		types = {
-			liberal_democracy_subtype = {}
-		}
-		dynamic_faction_names = {
-			"FACTION_NAME_LIBERAL_DEMOCRACY_1"
-			"FACTION_NAME_LIBERAL_DEMOCRACY_2"
-			"FACTION_NAME_LIBERAL_DEMOCRACY_3"
-			"FACTION_NAME_LIBERAL_DEMOCRACY_4"
-			"FACTION_NAME_LIBERAL_DEMOCRACY_5"
-			"FACTION_NAME_LIBERAL_DEMOCRACY_6"
-		}
-		color = { 0 180 255 }
-		rules = {
-			can_force_government = no
-			can_puppet = no
-			can_join_factions = no
-			can_send_volunteers = yes
-		}
-		modifiers = {
-			join_faction_tension = 1
-			generate_wargoal_tension = 1
-		}
-		ai_neutral = yes
-		can_be_boosted = no
 	}
 
 	conservative_democracy = {
