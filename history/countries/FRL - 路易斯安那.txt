@@ -137,6 +137,14 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "约翰斯密三世"
+	desc = "POLITICS_John_Smit_III_DESC"
+	picture = "Portrait_FRL_John_Smit_III.tga"
+	expire = "1965.1.1"
+	ideology = sacred_revivalism_subtype
+}
+
+create_country_leader = {
 	name = "莱斯利·麦克奈尔"
 	desc = "POLITICS_Lesley_J_McNair_DESC"
 	picture = "Portrait_FRL_Lesley_J_McNair.tga"
@@ -159,6 +167,15 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = conservative_democracy_subtype
 }
+
+create_country_leader = {
+	name = "帕特·哈里森"
+	desc = "POLITICS_Pat_Harrison_DESC"
+	picture = "Portrait_FRL_Pat_Harrison.tga"
+	expire = "1965.1.1"
+	ideology = consociationalism_subtype
+}
+
 
 create_country_leader = {
 	name = "罗伯特·拉福莱特"

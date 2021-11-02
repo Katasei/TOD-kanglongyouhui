@@ -3,21 +3,25 @@ capital = 361
 oob = "empty"
 
 set_politics = {
-	ruling_party = authoritarianism
+	ruling_party = authoritarian_oligarchy
 	last_election = "1934.6.15"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	totalism = 8
-	despotism = 1
-	authoritarianism = 38
-	conservatism = 0
-	liberalism = 27
-	reformism = 19
-	socialism = 7
-	radicalism = 0
+	national_corporatism = 1
+	sacred_revivalism = 7
+	leader_despotism = 1
+	authoritarian_oligarchy = 38
+	conservative_democracy = 2
+	liberal_democracy = 20
+	consociationalism = 12
+	social_democrat = 11
+	agroindustrial_socialism = 1
+	moderate_socialism = 0
+	council_socialism = 7
+	vanguard_socialism = 0
 }
 
 create_country_leader = {
@@ -25,7 +29,7 @@ create_country_leader = {
 	desc = "POLITICS_LEHMAN_DESC"
 	picture = "Portrait_USA_Herbert_Henry_Lehman.png"
 	expire = "1965.1.1"
-	ideology = authoritarianism_subtype
+	ideology = authoritarian_oligarchy_subtype
 }
 
 add_ideas = {
