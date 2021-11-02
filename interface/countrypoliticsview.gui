@@ -1154,6 +1154,45 @@ guiTypes = {
 			}
 		}
 	}
+	
+	containerWindowType = {
+		name = "political_party_info_entry"
+		verticalScrollbar = "right_vertical_slider"
+		size = { width = 330 height = 18 }
+		clipping = no
+		iconType = {
+			name = "leading_pol_party_bg"
+			position = { x = -5000 y = -5000 }
+			spriteType = "GFX_blank"
+		}
+		iconType = {
+			name = "color_block_bg"
+			position = { x = -5000 y = -5000 }
+			spriteType = "GFX_blank"
+		}
+		iconType = {
+			name = "color_block"
+			position = { x = -5000 y = -5000 }
+			spriteType = "GFX_blank"
+		}
+		instantTextboxType = {
+			name = "score"
+			position = { x = -5000 y = -5000 }
+			font = "hoi_16mbs"
+			text = "score"
+			maxWidth = 60
+			maxHeight = 18
+		}
+		instantTextboxType = {
+			name = "name"
+			position = { x = -5000 y = -5000 }
+			font = "hoi_16mbs"
+			text = "party name"
+			fixedsize = yes
+			maxWidth = 170
+			maxHeight = 18
+		}
+	}
 
 	containerWindowType = {
 		name = "exiles_window"
