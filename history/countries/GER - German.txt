@@ -4,7 +4,7 @@ oob = "empty"
 
 
 set_politics = {
-	ruling_party = socialism
+	ruling_party = council_socialism
 	last_election = "1934.6.15"
 	election_frequency = 48
 	elections_allowed = no
@@ -15,10 +15,12 @@ set_popularities = {
 	despotism = 0
 	authoritarianism = 0
 	conservatism = 0
-	liberalism = 2
-	reformism = 10
-	socialism = 60
-	radicalism = 28
+	liberalism = 0
+	reformism = 1
+	agroindustrial_socialism = 6
+	moderate_socialism = 17
+	council_socialism = 48
+	vanguard_socialism = 28
 }
 
 create_country_leader = {
@@ -26,6 +28,6 @@ create_country_leader = {
 	desc = "POLITICS_ROSA_LUXEMBURG_DESC"
 	picture = "Portrait_GER_Rosa_Luxemburg.png"
 	expire = "1965.1.1"
-	ideology = socialism_subtype
+	ideology = council_socialism_subtype
 }
 

@@ -1,19 +1,19 @@
 
 ideologies = {
 
-	radicalism = {
+    vanguard_socialism = {
 		types = {
-			radicalism_subtype = {} #generic
+			vanguard_socialism_subtype = {} #generic
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_RADICALISM_1"
-			"FACTION_NAME_RADICALISM_2"
-			"FACTION_NAME_RADICALISM_3"
-			"FACTION_NAME_RADICALISM_4"
-			"FACTION_NAME_RADICALISM_5"
-			"FACTION_NAME_RADICALISM_6"
+			"FACTION_NAME_VANGUARD_SOCIALISM_1"
+			"FACTION_NAME_VANGUARD_SOCIALISM_2"
+			"FACTION_NAME_VANGUARD_SOCIALISM_3"
+			"FACTION_NAME_VANGUARD_SOCIALISM_4"
+			"FACTION_NAME_VANGUARD_SOCIALISM_5"
+			"FACTION_NAME_VANGUARD_SOCIALISM_6"
 		}
-		color = { 127 0 0 }
+		color = { 150 0 0 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -27,18 +27,18 @@ ideologies = {
 		ai_neutral = yes
 		can_be_boosted = no
 	}
-
-	socialism = {
+	
+	council_socialism = {
 		types = {
-			socialism_subtype = {} #generic
+			council_socialism_subtype = {} #generic
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_SOCIALISM_1"
-			"FACTION_NAME_SOCIALISM_2"
-			"FACTION_NAME_SOCIALISM_3"
-			"FACTION_NAME_SOCIALISM_4"
-			"FACTION_NAME_SOCIALISM_5"
-			"FACTION_NAME_SOCIALISM_6"
+			"FACTION_NAME_COUNCIL_SOCIALISM_1"
+			"FACTION_NAME_COUNCIL_SOCIALISM_2"
+			"FACTION_NAME_COUNCIL_SOCIALISM_3"
+			"FACTION_NAME_COUNCIL_SOCIALISM_4"
+			"FACTION_NAME_COUNCIL_SOCIALISM_5"
+			"FACTION_NAME_COUNCIL_SOCIALISM_6"
 		}
 		color = { 255 0 0 }
 		rules = {
@@ -55,7 +55,63 @@ ideologies = {
 		can_be_boosted = no
 
 	}
+	
+	moderate_socialism = {
+		types = {
+			moderate_socialism_subtype = {} #generic
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_MODERATE_SOCIALISM_1"
+			"FACTION_NAME_MODERATE_SOCIALISM_2"
+			"FACTION_NAME_MODERATE_SOCIALISM_3"
+			"FACTION_NAME_MODERATE_SOCIALISM_4"
+			"FACTION_NAME_MODERATE_SOCIALISM_5"
+			"FACTION_NAME_MODERATE_SOCIALISM_6"
+		}
+		color = { 250 128 114 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 1
+			generate_wargoal_tension = 1
+		}
+		ai_neutral = yes
+		can_be_boosted = no
 
+	}
+	
+	agroindustrial_socialism = {
+		types = {
+			agroindustrial_socialism_subtype = {} #generic
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_AGROINDUSTRIAL_SOCIALISM_1"
+			"FACTION_NAME_AGROINDUSTRIAL_SOCIALISM_2"
+			"FACTION_NAME_AGROINDUSTRIAL_SOCIALISM_3"
+			"FACTION_NAME_AGROINDUSTRIAL_SOCIALISM_4"
+			"FACTION_NAME_AGROINDUSTRIAL_SOCIALISM_5"
+			"FACTION_NAME_AGROINDUSTRIAL_SOCIALISM_6"
+		}
+		color = { 227 207 87 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 1
+			generate_wargoal_tension = 1
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+
+	}
+	
 	reformism = {
 		types = {
 			reformism_subtype = {}
