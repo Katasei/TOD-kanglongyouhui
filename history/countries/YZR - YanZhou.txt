@@ -12,20 +12,10 @@ if = {
 }
 
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = liberal_democracy
 	last_election = "1934.6.15"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-set_popularities = {
-	totalism = 15
-	despotism = 4
-	authoritarianism = 8
-	conservatism = 27
-	liberalism = 15
-	reformism = 12
-	socialism = 19
 }
 
 set_technology = {
@@ -90,12 +80,27 @@ if = {
 	}
 }
 
+set_popularities = {
+	national_corporatism = 10
+	sacred_revivalism = 5
+	leader_despotism = 4
+	authoritarian_oligarchy = 8
+	conservative_democracy = 20
+	liberal_democracy = 15
+	consociationalism = 7
+	social_democrat = 12
+	agroindustrial_socialism = 3
+	moderate_socialism = 3
+	council_socialism = 10
+	vanguard_socialism = 3
+}
+
 create_country_leader = {
 	name = "宋子文"
 	desc = "POLITICS_SongZiWen_DESC"
 	picture = "Portrait_YZR_Song_Zi_Wen.png"
 	expire = "1965.1.1"
-	ideology = liberalism_subtype
+	ideology = liberal_democracy_subtype
 }
 
 create_country_leader = {
@@ -103,7 +108,7 @@ create_country_leader = {
 	desc = "POLITICS_ZHANG_ZIZONG_DESC"
 	picture = "Portrait_YZR_Zhang_Zizhong.png"
 	expire = "1965.1.1"
-	ideology = despotism_subtype
+	ideology = leader_despotism_subtype
 }
 
 create_country_leader = {
@@ -111,7 +116,7 @@ create_country_leader = {
 	desc = "POLITICS_TANGENBO_DESC"
 	picture = "Portrait_YZR_Tangenbo.png"
 	expire = "1965.1.1"
-	ideology = totalism_subtype
+	ideology = national_corporatism_subtype
 }
 
 create_country_leader = {
@@ -119,7 +124,7 @@ create_country_leader = {
 	desc = "POLITICS_SONGQINGLING_DESC"
 	picture = "Portrait_YZR_Songqingling.png"
 	expire = "1965.1.1"
-	ideology = reformism_subtype
+	ideology = social_democrat_subtype
 }
 
 create_country_leader = {
@@ -127,7 +132,7 @@ create_country_leader = {
 	desc = "POLITICS_SONGMEILING_DESC"
 	picture = "Portrait_YZR_Songmeiling.png"
 	expire = "1965.1.1"
-	ideology = authoritarianism_subtype
+	ideology = authoritarian_oligarchy_subtype
 }
 
 create_country_leader = {
@@ -135,7 +140,7 @@ create_country_leader = {
 	desc = "POLITICS_LINGBOQU_DESC"
 	picture = "Portrait_YZR_Lingboqu.png"
 	expire = "1965.1.1"
-	ideology = socialism_subtype
+	ideology = council_socialism_subtype
 }
 
 create_country_leader = {
@@ -143,7 +148,7 @@ create_country_leader = {
 	desc = "POLITICS_CHENGYANSHENG_DESC"
 	picture = "Portrait_YZR_Chengyansheng.png"
 	expire = "1965.1.1"
-	ideology = conservatism:_subtype
+	ideology = conservative_democracy_subtype
 }
 
 add_ideas = {
