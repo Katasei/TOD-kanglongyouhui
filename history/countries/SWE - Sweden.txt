@@ -21,6 +21,13 @@ set_popularities = {
 }
 
 add_ideas = {
+	free_trade
+	limited_conscription
+	partial_economic_mobilisation
+}
+
+add_ideas = {
+	SWE_qianhuzhiguo
 	SWE_tiekuangmaoyi
 	SWE_hunluandejundui
 	SWE_jiujinpeiji
@@ -33,6 +40,7 @@ create_country_leader = {
 	picture = "gfx/leaders/SWE/Carl·Gustaf·Ekman.png"
 	expire = "1965.1.1"
 	ideology = reformism_subtype
+	traits = { gongzei_shouxiang }
 }
 
 
