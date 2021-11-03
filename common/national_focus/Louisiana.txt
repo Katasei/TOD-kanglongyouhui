@@ -9,6 +9,9 @@ focus_tree = {
 			add = 10
 		}
 	}
+	
+	
+	### 路易斯安那国策树 - 民主政治线 ###
 	focus = {
 		id = FRL_everything_will_be_fine
 		cost = 1
@@ -18,6 +21,530 @@ focus_tree = {
 			add_stability = 0.1
 		
 		}
-		x = 3
+		x = 8
 		y = 0
+	}
+	focus = {
+		id = FRL_what_how
+		cost = 1
+		completion_reward = {
+		}
+		prerequisite = {
+			focus = FRL_everything_will_be_fine
+		}
+		x = 8
+		y = 1
+	}
+	focus = {
+		id = FRL_conservative_win
+		icon = GFX_focus_generic_treaty
+		available = {
+		}
+		prerequisite = {
+			focus = FRL_what_how
+		}
+		mutually_exclusive = {
+			focus = FRL_consociationalism_get_their_place
+			focus = FRL_liberal_hold_on
+			focus = FRL_social_democrat_hope
+		}
+		select_effect = {
+			log = "[GetDateText]: [Root.GetName]: Select Focus FRL_what_how"
+			country_event = {
+				id = frl.5
+				days = 80
+				random_days = 20
+			}
+		}
+		relative_position_id = FRL_what_how
+		x = -8
+		y = 1
+		cost = 6
+		ai_will_do = {
+			factor = 1500
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus FRL_conservative_win"
+			add_political_power = 100
+			remove_ideas = 
+			add_popularity = {
+				ideology = conservative_democracy
+				popularity = 0.20
+			}
+			add_popularity = {
+				ideology = consociationalism
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = authoritarian_oligarchy
+				popularity = 0.05
+			}
+			reverse_add_opinion_modifier = {
+			}
+		}
+		search_filters = { FOCUS_FILTER_FRLITICAL }
+	}
+	focus = {
+		id = FRL_conservative_is_stable
+		icon = GFX_focus_generic_treaty
+		prerequisite = {
+			focus = FRL_conservative_win
+		}
+		relative_position_id = FRL_conservative_win
+		x = -1
+		y = 1
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus FRL_conservative_is_stable"
+			add_political_power = 25
+			add_stability = 0.1
+		}
+		search_filters = { FOCUS_FILTER_FRLITICAL FOCUS_FILTER_STABILITY }
+	}
+	focus = {
+		id = FRL_fix_constitution
+		icon = GFX_focus_generic_treaty
+		prerequisite = {
+			focus = FRL_conservative_win
+		}
+		relative_position_id = FRL_conservative_win
+		x = 1
+		y = 1
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus FRL_fix_constitution"
+			add_political_power = 200
+			country_event = FRL.6
+		}
+		search_filters = { FOCUS_FILTER_FRLITICAL }
+	}
+	focus = {
+		id = FRL_the_conservative_choice
+		icon = GFX_focus_generic_treaty
+		prerequisite = {
+			focus = FRL_conservative_win
+		}
+		relative_position_id = FRL_conservative_win
+		x = 0
+		y = 2
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus FRL_the_conservative_choice"
+			add_political_power = 50
+			add_ideas = FRL_the_conservative_choice
+		}
+		search_filters = { FOCUS_FILTER_ARMY_BONUS FOCUS_FILTER_FRLITICAL }
+	}
+	focus = {
+		id = FRL_consociationalism_get_their_place
+		icon = GFX_focus_generic_treaty
+		available = {
+			POL_king_karol = yes
+		}
+		prerequisite = {
+			focus = FRL_what_how
+		}
+		mutually_exclusive = {
+			focus = FRL_conservative_win
+			focus = FRL_liberal_hold_on
+			focus = FRL_social_democrat_hope
+		}
+		relative_position_id = FRL_what_how
+		x = -4
+		y = 1
+		cost = 6
+		ai_will_do = {
+			factor = 1500
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus FRL_consociationalism_get_their_place"
+			add_political_power = 50
+			remove_ideas = FRL_political_crisis
+			add_popularity = {
+				ideology = consociationalism
+				popularity = 0.30
+			}
+			add_popularity = {
+				ideology = conservative_democracy
+				popularity = 0.10
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	focus = {
+		id = FRL_consociationalism_will_fix
+		icon = GFX_focus_generic_treaty
+		prerequisite = {
+			focus = FRL_consociationalism_get_their_place
+		}
+		relative_position_id = FRL_consociationalism_get_their_place
+		x = 0
+		y = 1
+		cost = 8
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus FRL_consociationalism_will_fix"
+			add_stability = 0.1
+			add_political_power = 50
+			add_ideas = FRL_consociationalism_will_fix_idea
+		}
+		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
+	}
+	focus = {
+		id = FRL_we_must_help_poor
+		icon = GFX_focus_generic_treaty
+		available = {
+			has_war = no
+			is_subject = no
+			AUS = {
+				is_subject = no
+				has_war = no
+			}
+			OR = {
+				AUS = { has_subject = GAL }
+				88 = { is_owned_and_controlled_by = AUS }
+			}
+		}
+		bypass = {
+			owns_state = 88
+		}
+		prerequisite = {
+			focus = FRL_consociationalism_will_fix
+		}
+		relative_position_id = FRL_consociationalism_will_fix
+		x = -1
+		y = 1
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus FRL_we_must_help_poor"
+			add_state_claim = 88
+			add_state_claim = 89
+			add_state_claim = 91
+			AUS = { country_event = poland.131 }
+		}
+	}
+	focus = {
+		id = FRL_relief_for_work
+		icon = GFX_focus_generic_treaty
+		available = {
+			88 = { is_owned_and_controlled_by = ROOT }
+		}
+		prerequisite = {
+			focus = FRL_we_must_help_poor
+		}
+		relative_position_id = FRL_consociationalism_will_fix
+		x = -1
+		y = 2
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus FRL_relief_for_work"
+			88 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+	}
+	focus = {
+		id = FRL_conform_public_opinion
+		icon = GFX_focus_generic_treaty
+		prerequisite = {
+			focus = FRL_consociationalism_will_fix
+		}
+		relative_position_id = FRL_consociationalism_will_fix
+		x = 1
+		y = 1
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus POL_austrian_tech_sharing"
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH }
+	}
+	focus = {
+		id = FRL_presidential_reform
+		icon = GFX_focus_generic_treaty
+		prerequisite = {
+			focus = FRL_consociationalism_get_their_place
+			focus = FRL_conservative_win
+			focus = FRL_social_democrat_hope
+		}
+		mutually_exclusive = {
+			focus = FRL_reform_the_parliamentary
+		}
+		relative_position_id = FRL_what_how
+		x = -1
+		y = 2
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus FRL_presidential_reform"
+			add_political_power = 50
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	focus = {
+		id = FRL_dissolve_the_council
+		icon = GFX_focus_generic_treaty
+		prerequisite = {
+			focus = FRL_presidential_reform
+		}
+		relative_position_id = FRL_what_how
+		x = -1
+		y = 4
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	focus = {
+		id = FRL_reform_the_parliamentary
+		icon = GFX_focus_generic_treaty
+		prerequisite = {
+			focus = FRL_consociationalism_get_their_place
+			focus = FRL_conservative_win
+			focus = FRL_social_democrat_hope
+		}
+		mutually_exclusive = {
+			focus = FRL_presidential_reform
+		}
+		relative_position_id = FRL_what_how
+		x = 1
+		y = 2
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus FRL_reform_the_parliamentary"
+			add_political_power = 200
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	focus = {
+		id = FRL_citizens_rights
+		icon = GFX_focus_generic_treaty
+		prerequisite = {
+			focus = FRL_reform_the_parliamentary
+		}
+		relative_position_id = FRL_reform_the_parliamentary
+		x = -1
+		y = 1
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus FRL_citizens_rights"
+			add_stability = 0.10
+			add_ideas = FRL_citizens_rights_idea
+		}
+		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_STABILITY }
+	}
+	focus = {
+		id = FRL_a_new_reform
+		icon = GFX_focus_generic_treaty
+		prerequisite = {
+			focus = FRL_reform_the_parliamentary
+		}
+		relative_position_id = FRL_reform_the_parliamentary
+		x = 1
+		y = 1
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus FRL_a_new_reform"
+			add_ideas = POL_a_new_sejm_idea
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	focus = {
+		id = FRL_social_democrat_hope
+		icon = GFX_focus_generic_treaty
+		available = {
+		}
+		prerequisite = {
+			focus = FRL_what_how
+		}
+		mutually_exclusive = {
+			focus = FRL_consociationalism_get_their_place
+			focus = FRL_conservative_win
+			focus = FRL_liberal_hold_on
+		}
+		relative_position_id = FRL_what_how
+		x = 5
+		y = 1
+		cost = 6
+		ai_will_do = {
+			factor = 1500
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus FRL_social_democrat_hope"
+			add_political_power = 50
+			remove_ideas = FRL_political_crisis
+			add_popularity = {
+				ideology = social_democrat
+				popularity = 0.30
+			}
+			add_popularity = {
+				ideology = agroindustrial_socialism
+				popularity = 0.1
+			}
+			add_popularity = {
+				ideology = council_socialism
+				popularity = 0.05
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	focus = {
+		id = FRL_dispel_injustice
+		icon = GFX_focus_generic_treaty
+		prerequisite = {
+			focus = FRL_social_democrat_hope
+		}
+		relative_position_id = FRL_social_democrat_hope
+		x = -1
+		y = 1
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus FRL_dispel_injustice"
+			add_ideas = FRL_dispel_injustice_idea
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	focus = {
+		id = FRL_NIRA
+		icon = GFX_focus_generic_treaty
+		prerequisite = {
+			focus = FRL_dispel_injustice
+		}
+		prerequisite = {
+			focus = FRL_unity_left
+		}
+		relative_position_id = FRL_social_democrat_hope
+		x = -1
+		y = 3
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus FRL_NIRA"
+			add_ideas = POL_german_research_idea
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH }
+	}
+	focus = {
+		id = FRL_unity_left
+		icon = GFX_focus_generic_treaty
+		available = {
+			is_in_faction_with = GER
+		}
+		prerequisite = {
+			focus = FRL_social_democrat_hope
+		}
+		relative_position_id = FRL_social_democrat_hope
+		x = 0
+		y = 2
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus FRL_unity_left"
+			army_experience = 20
+			add_tech_bonus = {
+				name = FRL_unity_left
+				bonus = 1
+				uses = 1
+				category = land_doctrine
+			}
+		}
+		search_filters = { FOCUS_FILTER_ARMY_BONUS FOCUS_FILTER_RESEARCH }
+	}
+	focus = {
+		id = FRL_end_invisible_persecution
+		icon = GFX_focus_generic_treaty
+		prerequisite = {
+			focus = FRL_social_democrat_hope
+		}
+		relative_position_id = FRL_social_democrat_hope
+		x = 1
+		y = 1
+		cost = 8
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus FRL_end_invisible_persecution"
+			add_political_power = 50
+			add_ideas = FRL_end_invisible_persecution
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
+	}
+	focus = {
+		id = FRL_liberal_hold_on
+		icon = GFX_focus_generic_treaty
+		prerequisite = {
+			focus = FRL_what_how
+		}
+		mutually_exclusive = {
+			focus = FRL_consociationalism_get_their_place
+			focus = FRL_conservative_win
+			focus = FRL_social_democrat_hope
+		}
+		select_effect = {
+			log = "[GetDateText]: [Root.GetName]: Select Focus POL_a_new_constitution"
+			country_event = {
+				id = poland.209
+				days = 80
+				random_days = 20
+			}
+		}
+		relative_position_id = FRL_what_how
+		x = 1
+		y = 1
+		cost = 6
+		ai_will_do = {
+			factor = 1500
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus FRL_liberal_hold_on"
+			custom_effect_tooltip = liberal_tree
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
