@@ -28,4 +28,24 @@ spriteTypes = {
 		name = "GFX_idea_zydcf"
 		texturefile = "gfx/interface/ideas/ideas/zydcf.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_SWE_qianhuzhiguo"
+		texturefile = "gfx/SWE/ideas/SWE_qianhuzhiguo.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SWE_tiekuangmaoyi"
+		texturefile = "gfx/SWE/ideas/SWE_tiekuangmaoyi.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SWE_hunluandejundui"
+		texturefile = "gfx/SWE/ideas/SWE_hunluandejundui.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SWE_jiujinpeiji"
+		texturefile = "gfx/SWE/ideas/SWE_jiujinpeiji.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SWE_Statare"
+		texturefile = "gfx/SWE/ideas/SWE_Statare.png"
+	}
 }
