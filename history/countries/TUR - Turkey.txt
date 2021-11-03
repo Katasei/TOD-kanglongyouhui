@@ -19,6 +19,18 @@ set_popularities = {
 	socialism = 37
 	radicalism = 31
 }
+add_ideas = {
+	TUR_guojiazhuyi
+	TUR_baoshoushilicanyu
+	TUR_xinxingzuoyizhengzhituanti
+	TUR_minzumaodun
+	TUR_diqugemingzhongxin
+}
+
+add_timed_idea = {
+	idea = TUR_diergewunianjihua
+	days = 30
+}
 
 create_country_leader = {
 	name = "Mustafa Kemal"
@@ -26,4 +38,7 @@ create_country_leader = {
 	picture = "Portrait_TUR_Mustafa_Kemal.png"
 	expire = "1965.1.1"
 	ideology = socialism_subtype
+	traits = { 
+		People_Leader 
+	}
 }
