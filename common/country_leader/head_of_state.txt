@@ -709,4 +709,10 @@ leader_traits = {
 		random = no
 		stability_factor = 0.05
 	}
+	### sweden
+	gongzei_shouxiang = {
+		random = no
+		stability_factor =-0.1
+		political_power_factor = -0.3
+	}
 }
