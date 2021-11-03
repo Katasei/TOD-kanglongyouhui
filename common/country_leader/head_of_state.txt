@@ -696,4 +696,17 @@ leader_traits = {
 			attack_bonus_against = 0.15
 		}
 	}
+	### Turkey
+	People_Leader = {
+		random = no
+		stability_factor = 0.20
+		industrial_capacity_factory = 0.05
+		production_speed_buildings_factor = 0.05
+		army_morale_factor = 0.05	
+	}
+	### hungary
+	Wise_Dictator = {
+		random = no
+		stability_factor = 0.05
+	}
 }
