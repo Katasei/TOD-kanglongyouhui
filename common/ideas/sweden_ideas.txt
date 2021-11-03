@@ -3,7 +3,7 @@ ideas = {
 		SWE_tiekuangmaoyi = {
 			name = SWE_tiekuangmaoyi
 
-			picture = MNG_Undesirable_economic_recovery
+			picture = SWE_tiekuangmaoyi
 
 			allowed = { original_tag = SWE }
 
@@ -22,7 +22,7 @@ ideas = {
 		SWE_hunluandejundui = {
 			name = SWE_hunluandejundui
 
-			picture = MNG_Undesirable_economic_recovery
+			picture = SWE_hunluandejundui
 
 			allowed = { original_tag = SWE }
 
@@ -41,7 +41,7 @@ ideas = {
 		SWE_jiujinpeiji = {
 			name = SWE_jiujinpeiji
 
-			picture = MNG_Undesirable_economic_recovery
+			picture = SWE_jiujinpeiji
 
 			allowed = { original_tag = SWE }
 
@@ -56,7 +56,7 @@ ideas = {
 		SWE_Statare = {
 			name = SWE_Statare
 
-			picture = MNG_Undesirable_economic_recovery
+			picture = SWE_Statare
 
 			allowed = { original_tag = SWE }
 
@@ -69,6 +69,20 @@ ideas = {
 				production_factory_efficiency_gain_factor = -0.1
 				production_factory_max_efficiency_factor = -0.1
 				trade_cost_for_FRA_factor = 0.8
+			}
+		}
+		SWE_qianhuzhiguo = {
+			name = SWE_qianhuzhiguo
+
+			picture = SWE_qianhuzhiguo
+
+			allowed = { original_tag = SWE }
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor =	-0.01
+				production_speed_buildings_factor = 0.08
 			}
 		}
 	}
