@@ -2,7 +2,6 @@
 # 土耳其事件
 ###########################
 # 文本：逸仙
-# 代码：Mizuyu Yorei
 ###########################
 
 add_namespace = TOD_Turkey
@@ -14,27 +13,27 @@ add_namespace = TOD_Turkey
 country_event = { # 国家介绍
 	id = TOD_Turkey.1
 	title = TOD_Turkey.1.t
-	desc = TOD_Turkey.1.desc
+	desc = TOD_Turkey.1.d
 
 	is_triggered_only = yes
 	fire_only_once = yes
 
 	option = {
 		name = TOD_Turkey.1.a
-		hidden_effect = {
-			country_event = {
-				id = TOD_Turkey.2
-				days = 1
-				hours = 17
-			}
-		}
+		add_ideas = TUR_shouquanganglingpai
+		add_political_power = 50 
+	}
+	option = {
+		name = TOD_Turkey.1.b
+		add_ideas = TUR_shouquanqizhipai
+		add_stability = 0.05
 	}
 }
 
 country_event = { #凯末尔昏厥
 	id = TOD_Turkey.2
 	title = TOD_Turkey.2.t
-	desc = TOD_Turkey.2.desc
+	desc = TOD_Turkey.2.d
 
 	is_triggered_only = yes
 
@@ -53,7 +52,7 @@ country_event = { #凯末尔昏厥
 country_event = { #凯末尔康复
 	id = TOD_Turkey.3
 	title = TOD_Turkey.3.t
-	desc = TOD_Turkey.3.desc
+	desc = TOD_Turkey.3.d
 
 	is_triggered_only = yes
 
@@ -71,7 +70,7 @@ country_event = { #凯末尔康复
 country_event = { #凯末尔辞职
 	id = TOD_Turkey.4
 	title = TOD_Turkey.4.t
-	desc = TOD_Turkey.4.desc
+	desc = TOD_Turkey.4.d
 
 	is_triggered_only = yes
 
@@ -84,7 +83,7 @@ country_event = { #凯末尔辞职
 country_event = { #继承人问题
 	id = TOD_Turkey.5
 	title = TOD_Turkey.5.t
-	desc = TOD_Turkey.5.desc
+	desc = TOD_Turkey.5.d
 
 	is_triggered_only = yes
 
@@ -124,7 +123,7 @@ country_event = { #继承人问题
 country_event = { #决定召开党内会议
 	id = TOD_Turkey.6
 	title = TOD_Turkey.6.t
-	desc = TOD_Turkey.6.desc
+	desc = TOD_Turkey.6.d
 
 	is_triggered_only = yes
 	
@@ -140,7 +139,7 @@ country_event = { #决定召开党内会议
 country_event = { #临时扩大会议
 	id = TOD_Turkey.7
 	title = TOD_Turkey.7.t
-	desc = TOD_Turkey.7.desc
+	desc = TOD_Turkey.7.d
 
 	is_triggered_only = yes
 	
@@ -158,7 +157,7 @@ country_event = { #临时扩大会议
 country_event = { #会议内容一
 	id = TOD_Turkey.8
 	title = TOD_Turkey.8.t
-	desc = TOD_Turkey.8.desc
+	desc = TOD_Turkey.8.d
 
 	is_triggered_only = yes
 	
@@ -188,7 +187,7 @@ country_event = { #会议内容一
 country_event = { #会议内容二
 	id = TOD_Turkey.9
 	title = TOD_Turkey.9.t
-	desc = TOD_Turkey.9.desc
+	desc = TOD_Turkey.9.d
 
 	is_triggered_only = yes
 	
@@ -218,7 +217,7 @@ country_event = { #会议内容二
 country_event = { #会议内容二
 	id = TOD_Turkey.9
 	title = TOD_Turkey.9.t
-	desc = TOD_Turkey.9.desc
+	desc = TOD_Turkey.9.d
 
 	is_triggered_only = yes
 	
@@ -248,7 +247,7 @@ country_event = { #会议内容二
 country_event = { #会议内容三
 	id = TOD_Turkey.10
 	title = TOD_Turkey.10.t
-	desc = TOD_Turkey.10.desc
+	desc = TOD_Turkey.10.d
 
 	is_triggered_only = yes
 	
@@ -278,7 +277,7 @@ country_event = { #会议内容三
 country_event = { #会议结束
 	id = TOD_Turkey.11
 	title = TOD_Turkey.11.t
-	desc = TOD_Turkey.11.desc
+	desc = TOD_Turkey.11.d
 
 	is_triggered_only = yes
 	
@@ -328,7 +327,7 @@ country_event = { #会议结束
 country_event = { #召开全国大选
 	id = TOD_Turkey.12
 	title = TOD_Turkey.12.t
-	desc = TOD_Turkey.12.desc
+	desc = TOD_Turkey.12.d
 
 	is_triggered_only = yes
 
@@ -350,7 +349,7 @@ country_event = { #召开全国大选
 country_event = { #经济方向
 	id = TOD_Turkey.13
 	title = TOD_Turkey.13.t
-	desc = TOD_Turkey.13.desc
+	desc = TOD_Turkey.13.d
 
 	is_triggered_only = yes
 
@@ -402,7 +401,7 @@ country_event = { #经济方向
 country_event = { #政治权利
 	id = TOD_Turkey.14
 	title = TOD_Turkey.14.t
-	desc = TOD_Turkey.14.desc
+	desc = TOD_Turkey.14.d
 
 	is_triggered_only = yes
 
@@ -454,7 +453,7 @@ country_event = { #政治权利
 country_event = { #民族宗教问题
 	id = TOD_Turkey.15
 	title = TOD_Turkey.15.t
-	desc = TOD_Turkey.15.desc
+	desc = TOD_Turkey.15.d
 
 	is_triggered_only = yes
 
@@ -506,7 +505,7 @@ country_event = { #民族宗教问题
 country_event = { #外交政策
 	id = TOD_Turkey.16
 	title = TOD_Turkey.16.t
-	desc = TOD_Turkey.16.desc
+	desc = TOD_Turkey.16.d
 
 	is_triggered_only = yes
 
@@ -558,7 +557,7 @@ country_event = { #外交政策
 country_event = { #教育问题
 	id = TOD_Turkey.17
 	title = TOD_Turkey.17.t
-	desc = TOD_Turkey.17.desc
+	desc = TOD_Turkey.17.d
 
 	is_triggered_only = yes
 
@@ -610,7 +609,7 @@ country_event = { #教育问题
 country_event = { #选举结果
 	id = TOD_Turkey.18
 	title = TOD_Turkey.18.t
-	desc = TOD_Turkey.18.desc
+	desc = TOD_Turkey.18.d
 
 	is_triggered_only = yes
 	

@@ -29,6 +29,7 @@
  HUN_radicalism:0 "匈牙利人民共和国" 
 
  ### ideas ###
+ Wise_Dictator:0 "明智的独裁者"
  HUN_nongyeguojia:0 "农业国家"
  HUN_nongyeguojia_desc:0 "匈牙利是一个传统的农业国家，我们国家不仅能做到自给自足，还能对外进行出口。但是，我们在农业机械化上的欠缺使得大量的资源损耗在了农业的各个方面身上，这严重地拖累了我国的经济发展"
  HUN_minzufenzheng:0 "民族纷争"
@@ -102,8 +103,8 @@
  HUN_fazhannongye_desc:0 "我们拥有着引以为傲的自然条件，极其有利于我们的农业发展。既然如此，为什么不大力发展我们的农业呢？"
  HUN_kejifazhan:0 "科技投资"
  HUN_kejifazhan_desc:0 "在发展了农业和工业之后，我们终于有足够的资金来发展我们的科学技术了，相信这会给我们带来丰厚的回报"
- HUN_jiejueminzufenzhneng:0 "解决民族纷争"
- HUN_jiejueminzufenzhneng_desc:0 "我们不成功的民族政策使得国内的少数民族怨声载道，我们需要及时调整对待他们的民族政策，否则以后会造成大的问题"
+ HUN_jiejueminzufenzheng:0 "解决民族纷争"
+ HUN_jiejueminzufenzheng_desc:0 "我们不成功的民族政策使得国内的少数民族怨声载道，我们需要及时调整对待他们的民族政策，否则以后会造成大的问题"
  HUN_jiejuesiluofakewenti:0 "解决斯洛伐克问题"
  HUN_jiejuesiluofakewenti_desc:0 "斯洛伐克民族长期以来与我们马扎尔人相处得并不融洽，我们应该和他们进行一场彻底的会谈，来解决这个问题"
  HUN_jiejueluomaniyawenti:0 "解决罗马尼亚问题"
