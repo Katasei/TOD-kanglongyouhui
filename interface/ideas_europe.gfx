@@ -48,4 +48,24 @@ spriteTypes = {
 		name = "GFX_idea_SWE_Statare"
 		texturefile = "gfx/SWE/ideas/SWE_Statare.png"
 	}
+	spriteType = {
+		name = "GFX_idea_GRE_shehuizhuyigemindengta"
+		texturefile = "gfx/GER/ideas/GRE_shehuizhuyigemindengta.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_paixidouzheng"
+		texturefile = "gfx/GER/ideas/GRE_paixidouzheng.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_shiqudeyidai"
+		texturefile = "gfx/GER/ideas/GRE_shiqudeyidai.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_makesizhuyijingji"
+		texturefile = "gfx/GER/ideas/GRE_makesizhuyijingji.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_tiekuangmaoyi"
+		texturefile = "gfx/GER/ideas/GRE_tiekuangmaoyi.png"
+	}
 }
