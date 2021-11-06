@@ -206,7 +206,6 @@ create_country_leader = {
 
 add_ideas = {
     free_trade
-	LibMrk_type
 	FRL_home_of_free
 	FRL_economic_crisis
 	FRL_connect_two_ocean
@@ -520,7 +519,9 @@ create_navy_leader = {# 约翰·S·麦凯恩
 	id = 994
 }
 
-country_event = { id = frl.2 days = 60 } #噔噔咚
+country_event = { id = frl.2 days = 80 } #噔噔咚
+country_event = { id = frl.4 days = 180 } #不信任投票
+
 
 ### 战舰型号 ###
 

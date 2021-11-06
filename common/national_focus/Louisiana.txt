@@ -1,6 +1,7 @@
 ### FRL focus ###
+### 路易斯安那国策树 - 民主政治线 ###
 focus_tree = {
-	id = Louisiana_Focus
+	id = Louisiana_Focus_dem
 	country = {
 		factor = 0
 		
@@ -9,12 +10,9 @@ focus_tree = {
 			add = 10
 		}
 	}
-	
-	
-	### 路易斯安那国策树 - 民主政治线 ###
 	focus = {
 		id = FRL_everything_will_be_fine
-		cost = 1
+		cost = 10
 		completion_reward = {
 			add_political_power = 100
 			country_event = frl.1
@@ -26,7 +24,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRL_what_how
-		cost = 1
+		cost = 30
 		completion_reward = {
 		}
 		prerequisite = {
@@ -544,7 +542,30 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus FRL_liberal_hold_on"
-			custom_effect_tooltip = liberal_tree
+			country_event = frl.3
+			mark_focus_tree_layout_dirty = yes
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+}
+
+### 路易斯安那国策树 - 自由政治线 ###
+focus_tree = {
+	id = FRL_liberal_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FRL
+		}
+	}
+	default = no
+	focus = {
+		id = FRL_new_century_of_liberal
+		cost = 1
+		completion_reward = {
+		}
+		x = 8
+		y = 0
+	}
 	}
