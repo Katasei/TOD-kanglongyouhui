@@ -17,11 +17,11 @@ add_ideas = {
 }
 
 add_ideas = {
-	GRE_shehuizhuyigemindengta
-	GRE_paixidouzheng
-	GRE_shiqudeyidai
-	GRE_makesizhuyijingji
-	GRE_tiekuangmaoyi
+	GER_beacon_of_socialist_revolution
+	GER_paixidouzheng
+	GER_shiqudeyidai
+	GER_makesizhuyijingji
+	GER_tiekuangmaoyi
 }
 set_popularities = {
 	national_corporatism = 0

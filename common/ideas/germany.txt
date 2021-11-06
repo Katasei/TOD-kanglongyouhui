@@ -1,10 +1,10 @@
 ideas = {
 
 	country = {
-		GRE_shehuizhuyigemindengta = {
-			name = GRE_shehuizhuyigemindengta
+		GER_shehuizhuyigemindengta = {
+			name = GER_shehuizhuyigemindengta
 
-			picture = GRE_shehuizhuyigemindengta
+			picture = GER_shehuizhuyigemindengta
 
 			allowed_civil_war = {always = yes}
 
@@ -16,10 +16,10 @@ ideas = {
 				opinion_gain_monthly_same_ideology_factor = 2.0
 			}
 		}
-		GRE_paixidouzheng = {
-			name = GRE_paixidouzheng
+		GER_paixidouzheng = {
+			name = GER_paixidouzheng
 
-			picture = GRE_paixidouzheng
+			picture = GER_paixidouzheng
 
 			allowed_civil_war = {always = yes}
 
@@ -31,10 +31,10 @@ ideas = {
 				stability_factor = -0.15
 			}
 		}
-		GRE_shiqudeyidai = {
-			name = GRE_shiqudeyidai
+		GER_shiqudeyidai = {
+			name = GER_shiqudeyidai
 
-			picture = GRE_shiqudeyidai
+			picture = GER_shiqudeyidai
 
 			allowed_civil_war = {always = yes}
 
@@ -47,10 +47,10 @@ ideas = {
 				war_support_factor = -0.2  
 			}
 		}
-		GRE_makesizhuyijingji = {
-			name = GRE_makesizhuyijingji
+		GER_makesizhuyijingji = {
+			name = GER_makesizhuyijingji
 
-			picture = GRE_makesizhuyijingji
+			picture = GER_makesizhuyijingji
 
 			allowed_civil_war = {always = yes}
 
@@ -63,10 +63,10 @@ ideas = {
 				MONTHLY_POPULATION = 0.1
 			}
 		}
-		GRE_tiekuangmaoyi = {
-			name = GRE_tiekuangmaoyi
+		GER_tiekuangmaoyi = {
+			name = GER_tiekuangmaoyi
 
-			picture = GRE_tiekuangmaoyi
+			picture = GER_tiekuangmaoyi
 
 			allowed_civil_war = {always = yes}
 
@@ -987,7 +987,7 @@ ideas = {
 			}
 		}
 		
-		ritter_von_greim = {
+		ritter_von_GERim = {
 
 			
 			allowed = {

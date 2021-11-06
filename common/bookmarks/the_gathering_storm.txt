@@ -38,7 +38,9 @@ bookmarks = {
 			history = "GER_TOD_GATHERING_STORM_DESC"
 			ideology = authoritarian_democrat
 			ideas = {
-				
+				GER_beacon_of_socialist_revolution
+	            GER_paixidouzheng
+	            GER_shiqudeyidai
 			}
 
 			focuses = {
@@ -72,9 +74,11 @@ bookmarks = {
 
 		"FRL" = {
 			history = "FRL_TOD_GATHERING_STORM_DESC"
-			ideology = authoritarian_democrat
+			ideology = liberal_democracy
 			ideas = {
-				
+			   FRL_home_of_free
+	           FRL_economic_crisis
+	           FRL_connect_two_ocean	
 			}
 
 			focuses = {
