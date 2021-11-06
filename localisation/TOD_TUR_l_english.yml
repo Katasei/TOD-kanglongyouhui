@@ -1,25 +1,26 @@
 ﻿l_english:
 
 # 国家名字
-TUR_radicalism:0 "土耳其人民共和国"
-TUR_radicalism_ADJ:0 "土耳其人"
-TUR_radicalism_descEF:0 "土耳其人民共和国"
-TUR_socialism:0 "土耳其人民共和国"
-TUR_socialism_ADJ:0 "土耳其人"
-TUR_socialism_descEF:0 "土耳其人民共和国"
+TUR_council_socialism:0 "土耳其人民共和国"
+TUR_council_socialism_ADJ:0 "土耳其人"
+TUR_council_socialism_DEF:0 "土耳其人民共和国"
+TUR_vanguard_socialism:0 "土耳其人民共和国"
+TUR_vanguard_socialism_ADJ:0 "土耳其人"
+TUR_vanguard_socialism_DEF:0 "土耳其人民共和国"
 
 # 政党名
-TUR_radicalism_party:0 "土耳其共和人民党"
-TUR_socialism_party:0 "土耳其左翼政治联盟"
-TUR_reformism_socialist_party:0 "土耳其左翼政治联盟"
-TUR_liberalism_party:0 "土耳其新自由和睦党"
-TUR_conservatism_party:0 "土耳其新自由和睦党"
-TUR_authoritarianism_party:0 "土耳其民主党"
-TUR_descespotism_party:0 "土耳其正义党"
-TUR_totalism_party:0 "新青年土耳其党"
-TUR_Socialism_Left_Soc_party:0 "土耳其左翼社会党"
-TUR_Socialism_Workers_party:0 "土耳其工会联合"
-TUR_Socialism_New_Lib_party:0 "土耳其新自由党"
+TUR_national_corporatism_party:0 "民族复兴阵线"
+TUR_sacred_revivalism_party:0 "民族复兴阵线"
+TUR_leader_despotism_party:0 "民族复兴阵线"
+TUR_authoritarian_oligarchy_party:0 "民族复兴阵线"
+TUR_conservative_democracy_party:0 "民族复兴阵线"
+TUR_liberal_democracy_party:0 "正义与民主党"
+TUR_consociationalism_party:0 "民族复兴阵线"
+TUR_social_democrat_party:0 "社会和睦党"
+TUR_agroindustrial_socialism_party:0 "土耳其共产党（激进派）"
+TUR_moderate_socialism_party:0 "土耳其工人党"
+TUR_council_socialism_party:0 "土耳其共和人民党（纲领派）"
+TUR_vanguard_socialism_party:0 "土耳其共和人民党（旗帜派）"
 
 
 ### events ###
