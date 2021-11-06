@@ -30,42 +30,42 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_SWE_qianhuzhiguo"
-		texturefile = "gfx/SWE/ideas/SWE_qianhuzhiguo.png"
+		texturefile = "gfx/interface/ideas/SWE/SWE_qianhuzhiguo.png"
 	}
 	spriteType = {
 		name = "GFX_idea_SWE_tiekuangmaoyi"
-		texturefile = "gfx/SWE/ideas/SWE_tiekuangmaoyi.png"
+		texturefile = "gfx/interface/ideas/SWE/SWE_tiekuangmaoyi.png"
 	}
 	spriteType = {
 		name = "GFX_idea_SWE_hunluandejundui"
-		texturefile = "gfx/SWE/ideas/SWE_hunluandejundui.png"
+		texturefile = "gfx/interface/ideas/SWE/SWE_hunluandejundui.png"
 	}
 	spriteType = {
 		name = "GFX_idea_SWE_jiujinpeiji"
-		texturefile = "gfx/SWE/ideas/SWE_jiujinpeiji.png"
+		texturefile = "gfx/interface/ideas/SWE/SWE_jiujinpeiji.png"
 	}
 	spriteType = {
 		name = "GFX_idea_SWE_Statare"
-		texturefile = "gfx/SWE/ideas/SWE_Statare.png"
+		texturefile = "gfx/interface/ideas/SWE/SWE_Statare.png"
 	}
 	spriteType = {
-		name = "GFX_idea_GRE_shehuizhuyigemindengta"
-		texturefile = "gfx/GER/ideas/GRE_shehuizhuyigemindengta.png"
+		name = "GFX_idea_GER_shehuizhuyigemindengta"
+		texturefile = "gfx/interface/ideas/GER/GER_shehuizhuyigemindengta.png"
 	}
 	spriteType = {
-		name = "GFX_idea_GRE_paixidouzheng"
-		texturefile = "gfx/GER/ideas/GRE_paixidouzheng.png"
+		name = "GFX_idea_GER_paixidouzheng"
+		texturefile = "gfx/interface/ideas/GER/GER_paixidouzheng.png"
 	}
 	spriteType = {
-		name = "GFX_idea_GRE_shiqudeyidai"
-		texturefile = "gfx/GER/ideas/GRE_shiqudeyidai.png"
+		name = "GFX_idea_GER_shiqudeyidai"
+		texturefile = "gfx/interfaceE/ideas/GER/GER_shiqudeyidai.png"
 	}
 	spriteType = {
-		name = "GFX_idea_GRE_makesizhuyijingji"
-		texturefile = "gfx/GER/ideas/GRE_makesizhuyijingji.png"
+		name = "GFX_idea_GER_makesizhuyijingji"
+		texturefile = "gfx/interface/ideas/GER/GER_makesizhuyijingji.png"
 	}
 	spriteType = {
-		name = "GFX_idea_GRE_tiekuangmaoyi"
-		texturefile = "gfx/GER/ideas/GRE_tiekuangmaoyi.png"
+		name = "GFX_idea_GER_tiekuangmaoyi"
+		texturefile = "gfx/interface/ideas/GER/GER_tiekuangmaoyi.png"
 	}
 }
