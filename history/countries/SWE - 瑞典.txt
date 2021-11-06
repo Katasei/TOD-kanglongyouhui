@@ -1,0 +1,77 @@
+﻿capital = 141
+
+oob = "empty"
+
+set_politics = {
+	ruling_party = conservative_democracy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	leader_despotism = 12
+	authoritarian_oligarchy = 7
+	conservative_democracy = 30
+	liberal_democracy = 6
+	social_democrat = 45
+}
+add_ideas = {
+	free_trade
+	limited_conscription
+	partial_economic_mobilisation
+}
+
+add_ideas = {
+	SWE_qianhuzhiguo
+	SWE_tiekuangmaoyi
+	SWE_hunluandejundui
+	SWE_jiujinpeiji
+	SWE_Statare
+}
+
+create_country_leader = {
+	name = "卡尔·古斯塔夫·艾克曼"
+	desc = "POLITICS_Carl_Gustaf_Ekman_DESC"
+	picture = "gfx/leaders/SWE/Carl·Gustaf·Ekman.png"
+	expire = "1965.1.1"
+	ideology = conservative_democracy_subtype
+	traits = { gongzei_shouxiang }
+}
+
+create_country_leader = {
+	name = "皮尔·阿尔宾·汉森"
+	desc = "POLITICS_Pierre_Albin_Hansen_DESC"
+	picture = "gfx/leaders/SWE/Pierre_Albin_Hansen.png"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+}
+
+create_country_leader = {
+	name = "古斯塔夫五世"
+	desc = "POLITICS_GustavV_DESC"
+	picture = "gfx/leaders/SWE/GustavV.png"
+	expire = "1965.1.1"
+	ideology = authoritarian_oligarchy_subtype
+}
+
+create_country_leader = {
+	name = "阿克塞尔·佩尔森·布拉姆斯托普"
+	desc = "POLITICS_Axel_Person_Bramstorp_DESC"
+	picture = "gfx/leaders/SWE/Axel_Person_Bramstorp.png"
+	expire = "1965.1.1"
+	ideology = liberal_democracy_subtype
+}
+
+create_country_leader = {
+	name = "奥洛夫·托内尔"
+	desc = "POLITICS_Olof_Tonell_DESC"
+	picture = "gfx/leaders/SWE/Olof_Tonell.png"
+	expire = "1965.1.1"
+	ideology = leader_despotism_subtype
+}
+
+
+
+
+
