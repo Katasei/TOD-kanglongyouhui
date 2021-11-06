@@ -40,7 +40,7 @@ bookmarks = {
 			ideas = {
 				GER_beacon_of_socialist_revolution
 	            GER_paixidouzheng
-	            GER_shiqudeyidai
+	            GER_lost_generation
 			}
 
 			focuses = {
