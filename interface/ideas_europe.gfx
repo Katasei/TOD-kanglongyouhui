@@ -58,7 +58,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_GER_shiqudeyidai"
-		texturefile = "gfx/interfaceE/ideas/GER/GER_shiqudeyidai.png"
+		texturefile = "gfx/interface/ideas/GER/GER_shiqudeyidai.png"
 	}
 	spriteType = {
 		name = "GFX_idea_GER_makesizhuyijingji"

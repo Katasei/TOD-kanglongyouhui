@@ -19,7 +19,7 @@ add_ideas = {
 add_ideas = {
 	GER_beacon_of_socialist_revolution
 	GER_paixidouzheng
-	GER_shiqudeyidai
+	GER_lost_generation
 	GER_makesizhuyijingji
 	GER_tiekuangmaoyi
 }

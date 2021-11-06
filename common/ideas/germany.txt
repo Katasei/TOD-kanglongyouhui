@@ -1,8 +1,8 @@
 ideas = {
 
 	country = {
-		GER_shehuizhuyigemindengta = {
-			name = GER_shehuizhuyigemindengta
+		GER_beacon_of_socialist_revolution = {
+			name = GER_beacon_of_socialist_revolution
 
 			picture = GER_shehuizhuyigemindengta
 
@@ -31,8 +31,8 @@ ideas = {
 				stability_factor = -0.15
 			}
 		}
-		GER_shiqudeyidai = {
-			name = GER_shiqudeyidai
+		GER_lost_generation = {
+			name = GER_lost_generation
 
 			picture = GER_shiqudeyidai
 
