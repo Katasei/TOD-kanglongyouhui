@@ -721,4 +721,10 @@ leader_traits = {
 		stability_factor = 0.1
 		war_support_factor = 0.05 
 	}
+	### finland
+	Iron_Felix = {
+		random = no
+		stability_factor = 0.2
+		political_power_factor = 0.5
+	}
 }
