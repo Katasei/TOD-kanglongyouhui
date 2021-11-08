@@ -10,27 +10,47 @@ set_politics = {
 }
 
 set_popularities = {
-	totalism = 0
-	despotism = 0
-	authoritarianism = 0
-	conservatism = 0
-	liberalism = 11
-	reformism = 35
-	socialism = 39
-	radicalism = 15
+	agroindustrial_socialism = 21
+	moderate_socialism = 4
+	council_socialism = 11
+	vanguard_socialism = 64
+}
+create_country_leader = {
+	name = "尼古拉·伊万诺维奇·布哈林"
+	desc = "POLITICS_jieerrensiji_DESC"
+	picture = "Portrait_FIN_jieerrensiji.png"
+	expire = "1965.1.1"
+	ideology = agroindustrial_socialism_subtype
+	traits = { }
+}
+create_country_leader = {
+	name = "库勒沃·曼纳"
+	desc = "POLITICS_jieerrensiji_DESC"
+	picture = "Portrait_FIN_jieerrensiji.png"
+	expire = "1965.1.1"
+	ideology = moderate_socialism_subtype
+	traits = { }
+}
+create_country_leader = {
+	name = "埃罗·哈帕莱宁"
+	desc = "POLITICS_jieerrensiji_DESC"
+	picture = "Portrait_FIN_jieerrensiji.png"
+	expire = "1965.1.1"
+	ideology = council_socialism_subtype
+	traits = { }
 }
 
 create_country_leader = {
-	name = "Otto Kuusinen"
-	desc = "POLITICS_OTTO_KUUSINEN_DESC"
-	picture = "Portrait_FIN_Otto_Kuusinen.png"
+	name = "菲利克斯·埃德蒙多维奇·捷尔任斯基"
+	desc = "POLITICS_jieerrensiji_DESC"
+	picture = "Portrait_FIN_jieerrensiji.png"
 	expire = "1965.1.1"
-	ideology = socialism_subtype
+	ideology = vanguard_socialism_subtype
+	traits = { Iron_Felix }
 }
 
 add_ideas = {
-	SocMod_type
-	FIN_Industrial_construction
-	FIN_External_threats
-	FIN_Brave_Army
+	FIN_SISUjingsheng
+	FIN_shiyuegemingdeyichan
+	FIN_lieningzhuyijingji
 }

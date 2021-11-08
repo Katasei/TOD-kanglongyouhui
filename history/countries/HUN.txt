@@ -7,8 +7,8 @@ set_stability = 0.5
 set_war_support = 0.5
 
 set_politics = {
-	ruling_party = authoritarianism
-	last_election = "1936.1.1"
+	ruling_party = authoritarian_oligarchy
+	last_election = "1918.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -41,30 +41,115 @@ add_ideas = {
 }
 
 set_popularities = {
-	totalism = 12
-	despotism = 0
-	authoritarianism = 35
-	conservatism = 17
-	liberalism = 16
-	reformism = 12
-	socialism = 8
-	radicalism = 0
+	national_corporatism = 18
+	sacred_revivalism = 7
+	leader_despotism = 1
+	authoritarian_oligarchy = 22
+	conservative_democracy = 12
+	liberal_democracy = 4
+	consociationalism = 2
+	social_democrat = 11
+	agroindustrial_socialism = 6
+	moderate_socialism = 4
+	council_socialism = 6
+	vanguard_socialism = 7
 }
 
 create_country_leader = {
-	name = "István Tisza"
+	name = "Ferenc·Kossuth"
 	desc = "POLITICS_ISTVAN_TISZA_DESC"
-	picture = "Portrait_HUN_Tisza-István .dds"
+	picture = "Portrait_HUN_Tisza-István.dds"
 	expire = "1965.1.1"
-	ideology = authoritarianism_subtype
+	ideology = national_corporatism_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "István·Tisza"
+	desc = "POLITICS_ISTVAN_TISZA_DESC"
+	picture = "Portrait_HUN_Tisza-István.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_oligarchy_subtype
 	traits = {
 		 Wise_Dictator
 	}
 }
+create_country_leader = {
+	name = "Gyula·Károlyi"
+	desc = "POLITICS_ISTVAN_TISZA_DESC"
+	picture = "Portrait_HUN_Tisza-István.dds"
+	expire = "1965.1.1"
+	ideology = conservative_democracy_subtype
+	traits = {
+	}
+}
 
+create_country_leader = {
+	name = "Mihály·Károlyi"
+	desc = "POLITICS_ISTVAN_TISZA_DESC"
+	picture = "Portrait_HUN_Tisza-István.dds"
+	expire = "1965.1.1"
+	ideology = liberal_democracy_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Miklós Kállay"
+	desc = "POLITICS_ISTVAN_TISZA_DESC"
+	picture = "Portrait_HUN_Tisza-István.dds"
+	expire = "1965.1.1"
+	ideology = consociationalism_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Sándor·Garbai"
+	desc = "POLITICS_ISTVAN_TISZA_DESC"
+	picture = "Portrait_HUN_Tisza-István.dds"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "István Dobi"
+	desc = "POLITICS_ISTVAN_TISZA_DESC"
+	picture = "Portrait_HUN_Tisza-István.dds"
+	expire = "1965.1.1"
+	ideology = agroindustrial_socialism_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Kádár János"
+	desc = "POLITICS_ISTVAN_TISZA_DESC"
+	picture = "Portrait_HUN_Tisza-István.dds"
+	expire = "1965.1.1"
+	ideology = moderate_socialism_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Imre Nagy"
+	desc = "POLITICS_ISTVAN_TISZA_DESC"
+	picture = "Portrait_HUN_Tisza-István.dds"
+	expire = "1965.1.1"
+	ideology = council_socialism_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Béla·Kun"
+	desc = "POLITICS_ISTVAN_TISZA_DESC"
+	picture = "Portrait_HUN_Tisza-István.dds"
+	expire = "1965.1.1"
+	ideology = vanguard_socialism_subtype
+	traits = {
+	}
+}
 
 create_corps_commander = {
-	name = "Iván Hindy"
+	name = "Iván·Hindy"
 	gfx = GFX_Portrait_hungary_ivan_hindy
 	traits = {  trickster }
 	skill = 4
