@@ -298,6 +298,16 @@ air_wings = {
 			amount = 20
 		}
 	}
+	70 = {
+		CAS_equipment_1 = {
+			owner = "HUN" 
+			amount = 20
+		}
+		fighter_equipment_1 = {
+			owner = "HUN" 
+			amount = 20
+		}
+	}
 }
 
 
@@ -342,6 +352,15 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
+			type = CSA1_equipment_1
+			creator = "HUN"
+		}
+		requested_factories = 1
+		progress = 0.60
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
 			type = artillery_equipment_1
 			creator = "HUN"
 		}
@@ -352,7 +371,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = motorized_equipment_1
-			creator = "MNG" 
+			creator = "HUN" 
 		}
 		requested_factories = 1
 		progress = 0.6
