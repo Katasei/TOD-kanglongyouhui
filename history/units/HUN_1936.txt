@@ -273,8 +273,6 @@ units = {
 ### Magyar Légiero ###
 air_wings = {
 	43 = {
-		# 1. Légi Ezred -- Fiat CR.32 fighters
-		# 2. Légi Ezred -- Fiat CR.32 fighters
 		fighter_equipment_0 = {
 			owner = "HUN" 
 			creator = "FRA"
@@ -287,10 +285,9 @@ air_wings = {
 		}
 	}
 	154 = {
-		# 3. Légi Ezred -- Caproni Ca.101, WM-16 Budapest light bombers
 		CAS_equipment_1 = {
 			owner = "HUN" 
-			amount = 20
+			amount = 40
 		}
 		tac_bomber_equipment_0 = {
 			owner = "HUN" 
@@ -301,11 +298,11 @@ air_wings = {
 	70 = {
 		CAS_equipment_1 = {
 			owner = "HUN" 
-			amount = 20
+			amount = 40
 		}
 		fighter_equipment_1 = {
 			owner = "HUN" 
-			amount = 20
+			amount = 40
 		}
 	}
 }
