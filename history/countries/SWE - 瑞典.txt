@@ -1,6 +1,6 @@
 ﻿capital = 141
 
-oob = "empty"
+oob = "SWE_1936"
 
 set_politics = {
 	ruling_party = conservative_democracy
