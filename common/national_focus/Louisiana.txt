@@ -43,7 +43,7 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = FRL_consociationalism_get_their_place
-			focus = FRL_liberal_hold_on
+			focus = FRL_radicals_have_won
 			focus = FRL_social_democrat_hope
 		}
 		select_effect = {
@@ -153,7 +153,7 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = FRL_conservative_win
-			focus = FRL_liberal_hold_on
+			focus = FRL_radicals_have_won
 			focus = FRL_social_democrat_hope
 		}
 		relative_position_id = FRL_what_how
@@ -397,7 +397,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = FRL_consociationalism_get_their_place
 			focus = FRL_conservative_win
-			focus = FRL_liberal_hold_on
+			focus = FRL_radicals_have_won
 		}
 		relative_position_id = FRL_what_how
 		x = 5
@@ -515,7 +515,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
 	}
 	focus = {
-		id = FRL_liberal_hold_on
+		id = FRL_radicals_have_won
 		icon = GFX_focus_generic_treaty
 		prerequisite = {
 			focus = FRL_what_how
@@ -541,7 +541,7 @@ focus_tree = {
 			factor = 1500
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus FRL_liberal_hold_on"
+			log = "[GetDateText]: [Root.GetName]: Focus FRL_radicals_have_won"
 			country_event = frl.3
 			mark_focus_tree_layout_dirty = yes
 		}
