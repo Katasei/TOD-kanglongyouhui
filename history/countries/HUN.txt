@@ -41,26 +41,44 @@ add_ideas = {
 }
 
 set_popularities = {
-	national_corporatism = 18
-	sacred_revivalism = 7
+	national_corporatism = 19
+	sacred_revivalism = 15
 	leader_despotism = 1
-	authoritarian_oligarchy = 22
-	conservative_democracy = 12
+	authoritarian_oligarchy = 7
+	conservative_democracy = 14
 	liberal_democracy = 4
-	consociationalism = 2
-	social_democrat = 11
-	agroindustrial_socialism = 6
-	moderate_socialism = 4
-	council_socialism = 6
-	vanguard_socialism = 7
+	consociationalism = 5
+	social_democrat = 13
+	agroindustrial_socialism = 11
+	moderate_socialism = 1
+	council_socialism = 4
+	vanguard_socialism = 6
 }
 
 create_country_leader = {
-	name = "Ferenc·Kossuth"
+	name = "Gyula Gömbös"
 	desc = "POLITICS_ISTVAN_TISZA_DESC"
-	picture = "Portrait_HUN_Tisza-István.dds"
+	picture = "Gombos_Gyula.png"
 	expire = "1965.1.1"
 	ideology = national_corporatism_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "János Zichy"
+	desc = "POLITICS_ISTVAN_TISZA_DESC"
+	picture = "Zichy_János.jpg"
+	expire = "1965.1.1"
+	ideology = sacred_revivalism_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Charles I of Austria"
+	desc = "POLITICS_ISTVAN_TISZA_DESC"
+	picture = "Emperor_Charles_I_of_Austria.jpg"
+	expire = "1965.1.1"
+	ideology = leader_despotism_subtype
 	traits = {
 	}
 }
@@ -71,13 +89,12 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = authoritarian_oligarchy_subtype
 	traits = {
-		 Wise_Dictator
 	}
 }
 create_country_leader = {
-	name = "Gyula·Károlyi"
+	name = "István Bethlen"
 	desc = "POLITICS_ISTVAN_TISZA_DESC"
-	picture = "Portrait_HUN_Tisza-István.dds"
+	picture = "Istvan Bethlen.jpg"
 	expire = "1965.1.1"
 	ideology = conservative_democracy_subtype
 	traits = {
@@ -87,34 +104,34 @@ create_country_leader = {
 create_country_leader = {
 	name = "Mihály·Károlyi"
 	desc = "POLITICS_ISTVAN_TISZA_DESC"
-	picture = "Portrait_HUN_Tisza-István.dds"
+	picture = "Mihaly-karolyi.jpg"
 	expire = "1965.1.1"
 	ideology = liberal_democracy_subtype
 	traits = {
 	}
 }
 create_country_leader = {
-	name = "Miklós Kállay"
+	name = "Vilmos Vázsonyi"
 	desc = "POLITICS_ISTVAN_TISZA_DESC"
-	picture = "Portrait_HUN_Tisza-István.dds"
+	picture = "Vázsonyi_Vilmos.jpg"
 	expire = "1965.1.1"
 	ideology = consociationalism_subtype
 	traits = {
 	}
 }
 create_country_leader = {
-	name = "Sándor·Garbai"
+	name = "Károly Peyer"
 	desc = "POLITICS_ISTVAN_TISZA_DESC"
-	picture = "Portrait_HUN_Tisza-István.dds"
+	picture = "Peyer_Károly.png"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {
 	}
 }
 create_country_leader = {
-	name = "István Dobi"
+	name = "Zoltán Tildy"
 	desc = "POLITICS_ISTVAN_TISZA_DESC"
-	picture = "Portrait_HUN_Tisza-István.dds"
+	picture = "Tildy_Zoltán.jpg"
 	expire = "1965.1.1"
 	ideology = agroindustrial_socialism_subtype
 	traits = {
@@ -123,7 +140,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Kádár János"
 	desc = "POLITICS_ISTVAN_TISZA_DESC"
-	picture = "Portrait_HUN_Tisza-István.dds"
+	picture = "Kádár János.jpg"
 	expire = "1965.1.1"
 	ideology = moderate_socialism_subtype
 	traits = {
@@ -132,7 +149,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Imre Nagy"
 	desc = "POLITICS_ISTVAN_TISZA_DESC"
-	picture = "Portrait_HUN_Tisza-István.dds"
+	picture = "Imre Nagy.jpg"
 	expire = "1965.1.1"
 	ideology = council_socialism_subtype
 	traits = {
