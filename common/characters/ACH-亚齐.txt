@@ -1,0 +1,15 @@
+characters={
+	ACH_Tulku_Uma={
+		name=GER_adolf_hitler
+		portraits={
+			civilian={
+				large="gfx/leaders/GER/Portrait_Germany_Adolf_Hitler.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism_subtype
+			traits={ dictator }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}

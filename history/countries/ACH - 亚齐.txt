@@ -16,8 +16,8 @@ set_popularities = {
 
 create_country_leader = {
 	name = "杜固·乌马"
-	desc = "POLITICS_CHEN_LIANBO_DESC"
-	picture = "Portrait_LAF_Chen_Lianbo.png"
+	desc = "POLITICS_Tulku_Uma_DESC"
+	picture = "Portrait_ACH_Tulku_Uma.png"
 	expire = "1965.1.1"
 	ideology = despotism_subtype
 }
@@ -31,8 +31,6 @@ create_country_leader = {
 }
 
 add_ideas = {
-	DesDic_type
-	LibMrk type
     ACH_1
 	ACH_2
 	ACH_3
