@@ -113,11 +113,11 @@ ideas = {
 				consumer_goods_factor = 0.05
 			}
 		}
-		HUN_ziyoudechengfeng = {
+		HUN_ziyoudechunfeng = {
 		
-			name = HUN_ziyoudechengfeng
+			name = HUN_ziyoudechunfeng
 
-			picture = HUN_ziyoudechengfeng
+			picture = HUN_ziyoudechunfeng
 
 			allowed = { original_tag = HUN }
 
