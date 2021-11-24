@@ -79,7 +79,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {add_ideas = HUN_ziyoudechengfeng}
+		completion_reward = {add_ideas = HUN_ziyoudechunfeng}
 	}
 	#保持独裁统治
 	focus = {
