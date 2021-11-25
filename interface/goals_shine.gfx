@@ -14672,7 +14672,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_HUN_jiejuesiluofakewenti"
+		name = "GFX_HUN_jiejuesiluofakewenti_shine"
 		texturefile = "gfx/interface/goals/HUN_jiejuesiluofakewenti.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
