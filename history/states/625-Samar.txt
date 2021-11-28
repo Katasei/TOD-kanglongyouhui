@@ -1,18 +1,21 @@
-
-state={
+state=
+{
 	id=625
 	name="STATE_625"
-
-	history={
-		owner = SUL
-		add_core_of = SUL
-
+	manpower = 1138724
+	
+	state_category = rural
+	history=
+	{
+		owner = PHI
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = PHI
 	}
-
 	provinces={
-		1224 1311 1340 4269 4373 7385 
+		1224 1311 1340 4269 4373 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
-	state_category=town
+
+	local_supplies=0.0 
 }

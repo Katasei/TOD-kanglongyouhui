@@ -2,16 +2,16 @@
 state={
 	id=390
 	name="STATE_390"
-	manpower = 719451
+	manpower = 692849
 	state_category = rural
 
 	history={
-		owner = FRL
+		owner = USA
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			industrial_complex = 1
 		}
-		add_core_of = FRL
+		add_core_of = USA
 		victory_points = {
 			1747 1 
 		}
@@ -19,6 +19,8 @@ state={
 	}
 
 	provinces={
-		1747 1875 3750 4839 6722 7745 7771 7877 12566  
+		1747 1875 3750 4839 4880 7745 7771 7862 10569 10595 12620 12667 
 	}
+
+	local_supplies=0.0 
 }

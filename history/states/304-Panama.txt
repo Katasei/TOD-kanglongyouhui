@@ -10,9 +10,9 @@ state={
 	state_category = town
 	
 	history={
-		owner = COL
+		owner = PAN
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 2 
 			air_base = 1
@@ -23,9 +23,7 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = COL
 		add_core_of = PAN
-		add_core_of = PUC
 		victory_points = {
 			7630 5 
 		}
@@ -38,4 +36,6 @@ state={
 	provinces={
 		1633 4611 4624 7630 10482 
 	}
+
+	local_supplies=0.0 
 }

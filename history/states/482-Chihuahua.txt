@@ -4,21 +4,27 @@ state={
 	name="STATE_482"
 	manpower = 520751
 	
-	state_category = three
+	state_category = rural
 
 	history={
-		owner = CRI
+		owner = MEX
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = CRI
+		add_core_of = MEX
+
+		victory_points = {
+			8097 10
+		}
 		victory_points = {
 			10830 10
 		}
 	}
 
 	provinces={
-		2037 4898 7935 8097 10809 10830 10916 12745 12827 12850 12897 13625 13626 13627 13628
+		2037 4898 7935 8097 10809 10830 10916 12745 12827 12850 12897 
 	}
 	
+
+	local_supplies=0.0 
 }

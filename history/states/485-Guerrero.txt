@@ -2,17 +2,20 @@
 state={
 	id=485
 	name="STATE_485"
-	manpower = 1267000
+	manpower = 1598311
 	
-	state_category = two
+	state_category = rural
 
+	resources={
+		steel=4 #was 2
+	}
 
 
 	history={
 		owner = MEX
 		buildings = {
 			infrastructure = 2
-			
+			industrial_complex = 1
 			8032 = {
 				naval_base = 3
 			}
@@ -30,7 +33,9 @@ state={
 	}
 
 	provinces={
-		10730 10773 10832 12712 13597 13598 13599 13600 13601
+		4887 5066 8032 10730 10832 
 	}
 	
+
+	local_supplies=0.0 
 }

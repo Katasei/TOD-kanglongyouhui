@@ -1,3 +1,4 @@
+
 state={
 	id=105
 	name="STATE_105"
@@ -8,12 +9,12 @@ state={
 
 	history={
 		victory_points = {
-			9809 3
+			9809 3 
 		}
-		owner = SER
-		add_core_of = SER
+		owner = YUG
+		add_core_of = MNT
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			industrial_complex = 1
 			9809 = {
 				naval_base = 1
@@ -21,7 +22,7 @@ state={
 			}
 
 		}
-		add_core_of = SER
+		add_core_of = YUG
 
 	}
 
@@ -31,4 +32,6 @@ state={
 	manpower=895500
 	buildings_max_level_factor=1.000
 	state_category=rural
+
+	local_supplies=3.0 
 }

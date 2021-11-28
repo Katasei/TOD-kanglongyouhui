@@ -2,21 +2,24 @@
 state={
 	id=377
 	name="STATE_377"
-	manpower = 442572
+	manpower = 435572
 	
-	state_category = two
+	state_category = rural
 	
 	resources={
-		steel=20 
+		steel=20 # was: 40
+		oil=5 # was: 10
+		aluminium=8 # was: 16
 	}
 
 	history={
-		owner = USM
+		owner = USA
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			industrial_complex = 1
+			air_base = 2
 		}
-		add_core_of = USM
+		add_core_of = USA
 		victory_points = {
 			853 3 
 		}
@@ -24,6 +27,8 @@ state={
 	}
 
 	provinces={
-		853 1793 4796 7747 8115 10783 11814 12765 
+		850 853 1793 3834 4796 6897 7747 7821 7920 8115 10573 10783 11814 12765 
 	}
+
+	local_supplies=8.0 
 }

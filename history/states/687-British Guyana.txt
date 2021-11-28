@@ -11,12 +11,12 @@ state={
 
 	history={
 		add_core_of = GYA
-		owner = HOL
+		owner = ENG
 		victory_points = {
 			4982 1
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			4982 = {
 				naval_base = 1
 			}
@@ -26,4 +26,6 @@ state={
 	provinces={
 		4982 8107 12716 
 	}
+
+	local_supplies=5.0 
 }

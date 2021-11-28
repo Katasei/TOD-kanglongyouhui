@@ -6,9 +6,10 @@ state=
 	manpower=42
 	history=
 	{
-		owner = MNG
+		owner = JAP
+		add_core_of = GUM
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			air_base = 1
 			13026 = {
 				naval_base = 1
@@ -19,4 +20,6 @@ state=
 	provinces=
 	{
 13026 	}
+
+	local_supplies=0.0 
 }

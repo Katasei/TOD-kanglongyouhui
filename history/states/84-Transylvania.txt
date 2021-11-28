@@ -10,9 +10,9 @@ state={
 	state_category = town
 
 	history={
-		owner = HUN
+		owner = ROM
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1
 		}
@@ -20,9 +20,12 @@ state={
 			690 1 
 		}
 		add_core_of = ROM
+		add_core_of = TRA
 	}
 
 	provinces={
 		676 690 693 3665 3676 3694 6679 6709 9619 11622 11639 
 	}
+
+	local_supplies=0.0 
 }

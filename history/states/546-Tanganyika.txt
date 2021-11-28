@@ -1,32 +1,32 @@
-
 state={
 	id=546
 	name="STATE_546"
+	
+	state_category = rural
 	resources={
-		rubber=2.000
+		rubber=2 # was: 2
 	}
-
 	history={
-		owner = MEA
+		owner = ENG
 		victory_points = {
-			2196 5 
+			2196 1
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			2196 = {
-				naval_base = 3
+				naval_base = 2
 
 			}
 
 		}
-		add_core_of = TZN
-		add_core_of = MEA
+			add_core_of = TZN
+	}
 
-	}
 	provinces={
-		2196 8183 
+		2176 2196 2206 2281 2308 4171 5180 5224 8144 8182 8183 8201 8205 10845 10932 10988 11017 12911 12944 12967 
 	}
-	manpower=2135480
+	manpower=5299000
 	buildings_max_level_factor=1.000
-	state_category=large_town
+
+	local_supplies=0.0 
 }

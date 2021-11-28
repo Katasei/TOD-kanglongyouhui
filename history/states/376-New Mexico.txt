@@ -2,29 +2,32 @@
 state={
 	id=376
 	name="STATE_376"
-	manpower = 485000
+	manpower = 423316
 	
-	state_category = two
+	state_category = rural
 	
 	resources={
-		aluminium=39 
+		oil=14 # was: 20
+		aluminium=30 # was: 52
 	}
 
 
 	history={
-		owner = USM
+		owner = USA
 		buildings = {
-			infrastructure = 3
-			
+			infrastructure = 2
+			industrial_complex = 1
 		}
-		add_core_of = USM
+		add_core_of = USA
 		victory_points = {
 			4975 1
 		}
 	}
 
 	provinces={
-		3867 3883 4975 5044 8070 9773 10867 10914 12684 12720 12791 12848 12893
+		1972 2102 3867 3883 4975 5044 8070 10642 10645 10867 10914 12552 12684 12720 12791 
 	}
 	
+
+	local_supplies=0.0 
 }

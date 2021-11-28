@@ -4,7 +4,7 @@ state={
 	name="STATE_28" # Alsace-Lorraine
 	manpower = 1915600
 	
-	state_category = large_city
+	state_category = city
 	resources={
 		steel=100 # was: 236
 	}
@@ -17,12 +17,17 @@ state={
 		victory_points = { 9503 5 }
 		victory_points = { 9559 10 }
 		buildings = {
-			infrastructure = 7
-			industrial_complex = 6
-			arms_factory = 4
-			anti_air_building = 5
-			air_base = 7
+			infrastructure = 4
+			industrial_complex = 3
+			549 = {
+				bunker = 10
+
+			}
 			678 = {
+				bunker = 10
+
+			}
+			3629 = {
 				bunker = 10
 
 			}
@@ -34,12 +39,22 @@ state={
 				bunker = 10
 
 			}
+			9559 = {
+				bunker = 10
+
+			}
+			11502 = {
+				bunker = 10
+
+			}
+			anti_air_building = 5
+			air_base = 5
 
 		}
 		add_core_of = FRA
 		1939.1.1 = {
 			buildings = {
-				industrial_complex = 9
+				industrial_complex = 4
 			}
 		}
 	}
@@ -47,4 +62,6 @@ state={
 	provinces={
 		549 678 1346 3629 6529 9503 9559 11502 
 	}
+
+	local_supplies=14.0 
 }

@@ -2,20 +2,24 @@ state=
 {
 	id=311
 	name="STATE_311"
-	manpower = 389000
+	manpower = 51000
 	
-	state_category = two
+	state_category = pastoral
 	history=
 	{
-		add_core_of = MSR
-		owner = MSR
+		add_core_of = BLZ
+		owner = ENG
 		victory_points = {
 			2077 1 
 		}
 		buildings = {
 			infrastructure = 2
-			dockyard = 1
+			2077 = {
+				naval_base = 1
+			}
 		}
 	}
-	provinces= { 2077 4991 13581 13582}
+	provinces= { 2077 }
+
+	local_supplies=0.0 
 }

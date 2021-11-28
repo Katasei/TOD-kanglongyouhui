@@ -9,13 +9,18 @@ state=
 	history={
 		owner = ITA
 		buildings = {
-			infrastructure = 5
+			infrastructure = 3 #was: 5
 			3943 = {
 				naval_base = 1
 			}
 		}
+		add_core_of = YUG
+		add_core_of = CRO
+		start_resistance = CRO #Yugoslavia shouldn't resist occupation
 	} 
 	provinces={	
 		3943 
 	}
+
+	local_supplies=0.0 
 }

@@ -5,15 +5,15 @@ state={
 	manpower = 537605
 	state_category = rural
 	resources={
-		tungsten=20 # was: 16
+		tungsten=11 # was: 16
 	}
 
 	history={
-		owner = FRL
+		owner = USA
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 		}
-		add_core_of = FRL
+		add_core_of = USA
 		victory_points = {
 			4860 1 
 		}
@@ -21,6 +21,8 @@ state={
 	}
 
 	provinces={
-		1736 1767 1851 4741 4857 4860 6742 7760 7779 7880 10587 10706 12572 12585 13648 
+		1736 1767 1851 1854 1857 4741 4838 4857 4860 4863 6742 7760 7779 7880 7883 10587 10593 10624 10706 11712 12572 12585 12676 
 	}
+
+	local_supplies=0.0 
 }
