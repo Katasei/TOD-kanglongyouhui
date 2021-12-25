@@ -236,7 +236,7 @@ create_field_marshal = {# 乔治·马歇尔
 create_corps_commander = {# 亨利·阿诺德
 	name = "Henri H. Arnold"
 	desc = "FRL_HENRY_H_ARNOLD_ARMY_DESC"
-	portrait_path = "gfx/leaders/PSA/Portrait_PSA_Henry_Arnold.png"
+	portrait_path = "gfx/leaders/FRL/Portrait_FRL_Henry_Arnold.png"
 	traits = {
 		career_officer
 		politically_connected

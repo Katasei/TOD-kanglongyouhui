@@ -163,3 +163,37 @@ characters={
 			legacy_id=1
 		}
 	}
+	FRL_Henry_Arnold={
+		name=FRL_Henry_Arnold
+		portraits={
+			army={
+				large="gfx/leaders/FRL/Portrait_FRL_Henry_Arnold.png"
+				small="GFX_idea_FRL_Henry_Arnold"
+			}
+		}	
+		advisor={
+			slot = high_command
+			idea_token = Henry_Arnold
+			ledger = army
+			allowed = {
+				original_tag = FRL
+			}
+			traits = {
+				army_regrouping_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.500
+			}
+		}
+		
+		corps_commander={
+			traits = {career_officer politically_connected inspirational_leader organizer}
+			skill = 3
+	        attack_skill = 3
+	        defense_skill = 2
+	        planning_skill = 2
+	        logistics_skill = 3
+			legacy_id=2
+		}
+	}

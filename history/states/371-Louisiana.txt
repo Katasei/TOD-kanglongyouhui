@@ -2,28 +2,31 @@
 state={
 	id=371
 	name="STATE_371"
-	manpower = 2101592
+	manpower = 5778931
 	
-	state_category = city
+	state_category = twelve
 	
 	resources={
-		oil=44 # was: 66
+		oil=60
+		steel=30
 	}
 
 	history={
-		owner = USA
+		owner = FRL
 		buildings = {
-			infrastructure = 3 #was: 5
-			industrial_complex = 2
-			air_base = 5
+			infrastructure = 4 #was: 5
+			arms_factory = 3
+			industrial_complex = 3
+			dockyard = 6
+			air_base = 9
 			7552 = {
-				naval_base = 5
+				naval_base = 9
 
 			}
 		}
-		add_core_of = USA
+		add_core_of = FRL
 		victory_points = {
-			7552 10 
+			7552 30 
 		}
 
 	}
