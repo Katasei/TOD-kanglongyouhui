@@ -19,14 +19,7 @@ set_popularities = {
 	socialism = 10
 	radicalism = 2
 }
-
-create_country_leader = {
-	name = " 华盛顿·德·索萨"
-	desc = "POLITICS_Washington_Luis_Pereira_de_Sousa_DESC"
-	picture = "Portrait_BRA_Washington_Luis_Pereira_de_Sousa.tga"
-	expire = "1965.1.1"
-	ideology = conservatism_subtype
-}
+recruit_character = BRA_Washington_Luis_Pereira_de_Sousa
 
 add_ideas = {
 }

@@ -37,15 +37,7 @@ set_popularities = {
 	council_socialism = 48
 	vanguard_socialism = 28
 }
-
-create_country_leader = {
-	name = "Rosa Luxemburg"
-	desc = "POLITICS_ROSA_LUXEMBURG_DESC"
-	picture = "Portrait_GER_Rosa_Luxemburg.png"
-	expire = "1965.1.1"
-	ideology = council_socialism_subtype
-	traits = { Geming_Zhiying }
-}
+recruit_character = GER_Rosa_Luxemburg
 
 set_technology = {
 	infantry_weapons = 1

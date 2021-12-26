@@ -19,12 +19,4 @@ set_popularities = {
 	socialism = 0
 	radicalism = 0
 }
-
-create_country_leader = {
-	name = "Bermondt Avalov"
-	desc = "POLITICS_BERMONDT_AVALOV_DESC"
-	picture = "Portrait_BLT_Bermondt_Avalov.png"
-	expire = "1965.1.1"
-	ideology = despotism_subtype
-}
-
+recruit_character = BLT_Bermondt_Avalov

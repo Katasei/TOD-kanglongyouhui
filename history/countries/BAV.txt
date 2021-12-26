@@ -19,11 +19,4 @@ set_popularities = {
 	socialism = 36
 	radicalism = 0
 }
-
-create_country_leader = {
-	name = "Rupprecht I"
-	desc = "POLITICS_RUPPRECHT_I_DESC"
-	picture = "Portrait_BAV_RUPPRECHT_I.png"
-	expire = "1965.1.1"
-	ideology = authoritarianism_subtype
-}
+recruit_character = BAV_RUPPRECHT_I

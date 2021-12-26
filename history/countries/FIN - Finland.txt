@@ -15,42 +15,12 @@ set_popularities = {
 	council_socialism = 11
 	vanguard_socialism = 64
 }
-create_country_leader = {
-	name = "尼古拉·伊万诺维奇·布哈林"
-	desc = "POLITICS_jieerrensiji_DESC"
-	picture = "Portrait_FIN_jieerrensiji.png"
-	expire = "1965.1.1"
-	ideology = agroindustrial_socialism_subtype
-	traits = { }
-}
-create_country_leader = {
-	name = "库勒沃·曼纳"
-	desc = "POLITICS_jieerrensiji_DESC"
-	picture = "Portrait_FIN_jieerrensiji.png"
-	expire = "1965.1.1"
-	ideology = moderate_socialism_subtype
-	traits = { }
-}
-create_country_leader = {
-	name = "埃罗·哈帕莱宁"
-	desc = "POLITICS_jieerrensiji_DESC"
-	picture = "Portrait_FIN_jieerrensiji.png"
-	expire = "1965.1.1"
-	ideology = council_socialism_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "菲利克斯·埃德蒙多维奇·捷尔任斯基"
-	desc = "POLITICS_jieerrensiji_DESC"
-	picture = "Portrait_FIN_jieerrensiji.png"
-	expire = "1965.1.1"
-	ideology = vanguard_socialism_subtype
-	traits = { Iron_Felix }
-}
-
 add_ideas = {
 	FIN_SISUjingsheng
 	FIN_shiyuegemingdeyichan
 	FIN_lieningzhuyijingji
 }
+recruit_character = FIN_jieerrensiji
+recruit_character = FIN_hapalaining
+recruit_character = FIN_manna
+recruit_character = FIN_buhalin

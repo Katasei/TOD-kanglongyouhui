@@ -30,14 +30,4 @@ add_timed_idea = {
 	idea = TUR_diergewunianjihua
 	days = 30
 }
-
-create_country_leader = {
-	name = "Mustafa Kemal"
-	desc = "POLITICS_MUSTAFA_KEMAL_DESC"
-	picture = "Portrait_TUR_Mustafa_Kemal.png"
-	expire = "1965.1.1"
-	ideology = vanguard_socialism_subtype
-	traits = { 
-		People_Leader 
-	}
-}
+recruit_character = TUR_Mustafa_Kemal

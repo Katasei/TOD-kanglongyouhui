@@ -19,11 +19,4 @@ set_popularities = {
 	socialism = 8
 	radicalism = 0
 }
-
-create_country_leader = {
-	name = "Franz Ferdinand I"
-	desc = "POLITICS_FRANZ_FERDINAND_I_DESC"
-	picture = "Portrait_AUS_Franz_Ferdinand_I.png"
-	expire = "1965.1.1"
-	ideology = conservatism_subtype
-}
+recruit_character = AUS_Franz_Ferdinand_I

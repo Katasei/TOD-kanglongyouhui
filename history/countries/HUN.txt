@@ -54,221 +54,67 @@ set_popularities = {
 	council_socialism = 4
 	vanguard_socialism = 6
 }
-
-create_country_leader = {
-	name = "Gyula Gömbös"
-	desc = "POLITICS_ISTVAN_TISZA_DESC"
-	picture = "Gombos_Gyula.png"
-	expire = "1965.1.1"
-	ideology = national_corporatism_subtype
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "János Zichy"
-	desc = "POLITICS_ISTVAN_TISZA_DESC"
-	picture = "Zichy_János.jpg"
-	expire = "1965.1.1"
-	ideology = sacred_revivalism_subtype
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "Charles I of Austria"
-	desc = "POLITICS_ISTVAN_TISZA_DESC"
-	picture = "Emperor_Charles_I_of_Austria.jpg"
-	expire = "1965.1.1"
-	ideology = leader_despotism_subtype
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "István·Tisza"
-	desc = "POLITICS_ISTVAN_TISZA_DESC"
-	picture = "Portrait_HUN_Tisza-István.dds"
-	expire = "1965.1.1"
-	ideology = authoritarian_oligarchy_subtype
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "István Bethlen"
-	desc = "POLITICS_ISTVAN_TISZA_DESC"
-	picture = "Istvan Bethlen.jpg"
-	expire = "1965.1.1"
-	ideology = conservative_democracy_subtype
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Mihály·Károlyi"
-	desc = "POLITICS_ISTVAN_TISZA_DESC"
-	picture = "Mihaly-karolyi.jpg"
-	expire = "1965.1.1"
-	ideology = liberal_democracy_subtype
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "Vilmos Vázsonyi"
-	desc = "POLITICS_ISTVAN_TISZA_DESC"
-	picture = "Vázsonyi_Vilmos.jpg"
-	expire = "1965.1.1"
-	ideology = consociationalism_subtype
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "Károly Peyer"
-	desc = "POLITICS_ISTVAN_TISZA_DESC"
-	picture = "Peyer_Károly.png"
-	expire = "1965.1.1"
-	ideology = social_democrat_subtype
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "Zoltán Tildy"
-	desc = "POLITICS_ISTVAN_TISZA_DESC"
-	picture = "Tildy_Zoltán.jpg"
-	expire = "1965.1.1"
-	ideology = agroindustrial_socialism_subtype
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "Kádár János"
-	desc = "POLITICS_ISTVAN_TISZA_DESC"
-	picture = "Kádár János.jpg"
-	expire = "1965.1.1"
-	ideology = moderate_socialism_subtype
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "Imre Nagy"
-	desc = "POLITICS_ISTVAN_TISZA_DESC"
-	picture = "Imre Nagy.jpg"
-	expire = "1965.1.1"
-	ideology = council_socialism_subtype
-	traits = {
-	}
-}
-create_country_leader = {
-	name = "Béla·Kun"
-	desc = "POLITICS_ISTVAN_TISZA_DESC"
-	picture = "Portrait_HUN_Tisza-István.dds"
-	expire = "1965.1.1"
-	ideology = vanguard_socialism_subtype
-	traits = {
-	}
-}
-
-create_corps_commander = {
-	name = "Iván·Hindy"
-	gfx = GFX_Portrait_hungary_ivan_hindy
-	traits = {  trickster }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Aurél Stromfeld"
-	portrait_path = "gfx\leaders\HUN\Aurél Stromfeld.png"
-	traits = {  }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 4
-}
-create_corps_commander = {
-	name = "Károly Beregfy"
-	gfx = GFX_Portrait_hungary_karoly_beregfy
-	traits = { }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Lajos Veress"
-	gfx = GFX_Portrait_hungary_lajos_veress
-	traits = { armor_officer }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_field_marshal = {
-	name = "Ferenc Feketehalmy-Czeydner"
-	gfx = GFX_Portrait_hungary_ferenc_feketehalmy_czeydner
-	traits = { }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_field_marshal = {
-	name = "Vojtěch Luža"
-	gfx = "GFX_Portrait_czechoslovakia_vojtech_luza"
-	traits = { fast_planner offensive_doctrine }
-	skill = 3
-    attack_skill = 4
-    defense_skill = 2
-    planning_skill = 3
-    logistics_skill = 1
-}
-
-create_field_marshal = {
-	name = "Josef Šnejdárek"
-	gfx = "GFX_Portrait_czechoslovakia_josef_snejdarek"
-	traits = { thorough_planner defensive_doctrine }
-	skill = 3
-    attack_skill = 3
-    defense_skill = 4
-    planning_skill = 2
-    logistics_skill = 1
-}
-create_corps_commander = {
-	name = "Richard Tesařík"
-	gfx = "GFX_Portrait_czechoslovakia_richard_tesarik"
-	traits = { armor_officer }
-	skill = 2
-    attack_skill = 4
-    defense_skill = 1
-    planning_skill = 1
-    logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Sergej Vojcechovský"
-	gfx = "GFX_Portrait_czechoslovakia_sergej_vojcechovsky"
-	traits = { winter_specialist }
-	skill = 3
-    attack_skill = 4
-    defense_skill = 3
-    planning_skill = 2
-    logistics_skill = 1
-}
-create_navy_leader = {
-		name = "Miklós Horthy"
-		gfx = GFX_Portrait_hungary_miklos_horthy_admiral
-		traits = { gunnery_expert navy_media_personality superior_tactician }
-		skill = 3
-		id = 556 #Navy Miklos
-		attack_skill = 2
-		defense_skill = 2
-		maneuvering_skill = 2
-		coordination_skill = 4				
-}
+recruit_character = HUN_Gyula_Gombos
+recruit_character = HUN_Janos_Zichy
+recruit_character = HUN_Charles_I_of_Austria
+recruit_character = HUN_Istvan_Tisza
+recruit_character = HUN_Istvan_Bethlen
+recruit_character = HUN_Mihaly_karolyi
+recruit_character = HUN_Vilmos_Vazsonyi
+recruit_character = HUN_Karoly_Peyer
+recruit_character = HUN_Zoltan_Tildy
+recruit_character = HUN_Kadar_Janos
+recruit_character = HUN_Tibor_Szamuely
+recruit_character = HUN_Bela_Kun
+recruit_character = HUN_ivan_hindy
+recruit_character = HUN_karoly_beregfy
+recruit_character = HUN_lajos_veress
+recruit_character = HUN_ferenc_feketehalmyczeydner
+recruit_character = HUN_Aurel_Stromfeld
+recruit_character = HUN_istvan_szechenyi
+recruit_character = HUN_francois_deak
+recruit_character = HUN_gyorgy_jendrassik
+recruit_character = HUN_jeno_ratz
+recruit_character = HUN_henrik_werth
+recruit_character = HUN_hugo_sonyi
+recruit_character = HUN_ferenc_szombathelyi
+recruit_character = HUN_gusztav_jany
+recruit_character = HUN_dezso_laszlo
+recruit_character = HUN_reszo_kastner
+recruit_character = HUN_shvoy_kalman
+recruit_character = HUN_sandor_magyarossy
+recruit_character = HUN_bela_rakosi
+recruit_character = HUN_kalman_kanya
+recruit_character = HUN_jozsef_szell
+recruit_character = HUN_vilmos_roder
+recruit_character = HUN_zoltan_tildy
+recruit_character = HUN_laszlo_rajk
+recruit_character = HUN_kalman_daranyi
+recruit_character = HUN_lajos_remenyi_schneller
+recruit_character = HUN_gusztav_gratz
+recruit_character = HUN_gyula_gombos_de_jakfa
+recruit_character = HUN_otto_von_habsburg
+recruit_character = HUN_franz_friedrich
+recruit_character = HUN_vojtyech_luzha
+recruit_character = HUN_josef_shnejdarek
+recruit_character = HUN_richard_tesarzhik
+recruit_character = HUN_sergej_vojcechovsky
+recruit_character = HUN_frantishek_havlik
+recruit_character = HUN_rudolf_viest
+recruit_character = HUN_alois_vicherek
+recruit_character = HUN_antonin_hasal
+recruit_character = HUN_jaroslav_fajfr
+recruit_character = HUN_jan_golian
+recruit_character = HUN_karel_janousek
+recruit_character = HUN_josef_frantisek
+recruit_character = HUN_ludvik_krejci
+recruit_character = HUN_karel_vaclav_petrik
+recruit_character = HUN_karel_kuttelwascher
+recruit_character = HUN_ludvik_svoboda
+recruit_character = HUN_frantisek_havel
+recruit_character = HUN_stefan_osusky
+recruit_character = HUN_ferdinand_catlos
+recruit_character = HUN_jozef_tiso
+recruit_character = HUN_vojtech_tuka
+recruit_character = HUN_konrad_henlein
+recruit_character = HUN_gustav_husak

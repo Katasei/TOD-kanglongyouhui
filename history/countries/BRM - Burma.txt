@@ -12,14 +12,7 @@ set_politics = {
 set_popularities = {
 	authoritarianism = 100
 }
-
-create_country_leader = {
-	name = "密巴娅拉"
-	desc = "POLITICS_MIBAYALA_DESC"
-	picture = "Portrait_BRM_Mibayala.png"
-	expire = "1965.1.1"
-	ideology = authoritarianism_subtype
-}
+recruit_character = BRM_Mibayala
 
 add_ideas = {
 	AthDem_type
