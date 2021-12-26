@@ -1,0 +1,17 @@
+characters={
+	BUL_Alexander_Stamboliski={
+		name=BUL_Alexander_Stamboliski
+		portraits={
+			civilian={
+				large="gfx/leaders/BUL/Portrait_BUL_Alexander_Stamboliski.png"
+			}
+		}
+		country_leader={
+			ideology=conservatism_subtype
+			desc = "POLITICS_ALEXANDER_STAMBOLISKI_DESC"
+			traits={  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,17 @@
+characters={
+	GER_Rosa_Luxemburg={
+		name=GER_Rosa_Luxemburg
+		portraits={
+			civilian={
+				large="gfx/leaders/GER/Portrait_GER_Rosa_Luxemburg.png"
+			}
+		}
+		country_leader={
+			ideology=council_socialism_subtype
+			desc = "POLITICS_ROSA_LUXEMBURG_DESC"
+			traits={ Geming_Zhiying }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

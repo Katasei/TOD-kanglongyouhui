@@ -1,0 +1,55 @@
+characters={
+	ANN_Ngo_Dinh_Diem={
+		name=ANN_Ngo_Dinh_Diem
+		portraits={
+			civilian={
+				large="gfx/leaders/ANN/Portrait_ANN_Ngo_Dinh_Diem.png"
+			}
+		}
+		country_leader={
+			ideology=conservatism_subtype
+			desc = "POLITICS_NGO_DINH_DIEM_DESC"
+			traits={  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ANN_Thanh_Thai={
+		name=ANN_Thanh_Thai
+		portraits={
+			civilian={
+				large="gfx/leaders/ANN/Portrait_ANN_Thanh_Thai.png"
+			}
+		}
+		country_leader={
+			ideology=authoritarianism_subtype
+			desc = "POLITICS_THANH_THAI_DESC"
+			traits={  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		
+		country_leader={
+			ideology=reformism_subtype
+			desc = "POLITICS_THANH_THAI_DESC"
+			traits={  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ANN_Nguyen_An_Ninh={
+		name=ANN_Nguyen_An_Ninh
+		portraits={
+			civilian={
+				large="gfx/leaders/ANN/Portrait_ANN_Nguyen_An_Ninh.png"
+			}
+		}
+		country_leader={
+			ideology=radicalism_subtype
+			desc = "POLITICS_NGUYEN_AN_NINH_DESC"
+			traits={  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}
