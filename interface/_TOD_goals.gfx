@@ -6993,5 +6993,77 @@ spriteTypes = {
 		name = "GFX_goal_ZIM_Staff"
 		texturefile = "gfx/interface/goals/ZIM_staff.tga"
 	}
-
+	### Finland ###
+	SpriteType = {
+		name = "GFX_FIN_wunianjihua"
+		texturefile = "gfx/interface/goals/FIN_wunianjihua.png"
+	}
+	SpriteType = {
+		name = "GFX_FIN_zhandourengjiangjixu"
+		texturefile = "gfx/interface/goals/FIN_zhandourengjiangjixu.png"
+	}
+	SpriteType = {
+		name = "GFX_FIN_yiliqideqizhi"
+		texturefile = "gfx/interface/goals/FIN_yiliqideqizhi.png"
+	}
+	SpriteType = {
+		name = "GFX_FIN_jieerrensijizhizi"
+		texturefile = "gfx/interface/goals/FIN_jieerrensijizhizi.png"
+	}
+	SpriteType = {
+		name = "GFX_FIN_guofanggongyerenminweiyuanhui"
+		texturefile = "gfx/interface/goals/FIN_guofanggongyerenminweiyuanhui.png"
+	}
+	SpriteType = {
+		name = "GFX_FIN_kuodatanpeileigongyejidi"
+		texturefile = "gfx/interface/goals/FIN_kuodatanpeileigongyejidi.png"
+	}
+	SpriteType = {
+		name = "GFX_FIN_renminchongfengqiang"
+		texturefile = "gfx/interface/goals/FIN_renminchongfengqiang.png"
+	}
+	SpriteType = {
+		name = "GFX_FIN_renshouyizhiqiang"
+		texturefile = "gfx/interface/goals/FIN_renshouyizhiqiang.png"
+	}
+	SpriteType = {
+		name = "GFX_FIN_fenlanrenminzongdongyuanling"
+		texturefile = "gfx/interface/goals/FIN_fenlanrenminzongdongyuanling.png"
+	}
+	SpriteType = {
+		name = "GFX_FIN_fenlanneiwubudui"
+		texturefile = "gfx/interface/goals/FIN_fenlanneiwubudui.png"
+	}
+	SpriteType = {
+		name = "GFX_FIN_fenlanzuigaotongshuaibu"
+		texturefile = "gfx/interface/goals/FIN_fenlanzuigaotongshuaibu.png"
+	}
+	SpriteType = {
+		name = "GFX_FIN_fenlantujidui"
+		texturefile = "gfx/interface/goals/FIN_fenlantujidui.png"
+	}
+	SpriteType = {
+		name = "GFX_FIN_lianheqilai"
+		texturefile = "gfx/interface/goals/FIN_lianheqilai.png"
+	}
+	SpriteType = {
+		name = "GFX_FIN_dumunanzhi"
+		texturefile = "gfx/interface/goals/FIN_dumunanzhi.png"
+	}
+	SpriteType = {
+		name = "GFX_FIN_tongzhijiaxiongdi"
+		texturefile = "gfx/interface/goals/FIN_tongzhijiaxiongdi.png"
+	}
+	SpriteType = {
+		name = "GFX_FIN_saoqingbaojun"
+		texturefile = "gfx/interface/goals/FIN_saoqingbaojun.png"
+	}
+	SpriteType = {
+		name = "GFX_FIN_tongwangbeifangzhilu"
+		texturefile = "gfx/interface/goals/FIN_tongwangbeifangzhilu.png"
+	}
+	SpriteType = {
+		name = "GFX_FIN_sikandinaweiyalianmeng"
+		texturefile = "gfx/interface/goals/FIN_sikandinaweiyalianmeng.png"
+	}
 }
