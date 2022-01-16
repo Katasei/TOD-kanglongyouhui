@@ -4,7 +4,7 @@ state={
 	manpower=458
 	state_category = tiny_island
 	history= {
-		owner = ENG
+		owner = FRA
 		buildings = {
 			infrastructure = 1
 			13013 = {
@@ -16,6 +16,4 @@ state={
 	provinces={
 		13013 
 	}
-
-	local_supplies=0.0 
 }

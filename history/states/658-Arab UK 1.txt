@@ -11,13 +11,12 @@ state={
 
 
 	history={
-		add_core_of = UAE
-		owner = ENG
+		owner = TSO
 		victory_points = {
 			7960 1 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 			7960 = {
 				naval_base = 3
 			}
@@ -28,6 +27,4 @@ state={
 	provinces={
 		2048 7960 8108 10904 
 	}
-
-	local_supplies=4.0 
 }

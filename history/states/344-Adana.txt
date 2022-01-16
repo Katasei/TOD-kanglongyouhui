@@ -2,39 +2,32 @@
 state={
 	id=344
 	name="STATE_344"
-	manpower = 1081781
+	manpower = 727198
 	
-	state_category = town
+	state_category = large_town
 
 	history={
 		owner = TUR
 		victory_points = {
-			9893 15
+			9893 1
 		}
 		victory_points = {
-			7620 10
+			11746 1 
 		}
 		victory_points = {
-			6813 3
-		}
-		victory_points = {
-			11746 5 
+			886 1 
 		}
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+			infrastructure = 4
+			industrial_complex = 2
 			11746 = {
 				naval_base = 3
 			}
 		}
 		add_core_of = TUR
-		add_claim_by = KUR
 	}
 
 	provinces={
-		806 3889 6813 7620 9893 9912 11746 
+		806 886 3889 3921 6813 6956 9893 11746 11810 
 	}
-
-
-	local_supplies=0.0 
 }

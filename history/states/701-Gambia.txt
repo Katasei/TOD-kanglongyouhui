@@ -3,13 +3,13 @@ state={
 	name="STATE_701"
 
 	history={
-		owner = ENG
+		owner = FWA
 		add_core_of = GAM
 		victory_points = {
 			4989 1 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			4989 = {
 				naval_base = 1
 
@@ -25,6 +25,4 @@ state={
 	manpower=199520
 	buildings_max_level_factor=1.000
 	state_category=enclave
-
-	local_supplies=0.0 
 }

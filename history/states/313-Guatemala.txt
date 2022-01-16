@@ -2,38 +2,31 @@
 state={
 	id=313
 	name="STATE_313"
-	manpower = 1771000
+	manpower = 2171000
 	resources={
 		chromium=4 # was: 6
 	}
 	
-	state_category = town
+	state_category = four
 
 	history={
-		owner = GUA
+		owner = MSR
 		buildings = {
-			infrastructure = 2
-			arms_factory = 1
-			industrial_complex = 2 
-			air_base = 1
+			infrastructure = 4
+			arms_factory = 2	
 			10886 = {
-				naval_base = 1
-			}
-			13085 = {
-				naval_base = 1
+				naval_base = 3
 			}
 		}
-		add_core_of = GUA
+		add_core_of = MSR
 		victory_points = {
-			10886 3 
+			10886 20
 		}
 
 	}
 
 	provinces={
-		4991 10842 10886 13085 
+		10842 10886 13085 13588 13589 13590 
 	}
 	
-
-	local_supplies=0.0 
 }

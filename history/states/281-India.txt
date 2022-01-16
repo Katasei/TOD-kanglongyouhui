@@ -7,10 +7,10 @@ state={
 	state_category = enclave
 
 	history={
-		owner = ENG
+		owner = FRA
 		add_core_of = MLD
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			4967 = {
 				naval_base = 1
 			}
@@ -23,6 +23,4 @@ state={
 	provinces={
 		4967 
 	}
-
-	local_supplies=0.0 
 }

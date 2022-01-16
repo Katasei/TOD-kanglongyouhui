@@ -1,0 +1,23 @@
+
+state={
+	id=940
+	name="azhe"
+
+	history={
+		add_core_of = KAZ
+		owner = KAZ
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = RUS
+
+	}
+
+	provinces={
+		1554 7501 7507 10420 
+	}
+	manpower=1033721
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -9,17 +9,15 @@ state={
 		victory_points = {
 			406 1
 		}
-		owner = POL
+		owner = LAB
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 		}
 		add_core_of = POL
-		add_core_of = BLR
+		add_core_of = LAB
 	}
 
 	provinces={
 		233 277 358 406 6340 9341 11391 
 	}
-
-	local_supplies=0.0 
 }

@@ -10,7 +10,7 @@ state= {
 
 	history=
 	{
-		owner = ENG
+		owner = SYR
 		add_core_of = CYP
 		victory_points = {
 			11984 5
@@ -19,7 +19,7 @@ state= {
 			7193 3
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			air_base = 1
 			7193 = {
 				naval_base = 2
@@ -28,6 +28,4 @@ state= {
 
 	}
 	provinces= { 7193 11984 }
-
-	local_supplies=0.0 
 }

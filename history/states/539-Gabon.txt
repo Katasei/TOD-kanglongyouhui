@@ -1,15 +1,16 @@
+
 state={
 	id=539
 	name="STATE_539"
 
 	history={
-		owner = FRA
+		owner = FCG
 		add_core_of = GAB
 		victory_points = {
 			5139 1 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			5139 = {
 				naval_base = 1
 
@@ -20,11 +21,9 @@ state={
 	}
 
 	provinces={
-		5139 8207 10948 13210 
+		5139 8207 
 	}
-	manpower=409752
+	manpower=319752
 	buildings_max_level_factor=1.000
 	state_category=pastoral
-
-	local_supplies=1.0 
 }

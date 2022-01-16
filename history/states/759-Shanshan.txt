@@ -1,0 +1,21 @@
+
+state={
+	id=759
+	name="STATE_759"
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+		victory_points = {
+			1943 1 
+		}
+
+	}
+
+	provinces={
+		1698 1943 4947 10315 10885 13473 13477 
+	}
+	manpower=261780
+	buildings_max_level_factor=1.000
+	state_category=town
+}

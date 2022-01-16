@@ -1,0 +1,24 @@
+
+state={
+	id=938
+	name="938"
+
+	history={
+		owner = KAZ
+		add_core_of = KAZ
+		add_core_of = RUS
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = RUS
+
+	}
+
+	provinces={
+		4578 4636 7597 7657 10353 12329 
+	}
+	manpower=667036
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,37 +1,38 @@
+
 state={
 	id=85
 	name="STATE_85"
-	manpower = 366730
-	
-	state_category = city
+
 	history={
-		owner = POL
+		owner = GER
 		victory_points = {
-			362 10
+			362 10 
 		}
-		
-		set_demilitarized_zone = yes
-		
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
 			arms_factory = 2
 			industrial_complex = 1
-			dockyard = 3
+			dockyard = 1
+			air_base = 3
 			362 = {
 				naval_base = 5
+
 			}
+
 		}
 		add_core_of = POL
-		add_core_of = DNZ
-		add_core_of = KSH
+		add_core_of = GER
 		1938.3.12 = {
 			add_claim_by = GER
+
 		}
+
 	}
 
 	provinces={
-		362
+		362 9263 
 	}
-
-	local_supplies=0.0 
+	manpower=780100
+	buildings_max_level_factor=1.000
+	state_category=city
 }

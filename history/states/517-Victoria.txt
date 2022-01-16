@@ -8,9 +8,9 @@ state={
 	}
 
 	history={
-		owner = AST
+		owner = ZHR
 		buildings = {
-			infrastructure = 3 #was: 6
+			infrastructure = 8
 			arms_factory = 2
 			industrial_complex = 5
 			air_base = 3
@@ -24,16 +24,14 @@ state={
 		victory_points = {
 			7798 20 
 		}
-		add_core_of = AST
+		add_core_of = ZHR
 
 	}
 
 	provinces={
-		1759 2130 2155 4776 4791 7755 7798 7811 10553 10581 10622 10637 12576 12932 
+		1759 7798 7811 10553 12576 
 	}
 	manpower=2219500
 	buildings_max_level_factor=1.000
-	state_category=large_city
-
-	local_supplies=0.0 
+	state_category=megalopolis
 }

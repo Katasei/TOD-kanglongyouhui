@@ -16,10 +16,11 @@ state={
 		victory_points = { 3561 5 }
 		victory_points = { 425 3 }
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
 			industrial_complex = 1
 		}
 		add_core_of = GER
+		add_core_of = SAX
 		1939.1.1 = {
 			buildings = {
 				synthetic_refinery = 3
@@ -31,6 +32,4 @@ state={
 	provinces={
 		425 482 538 3500 3561 6501 6524 6582 9497 
 	}
-
-	local_supplies=0.0 
 }

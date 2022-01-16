@@ -10,9 +10,9 @@ state={
 	state_category = city
 
 	history={
-		owner = ECU
+		owner = COL
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 4
 			air_base = 1
@@ -21,6 +21,7 @@ state={
 			}
 		}
 		add_core_of = ECU
+		add_core_of = COL
 		victory_points = {
 			12798 5
 		}
@@ -33,6 +34,4 @@ state={
 	provinces={
 		5051 5120 8047 8075 8252 10888 11020 12798 
 	}
-
-	local_supplies=0.0 
 }

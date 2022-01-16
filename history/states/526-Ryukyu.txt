@@ -1,0 +1,23 @@
+
+state={
+	id=526
+	name="STATE_526"
+
+	history={
+		owner = RYU
+
+		victory_points = {
+			11932 10 
+		}
+
+		add_core_of = RYU
+
+	}
+
+	provinces={
+		1123 7115 10124 11932 
+	}
+	manpower = 578000
+	buildings_max_level_factor=1.000
+	state_category = one_island
+}

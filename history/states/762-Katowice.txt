@@ -16,12 +16,10 @@ state={
 		}
 		owner = POL
 		buildings = {
-			infrastructure = 3 #was: 6
+			infrastructure = 6
 			industrial_complex = 1
 		}
 		add_core_of = POL
-		add_core_of = SIL
+		add_core_of = GER
 	}
-
-	local_supplies=0.0 
 }

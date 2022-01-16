@@ -5,8 +5,7 @@ state={
 	state_category = small_island
 
 	history={
-		owner = USA
-		add_core_of = HAW
+		owner = MNG
 		buildings = {
 			infrastructure = 1
 			13048 = {
@@ -24,6 +23,4 @@ state={
 	provinces={
 		13048 13049 13053 
 	}
-
-	local_supplies=0.0 
 }

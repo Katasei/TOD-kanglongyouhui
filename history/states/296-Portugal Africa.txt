@@ -9,13 +9,13 @@ state={
 		rubber=1 # was: 1
 	}
 	history={
-		owner = POR
+		owner = FWA
 		add_core_of = GNB
 		victory_points = {
 			12891 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 			12891 ={
 				naval_base = 1
 			}
@@ -25,6 +25,4 @@ state={
 	provinces={
 		12747 12891 
 	}
-
-	local_supplies=0.0 
 }

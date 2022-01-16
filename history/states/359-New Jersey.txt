@@ -2,9 +2,9 @@
 state={
 	id=359
 	name="STATE_359"
-	manpower = 4041332
+	manpower = 3041332
 	
-	state_category = large_city
+	state_category = eight
 
 	history={
 		owner = USA
@@ -12,8 +12,9 @@ state={
 			6882 5 
 		}
 		buildings = {
-			infrastructure = 4 #was: 7
-			industrial_complex = 7
+			infrastructure = 7
+			industrial_complex = 5
+			arms_factory = 2
 			air_base = 4
 
 		}
@@ -24,6 +25,4 @@ state={
 		3693 3863 6882 9801 9864 11740 11782 11900 
 	}
 	
-
-	local_supplies=15.0 
 }

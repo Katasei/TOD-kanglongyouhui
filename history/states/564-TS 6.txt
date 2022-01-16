@@ -12,24 +12,16 @@ state={
 	}
 
 	history={
-		owner = SOV
-		victory_points = {
-			7835 2 
-		}
-		victory_points = {
-			12644 1 
-		}
+		owner = FET
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 
 		}
-		add_core_of = SOV
-		add_core_of = BYA
+		add_core_of = RUS
+		add_core_of = FET
 	}
 
 	provinces={
-		1696 1762 1810 4716 4766 4835 4837 7736 7816 7835 10524 10528 10543 10658 12506 12575 12644 13152
+		1696 4705 4766 4837 7751 7816 7835 7860 10528 10658 12507 12644 
 	}
-
-	local_supplies=0.0 
 }

@@ -2,22 +2,22 @@
 state={
 	id=368
 	name="STATE_368"
-	manpower = 2616555
+	manpower = 1826555
 	
-	state_category = city
+	state_category = eight
 	
 	resources={
-		steel=60 # was: 112
+		aluminium=70 # was: 44
 	}
 
 
 	history={
-		owner = USA
+		owner = SMT
 		buildings = {
-			infrastructure = 3 #was: 5
-			industrial_complex = 3
+			infrastructure = 5
+			industrial_complex = 6
 		}
-		add_core_of = USA
+		add_core_of = SMT
 		victory_points = {
 			12501 3 
 		}
@@ -25,8 +25,6 @@ state={
 	}
 
 	provinces={
-		913 1758 1987 7615 7791 7797 8014 8083 10281 10615 10657 10824 10909 12501 12670 
+		913 1758 7791 8014 8083 10281 10657 10824 10909 12501 12670 12803 
 	}
-
-	local_supplies=0.0 
 }

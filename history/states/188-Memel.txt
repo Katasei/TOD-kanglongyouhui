@@ -9,17 +9,17 @@ state=
 	
 	history = {
 		victory_points = {
-			3288 3
+			3288 1
 		}
-		owner = LIT
+		owner = LAB
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 5
 			industrial_complex = 1
 			3288 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = LIT
+		add_core_of = BLA
 
 		1939.3.22 = {
 			owner = GER
@@ -29,6 +29,4 @@ state=
 	provinces={
 		3288 	
 	}
-
-	local_supplies=0.0 
 }

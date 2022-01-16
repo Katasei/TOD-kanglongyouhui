@@ -18,7 +18,7 @@ state={
 			9498 20 
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 8
 			arms_factory = 4
 			industrial_complex = 3
 			dockyard = 3
@@ -41,7 +41,5 @@ state={
 	}
 	manpower=4123000
 	buildings_max_level_factor=1.000
-	state_category=metropolis
-
-	local_supplies=0.0 
+	state_category=megalopolis
 }

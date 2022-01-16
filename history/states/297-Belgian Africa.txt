@@ -8,13 +8,13 @@ state=
 	
 	history=
 	{
-		owner = SPR
+		owner = KSN
 		add_core_of = EQG
 		victory_points = {
 			1903 1 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 			1903 = {
 				naval_base = 1
 			}
@@ -26,6 +26,4 @@ state=
 	provinces=
 	{
 1903 8244 	}
-
-	local_supplies=0.0 
 }

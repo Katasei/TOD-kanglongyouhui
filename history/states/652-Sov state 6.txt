@@ -6,12 +6,13 @@ state={
 	}
 
 	history={
-		owner = SOV
+		owner = KYR
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 
 		}
-		add_core_of = SOV
+		add_core_of = KYR
+		add_core_of = RUS
 
 	}
 
@@ -21,6 +22,4 @@ state={
 	manpower=1225870
 	buildings_max_level_factor=1.000
 	state_category=city
-
-	local_supplies=0.0 
 }

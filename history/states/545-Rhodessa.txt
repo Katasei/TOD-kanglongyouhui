@@ -1,27 +1,25 @@
+
 state={
 	id=545
-	
-	state_category = pastoral
-	
 	name="STATE_545"
 
 	history={
-		owner = ENG
+		owner = KSN
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 
 		}
 		victory_points = {
-			10929 1 
+			4851 1 
 		}
 		add_core_of = ZIM
+
 	}
 
 	provinces={
-		1874 2151 2216 4851 7842 10929
+		4851 
 	}
-	manpower=1171336
+	manpower=171336
 	buildings_max_level_factor=1.000
-
-	local_supplies=3.0 
+	state_category=enclave
 }

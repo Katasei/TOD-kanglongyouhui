@@ -8,12 +8,12 @@ state=
 	
 	history=
 	{
-		owner = ITA
+		owner = GRE 
 		victory_points = {
 			10007 1 
 		}
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 5
 			air_base = 1
 			10007 = {
 				naval_base = 4
@@ -27,6 +27,4 @@ state=
 	provinces=
 	{
 7003 10007 	}
-
-	local_supplies=0.0 
 }

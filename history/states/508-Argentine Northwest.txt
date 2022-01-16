@@ -9,7 +9,7 @@ state={
 	history={
 		owner = ARG
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			industrial_complex = 1
 		}
 		add_core_of = ARG
@@ -22,6 +22,4 @@ state={
 	provinces={
 		2136 2224 8195 8216 8253 11001 12928 12978 
 	}
-
-	local_supplies=0.0 
 }

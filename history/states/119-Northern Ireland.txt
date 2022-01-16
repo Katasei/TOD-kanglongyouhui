@@ -4,15 +4,12 @@ state={
 	name="STATE_119"
 
 	history={
-		owner = ENG
+		owner = IRE
 		victory_points = {
 			3379 5 
 		}
-		victory_points = {
-			385 1 # Londonderry
-		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
 			arms_factory = 1
 			industrial_complex = 2
 			air_base = 1
@@ -27,7 +24,7 @@ state={
 	}
 
 	provinces={
-		276 385 3217 3242 3329 3379 11257 
+		276 385 3242 3329 3379 11257 
 	}
 	manpower=1198537
 	buildings_max_level_factor=1
@@ -36,6 +33,4 @@ state={
 	resources={
 		aluminium=2
 	}
-
-	local_supplies=0.0 
 }

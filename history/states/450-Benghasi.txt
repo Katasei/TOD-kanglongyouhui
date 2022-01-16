@@ -4,7 +4,7 @@ state={
 	name="STATE_450"
 	manpower = 82535
 	
-	state_category = enclave
+	state_category = pastoral
 
 	history={
 		owner = ITA
@@ -13,7 +13,7 @@ state={
 			11954 3 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			air_base = 1
 			11954 = {
 				naval_base = 1
@@ -25,6 +25,4 @@ state={
 	provinces={
 		1127 4120 10123 11954 
 	}
-
-	local_supplies=0.0 
 }

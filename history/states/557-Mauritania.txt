@@ -7,7 +7,7 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = FRA
+		owner = FWA
 		add_core_of = MRT
 		victory_points = {
 			5034 1
@@ -21,6 +21,4 @@ state={
 	provinces={
 		5034 5077 7992 8058 10814
 	}
-
-	local_supplies=0.0 
 }

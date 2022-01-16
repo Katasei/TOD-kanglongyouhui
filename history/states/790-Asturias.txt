@@ -3,12 +3,12 @@ state={
 	name="STATE_790"
 
 	history={
-		owner = SPR
+		owner = KSN
 		victory_points = {
 			11707 3
 		}
 		buildings = {
-			infrastructure = 3 #was: 6
+			infrastructure = 6
 			industrial_complex = 1
 			arms_factory = 1
 			11707 = {
@@ -27,6 +27,4 @@ state={
 	manpower=1197252
 	buildings_max_level_factor=1.000
 	state_category=large_town
-
-	local_supplies=0.0 
 }

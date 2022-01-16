@@ -6,10 +6,10 @@ state=
 	
 	state_category = enclave
 	history={
-		owner = ENG
+		owner = FRA
 		victory_points = { 4135 10 }
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
 			air_base = 2
 			4135 = {
 				naval_base = 5
@@ -21,6 +21,4 @@ state=
 	provinces={
 		4135
 	}
-
-	local_supplies=0.0 
 }

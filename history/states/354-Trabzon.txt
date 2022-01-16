@@ -10,16 +10,10 @@ state={
 		owner = TUR
 		
 		victory_points = {
-			9932 15
-		}
-		victory_points = {
-			10472 5
-		}
-		victory_points = {
-			3979 3 
+			9932 3 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			9932 = {
 				naval_base = 2
 			}
@@ -28,8 +22,6 @@ state={
 	}
 
 	provinces={
-		789 3714 3979 6976 6991 7454 9886 9932 10403 10472 11753 11853
+		789 3714 3979 6976 6991 7454 9886 9932 10403 10472 11753 
 	}
-
-	local_supplies=0.0 
 }
