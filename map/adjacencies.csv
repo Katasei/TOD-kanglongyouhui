@@ -22,16 +22,14 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 7396;1401;sea;5615;-1;-1;-1;-1;;Bangka Belitung-Sumatra
 1342;10279;sea;2737;-1;-1;-1;-1;;Java-Sumatra
 7396;4211;sea;4225;-1;-1;-1;-1;;Bangka-Belitung
-8360;13567;sea;436;-1;-1;-1;-1;;Tanahbala-Sumatra
-12126;13567;sea;436;-1;-1;-1;-1;;Tanahbala-Sumatra
-4446;12126;sea;436;-1;-1;-1;-1;;Tanahbala-Sumatra
+1460;12126;sea;812;-1;-1;-1;-1;;Tanahbala-Sumatra
 12126;1428;sea;812;-1;-1;-1;-1;;Tanahbala-Siberut
 4306;4608;sea;5666;-1;-1;-1;-1;;Soerbaja-Madura
 7654;4273;sea;2239;-1;-1;-1;-1;;Java-Bali
 7293;4273;sea;2239;-1;-1;-1;-1;;Bali-Lombok
 7293;10191;sea;2239;-1;-1;-1;-1;;Lombok-W.Nusa Tenggara
 12162;1298;sea;2124;-1;-1;-1;-1;;West Nusa Tenggara-East Nusa Tenggara
-7321;10219;sea;5414;-1;-1;-1;-1;;East Nusa Tenggara-Pulau Alor
+12151;10219;sea;5414;-1;-1;-1;-1;;East Nusa Tenggara-Pulau Alor
 12444;10222;sea;5515;-1;-1;-1;-1;;Sulawesi-Pulau Buton
 1293;4269;sea;8751;-1;-1;-1;-1;;Surigao-Leyte
 1311;4228;sea;2856;-1;-1;-1;-1;;San Bernardino Strait
@@ -134,19 +132,55 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 5407;2400;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar South
 2455;2506;;-1;-1;-1;-1;-1;DANISH_BELTS_STRAIT;Øresund
 5412;7678;;-1;-1;-1;-1;-1;BOSPHORUS_STRAIT;Bosphorus
-10755;13354;impassable;-1;-1;-1;-1;-1;;kangzang
-10755;13355;impassable;-1;-1;-1;-1;-1;;kangzang
-10856;13355;impassable;-1;-1;-1;-1;-1;;kangzang
-10856;13356;impassable;-1;-1;-1;-1;-1;;kangzang
-1996;5102;impassable;-1;-1;-1;-1;-1;;zangnan
-1996;5018;impassable;-1;-1;-1;-1;-1;;zangnan
-1116;5018;impassable;-1;-1;-1;-1;-1;;zangnan
-1116;7926;impassable;-1;-1;-1;-1;-1;;zangnan
-12322;7926;impassable;-1;-1;-1;-1;-1;;zangnan
-12322;7926;impassable;-1;-1;-1;-1;-1;;zangnan
-10821;2041;impassable;-1;-1;-1;-1;-1;;ladakh
-10821;7273;impassable;-1;-1;-1;-1;-1;;ladakh
-10219;12178;sea;5414;-1;-1;-1;-1;;Timor-Strait
-4493;7369;sea;4899;-1;-1;-1;-1;;Lanfang-Strait
-4288;7423;sea;2876;-1;-1;-1;-1;;Luzon-Strait
+10825;8029;impassable;-1;-1;-1;-1;-1;;Himalayas
+10910;12807;impassable;-1;-1;-1;-1;-1;;Himalayas
+12730;2098;impassable;-1;-1;-1;-1;-1;;Himalayas
+12730;5018;impassable;-1;-1;-1;-1;-1;;Himalayas
+10810;5018;impassable;-1;-1;-1;-1;-1;;Himalayas
+1996;5018;impassable;-1;-1;-1;-1;-1;;Himalayas
+1996;8041;impassable;-1;-1;-1;-1;-1;;Himalayas
+10810;8041;impassable;-1;-1;-1;-1;-1;;Himalayas
+1996;5102;impassable;-1;-1;-1;-1;-1;;Himalayas
+4318;5102;impassable;-1;-1;-1;-1;-1;;Himalayas
+1898;8029;impassable;-1;-1;-1;-1;-1;;Himalayas
+1898;1961;impassable;-1;-1;-1;-1;-1;;Himalayas
+3989;1961;impassable;-1;-1;-1;-1;-1;;Himalayas
+1129;1961;impassable;-1;-1;-1;-1;-1;;Himalayas
+7374;8029;impassable;-1;-1;-1;-1;-1;;Himalayas#nmmp
+12784;10825;impassable;-1;-1;-1;-1;-1;;Himalayas#nmmp
+12784;10910;impassable;-1;-1;-1;-1;-1;;Himalayas#nmmp
+4558;10826;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+4558;12653;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+4558;7519;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+12763;10826;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+2084;7519;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+10821;7519;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+4998;12831;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+4998;5082;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+1978;5082;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+1978;8090;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+7975;8090;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+8044;8090;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+8044;5064;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+12805;7519;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+12805;5087;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+4923;5087;impassable;-1;-1;-1;-1;-1;;stalinabad mountains#nmmp
+12805;1766;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+10417;7519;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+10417;12653;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+8027;12653;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+7224;12653;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+7224;12314;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+12218;12314;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+12370;1766;impassable;-1;-1;-1;-1;-1;;pamir mountains
+12370;12119;impassable;-1;-1;-1;-1;-1;;pamir mountains
+5062;12119;impassable;-1;-1;-1;-1;-1;;pamir mountains
+4923;1766;impassable;-1;-1;-1;-1;-1;;pamir mountains#nmmp
+5062;1766;impassable;-1;-1;-1;-1;-1;;pamir mountains#nmmp
+1703;4768;impassable;-1;-1;-1;-1;-1;;pamir mountains#nmmp
+5062;4828;impassable;-1;-1;-1;-1;-1;;pamir mountains
+4768;4828;impassable;-1;-1;-1;-1;-1;;pamir mountains
+4391;4828;impassable;-1;-1;-1;-1;-1;;pamir mountains
+4391;1703;impassable;-1;-1;-1;-1;-1;;pamir mountains
+4391;12526;impassable;-1;-1;-1;-1;-1;;pamir mountains
 -1;-1;;-1;-1;-1;-1;-1;-1
