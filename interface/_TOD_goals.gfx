@@ -7177,4 +7177,335 @@ spriteTypes = {
 		name = "GFX_goal_ZIM_Staff"
 		texturefile = "gfx/interface/goals/ZIM_staff.tga"
 	}
+	
+	### Greece ###
+	SpriteType = {
+		name = "GFX_GRE_jingjijinji"
+		texturefile = "gfx/interface/goals/GRE_jingjijinji.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_GRE_guomingonglu"
+		texturefile = "gfx/interface/goals/GRE_guomingonglu.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_qinggongyechongjian"
+		texturefile = "gfx/interface/goals/GRE_qinggongyechongjian.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_kuodajunduitouzi"
+		texturefile = "gfx/interface/goals/GRE_kuodajunduitouzi.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_xilaxinzheng"
+		texturefile = "gfx/interface/goals/GRE_xilaxinzheng.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_diercijinjijinji"
+		texturefile = "gfx/interface/goals/GRE_diercijinjijinji.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_xilatielu"
+		texturefile = "gfx/interface/goals/GRE_xilatielu.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_bianzhidelakema"
+		texturefile = "gfx/interface/goals/GRE_bianzhidelakema.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_kuodachukoutuishui"
+		texturefile = "gfx/interface/goals/GRE_kuodachukoutuishui.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_xilazaochuanjituan"
+		texturefile = "gfx/interface/goals/GRE_xilazaochuanjituan.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_kuangyetouzi"
+		texturefile = "gfx/interface/goals/GRE_kuangyetouzi.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_GRE_xiladedaxue"
+		texturefile = "gfx/interface/goals/GRE_xiladedaxue.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_weihuguoneiwending"
+		texturefile = "gfx/interface/goals/GRE_weihuguoneiwending.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_qingliIMRO"
+		texturefile = "gfx/interface/goals/GRE_qingliIMRO.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_qingchuzhengtanbuwendingyinsu"
+		texturefile = "gfx/interface/goals/GRE_qingchuzhengtanbuwendingyinsu.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_yazhiaerbaniyajiefangjun"
+		texturefile = "gfx/interface/goals/GRE_yazhiaerbaniyajiefangjun.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_qinglibaowangdang"
+		texturefile = "gfx/interface/goals/GRE_qinglibaowangdang.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_yazhishemingongdang"
+		texturefile = "gfx/interface/goals/GRE_yazhishemingongdang.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_xunfujundui"
+		texturefile = "gfx/interface/goals/GRE_xunfujundui.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_gongheguoxianfa"
+		texturefile = "gfx/interface/goals/GRE_gongheguoxianfa.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_gongheguoyongcun"
+		texturefile = "gfx/interface/goals/GRE_gongheguoyongcun.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_yaoyaoyuzhuidezhizhengdang"
+		texturefile = "gfx/interface/goals/GRE_yaoyaoyuzhuidezhizhengdang.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_yingduizaiyedangdetiaozhan"
+		texturefile = "gfx/interface/goals/GRE_yingduizaiyedangdetiaozhan.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_xiaye"
+		texturefile = "gfx/interface/goals/GRE_xiaye.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_shemingongdangzhengfu"
+		texturefile = "gfx/interface/goals/GRE_shemingongdangzhengfu.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_shehuizhuyihuagaizao"
+		texturefile = "gfx/interface/goals/GRE_shehuizhuyihuagaizao.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_gongrenminzhuguanli"
+		texturefile = "gfx/interface/goals/GRE_gongrenminzhuguanli.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_xindelaodongfa"
+		texturefile = "gfx/interface/goals/GRE_xindelaodongfa.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_nongyehezuoshe"
+		texturefile = "gfx/interface/goals/GRE_nongyehezuoshe.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_zengjiajijiantouzi"
+		texturefile = "gfx/interface/goals/GRE_zengjiajijiantouzi.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_jiaoyuxinluxian"
+		texturefile = "gfx/interface/goals/GRE_jiaoyuxinluxian.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_kuangyehezuoshe"
+		texturefile = "gfx/interface/goals/GRE_kuangyehezuoshe.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_feizhisiyouzhi"
+		texturefile = "gfx/interface/goals/GRE_feizhisiyouzhi.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_saoganjingwuzi"
+		texturefile = "gfx/interface/goals/GRE_saoganjingwuzi.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_zaiqingke"
+		texturefile = "gfx/interface/goals/GRE_zaiqingke.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_lianluodeguotongzhi"
+		texturefile = "gfx/interface/goals/GRE_lianluodeguotongzhi.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_lianluotuerqitongzhi"
+		texturefile = "gfx/interface/goals/GRE_lianluotuerqitongzhi.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_jingjihezuo"
+		texturefile = "gfx/interface/goals/GRE_jingjihezuo.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_ruxiongdiyiban"
+		texturefile = "gfx/interface/goals/GRE_ruxiongdiyiban.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_yutuerqidetongmeng"
+		texturefile = "gfx/interface/goals/GRE_yutuerqidetongmeng.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_qudifandongpai"
+		texturefile = "gfx/interface/goals/GRE_qudifandongpai.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_zhengjiaofenli"
+		texturefile = "gfx/interface/goals/GRE_zhengjiaofenli.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_gaizaojundui"
+		texturefile = "gfx/interface/goals/GRE_gaizaojundui.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_qinglisangushili"
+		texturefile = "gfx/interface/goals/GRE_qinglisangushili.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_gonggushehuizhuyi"
+		texturefile = "gfx/interface/goals/GRE_gonggushehuizhuyi.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_xilademintian"
+		texturefile = "gfx/interface/goals/GRE_xilademintian.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_renmindangzhengfu"
+		texturefile = "gfx/interface/goals/GRE_renmindangzhengfu.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_guowangguilai"
+		texturefile = "gfx/interface/goals/GRE_guowangguilai.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_xilabaoshouzhuyi"
+		texturefile = "gfx/interface/goals/GRE_xilabaoshouzhuyi.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_maoyibaohuzhuyi"
+		texturefile = "gfx/interface/goals/GRE_maoyibaohuzhuyi.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_nongyegaige"
+		texturefile = "gfx/interface/goals/GRE_nongyegaige.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_gonglujianshe"
+		texturefile = "gfx/interface/goals/GRE_gonglujianshe.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_guoyouhuadaqiye"
+		texturefile = "gfx/interface/goals/GRE_guoyouhuadaqiye.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_zhenxingnongcun"
+		texturefile = "gfx/interface/goals/GRE_zhenxingnongcun.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_kuangyekateer"
+		texturefile = "gfx/interface/goals/GRE_kuangyekateer.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_zaochuantuolasi"
+		texturefile = "gfx/interface/goals/GRE_zaochuantuolasi.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_yujiaohuixieshou"
+		texturefile = "gfx/interface/goals/GRE_yujiaohuixieshou.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_yihuigaige"
+		texturefile = "gfx/interface/goals/GRE_yihuigaige.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_youcaizhejuzhi"
+		texturefile = "gfx/interface/goals/GRE_youcaizhejuzhi.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_qinglichifei"
+		texturefile = "gfx/interface/goals/GRE_qinglichifei.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_fuxingyuanlaoyuan"
+		texturefile = "gfx/interface/goals/GRE_fuxingyuanlaoyuan.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_zhengjiaoyubaxiliusi"
+		texturefile = "gfx/interface/goals/GRE_zhengjiaoyubaxiliusi.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_bianjiangfenghuo"
+		texturefile = "gfx/interface/goals/GRE_bianjiangfenghuo.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_jingongUCS"
+		texturefile = "gfx/interface/goals/GRE_jingongUCS.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_weibeichangli"
+		texturefile = "gfx/interface/goals/GRE_weibeichangli.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_xilaxinzhixu"
+		texturefile = "gfx/interface/goals/GRE_xilaxinzhixu.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_linghuojingjixue"
+		texturefile = "gfx/interface/goals/GRE_linghuojingjixue.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_yazhashaoshuminzu"
+		texturefile = "gfx/interface/goals/GRE_yazhashaoshuminzu.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_nongcunchongfenpei"
+		texturefile = "gfx/interface/goals/GRE_nongcunchongfenpei.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_fulizhengce"
+		texturefile = "gfx/interface/goals/GRE_fulizhengce.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_yudagongsidelianmeng"
+		texturefile = "gfx/interface/goals/GRE_yudagongsidelianmeng.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_shetuanzhuyijingji"
+		texturefile = "gfx/interface/goals/GRE_shetuanzhuyijingji.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_GRE_jungongyekuozhang"
+		texturefile = "gfx/interface/goals/GRE_jungongyekuozhang.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_xilajunduikuozhang"
+		texturefile = "gfx/interface/goals/GRE_xilajunduikuozhang.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_bayuesiritizhi"
+		texturefile = "gfx/interface/goals/GRE_bayuesiritizhi.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_junshijieyan"
+		texturefile = "gfx/interface/goals/GRE_junshijieyan.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_xiaomiezhengdang"
+		texturefile = "gfx/interface/goals/GRE_xiaomiezhengdang.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_qingchuchifei"
+		texturefile = "gfx/interface/goals/GRE_qingchuchifei.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_zongdongyuanling"
+		texturefile = "gfx/interface/goals/GRE_zongdongyuanling.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_xianjunshehui"
+		texturefile = "gfx/interface/goals/GRE_xianjunshehui.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_weilelingxiu"
+		texturefile = "gfx/interface/goals/GRE_weilelingxiu.png"
+	}
+	SpriteType = {
+		name = "GFX_GRE_xiladenapolun"
+		texturefile = "gfx/interface/goals/GRE_xiladenapolun.png"
+	}
 }
