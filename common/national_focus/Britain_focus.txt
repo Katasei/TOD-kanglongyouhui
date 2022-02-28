@@ -282,9 +282,9 @@ focus = {
 }
 
 focus = {
-	#工团主义革命
-	id = ENG_syndicalism_revolution
-	icon = ENG_syndicalism_revolution
+	#法团主义革命
+	id = ENG_corporatism_revolution
+	icon = ENG_corporatism_revolution
 	prerequisite = {focus = ENG_pm_beckett} 
 	relative_position_id = ENG_pm_beckett
 	x = 0
@@ -297,8 +297,8 @@ focus = {
 	#亲善国民卫队
 	id = ENG_woo_the_national_guard
 	icon = ENG_woo_the_national_guard
-	prerequisite = {focus = ENG_syndicalism_revolution} 
-	relative_position_id = ENG_syndicalism_revolution
+	prerequisite = {focus = ENG_corporatism_revolution} 
+	relative_position_id = ENG_corporatism_revolution
 	mutually_exclusive = {focus = ENG_alienate_the_national_guard}
 	x = -1
 	y = 1
@@ -310,8 +310,8 @@ focus = {
 	#疏远国民卫队
 	id = ENG_alienate_the_national_guard
 	icon = ENG_alienate_the_national_guard
-	prerequisite = {focus = ENG_syndicalism_revolution} 
-	relative_position_id = ENG_syndicalism_revolution
+	prerequisite = {focus = ENG_corporatism_revolution} 
+	relative_position_id = ENG_corporatism_revolution
 	mutually_exclusive = {focus = ENG_woo_the_national_guard}
 	x = 1
 	y = 1
@@ -371,9 +371,9 @@ focus = {
 }
 
 focus = {
-	#国家工团主义经济
-	id = ENG_national_syndicalism_economy
-	icon = ENG_national_syndicalism_economy
+	#国家法团主义经济
+	id = ENG_national_corporatism_economy
+	icon = ENG_national_corporatism_economy
 	prerequisite = {focus = ENG_institutional_revolution }	
 	relative_position_id = ENG_institutional_revolution
 	x = 0
@@ -386,8 +386,8 @@ focus = {
 	#全面集体化
 	id = ENG_comprehensive_collectivization_b
 	icon = ENG_comprehensive_collectivization_b
-	prerequisite = {focus = ENG_national_syndicalism_economy }	
-	relative_position_id = ENG_national_syndicalism_economy
+	prerequisite = {focus = ENG_national_corporatism_economy }	
+	relative_position_id = ENG_national_corporatism_economy
 	x = 1
 	y = 1
 	cost = 4
@@ -398,8 +398,8 @@ focus = {
 	#最高经济委员会
 	id = ENG_supreme_economic_committee_b
 	icon = ENG_supreme_economic_committee_b
-	prerequisite = {focus = ENG_national_syndicalism_economy}
-	relative_position_id = ENG_national_syndicalism_economy
+	prerequisite = {focus = ENG_national_corporatism_economy}
+	relative_position_id = ENG_national_corporatism_economy
 	x = -1
 	y = 1
 	cost = 4
@@ -764,5 +764,306 @@ focus = {
 	cost = 4
 	completion_reward = {} 
 }
+
+################
+#通用经济线#
+
+focus = {
+	#劳工宪章的承诺
+	id = ENG_the_pomise_of_labour_charter
+	icon = ENG_the_pomise_of_labour_charter
+	x = 0
+	y = 10
+	cost = 1
+	completion_reward = {} 
+}
+
+focus = {
+	#履行宪章
+	id = ENG_implement_charter
+	icon = ENG_implement_charter
+	prerequisite = {focus = ENG_the_pomise_of_labour_charter}
+	mutually_exclusive={focus=ENG_amend_charter}
+	mutually_exclusive={focus=ENG_what_promise}
+	relative_position_id = ENG_the_pomise_of_labour_charter
+	x = -2
+	y = 1
+	cost = 3
+	completion_reward = {} 
+}
+
+focus = {
+	#完善福利制度
+	id = ENG_improve_welfare_system
+	icon = ENG_improve_welfare_system
+	prerequisite = {
+		focus = ENG_implement_charter 
+		focus = ENG_amend_charter
+	}
+	relative_position_id = ENG_implement_charter
+	x = 0
+	y = 1
+	cost = 4
+	completion_reward = {} 
+}
+
+focus = {
+	#国家福利系统
+	id = ENG_national_welfare_system
+	icon = ENG_national_welfare_system
+	prerequisite = {focus = ENG_improve_welfare_system}#在完善福利制的1-2年后才能点
+	prerequisite = {focus = ENG_implement_charter}
+	relative_position_id = ENG_improve_welfare_system
+	x = -1
+	y = 1
+	cost = 10
+	completion_reward = {} 
+}
+
+focus = {
+	#劳动美化
+	id = ENG_labor_beautification
+	icon = ENG_labor_beautification
+	prerequisite = {focus = ENG_implement_charter}
+	relative_position_id = ENG_implement_charter
+	x = -2
+	y = 1
+	cost = 4
+	completion_reward = {} 
+}
+
+focus = {
+	#修正宪章
+	id = ENG_amend_charter
+	icon = ENG_amend_charter
+	prerequisite = {focus = ENG_the_pomise_of_labour_charter}
+	mutually_exclusive={focus=ENG_implement_charter}
+	mutually_exclusive={focus=ENG_what_promise}
+	relative_position_id = ENG_the_pomise_of_labour_charter
+	x = 0
+	y = 1
+	cost = 3
+	completion_reward = {} 
+}
+
+focus = {
+	#添加战时条款
+	id = ENG_add_war_isues
+	icon = ENG_add_war_isues
+	prerequisite = {focus = ENG_amend_charter}
+	relative_position_id = ENG_amend_charter
+	x = 2
+	y = 1
+	cost = 4
+	completion_reward = {} 
+}
+
+focus = {
+	#鼓励慈善团体
+	id = ENG_encourage_charity_group
+	icon = ENG_encourage_charity_group
+	prerequisite = {focus = ENG_amend_charter}
+	mutually_exclusive={focus=ENG_improve_welfare_system}
+	relative_position_id = ENG_amend_charter
+	x = 0
+	y = 1
+	cost = 4
+	completion_reward = {} 
+}
+
+focus = {
+	#什么宪章？
+	id = ENG_what_promise
+	icon = ENG_what_promise
+	prerequisite = {focus = ENG_the_pomise_of_labour_charter}
+	mutually_exclusive={focus=ENG_amend_charter}
+	mutually_exclusive={focus=ENG_implement_charter}
+	relative_position_id = ENG_the_pomise_of_labour_charter
+	x = 2
+	y = 1
+	cost = 1
+	completion_reward = {} 
+}
+
+focus = {
+	#继续公共建设计划
+	id = ENG_continue_public_construction_plan
+	icon = ENG_continue_public_construction_plan
+	x = 8
+	y = 10
+	cost = 1
+	completion_reward = {} 
+}
+
+focus = {
+	#铁路翻新
+	id = ENG_update_railway
+	icon = ENG_update_railway
+	prerequisite = {focus = ENG_continue_public_construction_plan}
+	relative_position_id = ENG_continue_public_construction_plan
+	x = -1
+	y = 1
+	cost = 4
+	completion_reward = {} 
+}
+
+focus = {
+	#高速公路计划
+	id = ENG_motorway_plan
+	icon = ENG_motorway_plan
+	prerequisite = {focus = ENG_continue_public_construction_plan}
+	relative_position_id = ENG_continue_public_construction_plan
+	x = 1
+	y = 1
+	cost = 5
+	completion_reward = {} 
+}
+
+focus = {
+	#自给计划
+	id = ENG_self_sufficient_plan
+	icon = ENG_self_sufficient_plan
+	prerequisite = {focus = ENG_continue_public_construction_plan}
+	relative_position_id = ENG_continue_public_construction_plan
+	x = 3
+	y = 1
+	cost = 5
+	completion_reward = {} 
+}
+
+focus = {
+	#建设民用工厂，只在保密高或摊牌的情况下可点
+	id = ENG_civil_construction
+	icon = ENG_civil_construction
+	prerequisite = {focus = ENG_update_railway}
+	prerequisite = {focus = ENG_motorway_plan}
+	relative_position_id = ENG_continue_public_construction_plan
+	x = 0
+	y = 2
+	cost = 6
+	completion_reward = {} 
+}
+
+focus = {
+	#建设军工厂，只在保密高或摊牌的情况下可点
+	id = ENG_militiry_construction
+	icon = ENG_militiry_construction
+	prerequisite = {focus = ENG_update_railway}
+	prerequisite = {focus = ENG_motorway_plan}
+	relative_position_id = ENG_continue_public_construction_plan
+	x = -2
+	y = 2
+	cost = 6
+	completion_reward = {} 
+}
+
+focus = {
+	#建设船坞，只在保密高或摊牌的情况下可点
+	id = ENG_dock_construction
+	icon = ENG_militiry_construction
+	prerequisite = {focus = ENG_update_railway}
+	prerequisite = {focus = ENG_motorway_plan}
+	relative_position_id = ENG_continue_public_construction_plan
+	x = 2
+	y = 2
+	cost = 6
+	completion_reward = {} 
+}
+
+focus = {
+	#重建北爱尔兰，要求爱尔兰战争业已结束。如果未取得北爱，该国策将会跳过
+	id = ENG_rebuild_north_ireland
+	icon = ENG_rebuild_north_ireland
+	prerequisite = {focus = ENG_civil_construction}
+	prerequisite = {focus = ENG_militiry_construction}
+	prerequisite = {focus = ENG_dock_construction}
+	relative_position_id = ENG_civil_construction
+	x = 0
+	y = 1
+	cost = 5
+	completion_reward = {} 
+}
+
+focus = {
+	#南方炮阵，假如我们采取保守的策略
+	id = ENG_south_guns
+	icon = ENG_south_guns
+	prerequisite = {focus = ENG_rebuild_north_ireland}
+	relative_position_id = ENG_rebuild_north_ireland
+	x = -2
+	y = 1
+	cost = 4
+	completion_reward = {} 
+}
+
+focus = {
+	#重心北移
+	id = ENG_move_to_north
+	icon = ENG_move_to_north
+	prerequisite = {focus = ENG_south_guns}
+	relative_position_id = ENG_south_guns
+	x = 0
+	y = 1
+	cost = 5
+	completion_reward = {} 
+}
+
+focus = {
+	#海峡要塞
+	id = ENG_channal_fort
+	icon = ENG_channal_fort
+	prerequisite = {focus = ENG_south_guns}
+	relative_position_id = ENG_south_guns
+	x = -2
+	y = 1
+	cost = 4
+	completion_reward = {} 
+}
+
+focus = {
+	#南方机场，假如我们采取激进的策略
+	id = ENG_south_airports
+	icon = ENG_south_airports
+	prerequisite = {focus = ENG_rebuild_north_ireland}
+	relative_position_id = ENG_rebuild_north_ireland
+	x = 2
+	y = 1
+	cost = 5
+	completion_reward = {} 
+}
+
+focus = {
+	#兵船北来，升港口、加运输船
+	id = ENG_ship_from_north
+	icon = ENG_ship_from_north
+	prerequisite = {focus = ENG_south_airports}
+	relative_position_id = ENG_south_airports
+	x = 0
+	y = 1
+	cost = 4
+	completion_reward = {} 
+}
+
+focus = {
+	#海峡重炮，用列车炮炸傻法国佬
+	id = ENG_channal_biggun
+	icon = ENG_channal_biggun
+	prerequisite = {focus = ENG_south_airports}
+	relative_position_id = ENG_south_airports
+	x = 2
+	y = 1
+	cost = 4
+	completion_reward = {} 
+}
+
+focus = {
+	#城市与农村
+	id = ENG_city_and_country
+	icon = ENG_city_and_country
+	x = 16
+	y = 10
+	cost = 4
+	completion_reward = {} 
+}#农场主/农工矛盾，根据政治路线决定站在农业集团一边（牺牲农工利益）或支持农工团体
 
 }
