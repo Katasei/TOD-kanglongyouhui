@@ -4,7 +4,7 @@ tags={
 	"National Focuses"
 }
 name="TOD-kanglongyouhui"
-supported_version="1.10.*"
+supported_version="1.11.*"
 replace_path="common/countries"
 replace_path="common/country_tags"
 replace_path="common/state_category"
