@@ -46,12 +46,51 @@ spriteTypes = {
 		name = "GFX_HUN_jiejueminzufenzheng"
 		texturefile = "gfx/interface/goals/HUN_jiejueminzufenzheng.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_HUN_weidaxuanzaoshi"
+		texturefile = "gfx/interface/goals/HUN_weidaxuanzaoshi.png"
+	}
+	spriteType = {
+		name = "GFX_HUN_dajiwubi"
+		texturefile = "gfx/interface/goals/HUN_dajiwubi.png"
+	}
+	spriteType = {
+		name = "GFX_HUN_anzhonghuilu"
+		texturefile = "gfx/interface/goals/HUN_anzhonghuilu.png"
+	}
+	spriteType = {
+		name = "GFX_HUN_juxingdaxuan"
+		texturefile = "gfx/interface/goals/HUN_juxingdaxuan.png"
+	}
+	spriteType = {
+		name = "GFX_HUN_chengrendaxuanjieguo"
+		texturefile = "gfx/interface/goals/HUN_chengrendaxuanjieguo.png"
+	}
+	spriteType = {
+		name = "GFX_HUN_fanduidaxuanjieguo"
+		texturefile = "gfx/interface/goals/HUN_fanduidaxuanjieguo.png"
+	}
+	spriteType = {
+		name = "GFX_HUN_anzhonglianxizuopai"
+		texturefile = "gfx/interface/goals/HUN_anzhonglianxizuopai.png"
+	}
+	spriteType = {
+		name = "GFX_HUN_anzhonglianxiyoupai"
+		texturefile = "gfx/interface/goals/HUN_anzhonglianxiyoupai.png"
+	}
+	spriteType = {
+		name = "GFX_HUN_turanfanan"
+		texturefile = "gfx/interface/goals/HUN_turanfanan.png"
+	}
 	#IDEAS
 	
 	spriteType = {
 		name = "GFX_idea_HUN_ziyoudechunfeng"
 		texturefile = "gfx/interface/ideas/HUN/HUN_ziyoudechunfeng.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_HUN_pangdadejundui"
+		texturefile = "gfx/interface/ideas/HUN/HUN_pangdadejundui.png"
 	}
 	spriteType = {
 		name = "GFX_idea_HUN_fangshou"
