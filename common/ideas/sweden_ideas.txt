@@ -27,6 +27,14 @@ ideas = {
 			allowed = { original_tag = SWE }
 
 			removal_cost = -1
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea SWE_hunluandejundui"
+				country_lock_all_division_template = yes
+			}
+			on_remove = {
+				log = "[GetDateText]: [Root.GetName]: remove idea SWE_hunluandejundui"
+				country_lock_all_division_template = no
+			}
 
 			modifier = {
 				army_org_Factor = -0.5

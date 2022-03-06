@@ -33,6 +33,14 @@ ideas = {
 		}
 		GRE_pround_army = {
 		    picture = GRE_pround_army
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GRE_pround_army"
+				country_lock_all_division_template = yes
+			}
+			on_remove = {
+				log = "[GetDateText]: [Root.GetName]: remove idea GRE_pround_army"
+				country_lock_all_division_template = no
+			}
 			modifier = {
 				army_org_Factor = 0.15
 				experience_gain_army_factor = -0.25

@@ -1,6 +1,28 @@
 ideas = {
 
 	country = {
+		HUN_pangdadejundui = {
+			name = HUN_pangdadejundui
+			
+		    picture = HUN_pangdadejundui
+			
+			allowed = { original_tag = HUN }
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea HUN_pangdadejundui"
+				country_lock_all_division_template = yes
+			}
+			on_remove = {
+				log = "[GetDateText]: [Root.GetName]: remove idea HUN_pangdadejundui"
+				country_lock_all_division_template = no
+			}
+			modifier = {
+				army_org_Factor = 0.15
+				conscription_factor = 0.5
+				consumer_goods_factor =	0.05
+				command_power_gain_mult = 0.5
+				custom_modifier_tooltip = cannot_train_units_tt
+			}
+		}
 		HUN_jinjiweijideyubo = {
 			name = HUN_jinjiweijideyubo
 
@@ -50,7 +72,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				conscription = -0.005
+				conscription = -0.01
 				stability_factor = -0.1
 			}
 		}

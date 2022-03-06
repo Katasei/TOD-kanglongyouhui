@@ -8,7 +8,7 @@ ideas = {
 ##############
 	country = {
 		FIN_shiyuegemingdeyichan = {
-			picture = generic_intel_bonus
+			picture = FIN_shiyuegemingdeyichan
 			modifier = {
 				conscription_factor = 0.2
 				political_power_factor = 0.1
@@ -19,7 +19,7 @@ ideas = {
 		}
 
 		FIN_SISUjingsheng = {
-			picture = sisu
+			picture = FIN_SISUjingsheng
 			modifier = {
 				army_morale_factor = 0.15
 				attrition = -0.1
@@ -28,7 +28,7 @@ ideas = {
 			}
 		}
 		FIN_lieningzhuyijingji = {
-			picture = generic_intel_bonus
+			picture = FIN_lieningzhuyijingji
 			modifier = {
 				consumer_goods_factor = -0.05 
 				production_speed_buildings_factor = 0.1
