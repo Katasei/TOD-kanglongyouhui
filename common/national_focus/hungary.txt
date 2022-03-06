@@ -81,6 +81,158 @@ focus_tree = {
 		
 		completion_reward = {add_ideas = HUN_ziyoudechunfeng}
 	}
+	#为大选造势
+	focus = {
+		id = HUN_weidaxuanzaoshi
+		icon = GFX_HUN_weidaxuanzaoshi
+		x = 7
+		y = 3
+		
+		prerequisite = { focus = HUN_jinxinziyouhuagaige }
+
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#打击舞弊
+	focus = {
+		id = HUN_dajiwubi
+		icon = GFX_HUN_dajiwubi
+		x = 6
+		y = 4
+		
+		mutually_exclusive = { focus = HUN_anzhonghuilu }
+		prerequisite = { focus = HUN_weidaxuanzaoshi }
+
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#暗中贿赂
+	focus = {
+		id = HUN_anzhonghuilu
+		icon = GFX_HUN_anzhonghuilu
+		x = 8
+		y = 4
+		
+		mutually_exclusive = { focus = HUN_dajiwubi }
+		prerequisite = { focus = HUN_weidaxuanzaoshi }
+
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#举行大选
+	focus = {
+		id = HUN_juxingdaxuan
+		icon = GFX_HUN_juxingdaxuan
+		x = 7
+		y = 5
+		
+		prerequisite = { focus = HUN_dajiwubi }
+		prerequisite = { focus = HUN_anzhonghuilu }
+
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#承认大选结果
+	focus = {
+		id = HUN_chengrendaxuanjieguo
+		icon = GFX_HUN_chengrendaxuanjieguo
+		x = 6
+		y = 6
+		
+		prerequisite = { focus = HUN_juxingdaxuan }
+		mutually_exclusive = { focus = HUN_fanduidaxuanjieguo }
+
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#反对大选结果
+	focus = {
+		id = HUN_fanduidaxuanjieguo
+		icon = GFX_HUN_fanduidaxuanjieguo
+		x = 8
+		y = 6
+		
+		prerequisite = { focus = HUN_juxingdaxuan }
+		mutually_exclusive = { focus = HUN_chengrendaxuanjieguo }
+
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#暗中联系左派
+	focus = {
+		id = HUN_anzhonglianxizuopai
+		icon = GFX_HUN_anzhonglianxizuopai
+		x = 9
+		y = 7
+		
+		prerequisite = { focus = HUN_fanduidaxuanjieguo }
+		mutually_exclusive = { focus = HUN_anzhonglianxiyoupai }
+
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#暗中联系右派
+	focus = {
+		id = HUN_anzhonglianxiyoupai
+		icon = GFX_HUN_anzhonglianxiyoupai
+		x = 7
+		y = 7
+		
+		prerequisite = { focus = HUN_fanduidaxuanjieguo }
+		mutually_exclusive = { focus = HUN_anzhonglianxizuopai }
+
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
+	#突然发难
+	focus = {
+		id = HUN_turanfanan
+		icon = GFX_HUN_turanfanan
+		x = 8
+		y = 8
+		
+		prerequisite = { focus = HUN_anzhonglianxizuopai }
+		prerequisite = { focus = HUN_anzhonglianxiyoupai }
+
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {}
+	}
 	#保持独裁统治
 	focus = {
 		id = HUN_baochiducaitongzhi
