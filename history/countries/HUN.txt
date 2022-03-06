@@ -38,6 +38,7 @@ add_ideas = {
 	HUN_nongyeguojia
 	HUN_minzufenzheng
 	HUN_jinjiweijideyubo
+	HUN_pangdadejundui
 }
 
 set_popularities = {
