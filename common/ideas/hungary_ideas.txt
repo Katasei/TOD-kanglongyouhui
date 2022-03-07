@@ -16,9 +16,10 @@ ideas = {
 				country_lock_all_division_template = no
 			}
 			modifier = {
-				army_org_Factor = 0.15
+				industrial_capacity_factory = 0.05	
+				army_org_Factor = 0.1
 				conscription_factor = 0.5
-				consumer_goods_factor =	0.05
+				consumer_goods_factor =	0.2
 				command_power_gain_mult = 0.5
 				custom_modifier_tooltip = cannot_train_units_tt
 			}

@@ -14,7 +14,7 @@ ideas = {
 				consumer_goods_factor =	-0.05
 			}
 			targeted_modifier = {
-				tag = FRA
+				tag = GER
 				trade_cost_for_target_factor = -0.8
 				#extra_trade_to_target_factor = 0.5
 			}
