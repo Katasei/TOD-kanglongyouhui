@@ -29,6 +29,8 @@ add_ideas = {
 	SWE_jiujinpeiji
 	SWE_Statare
 }
+
+country_lock_all_division_template = yes
 recruit_character = SWE_Carl_Gustaf_Ekman
 recruit_character = SWE_Pierre_Albin_Hansen
 recruit_character = SWE_GustavV

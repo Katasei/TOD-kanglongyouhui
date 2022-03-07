@@ -15,7 +15,7 @@ set_politics = {
 add_ideas = {
 	export_focus
 	limited_conscription
-	partial_economic_mobilisation
+	low_economic_mobilisation
 }
 
 set_technology = {
@@ -55,6 +55,10 @@ set_popularities = {
 	council_socialism = 4
 	vanguard_socialism = 6
 }
+
+
+country_lock_all_division_template = yes
+
 recruit_character = HUN_Gyula_Gombos
 recruit_character = HUN_Janos_Zichy
 recruit_character = HUN_Charles_I_of_Austria
