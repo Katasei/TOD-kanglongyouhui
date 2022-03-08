@@ -148,3 +148,63 @@ country_event = {
 		add_tech_bonus = { bonus = 1 uses = 1 category = synth_resources }
 	}
 }
+#裁军
+country_event = {
+	id = TODhungary.7
+	title = TODhungary.7.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.7.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.7.a
+		if = {
+			limit = {
+				has_army_manpower = { size < 150000 }
+			}
+			HUN = {country_event = { id = TODhungary.8}}
+		}
+		else = {
+			HUN = {country_event = { id = TODhungary.9}}
+		}
+	}
+}
+#裁军成功
+country_event = {
+	id = TODhungary.8
+	title = TODhungary.8.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.8.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.8.a
+		army_experience = 30
+	}
+}
+#裁军失败
+country_event = {
+	id = TODhungary.9
+	title = TODhungary.9.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.9.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.9.a
+		add_stability = -0.1
+		add_war_support = -0.1
+	}
+}
