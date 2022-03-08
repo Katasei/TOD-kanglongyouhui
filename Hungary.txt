@@ -1,0 +1,210 @@
+add_namespace = TODhungary
+#解决斯洛伐克问题
+country_event = {
+	id = TODhungary.1
+	title = TODhungary.1.t
+	desc =TODhungary.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.1.a
+		ai_chance = { factor = 50 }
+		set_country_flag = siluofakebeimanzu
+		add_ideas = HUN_buchangsiluofake
+	}
+	option = { 
+		name = TODhungary.1.b
+		ai_chance = { factor = 50 }
+	}
+}
+#解决罗马尼亚问题
+country_event = {
+	id = TODhungary.2
+	title = TODhungary.2.t
+	desc =TODhungary.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.2.a
+		ai_chance = { factor = 50 }
+		set_country_flag = luomaniyabeimanzu
+		add_ideas = HUN_buchangluomaniya
+	}
+	option = { 
+		name = TODhungary.2.b
+		ai_chance = { factor = 50 }
+	}
+}
+#科技投资
+country_event = {
+	id = TODhungary.3
+	title = TODhungary.3.t
+	desc =TODhungary.3.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {tag = HUN}
+	
+	option = {
+		name = TODhungary.3.a
+		HUN = {country_event = { id = TODhungary.4}}
+	}
+}
+#陆军武器
+country_event = {
+	id = TODhungary.4
+	title = TODhungary.4.t
+	desc =TODhungary.4.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.4.a
+		ai_chance = { factor = 33 }
+		add_tech_bonus = { bonus = 0.5 uses = 2 category = infantry_tech }
+		HUN = {country_event = { id = TODhungary.5}}
+	}
+	option = { 
+		name = TODhungary.4.b
+		ai_chance = { factor = 33 }
+		add_tech_bonus = { bonus = 0.5 uses = 2 category = artillery }
+		HUN = {country_event = { id = TODhungary.5}}
+	}
+	option = { 
+		name = TODhungary.4.c
+		ai_chance = { factor = 33 }
+		add_tech_bonus = { bonus = 0.5 uses = 1 category = armor }
+		add_tech_bonus = { bonus = 0.5 uses = 1 category = motorized_equipment }
+		HUN = {country_event = { id = TODhungary.5}}
+	}
+}
+#空军武器
+country_event = {
+	id = TODhungary.5
+	title = TODhungary.5.t
+	desc =TODhungary.5.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.5.a
+		ai_chance = { factor = 50 }
+		HUN = {country_event = { id = TODhungary.6}}
+		add_tech_bonus = { bonus = 0.5 uses = 2 category = light_air }
+		
+	}
+	option = { 
+		name = TODhungary.5.b
+		ai_chance = { factor = 50 }
+		add_tech_bonus = { bonus = 0.5 uses = 2 category = medium_air }
+		HUN = {country_event = { id = TODhungary.6}}
+	}
+}
+#投资工业
+country_event = {
+	id = TODhungary.6
+	title = TODhungary.6.t
+	desc =TODhungary.6.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.6.a
+		ai_chance = { factor = 33 }
+		add_tech_bonus = { bonus = 1 uses = 1 category = electronics }
+	}
+	option = { 
+		name = TODhungary.6.b
+		ai_chance = { factor = 33 }
+		add_tech_bonus = { bonus = 1 uses = 1 category = industry }
+	}
+	option = { 
+		name = TODhungary.6.c
+		ai_chance = { factor = 33 }
+		add_tech_bonus = { bonus = 1 uses = 1 category = synth_resources }
+	}
+}
+#裁军
+country_event = {
+	id = TODhungary.7
+	title = TODhungary.7.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.7.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.7.a
+		if = {
+			limit = {
+				has_army_manpower = { size < 150000 }
+			}
+			HUN = {country_event = { id = TODhungary.8}}
+		}
+		else = {
+			HUN = {country_event = { id = TODhungary.9}}
+		}
+	}
+}
+#裁军成功
+country_event = {
+	id = TODhungary.8
+	title = TODhungary.8.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.8.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.8.a
+		army_experience = 30
+	}
+}
+#裁军失败
+country_event = {
+	id = TODhungary.9
+	title = TODhungary.9.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.9.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.9.a
+		add_stability = -0.1
+		add_war_support = -0.1
+	}
+}
