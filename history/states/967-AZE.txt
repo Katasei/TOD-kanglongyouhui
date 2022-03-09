@@ -3,7 +3,7 @@ state={
 	name="STATE_967"
 
 	history={
-		owner = GEO
+		owner = TUR
 
 		victory_points = {
 			3653 3 
@@ -20,6 +20,7 @@ state={
 		}
 		add_core_of = RUS
 		add_core_of = GEO
+		add_core_of = TUR
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 2
