@@ -727,4 +727,10 @@ leader_traits = {
 		stability_factor = 0.2
 		political_power_factor = 0.5
 	}
+	### Ukraine
+	republic_founder = {
+		random = no
+		stability_factor = 0.1
+		conservative_democracy_drift = 0.05
+	}
 }
