@@ -1,0 +1,96 @@
+ideas = {
+	country = {
+		#独立精神
+		UKR_dulijingshen = {
+			name = UKR_dulijingshen
+			
+		    picture = UKR_dulijingshen
+			
+			removal_cost = -1	
+			
+			allowed = { original_tag = UKR }
+			modifier = {
+				stability_factor = 0.05
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+			}
+		}
+		#政治冲突：弱
+		UKR_zhengzhisaodong_ruo = {
+			name = UKR_zhengzhisaodong_ruo
+			
+		    picture = UKR_zhengzhisaodong_ruo
+			
+			removal_cost = -1	
+			
+			allowed = { original_tag = UKR }
+			modifier = {
+				stability_factor = -0.1
+				industrial_capacity_factory = -0.1	
+				conscription_factor = -0.1
+				national_corporatism_drift = 0.02
+				vanguard_socialism_drift = 0.02
+			}
+		}
+		#单一的出口型经济
+		UKR_danyijingji = {
+			name = UKR_danyijingji
+			
+		    picture = UKR_danyijingji
+			
+			removal_cost = -1	
+			
+			allowed = { original_tag = UKR }
+			modifier = {
+				production_speed_buildings_factor = 0.10
+				consumer_goods_factor =	0.05
+				war_support_factor = -0.3
+				custom_modifier_tooltip = UKR_jingjifaan
+			}
+		}
+		#不满的工厂主
+		UKR_bumandegongchangzhu = {
+			name = UKR_bumandegongchangzhu
+			
+		    picture = UKR_bumandegongchangzhu
+			
+			removal_cost = -1	
+			
+			allowed = { original_tag = UKR }
+			modifier = {
+				production_speed_arms_factory_factor = -0.15
+				industrial_capacity_factory = -0.1	
+			}
+		}
+		#法援撤离
+		UKR_fayuancheli = {
+			name = UKR_fayuancheli
+			
+		    picture = UKR_fayuancheli
+			
+			removal_cost = -1	
+			
+			allowed = { original_tag = UKR }
+			modifier = {
+				stability_factor = -0.2
+				industrial_capacity_factory = -0.1	
+				research_speed_factor = -0.1
+				land_doctrine_cost_factor = 0.2
+			}
+		}
+		#腐败丑闻
+		UKR_fubaichouwen = {
+			name = UKR_fubaichouwen
+			
+			removal_cost = -1	
+			
+		    picture = UKR_fubaichouwen
+			
+			allowed = { original_tag = UKR }
+			modifier = {
+				stability_factor = -0.1
+				political_power_factor = -0.5
+			}
+		}
+	}
+}
