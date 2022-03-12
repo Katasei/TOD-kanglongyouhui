@@ -116,4 +116,31 @@ spriteTypes = {
 		name = "GFX_idea_FIN_shiyuegemingdeyichan"
 		texturefile = "gfx/interface/ideas/FIN/FIN_shiyuegemingdeyichan.png"
 	}
+	
+	#UKR
+	
+	spriteType = {
+		name = "GFX_idea_UKR_dulijingshen"
+		texturefile = "gfx/interface/ideas/UKR/UKR_dulijingshen.png"
+	}
+	spriteType = {
+		name = "GFX_idea_UKR_zhengzhisaodong_ruo"
+		texturefile = "gfx/interface/ideas/UKR/UKR_zhengzhisaodong_ruo.png"
+	}
+	spriteType = {
+		name = "GFX_idea_UKR_danyijingji"
+		texturefile = "gfx/interface/ideas/UKR/UKR_danyijingji.png"
+	}
+	spriteType = {
+		name = "GFX_idea_UKR_bumandegongchangzhu"
+		texturefile = "gfx/interface/ideas/UKR/UKR_bumandegongchangzhu.png"
+	}
+	spriteType = {
+		name = "GFX_idea_UKR_fayuancheli"
+		texturefile = "gfx/interface/ideas/UKR/UKR_fayuancheli.png"
+	}
+	spriteType = {
+		name = "GFX_idea_UKR_fubaichouwen"
+		texturefile = "gfx/interface/ideas/UKR/UKR_fubaichouwen.png"
+	}
 }
