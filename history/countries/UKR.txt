@@ -3,29 +3,32 @@
 oob = "empty"
 
 set_politics = {
-	ruling_party = despotism
-	last_election = "1936.1.1"
+	ruling_party = conservative_democracy
+	last_election = "1932.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
+add_ideas = {
+	export_focus
+	limited_conscription
+	civilian_economy
+	UKR_dulijingshen
+	UKR_zhengzhisaodong_ruo
+	UKR_danyijingji
+	UKR_bumandegongchangzhu
+	UKR_fayuancheli
+	UKR_fubaichouwen
+}
 set_popularities = {
-	totalism = 0
-	despotism = 79
-	authoritarianism = 14
-	conservatism = 5
-	liberalism = 2
-	reformism = 0
-	socialism = 0
-	radicalism = 0
+	national_corporatism = 27
+	conservative_democracy = 44
+	agroindustrial_socialism = 12
+	vanguard_socialism = 17
 }
 
-create_country_leader = {
-	name = "Pavlo Skoropadskyi"
-	desc = "POLITICS_PAVLO_SKOROPADSKYI_DESC"
-	picture = "Portrait_UKR_Pavlo_Skoropadskyi.png"
-	expire = "1965.1.1"
-	ideology = despotism_subtype
-}
-
+recruit_character = UKR_Volodimir_kirilovich_venichenko
+recruit_character = UKR_Simon_Vasilievich_petriula
+recruit_character = UKR_Lazar_moyseyevic_kaganovic
+recruit_character = UKR_Nikita_sergeyevich_Khrushchev
 
