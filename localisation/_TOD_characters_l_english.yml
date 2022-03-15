@@ -40,7 +40,16 @@
  #FRA
  FRA_Philippe_VIII:0 "Philippe VIII"
  #GER
- GER_Rosa_Luxemburg:0 "Rosa Luxemburg"
+ GER_Rosa_Luxemburg:0 "罗莎· 卢森堡"
+ GER_Paul_Levi:0 "保罗· 列维"
+ GER_Richard_Muller:0 "里夏德·米勒"
+ GER_Rudolf_Rocker:0 "鲁道夫·洛克"
+ GER_Ernst_Thalmann:0 "恩斯特·台尔曼"
+ GER_Wilhelm_Pieck:0 "威廉·皮克"
+ GER_Otto_Strasser:0 "奥托·施特拉瑟"
+ GER_Georg_Ledebour:0 "格奥尔格·雷德布尔"
+ GER_Walther_Stocker:0 "瓦尔特·施特克尔"
+ GER_Heinrich_Brandler:0 "海因里希·布兰德勒"
  #HUN
  HUN_Gyula_Gombos:0 "久拉·盖博斯"
  HUN_Janos_Zichy:0 "亚诺斯·泽奇"
