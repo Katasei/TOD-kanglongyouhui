@@ -1,6 +1,6 @@
 ﻿capital = 64
 
-oob = "empty"
+oob = "GER_1936"
 
 
 set_politics = {
@@ -31,13 +31,23 @@ set_popularities = {
 	conservative_democracy = 0
 	liberal_democracy = 0
 	consociationalism = 0
-	social_democrat = 1
+	social_democrat = 0
 	agroindustrial_socialism = 6
 	moderate_socialism = 17
-	council_socialism = 48
+	council_socialism = 49
 	vanguard_socialism = 28
 }
 recruit_character = GER_Rosa_Luxemburg
+recruit_character = GER_Paul_Levi
+recruit_character = GER_Richard_Muller
+recruit_character = GER_Rudolf_Rocker
+recruit_character = GER_Ernst_Thalmann
+recruit_character = GER_Wilhelm_Pieck
+recruit_character = GER_Otto_Strasser
+recruit_character = GER_Georg_Ledebour
+recruit_character = GER_Walther_Stocker
+recruit_character = GER_Heinrich_Brandler
+recruit_character = GER_Walther_Stocker
 
 set_technology = {
 	infantry_weapons = 1
