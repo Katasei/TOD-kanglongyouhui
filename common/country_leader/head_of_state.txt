@@ -780,4 +780,26 @@ leader_traits = {
 		stability_factor = 0.1
 		conservative_democracy_drift = 0.05
 	}
+	### Xinan
+	
+	zhanzheng_yingxiong = {
+		random = no
+		stability_factor = 0.05
+		army_core_attack_factor = 0.1
+		army_core_defence_factor = 0.1
+	}
+	bingrongde_yuanshuai = {
+		random = no
+		war_support_factor = -0.1
+		consumer_goods_factor =	0.05
+		army_core_defence_factor = 0.1
+		justify_war_goal_time = 2
+	}
+	### Mobei
+	jiuhuo_dachen = {
+		random = no
+		consumer_goods_factor =	-0.1
+		stability_factor = 0.1
+	}
+	
 }
