@@ -66,6 +66,13 @@
  HUN_Aurel_Stromfeld:0 "奥雷尔·施特罗姆费尔特"
  #路易斯安那
  FRL_Louis_Lucien_Klose:0 "路易斯·吕西安·克洛泽"
+ #MOB
+ MOB_Xu_Shuzheng:0 "徐树铮"
+ MOB_Zuo_Nianqian:0 "左念谦"
+ MOB_Li_Shouxin:0 "李守信"
+ MOB_Xu_Jangba_Lekumu:0 "姜巴·勒库姆"
+ MOB_Anande_Amaer:0 "阿南德·阿玛尔"
+ MOB_dali_zhaya:0 "达理·扎雅"
  #SWE
  SWE_Carl_Gustaf_Ekman:0 "卡尔·古斯塔夫·艾克曼"
  SWE_Pierre_Albin_Hansen:0 "皮尔·阿尔宾·汉森"
@@ -74,3 +81,10 @@
  SWE_Olof_Tonell:0 "奥洛夫·托内尔"
  #TUR
  TUR_Mustafa_Kemal:0 "Mustafa Kemal"
+ #XIN
+ XIN_Cai_Genyin:0 "蔡艮寅"
+ XIN_Tang_Jiyao:0 "唐继尧"
+ XIN_Hu_Zongduo:0 "胡宗铎"
+ XIN_Li_Huaixin:0 "李怀芯"
+ XIN_Duan_Wenlin:0 "段文林"
+ XIN_Zhu_Dequan:0 "朱得泉"
