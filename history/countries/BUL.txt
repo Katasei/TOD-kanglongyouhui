@@ -27,6 +27,7 @@ recruit_character = BUL_Alexander_Stamboliski
 recruit_character = BUL_Reko_Daskalov
 recruit_character = BUL_Alexander_Tsolov_Tsankov
 recruit_character = BUL_Kliment_Boyadzhiev
+recruit_character = BUL_Vulko_Velyov_Chervenkov
 recruit_character = BUL_Konstantin_Andonov_Zhostov
 recruit_character = BUL_Vasil_Petrov_Kolarov
 recruit_character = BUL_Georgi_Dimitrov_Mikhailov
