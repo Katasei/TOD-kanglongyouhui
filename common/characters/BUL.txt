@@ -119,6 +119,21 @@ characters={
 			id=-1
 		}
 	}
+	BUL_Vulko_Velyov_Chervenkov = {
+		name=BUL_Vulko_Velyov_Chervenkov
+		portraits={
+			civilian={
+				large="gfx/leaders/BUL/Portrait_BUL_Vulko_Velyov_Chervenkov.png"
+			}
+		}
+		country_leader={
+			ideology = agroindustrial_socialism_subtype
+			desc = "POLITICS_BUL_Vulko_Velyov_Chervenkov_DESC"
+			traits={  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
 	BUL_Konstantin_Andonov_Zhostov = {
 		name=BUL_Konstantin_Andonov_Zhostov
 		portraits={
