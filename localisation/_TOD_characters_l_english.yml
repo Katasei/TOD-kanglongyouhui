@@ -64,7 +64,7 @@
  HUN_Kadar_Janos:0 "卡达尔·亚诺斯"
  HUN_Tibor_Szamuely:0 "蒂博尔·萨缪利"
  HUN_Bela_Kun:0 "贝拉·库恩"
- HUN_Aurel_Stromfeld:0 "奥雷尔·施特罗姆费尔特"
+ HUN_Aurel_Stromfeld:0 "奥雷尔·施特罗姆费尔德"
  #路易斯安那
  FRL_Louis_Lucien_Klose:0 "路易斯·吕西安·克洛泽"
  #MOB
@@ -73,7 +73,8 @@
  MOB_Li_Shouxin:0 "李守信"
  MOB_Xu_Jangba_Lekumu:0 "姜巴·勒库姆"
  MOB_Anande_Amaer:0 "阿南德·阿玛尔"
- MOB_dali_zhaya:0 "达理·扎雅"
+ MOB_Dali_Zhaya:0 "达理· 扎雅"
+ MOB_DaliZhaya:0 "达理札雅"
  
  #SWE
  SWE_Carl_Gustaf_Ekman:0 "卡尔·古斯塔夫·艾克曼"
