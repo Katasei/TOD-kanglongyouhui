@@ -59,6 +59,21 @@ characters={
 			id=-1
 		}
 	}
+	MOB_Dali_Zhaya={
+		name=MOB_Dali_Zhaya
+		portraits={
+			civilian={
+				large="gfx/leaders/MOB/Portrait_MOB_Xu_Shuzheng.png"
+			}
+		}
+		country_leader={
+			ideology=liberal_democracy_subtype
+			desc = "POLITICS_MOB_Dali_Zhaya_DESC"
+			traits={  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
 	MOB_Anande_Amaer={
 		name=MOB_Anande_Amaer
 		portraits={
@@ -74,8 +89,8 @@ characters={
 			id=-1
 		}
 	}
-	MOB_dali_zhaya={
-		name=MOB_dali_zhaya
+	MOB_DaliZhaya={
+		name=MOB_DaliZhaya
 		portraits={
 			civilian={
 				large="gfx/leaders/MOB/Portrait_MOB_Xu_Shuzheng.png"
@@ -83,10 +98,11 @@ characters={
 		}
 		country_leader={
 			ideology=liberal_democracy_subtype
-			desc = "POLITICS_MOB_dali_zhaya_DESC"
+			desc = "POLITICS_MOB_DaliZhaya_DESC"
 			traits={  }
 			expire="1965.1.1.1"
 			id=-1
 		}
 	}
+	
 }
