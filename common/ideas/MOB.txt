@@ -39,6 +39,18 @@ ideas = {
 				stability_factor = -0.15
 			}
 		}
+		MOB_kuangchankaifa = {
+			name = MOB_kuangchankaifa
+			
+		    picture = MOB_kuangchankaifa
+			
+			allowed = { original_tag = MOB }
+			modifier = {
+				production_factory_max_efficiency_factor = 0.03
+				local_resources_factor = 0.03
+				consumer_goods_factor = -0.03
+			}
+		}
 		
 	}	
 }
