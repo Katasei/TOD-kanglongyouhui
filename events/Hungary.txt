@@ -208,3 +208,838 @@ country_event = {
 		add_war_support = -0.1
 	}
 }
+#为大选造势
+country_event = {
+	id = TODhungary.10
+	title = TODhungary.10.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.10.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		political_power_cost = 50
+		ai_chance = { factor = 0 }
+		name = TODhungary.10.a
+		hidden_effect = {
+			add_popularity = { ideology = sacred_revivalism popularity = 0.05 }
+			add_popularity = { ideology = agroindustrial_socialism popularity = 0.04 }
+			add_popularity = { ideology = liberal_democracy popularity = 0.03 }
+			add_popularity = { ideology = council_socialism popularity = 0.02 }
+			add_popularity = { ideology = vanguard_socialism popularity = 0.01 }
+			
+		}
+	}
+	option = { 
+		political_power_cost = 25
+		ai_chance = { factor = 50 }
+		name = TODhungary.10.b
+		hidden_effect = {
+			add_popularity = { ideology = social_democrat popularity = 0.04 }
+			add_popularity = { ideology = conservative_democracy popularity = 0.05 }
+			add_popularity = { ideology = consociationalism popularity = 0.03 }
+		}
+	}
+	option = { 
+		ai_chance = { factor = 50 }
+		name = TODhungary.10.c
+		hidden_effect = {
+			add_popularity = { ideology = national_corporatism popularity = 0.04 }
+			add_popularity = { ideology = authoritarian_oligarchy popularity = 0.03 }
+			add_popularity = { ideology = leader_despotism popularity = 0.02 }
+			
+		}
+	}
+}
+#打击舞弊
+country_event = {
+	id = TODhungary.11
+	title = TODhungary.11.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.11.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.11.a
+		add_stability = 0.1
+	}
+}
+#凯莱蒂火车站讲话
+country_event = {
+	id = TODhungary.12
+	title = TODhungary.12.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.12.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		ai_chance = { factor = 50 }
+		name = TODhungary.12.a
+		HUN = {country_event = { id = TODhungary.13}}
+	}
+	option = { 
+		ai_chance = { factor = 50 }
+		name = TODhungary.12.b
+		HUN = {country_event = { id = TODhungary.14}}
+	}
+}
+#驱散成功
+country_event = {
+	id = TODhungary.13
+	title = TODhungary.13.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.13.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.13.a
+		add_stability = -0.02
+	}
+}
+#维持秩序
+country_event = {
+	id = TODhungary.14
+	title = TODhungary.14.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.14.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.12.a
+		add_popularity = { ideology = council_socialism popularity = 0.02 }
+		add_popularity = { ideology = vanguard_socialism popularity = 0.01 }
+	}
+}
+#皇宫广场
+country_event = {
+	id = TODhungary.15
+	title = TODhungary.15.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.15.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		ai_chance = { factor = 50 }
+		name = TODhungary.15.a
+		HUN = {country_event = { id = TODhungary.16}}
+	}
+	option = { 
+		ai_chance = { factor = 50 }
+		name = TODhungary.15.b
+		HUN = {country_event = { id = TODhungary.17}}
+	}
+}
+#看守关押
+country_event = {
+	id = TODhungary.16
+	title = TODhungary.16.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.16.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.16.a
+		add_stability = 0.05
+	}
+}
+#维持秩序
+country_event = {
+	id = TODhungary.17
+	title = TODhungary.17.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.17.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.17.a
+		add_popularity = { ideology = leader_despotism popularity = 0.02 }
+	}
+}
+#马加什教堂
+country_event = {
+	id = TODhungary.18
+	title = TODhungary.18.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.18.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		ai_chance = { factor = 75 }
+		name = TODhungary.18.a
+		HUN = {country_event = { id = TODhungary.19}}
+	}
+	option = { 
+		ai_chance = { factor = 25 }
+		name = TODhungary.18.b
+		HUN = {country_event = { id = TODhungary.20}}
+	}
+}
+#散发结果
+country_event = {
+	id = TODhungary.19
+	title = TODhungary.19.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.19.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.19.a
+		add_stability = 0.02
+		add_popularity = { ideology = sacred_revivalism popularity = 0.05 }
+	}
+}
+#限制散发
+country_event = {
+	id = TODhungary.20
+	title = TODhungary.20.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.20.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.20.a
+	}
+}
+#渔人堡
+country_event = {
+	id = TODhungary.21
+	title = TODhungary.21.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.21.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		ai_chance = { factor = 25 }
+		name = TODhungary.21.a
+		HUN = {country_event = { id = TODhungary.22}}
+	}
+	option = { 
+		ai_chance = { factor = 75 }
+		name = TODhungary.21.b
+		HUN = {country_event = { id = TODhungary.23}}
+	}
+}
+#阻止集会
+country_event = {
+	id = TODhungary.22
+	title = TODhungary.22.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.22.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.22.a
+		add_stability = -0.01
+	}
+}
+#任其聚集
+country_event = {
+	id = TODhungary.23
+	title = TODhungary.23.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.23.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.23.a
+		add_popularity = { ideology = social_democrat popularity = 0.03 }
+	}
+}
+#国家歌剧院
+country_event = {
+	id = TODhungary.24
+	title = TODhungary.24.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.24.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		ai_chance = { factor = 50 }
+		name = TODhungary.24.a
+		HUN = {country_event = { id = TODhungary.25}}
+	}
+	option = { 
+		ai_chance = { factor = 50 }
+		name = TODhungary.24.b
+		HUN = {country_event = { id = TODhungary.26}}
+	}
+}
+#戏剧大获成功
+country_event = {
+	id = TODhungary.25
+	title = TODhungary.25.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.25.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.25.a
+		add_stability = 0.02
+		add_popularity = { ideology = council_socialism popularity = 0.02 }
+		add_popularity = { ideology = vanguard_socialism popularity = 0.02 }
+	}
+}
+#查禁文艺作品
+country_event = {
+	id = TODhungary.26
+	title = TODhungary.26.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.26.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.26.a
+		add_popularity = { ideology = council_socialism popularity = -0.01 }
+		add_popularity = { ideology = vanguard_socialism popularity = -0.01 }
+	}
+}
+#中央犹太教堂
+country_event = {
+	id = TODhungary.27
+	title = TODhungary.27.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.27.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		ai_chance = { factor = 50 }
+		name = TODhungary.27.a
+		HUN = {country_event = { id = TODhungary.28}}
+	}
+	option = { 
+		ai_chance = { factor = 50 }
+		name = TODhungary.27.b
+		HUN = {country_event = { id = TODhungary.29}}
+	}
+}
+#街道骚乱
+country_event = {
+	id = TODhungary.28
+	title = TODhungary.28.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.28.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.28.a
+		add_popularity = { ideology = national_corporatism popularity = 0.04 }
+	}
+}
+#“和平”示威
+country_event = {
+	id = TODhungary.29
+	title = TODhungary.29.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.29.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.29.a
+		political_power_cost = 50
+	}
+}
+#塞切尼链桥
+country_event = {
+	id = TODhungary.30
+	title = TODhungary.30.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.30.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		ai_chance = { factor = 50 }
+		name = TODhungary.30.a
+		HUN = {country_event = { id = TODhungary.31}}
+	}
+	option = { 
+		ai_chance = { factor = 50 }
+		name = TODhungary.30.b
+		HUN = {country_event = { id = TODhungary.32}}
+	}
+}
+#堵塞加剧
+country_event = {
+	id = TODhungary.31
+	title = TODhungary.31.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.31.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.31.a
+		political_power_cost = 25
+	}
+}
+#劝说成功
+country_event = {
+	id = TODhungary.32
+	title = TODhungary.32.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.32.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.32.a	
+		add_popularity = { ideology = agroindustrial_socialism popularity = 0.03 }
+	}
+}
+#英雄广场
+country_event = {
+	id = TODhungary.33
+	title = TODhungary.33.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.33.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		ai_chance = { factor = 25 }
+		name = TODhungary.33.a
+		HUN = {country_event = { id = TODhungary.34}}
+	}
+	option = { 
+		ai_chance = { factor = 75 }
+		name = TODhungary.33.b
+		HUN = {country_event = { id = TODhungary.35}}
+	}
+}
+#独自演讲
+country_event = {
+	id = TODhungary.34
+	title = TODhungary.34.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.34.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.34.a
+		add_stability = 0.01
+	}
+}
+#邀请代表
+country_event = {
+	id = TODhungary.35
+	title = TODhungary.35.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.35.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.35.a
+		add_stability = 0.05
+		add_popularity = { ideology = consociationalism popularity = 0.02 }
+	}
+}
+#自由桥
+country_event = {
+	id = TODhungary.36
+	title = TODhungary.36.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.36.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		ai_chance = { factor = 75 }
+		name = TODhungary.36.a
+		HUN = {country_event = { id = TODhungary.37}}
+	}
+	option = { 
+		ai_chance = { factor = 25 }
+		name = TODhungary.36.b
+		HUN = {country_event = { id = TODhungary.38}}
+	}
+}
+#进行驳辩
+country_event = {
+	id = TODhungary.37
+	title = TODhungary.37.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.37.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.37.a
+		add_stability = 0.01
+	}
+}
+#物理驱散
+country_event = {
+	id = TODhungary.38
+	title = TODhungary.38.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.38.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.38.a
+		add_popularity = { ideology = liberal_democracy popularity = 0.02 }
+	}
+}
+#圣伊斯特万圣殿
+country_event = {
+	id = TODhungary.39
+	title = TODhungary.39.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.39.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		ai_chance = { factor = 75 }
+		name = TODhungary.39.a
+		HUN = {country_event = { id = TODhungary.40}}
+	}
+	option = { 
+		ai_chance = { factor = 25 }
+		name = TODhungary.39.b
+		HUN = {country_event = { id = TODhungary.41}}
+	}
+}
+#敬仰圣地
+country_event = {
+	id = TODhungary.40
+	title = TODhungary.40.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.40.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.39.a
+		add_stability = 0.05
+	}
+}
+#放任自由
+country_event = {
+	id = TODhungary.41
+	title = TODhungary.41.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.41.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.41.a
+		add_popularity = { ideology = national_corporatism popularity = 0.05 }
+	}
+}
+#千年纪念碑
+country_event = {
+	id = TODhungary.42
+	title = TODhungary.42.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.42.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		ai_chance = { factor = 50 }
+		name = TODhungary.42.a
+		HUN = {country_event = { id = TODhungary.43}}
+	}
+	option = { 
+		ai_chance = { factor = 50 }
+		name = TODhungary.42.b
+		HUN = {country_event = { id = TODhungary.44}}
+	}
+}
+#广场戒严
+country_event = {
+	id = TODhungary.43
+	title = TODhungary.43.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.43.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.43.a
+		add_stability = 0.02
+	}
+}
+#爆发冲突
+country_event = {
+	id = TODhungary.44
+	title = TODhungary.44.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.44.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.44.a
+		add_popularity = { ideology = national_corporatism popularity = -0.03 }
+		add_popularity = { ideology = council_socialism popularity = -0.01 }
+		add_popularity = { ideology = vanguard_socialism popularity = -0.02 }
+		add_stability = -0.02
+	}
+}
+#埃格尔城
+country_event = {
+	id = TODhungary.45
+	title = TODhungary.45.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.45.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		ai_chance = { factor = 20 }
+		name = TODhungary.45.a
+		HUN = {country_event = { id = TODhungary.46}}
+	}
+	option = { 
+		ai_chance = { factor = 80 }
+		name = TODhungary.45.b
+		HUN = {country_event = { id = TODhungary.47}}
+	}
+}
+#血腥镇压
+country_event = {
+	id = TODhungary.46
+	title = TODhungary.46.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.46.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.46.a
+		add_stability = -0.05
+	}
+}
+#失败告终
+country_event = {
+	id = TODhungary.47
+	title = TODhungary.47.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.47.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.47.a
+		add_popularity = { ideology = agroindustrial_socialism popularity = 0.02 }
+		add_popularity = { ideology = vanguard_socialism popularity = 0.01 }
+	}
+}
+#布达佩斯地铁
+country_event = {
+	id = TODhungary.48
+	title = TODhungary.48.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.48.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		ai_chance = { factor = 100 }
+		name = TODhungary.48.a
+		add_stability = 0.02
+		add_political_power = -25
+		HUN = {country_event = { id = TODhungary.49}}
+	}
+	option = { 
+		ai_chance = { factor = 0 }
+		name = TODhungary.48.b
+		HUN = {country_event = { id = TODhungary.50}}
+	}
+}
+#发钱救济
+country_event = {
+	id = TODhungary.49
+	title = TODhungary.49.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.49.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.49.a
+		add_stability = 0.03
+		add_political_power = 25
+	}
+}
+#大罢工
+country_event = {
+	id = TODhungary.50
+	title = TODhungary.50.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.50.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.50.a
+		add_stability = -0.02
+		add_popularity = { ideology = council_socialism popularity = 0.03 }
+		add_popularity = { ideology = vanguard_socialism popularity = 0.05 }
+	}
+}
+#国会大厦前的讲话
+country_event = {
+	id = TODhungary.51
+	title = TODhungary.51.t
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	desc =TODhungary.51.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	trigger = {tag = HUN}
+	
+	option = { 
+		name = TODhungary.51.a
+		add_stability = 0.1
+	}
+}
