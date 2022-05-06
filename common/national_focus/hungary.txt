@@ -57,6 +57,10 @@ focus_tree = {
 		x = 11
 		y = 1
 
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
 		cost = 5
 		
 		ai_will_do = {factor = 10}
@@ -70,6 +74,10 @@ focus_tree = {
 		icon = GFX_HUN_jinxinziyouhuagaige
 		x = 7
 		y = 2
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
 		
 		prerequisite = { focus = HUN_zhengzhigaige }
 		mutually_exclusive = { focus = HUN_baochiducaitongzhi }
@@ -88,6 +96,10 @@ focus_tree = {
 		x = 7
 		y = 3
 		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
 		prerequisite = { focus = HUN_jinxinziyouhuagaige }
 
 		cost = 5
@@ -95,7 +107,19 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			set_country_flag = HUN_zhunbeidaxuan
+			HUN = {country_event = { id = TODhungary.10 }}
+			hidden_effect = {
+				random_list = { 50 = { HUN = {country_event = { id = TODhungary.12 days = 14}} } 50 = { HUN = {country_event = { id = TODhungary.15 days = 14} }} }
+				random_list = { 50 = { HUN = {country_event = { id = TODhungary.18 days = 28}} } 50 = { HUN = {country_event = { id = TODhungary.21 days = 28} }} }
+				random_list = { 50 = { HUN = {country_event = { id = TODhungary.24 days = 42}} } 50 = { HUN = {country_event = { id = TODhungary.27 days = 42} }} }
+				random_list = { 50 = { HUN = {country_event = { id = TODhungary.30 days = 56}} } 50 = { HUN = {country_event = { id = TODhungary.33 days = 56} }} }
+				random_list = { 50 = { HUN = {country_event = { id = TODhungary.36 days = 70}} } 50 = { HUN = {country_event = { id = TODhungary.39 days = 70} }} }
+				random_list = { 50 = { HUN = {country_event = { id = TODhungary.42 days = 84}} } 50 = { HUN = {country_event = { id = TODhungary.45 days = 84} }} }
+				random_list = { 50 = { HUN = {country_event = { id = TODhungary.42 days = 98}} } 50 = { HUN = {country_event = { id = TODhungary.45 days = 98} }} }
+			}
+		}
 	}
 	#打击舞弊
 	focus = {
@@ -103,6 +127,10 @@ focus_tree = {
 		icon = GFX_HUN_dajiwubi
 		x = 6
 		y = 4
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
 		
 		mutually_exclusive = { focus = HUN_anzhonghuilu }
 		prerequisite = { focus = HUN_weidaxuanzaoshi }
@@ -112,7 +140,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {HUN = {country_event = { id = TODhungary.11 }}}
 	}
 	#暗中贿赂
 	focus = {
@@ -120,6 +148,10 @@ focus_tree = {
 		icon = GFX_HUN_anzhonghuilu
 		x = 8
 		y = 4
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
 		
 		mutually_exclusive = { focus = HUN_dajiwubi }
 		prerequisite = { focus = HUN_weidaxuanzaoshi }
@@ -138,6 +170,16 @@ focus_tree = {
 		x = 7
 		y = 5
 		
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+		
+		available = {
+			has_country_flag = {
+				flag = HUN_zhunbeidaxuan
+				days > 90
+			}
+		}
 		prerequisite = { focus = HUN_dajiwubi }
 		prerequisite = { focus = HUN_anzhonghuilu }
 
@@ -154,6 +196,10 @@ focus_tree = {
 		icon = GFX_HUN_chengrendaxuanjieguo
 		x = 6
 		y = 6
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
 		
 		prerequisite = { focus = HUN_juxingdaxuan }
 		mutually_exclusive = { focus = HUN_fanduidaxuanjieguo }
@@ -172,6 +218,10 @@ focus_tree = {
 		x = 8
 		y = 6
 		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
 		prerequisite = { focus = HUN_juxingdaxuan }
 		mutually_exclusive = { focus = HUN_chengrendaxuanjieguo }
 
@@ -188,6 +238,10 @@ focus_tree = {
 		icon = GFX_HUN_anzhonglianxizuopai
 		x = 9
 		y = 7
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
 		
 		prerequisite = { focus = HUN_fanduidaxuanjieguo }
 		mutually_exclusive = { focus = HUN_anzhonglianxiyoupai }
@@ -206,6 +260,10 @@ focus_tree = {
 		x = 7
 		y = 7
 		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
 		prerequisite = { focus = HUN_fanduidaxuanjieguo }
 		mutually_exclusive = { focus = HUN_anzhonglianxizuopai }
 
@@ -222,6 +280,10 @@ focus_tree = {
 		icon = GFX_HUN_turanfanan
 		x = 8
 		y = 8
+		
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
 		
 		prerequisite = { focus = HUN_anzhonglianxizuopai }
 		prerequisite = { focus = HUN_anzhonglianxiyoupai }
