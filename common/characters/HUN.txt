@@ -1,9 +1,9 @@
 characters={
-	HUN_Gyula_Gombos={
-			name = HUN_Gyula_Gombos
+	HUN_Kalman_Daranyi={
+			name = HUN_Kalman_Daranyi
 			portraits={
 				civilian={
-					large="gfx/leaders/HUN/Gombos_Gyula.png"
+					large="gfx/leaders/HUN/HUN_Kalman_Daranyi.png"
 				}
 			}
 			country_leader={
@@ -16,7 +16,7 @@ characters={
 			name = HUN_Janos_Zichy
 			portraits={
 				civilian={
-					large="gfx/leaders/HUN/Zichy_János.jpg"
+					large="gfx/leaders/HUN/HUN_Janos_Zichy.jpg"
 				}
 			}
 			country_leader={
@@ -26,11 +26,11 @@ characters={
 			}
 	}
 
-	HUN_Charles_I_of_Austria={
-		name = HUN_Charles_I_of_Austria
+	HUN_Ausztriai_Josef_Agohst_foherceg={
+		name = HUN_Ausztriai_Josef_Agohst_foherceg
 		portraits={
 			civilian={
-				large="gfx/leaders/HUN/Emperor_Charles_I_of_Austria.jpg"
+				large="gfx/leaders/HUN/HUN_Ausztriai_Josef_Agohst_foherceg.jpg"
 			}
 		}
 		country_leader={
@@ -84,11 +84,11 @@ characters={
 		}
 	}
 	
-	HUN_Vilmos_Vazsonyi={
-		name=HUN_Vilmos_Vazsonyi
+	HUN_Janos_Vazsonyi={
+		name=HUN_Janos_Vazsonyi
 		portraits={
 			civilian={
-				large="gfx/leaders/HUN/Vázsonyi_Vilmos.jpg"
+				large="gfx/leaders/HUN/HUN_Janos_Vazsonyi.jpg"
 			}
 		}
 		country_leader={
@@ -112,11 +112,11 @@ characters={
 		}
 	}
 	
-	HUN_Zoltan_Tildy={
-		name=HUN_Zoltan_Tildy
+	HUN_Tibor_Eckhardt_Pozsonyi={
+		name=HUN_Tibor_Eckhardt_Pozsonyi
 		portraits={
 			civilian={
-				large="gfx/leaders/HUN/Tildy_Zoltán.png"
+				large="gfx/leaders/HUN/HUN_Tibor_Eckhardt_Pozsonyi.png"
 			}
 		}
 		country_leader={
@@ -126,11 +126,11 @@ characters={
 		}
 	}
 	
-	HUN_Kadar_Janos={
-		name=HUN_Kadar_Janos
+	HUN_Gyorgy_Lukacs={
+		name=HUN_Gyorgy_Lukacs
 		portraits={
 			civilian={
-				large="gfx/leaders/HUN/Kádár János.png"
+				large="gfx/leaders/HUN/HUN_Gyorgy_Lukacs.jpg"
 			}
 		}
 		country_leader={
