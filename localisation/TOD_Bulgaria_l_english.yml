@@ -32,3 +32,40 @@ BUL:0 "保加利亚"
 
 
 ### 人物描述 ###
+
+### ideas ###
+BUL_wuyueshixieding:0 "五月十协定"
+BUL_wuyueshixieding_desc:0 "与希腊签订的停战协议的补充条款让我们彻底放弃了我们的一部分土地。不过，法国和匈牙利给予了我们援助作为补偿，但也让我们的经济收到了他们的掌控，这究竟是救命的稻草，还是解渴的毒药？"
+BUL_faguoyuanzhu:0 "来自法国的援助"
+BUL_faguoyuanzhu_desc:0 "在我们的努力之下，法国同意继续为我们提供援助。不过，这次的援助又能持续多久呢？"
+BUL_xiongyaliliangshiyuanzhu:0 "匈牙利的粮食援助"
+BUL_xiongyaliliangshiyuanzhu_desc:0 "在经济危机的持续动荡之下，匈牙利自己也自顾不暇，更不用说给我们援助了。不过，作为农业大国，他们还是能给我们提供一些粮食的。"
+BUL_xiongyaliyuanzhu:0 "来自匈牙利的援助"
+BUL_xiongyaliyuanzhu_desc:0 "在我们的努力之下，匈牙利同意继续为我们提供援助。不过，这次的援助又能持续多久呢？"
+
+
+### events ###
+TODBUL.1.t:0 "法国推迟援助"
+TODBUL.1.d:0 "虽然我们通过各方面的努力请求法国继续按照协定为我们提供援助。但在经济危机的影响之下，法国人拒绝了我们的请求，表示他们也自身难保了。他们将推迟给我们援助，等到时机成熟时再予以恢复。"
+TODBUL.1.a:0 "他们就是想让我们白白遵守协议！"
+TODBUL.2.t:0 "法国同意援助"
+TODBUL.2.d:0 "我们通过各方面的努力请求得到了回报，法国同意遵守协定，继续为我们提供援助。新一批的援助即将从法国启程，来到我们这里。"
+TODBUL.2.a:0 "这是我们遵守协定的回报。"
+TODBUL.3.t:0 "匈牙利的粮食援助"
+TODBUL.3.d:0 "虽然我们通过各方面的努力请求匈牙利继续按照协定为我们提供援助。但是在经济危机的影响之下，匈牙利人表示他们要先恢复自己国内的经济，才有能力继续为我们提供援助。不过，看在两国友谊的份上，他们还是把多余的粮食提供给了我们。"
+TODBUL.3.a:0 "有总比没有好。"
+TODBUL.4.t:0 "匈牙利同意援助"
+TODBUL.4.d:0 "我们通过各方面的努力请求得到了回报，法国同意遵守协定，继续为我们提供援助。新一批的援助即将从法国启程，来到我们这里。"
+TODBUL.4.a:0 "这是我们遵守协定的回报。"
+
+### decisions ###
+BUL_qingqiuyuanzhu:0 "五月十协定的援助"
+BUL_qingqiufaguoyuanzhu:0 "已经请求过法国援助"
+BUL_qingqiufaguoyuanzhu_waijiaoqingqiu:0 "通过外交方式请求法国援助"
+BUL_qingqiufaguoyuanzhu_huilugongzuorenyuan:0 "通过贿赂法国办事人员来获得援助"
+BUL_qingqiufaguoyuanzhu_huiluzhengzhirenshi:0 "通过贿赂法国政界人士来获得援助"
+BUL_qingqiuxiongyaliyuanzhu:0 "已经请求过匈牙利援助"
+BUL_qingqiuxiongyaliyuanzhu_waijiaoqingqiu:0 "通过外交方式请求匈牙利援助"
+BUL_qingqiuxiongyaliyuanzhu_hulugongzuorenyuan:0 "通过贿赂匈牙利办事人员来获得援助"
+BUL_qingqiuxiongyaliyuanzhu_huluzhengzhirenshi:0 "通过贿赂匈牙利政界人士来获得援助"
+BUL_feichuwuyueshixieding:0 "废除五月十协定"
