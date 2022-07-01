@@ -1,0 +1,63 @@
+ideas = {
+
+	country = {
+		BUL_wuyueshixieding = {
+			name = BUL_wuyueshixieding
+			
+		    picture = BUL_wuyueshixieding
+			
+			allowed = { original_tag = BUL }
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor =	0.1
+				stability_factor = 0.05
+				production_speed_buildings_factor = 0.05
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
+			}
+		}
+		BUL_faguoyuanzhu = {
+			name = BUL_faguoyuanzhu
+			
+		    picture = BUL_faguoyuanzhu
+			
+			allowed = { original_tag = BUL }
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.1
+				consumer_goods_factor =	-0.15
+			}
+		}
+		BUL_xiongyaliliangshiyuanzhu = {
+			name = BUL_xiongyaliliangshiyuanzhu
+			
+		    picture = BUL_xiongyaliliangshiyuanzhu
+			
+			allowed = { original_tag = BUL }
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor =	-0.02	
+			}
+		}
+		BUL_xiongyaliyuanzhu = {
+			name = BUL_xiongyaliyuanzhu
+			
+		    picture = BUL_xiongyaliyuanzhu
+			
+			allowed = { original_tag = BUL }
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.05
+				consumer_goods_factor =	-0.1
+			}
+		}
+	}
+}
