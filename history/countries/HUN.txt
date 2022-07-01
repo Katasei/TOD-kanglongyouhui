@@ -42,32 +42,27 @@ add_ideas = {
 }
 
 set_popularities = {
-	national_corporatism = 19
+	national_corporatism = 18
 	sacred_revivalism = 15
 	leader_despotism = 1
 	authoritarian_oligarchy = 7
-	conservative_democracy = 14
-	liberal_democracy = 4
-	consociationalism = 5
-	social_democrat = 13
-	agroindustrial_socialism = 11
-	moderate_socialism = 1
-	council_socialism = 4
+	conservative_democracy = 10
+	liberal_democracy = 5
+	consociationalism = 7
+	social_democrat = 16
+	agroindustrial_socialism = 12
+	moderate_socialism = 0
+	council_socialism = 3
 	vanguard_socialism = 6
 }
 
 
 country_lock_all_division_template = yes
 
-recruit_character = HUN_Gyula_Gombos
-recruit_character = HUN_Jusztinian_Gyorgy_Seredi
-recruit_character = HUN_Jozsef_Mindszenty
 recruit_character = HUN_Istvan_Tisza
 recruit_character = HUN_Istvan_Bethlen
 recruit_character = HUN_Mihaly_karolyi
-recruit_character = HUN_Karoly_Rassay
 recruit_character = HUN_Karoly_Peyer
-recruit_character = HUN_Zoltan_Tildy
 recruit_character = HUN_Gyorgy_Lukacs
 recruit_character = HUN_Tibor_Szamuely
 recruit_character = HUN_Bela_Kun
@@ -123,3 +118,9 @@ recruit_character = HUN_jozef_tiso
 recruit_character = HUN_vojtech_tuka
 recruit_character = HUN_konrad_henlein
 recruit_character = HUN_gustav_husak
+recruit_character = HUN_Janos_Zichy
+recruit_character = HUN_Kalman_Daranyi
+recruit_character = HUN_Pal_Teleki
+recruit_character = HUN_Ausztriai_Josef_Agohst_foherceg
+recruit_character = HUN_Tibor_Eckhardt_Pozsonyi
+recruit_character = HUN_Janos_Vazsonyi

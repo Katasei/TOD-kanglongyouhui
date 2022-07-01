@@ -13,6 +13,9 @@ add_ideas = {
 	limited_conscription
 	low_economic_mobilisation
 }
+add_ideas = {
+	BUL_wuyueshixieding
+}
 
 set_popularities = {
 	sacred_revivalism = 20
