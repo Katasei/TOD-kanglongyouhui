@@ -7,11 +7,12 @@ state= {
 	resources={
 		chromium=3 # was: 4
 	}
-
+	impassable = yes
 	history=
 	{
 		owner = SYR
-		add_core_of = CYP
+		add_core_of = TUR		
+		add_core_of = GRE
 		victory_points = {
 			11984 5
 		}
