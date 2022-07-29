@@ -1,7 +1,7 @@
 ###Greece ideas###
 ideas = {
 	country = {
-		GRE_home_of_free_EU = {
+		GRE_dizhonghaideziyoudengta = {
 		    picture = GRE_home_of_free_EU
 			modifier = {
 				drift_defence_factor = 0.2
@@ -21,7 +21,7 @@ ideas = {
 				surrender_limit = -0.05
 			}
 		}
-		GRE_economic_crisis_1 = {
+		GRE_dakonghuangdeyubo = {
 		    picture = GRE_economic_crisis_1
 			modifier = {
 				political_power_gain = -0.75
@@ -31,14 +31,14 @@ ideas = {
 				consumer_goods_factor = 0.2
 			}
 		}
-		GRE_pround_army = {
+		GRE_jiaoaodelujun = {
 		    picture = GRE_pround_army
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea GRE_pround_army"
+				log = "[GetDateText]: [Root.GetName]: add idea GRE_jiaoaodelujun"
 				country_lock_all_division_template = yes
 			}
 			on_remove = {
-				log = "[GetDateText]: [Root.GetName]: remove idea GRE_pround_army"
+				log = "[GetDateText]: [Root.GetName]: remove idea GRE_jiaoaodelujun"
 				country_lock_all_division_template = no
 			}
 			modifier = {
@@ -49,14 +49,22 @@ ideas = {
 				custom_modifier_tooltip = cannot_train_units_tt
 			}
 		}
-		GRE_Three_year_plan = {
+		GRE_jinjifuxinjihua = {
 		    picture = GRE_Three_year_plan
 			modifier = {
 				production_factory_efficiency_gain_factor = 0.2
 				research_speed_factor= 0.1
-				production_speed_dockyard = 0.25
+				production_speed_dockyard_factor = 0.25
 				production_speed_industrial_complex_factor = 0.25 
 				production_factory_max_efficiency_factor = 0.15
+			}
+		}
+		GRE_haijunfengsuo = {
+		    picture = GRE_haijunfengsuo
+			modifier = {
+				consumer_goods_factor =	0.02		
+				industrial_capacity_dockyard = -0.1
+				experience_gain_navy = 0.05
 			}
 		}
 	}
