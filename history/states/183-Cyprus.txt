@@ -3,15 +3,15 @@ state= {
 	name="STATE_183"
 	manpower = 347959
 	
-	state_category = rural
+	state_category = rural	
 	resources={
 		chromium=3 # was: 4
 	}
-	impassable = yes
-	history=
-	{
-		owner = SYR
-		add_core_of = TUR		
+
+	history = {
+		owner = SYR		
+		set_demilitarized_zone = yes
+		add_core_of = TUR
 		add_core_of = GRE
 		victory_points = {
 			11984 5
