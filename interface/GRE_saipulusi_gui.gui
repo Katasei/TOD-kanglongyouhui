@@ -8,7 +8,7 @@ guiTypes = {
 		iconType = {
 			name ="saipulusi_map"
 			spriteType = "GFX_decision_GRE_saipulusi"
-			position = { x = 100 y = 100 }
+			position = { x = 0 y = 0 }
 		}
 		
 		instantTextBoxType = {

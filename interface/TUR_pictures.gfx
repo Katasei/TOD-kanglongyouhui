@@ -85,4 +85,11 @@ spriteTypes = {
 		name = "GFX_idea_TUR_xinxingzuoyizhengzhituanti"
 		texturefile = "gfx/TUR/ideas/TUR_xinxingzuoyizhengzhituanti.png"
 	}
+	
+	
+	# decision #
+	spriteType = {
+		name = "GFX_decision_GRE_saipulusi"
+		texturefile = "gfx/interface/Cyprusmap.png"
+	}
 }
