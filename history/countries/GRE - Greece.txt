@@ -14,11 +14,11 @@ set_research_slots = 3
 add_ideas = {
 	limited_conscription
 	free_trade
-	GRE_home_of_free_EU
+	GRE_dizhonghaideziyoudengta
 	GRE_Nascent_republic
-	GRE_economic_crisis_1
-	GRE_pround_army
-	GRE_Three_year_plan
+	GRE_dakonghuangdeyubo
+	GRE_jiaoaodelujun
+	GRE_jinjifuxinjihua
 }
 
 set_technology = {
