@@ -41,7 +41,13 @@ division_template = {
 
 	regiments = {
 		mountaineers = { x = 0 y = 0 }
-@@ -38,7 +52,7 @@ division_template = {
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+}
 division_template = {
 	name = "Tethorakisméni Taxiarchía Ippikoú"					#坦克师
 
@@ -49,7 +55,13 @@ division_template = {
 
 	regiments = {
 		light_armor = { x = 0 y = 0 }
-@@ -53,7 +67,7 @@ division_template = {
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
 division_template = {
 	name = "Sýntagma Pezonaftón"					#海军陆战队
 
@@ -57,7 +69,9 @@ division_template = {
 
 	regiments = {
 		marine = { x = 0 y = 0 } 
-@@ -63,105 +77,293 @@ division_template = {
+		marine = { x = 0 y = 1 } 
+		marine = { x = 0 y = 2 }
+	}
 }
 units = {
 	division= {	

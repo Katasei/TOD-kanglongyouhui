@@ -48,7 +48,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Kraftwagen"					#摩托师
+	name = "Kraftwagen-Division"					#摩托师
 
 	division_names_group = GER_MOT_01
 
@@ -62,7 +62,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Leichter Panzer"					#坦克师
+	name = "Leichter Panzer-Division"					#坦克师
 
 	division_names_group = GER_Arm_01
 
@@ -78,7 +78,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Schwere Panzerkampf"					#重坦师
+	name = "Schwere Panzerkamp-Divisionf"					#重坦师
 
 	division_names_group = GER_Arm_01
 
