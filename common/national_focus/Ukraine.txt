@@ -1204,7 +1204,7 @@ focus_tree = {
 	focus = {
 		id = UKR_jingjifuxing
 		icon = GFX_HUN_zhengzhigaige
-		x = 30
+		x = 28
 		y = 1
 
 		cancel_if_invalid = yes
@@ -1223,14 +1223,14 @@ focus_tree = {
 		id = UKR_qingsuanfaguoyuanzhuchanye
 		icon = GFX_HUN_zhengzhigaige
 		prerequisite = { focus = UKR_jingjifuxing}
-		x = 30
+		x = 28
 		y = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 		
-		cost = 6
+		cost = 4
 		
 		ai_will_do = {factor = 10}
 		available = {}
@@ -1242,7 +1242,7 @@ focus_tree = {
 		id = UKR_kuojiandiniebohegongyejidi
 		icon = GFX_HUN_zhengzhigaige
 		prerequisite = { focus = UKR_qingsuanfaguoyuanzhuchanye}
-		x = 26
+		x = 25
 		y = 3
 
 		cancel_if_invalid = yes
@@ -1314,32 +1314,13 @@ focus_tree = {
 		
 		completion_reward = { }
 	}
-	#工程师培训计划
-	focus = {
-		id = UKR_gongchengshipeixunjihua
-		icon = GFX_HUN_zhengzhigaige
-		prerequisite = { focus = UKR_dinieboheshuidianzhan}
-		x = 22
-		y = 7
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		
-		cost = 6
-		
-		ai_will_do = {factor = 10}
-		available = {}
-		
-		completion_reward = { }
-	}
 	#功勋科学家
 	focus = {
 		id = UKR_gongxunkexuejia
 		icon = GFX_HUN_zhengzhigaige
-		prerequisite = { focus = UKR_gongchengshipeixunjihua}
+		prerequisite = { focus = UKR_dinieboheshuidianzhan}
 		x = 22
-		y = 8
+		y = 7
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -1357,9 +1338,9 @@ focus_tree = {
 		id = UKR_womendejiaoao
 		icon = GFX_HUN_zhengzhigaige
 		prerequisite = { focus = UKR_gongxunkexuejia}
-		prerequisite = { focus = UKR_gulinongchangzhutouzi}
+		prerequisite = { focus = UKR_ranyouzengchanxiangmu}
 		x = 23
-		y = 9
+		y = 8
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -1429,90 +1410,14 @@ focus_tree = {
 		
 		completion_reward = { }
 	}
-	#鼓励农场主投资
-	focus = {
-		id = UKR_gulinongchangzhutouzi
-		icon = GFX_HUN_zhengzhigaige
-		prerequisite = { focus = UKR_ranyouzengchanxiangmu}
-		x = 24
-		y = 8
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		
-		cost = 6
-		
-		ai_will_do = {factor = 10}
-		available = {}
-		
-		completion_reward = { }
-	}
 	#吸引外企进驻
 	focus = {
 		id = UKR_xiyinwaiqijinzhu
 		icon = GFX_HUN_zhengzhigaige
 		prerequisite = { focus = UKR_kuojiandiniebohegongyejidi}
 		mutually_exclusive = { focus = UKR_lianhetouzi }
-		x = 29
+		x = 27
 		y = 4
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		
-		cost = 6
-		
-		ai_will_do = {factor = 10}
-		available = {}
-		
-		completion_reward = { }
-	}
-	#扎波罗热设计局
-	focus = {
-		id = UKR_zhaboluoreshejiju
-		icon = GFX_HUN_zhengzhigaige
-		prerequisite = { focus = UKR_xiyinwaiqijinzhu focus = UKR_lianhetouzi}
-		x = 26
-		y = 5
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		
-		cost = 6
-		
-		ai_will_do = {factor = 10}
-		available = {}
-		
-		completion_reward = { }
-	}
-	#基辅大学
-	focus = {
-		id = UKR_jifudaxue
-		icon = GFX_HUN_zhengzhigaige
-		prerequisite = { focus = UKR_zhaboluoreshejiju}
-		x = 26
-		y = 6
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		
-		cost = 6
-		
-		ai_will_do = {factor = 10}
-		available = {}
-		
-		completion_reward = { }
-	}
-	#引进外国生产方式
-	focus = {
-		id = UKR_yinjinwaiguoshengchanfangshi
-		icon = GFX_HUN_zhengzhigaige
-		prerequisite = { focus = UKR_xiyinwaiqijinzhu}
-		x = 28
-		y = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -1529,9 +1434,9 @@ focus_tree = {
 	focus = {
 		id = UKR_ruidianzhagangjishu
 		icon = GFX_HUN_zhengzhigaige
-		prerequisite = { focus = UKR_yinjinwaiguoshengchanfangshi}
-		x = 28
-		y = 6
+		prerequisite = { focus = UKR_xiyinwaiqijinzhu}
+		x = 26
+		y = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -1549,8 +1454,8 @@ focus_tree = {
 		id = UKR_deguodedianzikeji
 		icon = GFX_HUN_zhengzhigaige
 		prerequisite = { focus = UKR_ruidianzhagangjishu}
-		x = 28
-		y = 7
+		x = 26
+		y = 6
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -1568,8 +1473,8 @@ focus_tree = {
 		id = UKR_xiongyalinongyongjixie
 		icon = GFX_HUN_zhengzhigaige
 		prerequisite = { focus = UKR_deguodedianzikeji}
-		x = 28
-		y = 8
+		x = 26
+		y = 7
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -1588,27 +1493,8 @@ focus_tree = {
 		icon = GFX_HUN_zhengzhigaige
 		prerequisite = { focus = UKR_xiongyalinongyongjixie}
 		prerequisite = { focus = UKR_duoyuanlianheti}
-		x = 29
-		y = 9
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		
-		cost = 6
-		
-		ai_will_do = {factor = 10}
-		available = {}
-		
-		completion_reward = { }
-	}
-	#外国勘测团
-	focus = {
-		id = UKR_waiguokancetuan
-		icon = GFX_HUN_zhengzhigaige
-		prerequisite = { focus = UKR_xiyinwaiqijinzhu} 
-		x = 30
-		y = 5
+		x = 27
+		y = 8
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -1625,9 +1511,9 @@ focus_tree = {
 	focus = {
 		id = UKR_shouquandaili
 		icon = GFX_HUN_zhengzhigaige
-		prerequisite = { focus = UKR_waiguokancetuan} 
-		x = 30
-		y = 6
+		prerequisite = { focus = UKR_xiyinwaiqijinzhu} 
+		x = 28
+		y = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -1645,8 +1531,8 @@ focus_tree = {
 		id = UKR_fashibinggongchag
 		icon = GFX_HUN_zhengzhigaige
 		prerequisite = { focus = UKR_shouquandaili} 
-		x = 30
-		y = 7
+		x = 28
+		y = 6
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -1664,8 +1550,8 @@ focus_tree = {
 		id = UKR_duoyuanlianheti
 		icon = GFX_HUN_zhengzhigaige
 		prerequisite = { focus = UKR_fashibinggongchag} 
-		x = 30
-		y = 8
+		x = 28
+		y = 7
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -1683,8 +1569,8 @@ focus_tree = {
 		id = UKR_gongyeanquanbaozhang
 		icon = GFX_HUN_zhengzhigaige
 		prerequisite = { focus = UKR_womendejiaoao focus = UKR_xinshengdechanpinjingji} 
-		x = 26
-		y = 10
+		x = 25
+		y = 9
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -1702,7 +1588,7 @@ focus_tree = {
 		id = UKR_jingjizuowuzhongzhiqu
 		icon = GFX_HUN_zhengzhigaige
 		prerequisite = { focus = UKR_qingsuanfaguoyuanzhuchanye} 
-		x = 33
+		x = 32
 		y = 3
 
 		cancel_if_invalid = yes
@@ -1716,57 +1602,19 @@ focus_tree = {
 		
 		completion_reward = { }
 	}
-	#专注国内运输
+	#国家生产指导部
 	focus = {
-		id = UKR_zhuanzhuguoneiyunshu
-		icon = GFX_HUN_zhengzhigaige
-		prerequisite = { focus = UKR_kuojiandiniebohegongyejidi focus = UKR_jingjizuowuzhongzhiqu} 
-		x = 32
-		y = 4
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		
-		cost = 6
-		
-		ai_will_do = {factor = 10}
-		available = {}
-		
-		completion_reward = { }
-	}
-	#基辅州运输中心
-	focus = {
-		id = UKR_jifuzhouyunshuzhongxin
-		icon = GFX_HUN_zhengzhigaige
-		prerequisite = { focus = UKR_zhuanzhuguoneiyunshu} 
-		x = 32
-		y = 5
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		
-		cost = 6
-		
-		ai_will_do = {factor = 10}
-		available = {}
-		
-		completion_reward = { }
-	}
-	#国有建筑公司
-	focus = {
-		id = UKR_guoyoujianzhugongsi
+		id = UKR_guojiashengchanzhidaobu
 		icon = GFX_HUN_zhengzhigaige
 		prerequisite = { focus = UKR_jingjizuowuzhongzhiqu} 
-		x = 34
+		x = 31
 		y = 4
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 		
-		cost = 6
+		cost = 4
 		
 		ai_will_do = {factor = 10}
 		available = {}
@@ -1777,15 +1625,15 @@ focus_tree = {
 	focus = {
 		id = UKR_xiwangzaiheitudili
 		icon = GFX_HUN_zhengzhigaige
-		prerequisite = { focus = UKR_guoyoujianzhugongsi} 
-		x = 34
+		prerequisite = { focus = UKR_guojiashengchanzhidaobu} 
+		x = 30
 		y = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 		
-		cost = 6
+		cost = 5
 		
 		ai_will_do = {factor = 10}
 		available = {}
@@ -1797,14 +1645,14 @@ focus_tree = {
 		id = UKR_zhongyangdianzishejiju
 		icon = GFX_HUN_zhengzhigaige
 		prerequisite = { focus = UKR_xiwangzaiheitudili} 
-		x = 34
+		x = 30
 		y = 6
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 		
-		cost = 6
+		cost = 5
 		
 		ai_will_do = {factor = 10}
 		available = {}
@@ -1815,15 +1663,53 @@ focus_tree = {
 	focus = {
 		id = UKR_qinggongyexiandaihua
 		icon = GFX_HUN_zhengzhigaige
-		prerequisite = { focus = UKR_zhongyangdianzishejiju} 
-		x = 34
+		prerequisite = { focus = UKR_xiwangzaiheitudili} 
+		x = 30
 		y = 7
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 		
-		cost = 6
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = { }
+	}
+	#基辅大学
+	focus = {
+		id = UKR_jifudaxue
+		icon = GFX_HUN_zhengzhigaige
+		prerequisite = { focus = UKR_guojiashengchanzhidaobu} 
+		x = 32
+		y = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = { }
+	}
+	#与巨龙的交易
+	focus = {
+		id = UKR_yujulongdejiaoyi
+		icon = GFX_HUN_zhengzhigaige
+		prerequisite = { focus = UKR_jifudaxue} 
+		x = 32
+		y = 6
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		cost = 5
 		
 		ai_will_do = {factor = 10}
 		available = {}
@@ -1834,8 +1720,105 @@ focus_tree = {
 	focus = {
 		id = UKR_kuodashipinchukouguimo
 		icon = GFX_HUN_zhengzhigaige
-		prerequisite = { focus = UKR_qinggongyexiandaihua} 
+		prerequisite = { focus = UKR_yujulongdejiaoyi} 
+		x = 32
+		y = 7
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = { }
+	}
+	#专注国内运输
+	focus = {
+		id = UKR_zhuanzhuguoneiyunshu
+		icon = GFX_HUN_zhengzhigaige
+		prerequisite = { focus = UKR_jingjizuowuzhongzhiqu}
 		x = 34
+		y = 4
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		cost = 4
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = { }
+	}
+	#基辅州运输中心
+	focus = {
+		id = UKR_jifuzhouyunshuzhongxin
+		icon = GFX_HUN_zhengzhigaige
+		prerequisite = { focus = UKR_jingjizuowuzhongzhiqu}
+		x = 34
+		y = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		cost = 4
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = { }
+	}
+	#乡镇作坊
+	focus = {
+		id = UKR_xiangzhenzuofang
+		icon = GFX_HUN_zhengzhigaige
+		prerequisite = { focus = UKR_jifuzhouyunshuzhongxin}
+		x = 34
+		y = 6
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = { }
+	}
+	#扩大资源开采
+	focus = {
+		id = UKR_kuodaziyuankaicai
+		icon = GFX_HUN_zhengzhigaige
+		prerequisite = { focus = UKR_xiangzhenzuofang}
+		x = 34
+		y = 7
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = { }
+	}
+	#扎波罗热研究所
+	focus = {
+		id = UKR_zhaboluoreyanjiusuo
+		icon = GFX_HUN_zhengzhigaige
+		prerequisite = { focus = UKR_qinggongyexiandaihua}
+		prerequisite = { focus = UKR_kuodashipinchukouguimo}
+		prerequisite = { focus = UKR_kuodaziyuankaicai}
+		x = 32
 		y = 8
 
 		cancel_if_invalid = yes
@@ -1853,16 +1836,16 @@ focus_tree = {
 	focus = {
 		id = UKR_wudongzonghegongyejidi
 		icon = GFX_HUN_zhengzhigaige
-		prerequisite = { focus = UKR_womendejiaoao focus = UKR_xinshengdechanpinjingji} 
-		prerequisite = { focus = UKR_kuodashipinchukouguimo} 
-		x = 30
-		y = 11
+		prerequisite = { focus = UKR_gongyeanquanbaozhang}
+		prerequisite = { focus = UKR_zhaboluoreyanjiusuo}
+		x = 28
+		y = 10
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 		
-		cost = 6
+		cost = 10
 		
 		ai_will_do = {factor = 10}
 		available = {}
