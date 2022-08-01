@@ -55,12 +55,18 @@ focus_tree = {
 		icon = GFX_GER_zai_jian_luosha
 		x = 17
 		y = 1
-
+		
+		
 		cost = 5
 		
 		ai_will_do = {factor = 10}
-		available = {}
+		available = {
+			always = no
+		}
 		
+		bypass = {
+			has_country_flag = GER_luoshaqushi
+		}
 		completion_reward = {}
 	}
 	#民主的灯塔
