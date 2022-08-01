@@ -1,0 +1,18 @@
+add_namespace = germany
+
+#罗莎去世
+country_event = {
+	id = germany.1
+	title = germany.1.t
+	desc =germany.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {tag = GER}
+	
+	option = { 
+		name = germany.1.a
+	}
+}
