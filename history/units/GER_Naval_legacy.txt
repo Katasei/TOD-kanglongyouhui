@@ -76,7 +76,7 @@ units = {
 			ship = { name = "VMS G-91" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
 			ship = { name = "VMS G-92" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
 		}
-
+	}
 		task_force = {
 			name = "北海舰队"
 			location = 6389
