@@ -11,7 +11,7 @@ units = {
 					cv_nav_bomber_equipment_1 =  { owner = "GER" amount = 20 }
 				}
 			}
-			ship = { name = "VMS 红色阵线" definition = carrier equipment = { carrier_1 = { amount = 1 owner = GER } } }
+			ship = { name = "VMS 红色阵线" definition = carrier equipment = { carrier_1 = { amount = 1 owner = GER } }
 				air_wings = {
 					cv_fighter_equipment_0 =  { owner = "GER" amount = 20 }
 					cv_nav_bomber_equipment_1 =  { owner = "GER" amount = 20 }
@@ -75,7 +75,6 @@ units = {
 			ship = { name = "VMS G-89" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
 			ship = { name = "VMS G-91" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
 			ship = { name = "VMS G-92" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
-		}
 	}
 		task_force = {
 			name = "北海舰队"
