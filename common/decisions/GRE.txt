@@ -11,10 +11,10 @@ GRE_saipulusi_categories = {
 		complete_effect = {
 			set_global_flag = saipulusizhengduan
 			hidden_effect = {
-				set_variable = { limasuoer = -3 }
-				set_variable = { lanaka = 0 }
-				set_variable = { teluoduosi = 0 }
-				set_variable = { nikexiya = 3 }
+				set_variable = { global.limasuoer = -3 }
+				set_variable = { global.lanaka = 0 }
+				set_variable = { global.teluoduosi = 0 }
+				set_variable = { global.nikexiya = 3 }
 			}
 		}
 	}
@@ -32,7 +32,7 @@ GRE_saipulusi_categories = {
 			NOT = {
 				has_country_flag = GRE_limasuoerxingdong
 			}
-			check_variable = { var = limasuoer value = -3 compare = greater_than }
+			check_variable = { var = global.limasuoer value = -3 compare = greater_than }
 			has_equipment = {
 				infantry_equipment > 499
 			}
@@ -46,7 +46,7 @@ GRE_saipulusi_categories = {
 			add_equipment_to_stockpile = { type = infantry_equipment amount = -500 producer = GRE }
 		}
 		remove_effect = {
-			add_to_variable = { limasuoer = -1 }
+			add_to_variable = { global.limasuoer = -1 }
 		}
 	}
 	
@@ -65,7 +65,7 @@ GRE_saipulusi_categories = {
 				has_country_flag = GRE_limasuoerxingdong
 			}
 			has_manpower > 1000
-			check_variable = { var = limasuoer value = -3 compare = greater_than }
+			check_variable = { var = global.limasuoer value = -3 compare = greater_than }
 			has_equipment = {
 				infantry_equipment > 999
 			}
@@ -79,13 +79,13 @@ GRE_saipulusi_categories = {
 			set_country_flag = GRE_limasuoerxingdong
 		}
 		remove_effect = {
-			add_to_variable = { limasuoer = -4 }
+			add_to_variable = { global.limasuoer = -4 }
 			clr_country_flag = GRE_limasuoerxingdong
 			if = {
 				limit = {
-					check_variable = { var = limasuoer value = -2 compare = less_than }
+					check_variable = { var = global.limasuoer value = -2 compare = less_than }
 				}
-				set_variable = { limasuoer = -3 }
+				set_variable = { global.limasuoer = -3 }
 			}
 		}
 	}
@@ -104,8 +104,8 @@ GRE_saipulusi_categories = {
 			NOT = {
 				has_country_flag = GRE_teluoduosixingdong
 			}
-			check_variable = { var = limasuoer value = -2 compare = less_than }
-			check_variable = { var = teluoduosi value = -3 compare = greater_than }
+			check_variable = { var = global.limasuoer value = -2 compare = less_than }
+			check_variable = { var = global.teluoduosi value = -3 compare = greater_than }
 			has_equipment = {
 				infantry_equipment > 499
 			}
@@ -119,7 +119,7 @@ GRE_saipulusi_categories = {
 			add_equipment_to_stockpile = { type = infantry_equipment amount = -500 producer = GRE }
 		}
 		remove_effect = {
-			add_to_variable = { teluoduosi = -1 }
+			add_to_variable = { global.teluoduosi = -1 }
 			clr_country_flag = GRE_teluoduosixingdong
 		}
 	}
@@ -142,8 +142,8 @@ GRE_saipulusi_categories = {
 			NOT = {
 				has_country_flag = GRE_teluoduosixingdong
 			}
-			check_variable = { var = limasuoer value = -2 compare = less_than }
-			check_variable = { var = teluoduosi value = -3 compare = greater_than }
+			check_variable = { var = global.limasuoer value = -2 compare = less_than }
+			check_variable = { var = global.teluoduosi value = -3 compare = greater_than }
 			has_equipment = {
 				infantry_equipment > 999
 			}
@@ -159,13 +159,13 @@ GRE_saipulusi_categories = {
 			set_country_flag = GRE_teluoduosixingdong
 		}
 		remove_effect = {
-			add_to_variable = { teluoduosi = -4 }
+			add_to_variable = { global.teluoduosi = -4 }
 			clr_country_flag = GRE_teluoduosixingdong
 			if = {
 				limit = {
-					check_variable = { var = teluoduosi value = -2 compare = less_than }
+					check_variable = { var = global.teluoduosi value = -2 compare = less_than }
 				}
-				set_variable = { teluoduosi = -3 }
+				set_variable = { global.teluoduosi = -3 }
 			}
 		}
 	}
@@ -183,8 +183,8 @@ GRE_saipulusi_categories = {
 			NOT = {
 				has_country_flag = GRE_lanakaxingdong
 			}
-			check_variable = { var = limasuoer value = -2 compare = less_than }
-			check_variable = { var = lanaka value = -3 compare = greater_than }
+			check_variable = { var = global.limasuoer value = -2 compare = less_than }
+			check_variable = { var = global.lanaka value = -3 compare = greater_than }
 			has_equipment = {
 				infantry_equipment > 499
 			}
@@ -198,7 +198,7 @@ GRE_saipulusi_categories = {
 			add_equipment_to_stockpile = { type = infantry_equipment amount = -500 producer = GRE }
 		}
 		remove_effect = {
-			add_to_variable = { lanaka = -1 }
+			add_to_variable = { global.lanaka = -1 }
 			clr_country_flag = GRE_lanakaxingdong
 		}
 	}
@@ -218,8 +218,8 @@ GRE_saipulusi_categories = {
 			NOT = {
 				has_country_flag = GRE_lanakaxingdong
 			}
-			check_variable = { var = limasuoer value = -2 compare = less_than }
-			check_variable = { var = lanaka value = -3 compare = greater_than }
+			check_variable = { var = global.limasuoer value = -2 compare = less_than }
+			check_variable = { var = global.lanaka value = -3 compare = greater_than }
 			has_manpower > 1000
 			has_equipment = {
 				infantry_equipment > 999
@@ -235,13 +235,13 @@ GRE_saipulusi_categories = {
 			set_country_flag = GRE_lanakaxingdong
 		}
 		remove_effect = {
-			add_to_variable = { lanaka = -4 }
+			add_to_variable = { global.lanaka = -4 }
 			clr_country_flag = GRE_lanakaxingdong
 			if = {
 				limit = {
-					check_variable = { var = lanaka value = -2 compare = less_than }
+					check_variable = { var = global.lanaka value = -2 compare = less_than }
 				}
-				set_variable = { lanaka = -3 }
+				set_variable = { global.lanaka = -3 }
 			}
 		}
 	}
@@ -260,8 +260,8 @@ GRE_saipulusi_categories = {
 			NOT = {
 				has_country_flag = GRE_nikexiyaxingdong
 			}
-			check_variable = { var = lanaka value = -2 compare = less_than }
-			check_variable = { var = teluoduosi value = -2 compare = less_than }
+			check_variable = { var = global.lanaka value = -2 compare = less_than }
+			check_variable = { var = global.teluoduosi value = -2 compare = less_than }
 			has_equipment = {
 				infantry_equipment > 499
 			}
@@ -275,11 +275,11 @@ GRE_saipulusi_categories = {
 			add_equipment_to_stockpile = { type = infantry_equipment amount = -500 producer = GRE }
 		}
 		remove_effect = {
-			add_to_variable = { nikexiya = -1 }
+			add_to_variable = { global.nikexiya = -1 }
 			clr_country_flag = GRE_nikexiyaxingdong
 			if = {
 				limit = {
-					check_variable = { var = nikexiya value = -2 compare = less_than }
+					check_variable = { var = global.nikexiya value = -2 compare = less_than }
 				}
 				clr_global_flag = saipulusizhengduan
 				remove_ideas = GRE_haijunfengsuo
@@ -304,8 +304,8 @@ GRE_saipulusi_categories = {
 				has_country_flag = GRE_nikexiyaxingdong
 			}
 			has_manpower > 1000
-			check_variable = { var = lanaka value = -2 compare = less_than }
-			check_variable = { var = teluoduosi value = -2 compare = less_than }
+			check_variable = { var = global.lanaka value = -2 compare = less_than }
+			check_variable = { var = global.teluoduosi value = -2 compare = less_than }
 			has_equipment = {
 				infantry_equipment > 999
 			}
@@ -320,11 +320,11 @@ GRE_saipulusi_categories = {
 			set_country_flag = GRE_nikexiyaxingdong
 		}
 		remove_effect = {
-			add_to_variable = { nikexiya = -4 }
+			add_to_variable = { global.nikexiya = -4 }
 			clr_country_flag = GRE_nikexiyaxingdong
 			if = {
 				limit = {
-					check_variable = { var = nikexiya value = -2 compare = less_than }
+					check_variable = { var = global.nikexiya value = -2 compare = less_than }
 				}
 				clr_global_flag = saipulusizhengduan
 				remove_ideas = GRE_haijunfengsuo
@@ -375,12 +375,12 @@ GRE_saipulusi_categories = {
 			NOT = {
 				has_country_flag = TUR_limasuoerxingdong
 			}
-			check_variable = { var = limasuoer value = 3 compare = less_than }
+			check_variable = { var = global.limasuoer value = 3 compare = less_than }
 			has_equipment = {
 				infantry_equipment > 499
 			}
-			check_variable = { var = lanaka value = 2 compare = greater_than }
-			check_variable = { var = teluoduosi value = 2 compare = greater_than }
+			check_variable = { var = global.lanaka value = 2 compare = greater_than }
+			check_variable = { var = global.teluoduosi value = 2 compare = greater_than }
 		}
 		
 		days_remove = 30
@@ -391,11 +391,11 @@ GRE_saipulusi_categories = {
 			add_equipment_to_stockpile = { type = infantry_equipment amount = -500 producer = TUR }
 		}
 		remove_effect = {
-			add_to_variable = { limasuoer = 2 }
+			add_to_variable = { global.limasuoer = 2 }
 			clr_country_flag = TUR_limasuoerxingdong
 			if = {
 				limit = {
-					check_variable = { var = limasuoer value = 2 compare = greater_than }
+					check_variable = { var = global.limasuoer value = 2 compare = greater_than }
 				}
 				TUR = {country_event = { id = balkancivwar.4}}
 				clr_global_flag = saipulusizhengduan
@@ -421,12 +421,12 @@ GRE_saipulusi_categories = {
 				has_country_flag = TUR_limasuoerxingdong
 			}
 			has_manpower > 1000
-			check_variable = { var = limasuoer value = 3 compare = less_than }
+			check_variable = { var = global.limasuoer value = 3 compare = less_than }
 			has_equipment = {
 				infantry_equipment > 999
 			}
-			check_variable = { var = lanaka value = 2 compare = greater_than }
-			check_variable = { var = teluoduosi value = 2 compare = greater_than }
+			check_variable = { var = global.lanaka value = 2 compare = greater_than }
+			check_variable = { var = global.teluoduosi value = 2 compare = greater_than }
 		}
 		days_remove = 30
 
@@ -437,11 +437,11 @@ GRE_saipulusi_categories = {
 			set_country_flag = TUR_limasuoerxingdong
 		}
 		remove_effect = {
-			add_to_variable = { limasuoer = 3 }
+			add_to_variable = { global.limasuoer = 3 }
 			clr_country_flag = TUR_limasuoerxingdong
 			if = {
 				limit = {
-					check_variable = { var = limasuoer value = 2 compare = greater_than }
+					check_variable = { var = global.limasuoer value = 2 compare = greater_than }
 				}
 				clr_global_flag = saipulusizhengduan
 				TUR = {country_event = { id = balkancivwar.4}}
@@ -466,8 +466,8 @@ GRE_saipulusi_categories = {
 			NOT = {
 				has_country_flag = TUR_teluoduosixingdong
 			}
-			check_variable = { var = nikexiya value = 2 compare = greater_than }
-			check_variable = { var = teluoduosi value = 3 compare = less_than }
+			check_variable = { var = global.nikexiya value = 2 compare = greater_than }
+			check_variable = { var = global.teluoduosi value = 3 compare = less_than }
 			has_equipment = {
 				infantry_equipment > 499
 			}
@@ -481,13 +481,13 @@ GRE_saipulusi_categories = {
 			add_equipment_to_stockpile = { type = infantry_equipment amount = -500 producer = TUR }
 		}
 		remove_effect = {
-			add_to_variable = { teluoduosi = 2 }
+			add_to_variable = { global.teluoduosi = 2 }
 			clr_country_flag = TUR_teluoduosixingdong
 			if = {
 				limit = {
-					check_variable = { var = teluoduosi value = 2 compare = greater_than }
+					check_variable = { var = global.teluoduosi value = 2 compare = greater_than }
 				}
-				set_variable = { teluoduosi = 3 }
+				set_variable = { global.teluoduosi = 3 }
 			}
 		}
 	}
@@ -511,8 +511,8 @@ GRE_saipulusi_categories = {
 			NOT = {
 				has_country_flag = TUR_teluoduosixingdong
 			}
-			check_variable = { var = nikexiya value = 2 compare = greater_than }
-			check_variable = { var = teluoduosi value = 3 compare = less_than }
+			check_variable = { var = global.nikexiya value = 2 compare = greater_than }
+			check_variable = { var = global.teluoduosi value = 3 compare = less_than }
 			has_equipment = {
 				infantry_equipment > 999
 			}
@@ -528,13 +528,13 @@ GRE_saipulusi_categories = {
 			set_country_flag = TUR_teluoduosixingdong
 		}
 		remove_effect = {
-			add_to_variable = { teluoduosi = 3 }
+			add_to_variable = { global.teluoduosi = 3 }
 			clr_country_flag = TUR_teluoduosixingdong
 			if = {
 				limit = {
-					check_variable = { var = teluoduosi value = 2 compare = greater_than }
+					check_variable = { var = global.teluoduosi value = 2 compare = greater_than }
 				}
-				set_variable = { teluoduosi = 3 }
+				set_variable = { global.teluoduosi = 3 }
 			}
 		}
 	}
@@ -555,8 +555,8 @@ GRE_saipulusi_categories = {
 			NOT = {
 				has_country_flag = TUR_lanakaxingdong
 			}
-			check_variable = { var = nikexiya value = 2 compare = greater_than }
-			check_variable = { var = lanaka value = 3 compare = less_than }
+			check_variable = { var = global.nikexiya value = 2 compare = greater_than }
+			check_variable = { var = global.lanaka value = 3 compare = less_than }
 			has_equipment = {
 				infantry_equipment > 499
 			}
@@ -570,13 +570,13 @@ GRE_saipulusi_categories = {
 			add_equipment_to_stockpile = { type = infantry_equipment amount = -500 producer = TUR }
 		}
 		remove_effect = {
-			add_to_variable = { lanaka = 2 }
+			add_to_variable = { global.lanaka = 2 }
 			clr_country_flag = TUR_lanakaxingdong
 			if = {
 				limit = {
-					check_variable = { var = lanaka value = 2 compare = greater_than }
+					check_variable = { var = global.lanaka value = 2 compare = greater_than }
 				}
-				set_variable = { lanaka = 3 }
+				set_variable = { global.lanaka = 3 }
 			}
 		}
 	}
@@ -599,8 +599,8 @@ GRE_saipulusi_categories = {
 			NOT = {
 				has_country_flag = TUR_lanakaxingdong
 			}
-			check_variable = { var = nikexiya value = 2 compare = greater_than }
-			check_variable = { var = lanaka value = 3 compare = less_than }
+			check_variable = { var = global.nikexiya value = 2 compare = greater_than }
+			check_variable = { var = global.lanaka value = 3 compare = less_than }
 			has_manpower > 1000
 			has_equipment = {
 				infantry_equipment > 999
@@ -616,13 +616,13 @@ GRE_saipulusi_categories = {
 			set_country_flag = TUR_lanakaxingdong
 		}
 		remove_effect = {
-			add_to_variable = { lanaka = 3 }
+			add_to_variable = { global.lanaka = 3 }
 			clr_country_flag = TUR_lanakaxingdong
 			if = {
 				limit = {
-					check_variable = { var = lanaka value = 2 compare = greater_than }
+					check_variable = { var = global.lanaka value = 2 compare = greater_than }
 				}
-				set_variable = { lanaka = 3 }
+				set_variable = { global.lanaka = 3 }
 			}
 		}
 	}
@@ -644,7 +644,7 @@ GRE_saipulusi_categories = {
 			NOT = {
 				has_country_flag = TUR_nikexiyaxingdong
 			}
-			check_variable = { var = nikexiya value = 3 compare = less_than }
+			check_variable = { var = global.nikexiya value = 3 compare = less_than }
 			has_equipment = {
 				infantry_equipment > 499
 			}
@@ -658,7 +658,7 @@ GRE_saipulusi_categories = {
 			add_equipment_to_stockpile = { type = infantry_equipment amount = -500 producer = TUR }
 		}
 		remove_effect = {
-			add_to_variable = { nikexiya = 2 }
+			add_to_variable = { global.nikexiya = 2 }
 			clr_country_flag = TUR_nikexiyaxingdong
 		}
 	}
@@ -681,7 +681,7 @@ GRE_saipulusi_categories = {
 			NOT = {
 				has_country_flag = TUR_nikexiyaxingdong
 			}
-			check_variable = { var = nikexiya value = 3 compare = less_than }
+			check_variable = { var = global.nikexiya value = 3 compare = less_than }
 			has_manpower > 1000
 			has_equipment = {
 				infantry_equipment > 999
@@ -697,7 +697,7 @@ GRE_saipulusi_categories = {
 			set_country_flag = TUR_nikexiyaxingdong
 		}
 		remove_effect = {
-			add_to_variable = { nikexiya = 3 }
+			add_to_variable = { global.nikexiya = 3 }
 			clr_country_flag = TUR_nikexiyaxingdong
 		}
 	}
@@ -718,7 +718,7 @@ GRE_saipulusi_categories = {
 			NOT = {
 				has_country_flag = TUR_nikexiyaxingdong
 			}
-			check_variable = { var = nikexiya value = 3 compare = less_than }
+			check_variable = { var = global.nikexiya value = 3 compare = less_than }
 			has_equipment = {
 				infantry_equipment > 499
 			}
@@ -736,7 +736,7 @@ GRE_saipulusi_categories = {
 		}
 		remove_effect = {
 			hidden_effect = {
-				random_list = { 5 = { GRE = {country_event = { id = balkancivwar.1}} } 95 = { add_to_variable = { nikexiya = 2 } } }
+				random_list = { 5 = { GRE = {country_event = { id = balkancivwar.1}} } 95 = { add_to_variable = { global.nikexiya = 2 } } }
 			}
 			add_equipment_to_stockpile = { type = transport_plane_equipment amount = 10 producer = TUR }
 			
@@ -758,8 +758,8 @@ GRE_saipulusi_categories = {
 			NOT = {
 				has_country_flag = TUR_teluoduosixingdong
 			}
-			check_variable = { var = nikexiya value = 2 compare = greater_than }
-			check_variable = { var = teluoduosi value = 3 compare = less_than }
+			check_variable = { var = global.nikexiya value = 2 compare = greater_than }
+			check_variable = { var = global.teluoduosi value = 3 compare = less_than }
 			has_equipment = {
 				infantry_equipment > 499
 			}
@@ -778,7 +778,7 @@ GRE_saipulusi_categories = {
 		remove_effect = {
 			add_equipment_to_stockpile = { type = transport_plane_equipment amount = 10 producer = TUR }
 			hidden_effect = {
-				random_list = { 5 = { GRE = {country_event = { id = balkancivwar.1}} } 95 = { add_to_variable = { teluoduosi = 2 } } }
+				random_list = { 5 = { GRE = {country_event = { id = balkancivwar.1}} } 95 = { add_to_variable = { global.teluoduosi = 2 } } }
 			}
 		}
 	}
@@ -798,8 +798,8 @@ GRE_saipulusi_categories = {
 			NOT = {
 				has_country_flag = TUR_lanakaxingdong
 			}
-			check_variable = { var = nikexiya value = 2 compare = greater_than }
-			check_variable = { var = lanaka value = 3 compare = less_than }
+			check_variable = { var = global.nikexiya value = 2 compare = greater_than }
+			check_variable = { var = global.lanaka value = 3 compare = less_than }
 			has_equipment = {
 				infantry_equipment > 499
 			}
@@ -818,7 +818,7 @@ GRE_saipulusi_categories = {
 		remove_effect = {
 			add_equipment_to_stockpile = { type = transport_plane_equipment amount = 10 producer = TUR }
 			hidden_effect = {
-				random_list = { 5 = { GRE = {country_event = { id = balkancivwar.1}} } 95 = { add_to_variable = { lanaka = 2 } } }
+				random_list = { 5 = { GRE = {country_event = { id = balkancivwar.1}} } 95 = { add_to_variable = { global.lanaka = 2 } } }
 			}
 		}
 	}
@@ -838,13 +838,13 @@ GRE_saipulusi_categories = {
 			NOT = {
 				has_country_flag = TUR_liamsuoerxingdong
 			}
-			check_variable = { var = lanaka value = 2 compare = greater_than }
-			check_variable = { var = teluoduosi value = 2 compare = greater_than }
-			has_equipment = {
-				infantry_equipment > 499
-			}
+			check_variable = { var = global.lanaka value = 2 compare = greater_than }
+			check_variable = { var = global.teluoduosi value = 2 compare = greater_than }
 			has_equipment = {
 				transport_equipment > 10
+			}
+			has_equipment = {
+				infantry_equipment > 499
 			}
 		}
 		days_remove = 30
@@ -857,11 +857,11 @@ GRE_saipulusi_categories = {
 		remove_effect = {
 			add_equipment_to_stockpile = { type = transport_plane_equipment amount = 10 producer = TUR }
 			hidden_effect = {
-				random_list = { 5 = { GRE = {country_event = { id = balkancivwar.1}} } 95 = { add_to_variable = { limasuoer = 2 } } }
+				random_list = { 5 = { GRE = {country_event = { id = balkancivwar.1}} } 95 = { add_to_variable = { global.limasuoer = 2 } } }
 			}
 			if = {
 				limit = {
-					check_variable = { var = limasuoer value = 2 compare = greater_than }
+					check_variable = { var = global.limasuoer value = 2 compare = greater_than }
 				}
 				TUR = {country_event = { id = balkancivwar.4}}
 				clr_global_flag = saipulusizhengduan
