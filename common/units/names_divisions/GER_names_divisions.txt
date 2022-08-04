@@ -1,0 +1,458 @@
+#步兵师
+GER_INF_01 = {
+	name = "VA Infanterie Division"
+
+	for_countries = { GER }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d.VA Infanterie-Division"
+
+	ordered ={
+		1 = { "%d.VA Infanterie-Division" }		
+		2 = { "%d.VA Infanterie-Division" }
+		3 = { "%d.VA Infanterie-Division" }
+		4 = { "%d.VA Infanterie-Division" }
+		5 = { "%d.VA Infanterie-Division" }
+		6 = { "%d.VA Infanterie-Division" }
+		7 = { "%d.VA Infanterie-Division" }
+		8 = { "%d.VA Infanterie-Division" }
+		9 = { "%d.VA Infanterie-Division" }
+		10 = { "%d.VA Infanterie-Division" }
+		11 = { "%d.VA Infanterie-Division" }
+		12 = { "%d.VA Infanterie-Division" }
+		13 = { "%d.VA Infanterie-Division" }
+		14 = { "%d.VA Infanterie-Division" }
+		15 = { "%d.VA Infanterie-Division" }
+		16 = { "%d.VA Infanterie-Division" }		
+		17 = { "%d.VA Infanterie-Division" }
+		18 = { "%d.VA Infanterie-Division" }
+		19 = { "%d.VA Infanterie-Division" }
+		20 = { "%d.VA Infanterie-Division" }
+		21 = { "%d.VA Infanterie-Division" }
+		22 = { "%d.VA Infanterie-Division" }
+		23 = { "%d.VA Infanterie-Division" }		
+		24 = { "%d.VA Infanterie-Division" }
+		25 = { "%d.VA Infanterie-Division" }
+		26 = { "%d.VA Infanterie-Division" }
+		27 = { "%d.VA Infanterie-Division" }
+		28 = { "%d.VA Infanterie-Division" }
+		29 = { "%d.VA Infanterie-Division" }
+		30 = { "%d.VA Infanterie-Division" }
+		31 = { "%d.VA Infanterie-Division" }
+		32 = { "%d.VA Infanterie-Division" }
+		33 = { "%d.VA Infanterie-Division" }
+		34 = { "%d.VA Infanterie-Division" }
+		35 = { "%d.VA Infanterie-Division" }
+		36 = { "%d.VA Infanterie-Division" }
+		37 = { "%d.VA Infanterie-Division" }
+		38 = { "%d.VA Infanterie-Division" }
+		39 = { "%d.VA Infanterie-Division" }
+		40 = { "%d.VA Infanterie-Division" }
+		41 = { "%d.VA Infanterie-Division" }
+		42 = { "%d.VA Infanterie-Division" }
+		43 = { "%d.VA Infanterie-Division" }
+		44 = { "%d.VA Infanterie-Division" }	
+		45 = { "%d.VA Infanterie-Division" }
+		46 = { "%d.VA Infanterie-Division" }
+		47 = { "%d.VA Infanterie-Division" }
+		48 = { "%d.VA Infanterie-Division" }
+		49 = { "%d.VA Infanterie-Division" }
+		50 = { "%d.VA Infanterie-Division" }
+		51 = { "%d.VA Infanterie-Division" }
+		52 = { "%d.VA Infanterie-Division" }
+		53 = { "%d.VA Infanterie-Division" }
+		54 = { "%d.VA Infanterie-Division" }
+		55 = { "%d.VA Infanterie-Division" }
+		56 = { "%d.VA Infanterie-Division" }
+		57 = { "%d.VA Infanterie-Division" }
+		58 = { "%d.VA Infanterie-Division" }
+		59 = { "%d.VA Infanterie-Division" }
+		60 = { "%d.VA Infanterie-Division" }
+		61 = { "%d.VA Infanterie-Division" }
+		62 = { "%d.VA Infanterie-Division" }
+		63 = { "%d.VA Infanterie-Division" }
+		64 = { "%d.VA Infanterie-Division" }
+		65 = { "%d.VA Infanterie-Division" }
+		66 = { "%d.VA Infanterie-Division" }
+		67 = { "%d.VA Infanterie-Division" }
+		68 = { "%d.VA Infanterie-Division" }
+		69 = { "%d.VA Infanterie-Division" }
+		70 = { "%d.VA Infanterie-Division" }
+		71 = { "%d.VA Infanterie-Division" }
+		72 = { "%d.VA Infanterie-Division" }
+		73 = { "%d.VA Infanterie-Division" }
+		74 = { "%d.VA Infanterie-Division" }
+		75 = { "%d.VA Infanterie-Division" }
+		76 = { "%d.VA Infanterie-Division" }
+		77 = { "%d.VA Infanterie-Division" }
+		78 = { "%d.VA Infanterie-Division" }
+		79 = { "%d.VA Infanterie-Division" }
+		80 = { "%d.VA Infanterie-Division" }
+		81 = { "%d.VA Infanterie-Division" }
+		82 = { "%d.VA Infanterie-Division" }
+		83 = { "%d.VA Infanterie-Division" }
+		84 = { "%d.VA Infanterie-Division" }
+		85 = { "%d.VA Infanterie-Division" }
+		86 = { "%d.VA Infanterie-Division" }
+		87 = { "%d.VA Infanterie-Division" }
+		88 = { "%d.VA Infanterie-Division" }
+		89 = { "%d.VA Infanterie-Division" }
+		90 = { "%d.VA Infanterie-Division" }
+		91 = { "%d.VA Infanterie-Division" }
+		92 = { "%d.VA Infanterie-Division" }
+		93 = { "%d.VA Infanterie-Division" }
+		94 = { "%d.VA Infanterie-Division" }
+		95 = { "%d.VA Infanterie-Division" }
+		96 = { "%d.VA Infanterie-Division" }
+		97 = { "%d.VA Infanterie-Division" }
+		98 = { "%d.VA Infanterie-Division" }
+		99 = { "%d.VA Infanterie-Division" }
+		100 = { "%d.VA Infanterie-Division" }
+		101 = { "%d.VA Infanterie-Division" }
+		102 = { "%d.VA Infanterie-Division" }
+		103 = { "%d.VA Infanterie-Division" }
+		104 = { "%d.VA Infanterie-Division" }
+		105 = { "%d.VA Infanterie-Division" }
+		106 = { "%d.VA Infanterie-Division" }
+		107 = { "%d.VA Infanterie-Division" }
+		108 = { "%d.VA Infanterie-Division" }
+		109 = { "%d.VA Infanterie-Division" }
+		110 = { "%d.VA Infanterie-Division" }
+		111 = { "%d.VA Infanterie-Division" }
+		112 = { "%d.VA Infanterie-Division" }
+		113 = { "%d.VA Infanterie-Division" }
+		114 = { "%d.VA Infanterie-Division" }
+		115 = { "%d.VA Infanterie-Division" }
+		116 = { "%d.VA Infanterie-Division" }
+		117 = { "%d.VA Infanterie-Division" }
+		118 = { "%d.VA Infanterie-Division" }
+		119 = { "%d.VA Infanterie-Division" }
+		120 = { "%d.VA Infanterie-Division" }
+		121 = { "%d.VA Infanterie-Division" }
+		122 = { "%d.VA Infanterie-Division" }
+		123 = { "%d.VA Infanterie-Division" }
+		124 = { "%d.VA Infanterie-Division" }
+		125 = { "%d.VA Infanterie-Division" }
+		126 = { "%d.VA Infanterie-Division" }
+		127 = { "%d.VA Infanterie-Division" }
+
+	}
+}
+
+#赤卫队
+GER_INF_02 = 
+{
+	name = "Rote Garde"
+
+	for_countries = { GER }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry"  }
+
+	fallback_name = "%d. Rote Garde Brigade"
+
+
+	# Names with numbers (only one number per entry)
+	ordered =
+	{
+                                 1 = { "%d. Rote Garde Brigade" }
+                                 2 = { "%d. Rote Garde Brigade" }
+                                 3  = { "%d. Rote Garde Brigade" }
+                                 4 = { "%d. Rote Garde Brigade" }
+		5 = { "%d. Rote Garde Brigade" }
+		6 = { "%d. Rote Garde Brigade" }
+		7 = { "%d. Rote Garde Brigade" }
+		8 = { "%d. Rote Garde Brigade" }
+		9 = { "%d. Rote Garde Brigade" }
+		10 = { "%d. Rote Garde Brigade" }
+		11 = { "%d. Rote Garde Brigade" }
+                                12 = { "%d. Rote Garde Brigade" }
+		13 = { "%d. Rote Garde Brigade" }
+		14 = { "%d. Rote Garde Brigade" }
+		15 = { "%d. Rote Garde Brigade" }
+		16 = { "%d. Rote Garde Brigade" }
+		17 = { "%d. Rote Garde Brigade" }
+		18 = { "%d. Rote Garde Brigade" }
+		349 = { "%d. Rote Garde Brigade" }
+		183 = { "%d. Rote Garde Brigade" }
+		246 = { "%d. Rote Garde Brigade" }
+		337 = { "%d. Rote Garde Brigade" }
+		340 = { "%d. Rote Garde Brigade" }
+		26 = { "%d. Rote Garde Brigade" }
+		47 = { "%d. Rote Garde Brigade" }
+		212 = { "%d. Rote Garde Brigade" }
+		256 = { "%d. Rote Garde Brigade" }
+		271 = { "%d. Rote Garde Brigade" }
+		272 = { "%d. Rote Garde Brigade" }
+		363 = { "%d. Rote Garde Brigade" }
+		352 = { "%d. Rote Garde Brigade" }
+		62 = { "%d. Rote Garde Brigade" }
+		6 = { "%d. Rote Garde Brigade" }
+		16 = { "%d. Rote Garde Brigade" }
+		19 = { "%d. Rote Garde Brigade" }
+		31 = { "%d. Rote Garde Brigade" }
+		36 = { "%d. Rote Garde Brigade" }
+		61 = { "%d. Rote Garde Brigade" }
+		541 = { "%d. Rote Garde Brigade" }
+		542 = { "%d. Rote Garde Brigade" }
+		544 = { "%d. Rote Garde Brigade" }
+		545 = { "%d. Rote Garde Brigade" }
+		547 = { "%d. Rote Garde Brigade" }
+		548 = { "%d. Rote Garde Brigade" }
+		549 = { "%d. Rote Garde Brigade" }
+		551 = { "%d. Rote Garde Brigade" }
+		553 = { "%d. Rote Garde Brigade" }
+		558 = { "%d. Rote Garde Brigade" }
+		559 = { "%d. Rote Garde Brigade" }
+		561 = { "%d. Rote Garde Brigade" }
+		562 = { "%d. Rote Garde Brigade" }
+		563 = { "%d. Rote Garde Brigade" }
+		9 = { "%d. Rote Garde Brigade" }
+		257 = { "%d. Rote Garde Brigade" }
+		45 = { "%d. Rote Garde Brigade" }
+		79 = { "%d. Rote Garde Brigade" }
+		320 = { "%d. Rote Garde Brigade" }
+		167 = { "%d. Rote Garde Brigade" }
+		462 = { "%d. Rote Garde Brigade" }
+		211 = { "%d. Rote Garde Brigade" }
+		98 = { "%d. Rote Garde Brigade" }
+		46 = { "%d. Rote Garde Brigade" }
+		278 = { "%d. Rote Garde Brigade" }
+		334 = { "%d. Rote Garde Brigade" }
+		347 = { "%d. Rote Garde Brigade" }
+                                1006 = { "%d. Rote Garde Brigade" }
+		
+		
+	}
+}
+
+#山地师
+GER_MON_01 = 
+{
+	name = "VA Mountain Divisions"
+
+	for_countries = { GER }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers"  }
+
+	fallback_name = "%d. VA Gebirgs-Division"
+
+	# Names with numbers (only one number per entry)
+	ordered =
+	{
+		2 = { "%d. VA Gebirgs-Division" }
+		3 = { "%d. VA Gebirgs-Division" }
+		1 = { "%d. VA Gebirgs-Division" }
+		6 = { "%d. VA Gebirgs-Division" }
+		4 = { "%d. VA Gebirgs-Division" }
+		5 = { "%d. VA Gebirgs-Division" }
+		7 = { "%d. VA Gebirgs-Division" }
+		188 = { "%d. VA Gebirgs-Division" }
+		200 = { "%d. VA Gebirgs-Division" }
+		8 = { "%d. VA Gebirgs-Division" }
+		
+		# deleted 9. Gebirgs-Division because it was an ad-hoc grouping built in Lapland around the reinforced GJR 139, and only officially a "division" from one day before the end of the war. There was, interestingly, another ad-hoc 9. GJD formed in the final stage of the war with similarly mixed components. 
+		# deleted 157. GJD which was quickly renamed 8. GJD
+		
+	}
+}
+
+
+#摩托化
+GER_KAF_01 = 
+{
+	name = "Motorized Divisions"
+
+	for_countries = { GER }
+
+	can_use =  { always = yes }
+
+	division_types = { "motorized"  }
+
+	fallback_name = "%d. Kraftwagen-Division"
+
+
+	# Names with numbers (only one number per entry)
+	ordered =
+	{
+		2 = { "%d. Kraftwagen Division" }
+                                4 = { "%d. Kraftwagen Division'Clara.Zetkin'" }
+		13 = { "%d. Kraftwagen Division" }
+		20 = { "%d. Kraftwagen Division" }
+		29 = { "%d. Kraftwagen Division" }
+		16 = { "%d. Kraftwagen Division" }
+		60 = { "%d. Kraftwagen Division" }
+		14 = { "%d. Kraftwagen Division" }
+		3 = { "%d. Kraftwagen Division" }
+		18 = { "%d. Kraftwagen Division" }
+		36 = { "%d. Kraftwagen Division" }
+		10 = { "%d. Kraftwagen Division" }
+		25 = { "%d. Kraftwagen Division" }
+		90 = { "%d. Kraftwagen Division" }
+		932 = { "%d. Kraftwagen Division" }
+		164 = { "%d. Kraftwagen Division" }
+
+	}
+}
+
+#陆战队
+GER_SEE_01 = 
+{
+	name = "Marine Divisions"
+
+	for_countries = { GER }
+
+	can_use = { always = yes }
+
+	division_types = { "marine"  }
+
+	fallback_name = "%d. Seeman Brigade"
+
+	# Names with numbers (only one number per entry)
+	ordered =
+	{
+		1 = { "%d. 'kiel'Seeman Brigade" }
+		2 = { "%d. 'hamburg'Seeman Brigade" }
+		3 = { "%d. 'Engelsshaven'Seeman Brigade" }
+		4 = { "%d. 'Königsberg'Seeman Brigade" }
+		5 = { "%d. Seeman Brigade" }
+		6 = { "%d. Seeman Brigade" }
+                                7 = { "%d. Seeman Brigade" }
+                               8 = { "%d. Seeman Brigade" }
+		
+		# chose to remove the old name list entirely as it refers to late war improvised infantry units built from idle naval personnel, with little in the way of ground combat training. These in no way constitute a naval assault landing unit which is what Marines are, so in the ahistorical event that the player chooses to invest in a proper German Marine Corps, we gave them the name of "Sea Landing Division" to more correctly reflect the role. This frees up the KM infantry divisions for the normal infantry name list.
+	}
+}
+
+#骑兵师
+GER_Cav_01 = 
+{
+	name = "VA Cavalry Divisions"
+
+	for_countries = { GER }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry"  }
+
+	fallback_name = "%d. VA Kavallerie-Division"
+
+	# Names with numbers (only one number per entry)
+	ordered =
+	{
+		1 = { "%d.VA Kavallerie-Division" }
+		3 = { "%d.VA Kavallerie-Division" }
+		4 = { "%d.VA Kavallerie-Division" }
+		2 = { "%d.VA Kavallerie-Division" }
+                                5 = { "%d.VA Kavallerie-Division" }
+                                8 = { "%d.VA Kavallerie-Division" }
+		# deleted Kosaken-Kavallerie-Divisions as they depend on a German occupation of Ukraine that may not occur
+
+	}
+	
+}
+
+#坦克车
+GER_PAZ_01 = 
+{
+	name = "VA Panzer-Divisions"
+
+	for_countries = { GER }
+
+	can_use = { always = yes }
+
+	division_types = {  "medium_armor" "heavy_armor" "modern_armor" }
+
+	fallback_name = "%d.VA Panzer-Division"
+
+	# Names with numbers (only one number per entry)
+	ordered =
+	{
+		1 = { "%d.VA Panzer-Division" }
+		2 = { "%d.VA  Panzer-Division" }
+		3 = { "%d.VA Panzer-Division" }
+		4 = { "%d.VA Panzer-Division" }
+		5 = { "%d.VA Panzer-Division" }
+		10 = { "%d.VA Panzer-Division" }
+		8 = { "%d.VA Panzer-Division" }
+		6 = { "%d.VA Panzer-Division" }
+		7 = { "%d.VA Panzer-Division" }
+		9 = { "%d.VA Panzer-Division" }
+		11 = { "%d.VA Panzer-Division" }
+		14 = { "%d.VA Panzer-Division" }
+		12 = { "%d.VA Panzer-Division" }
+		13 = { "%d.VA Panzer-Division" }
+		20 = { "%d.VA Panzer-Division" }
+		18 = { "%d.VA Panzer-Division" }
+		15 = { "%d.VA Panzer-Division" }
+		16 = { "%d.VA Panzer-Division" }
+		17 = { "%d.VA Panzer-Division" }
+		19 = { "%d.VA Panzer-Division" }
+		21 = { "%d.VA Panzer-Division" }
+		23 = { "%d.VA Panzer-Division" }
+		22 = { "%d.VA Panzer-Division" }
+		24 = { "%d.VA Panzer-Division" }
+		25 = { "%d.VA Panzer-Division" }
+		26 = { "%d.VA Panzer-Division" }
+		27 = { "%d.VA Panzer-Division" }
+		116 = { "%d.VA Panzer-Division" }
+		232 = { "%d.VA Panzer-Division" }
+	
+
+	}
+}
+
+GER_PAZ_02 = 
+{
+	name = "Light Panzer Divisions"
+
+	for_countries = { GER }
+
+	can_use = { always = yes }
+
+	division_types = {  "Light_armor" }
+
+	fallback_name = "%d.VA Panzer-Division"
+
+	# Names with numbers (only one number per entry)
+	ordered =
+	{
+		1 = { "%d.VA Leichter Panzer-Division" }
+		2 = { "%d.VA  Leichter Panzer-Division" }
+		3 = { "%d.VA Leichter Panzer-Division" }
+		4 = { "%d.VA Leichter Panzer-Division" }
+		5 = { "%d.VA Leichter Panzer-Division" }
+		10 = { "%d.VA Leichter Panzer-Division" }
+		8 = { "%d.VA Leichter Panzer-Division" }
+		6 = { "%d.VA Leichter Panzer-Division" }
+		7 = { "%d.VA Leichter Panzer-Division" }
+		9 = { "%d.VA Leichter Panzer-Division" }
+		11 = { "%d.VA Leichter Panzer-Division" }
+		14 = { "%d.VA Leichter Panzer-Division" }
+		12 = { "%d.VA Leichter Panzer-Division" }
+		13 = { "%d.VA Leichter Panzer-Division" }
+		20 = { "%d.VA Leichter Panzer-Division" }
+		18 = { "%d.VA Leichter Panzer-Division" }
+		15 = { "%d.VA Leichter Panzer-Division" }
+		16 = { "%d.VA Leichter Panzer-Division" }
+		17 = { "%d.VA Leichter Panzer-Division" }
+		19 = { "%d.VA Leichter Panzer-Division" }
+		21 = { "%d.VA Leichter Panzer-Division" }
+		23 = { "%d.VA Leichter Panzer-Division" }
+		22 = { "%d.VA Leichter Panzer-Division" }
+		24 = { "%d.VA Leichter Panzer-Division" }
+		25 = { "%d.VA Leichter Panzer-Division" }
+		26 = { "%d.VA Leichter Panzer-Division" }
+		27 = { "%d.VA Leichter Panzer-Division" }
+		116 = { "%d.VA Leichter Panzer-Division" }
+		232 = { "%d.VA Leichter Panzer-Division" }
+	
+
+	}
+}
