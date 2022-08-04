@@ -15,8 +15,10 @@ state={
 			11305 3
 		}
 		buildings = {
-			infrastructure = 6
-			arms_factory = 3
+			infrastructure = 3
+			arms_factory = 1
+                                                dockyard = 1
+                                                industrial_complex = 1
 			321 = {
 				naval_base = 6
 
