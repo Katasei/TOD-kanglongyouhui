@@ -669,6 +669,13 @@ leader_traits = {
 		war_support_factor = -0.05
 		political_power_gain = -0.05
 	}
+	
+	### FRL
+	guardian_of_liberalism = {
+		random = no
+		stability_factor = 0.05
+		liberal_democracy_drift = 0.05
+	}
 
 	### Iraq
 	bismarck_of_arabia = {

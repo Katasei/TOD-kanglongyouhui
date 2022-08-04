@@ -61,13 +61,13 @@ ideas = {
 		    picture = FRL_political_crisis
 			modifier = {
 			    political_power_cost = 0.2
-				Conservatism_drift = 0.03
-				Authoritarianism_drift = 0.03
-				Reformism_drift = 0.03
-				Socialism_drift = 0.02
-				Despotism_drift = 0.02
-				Totalism_drift = 0.01
-				Radicalism_drift = 0.01
+				conservative_democracy_drift= 0.03
+				social_democrat_drift = 0.03
+				consociationalism_drift = 0.03
+				authoritarian_oligarchy_drift = 0.02
+				council_socialism_drift = 0.02
+				agroindustrial_socialism_drift = 0.01
+				leader_despotism_drift = 0.01
 			}
 		}
 	}

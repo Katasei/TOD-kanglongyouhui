@@ -120,86 +120,16 @@ set_popularities = {
 	vanguard_socialism = 0
 }
 
-create_country_leader = {
-	name = "路易斯·吕西安·克洛泽"
-	desc = "POLITICS_LOUIS_LUCIEN_KLOSE_DESC"
-	picture = "Portrait_FRL_Louis_Lucien_Klose.png"
-	expire = "1965.1.1"
-	ideology = liberal_democracy_subtype
-}
-
-create_country_leader = {
-	name = "约翰·史密斯"
-	desc = "POLITICS_John_Smith_DESC"
-	picture = "Portrait_FRL_John_Smith.tga"
-	expire = "1965.1.1"
-	ideology = national_corporatism_subtype
-}
-
-create_country_leader = {
-	name = "约翰斯密三世"
-	desc = "POLITICS_John_Smit_III_DESC"
-	picture = "Portrait_FRL_John_Smit_III.tga"
-	expire = "1965.1.1"
-	ideology = sacred_revivalism_subtype
-}
-
-create_country_leader = {
-	name = "莱斯利·麦克奈尔"
-	desc = "POLITICS_Lesley_J_McNair_DESC"
-	picture = "Portrait_FRL_Lesley_J_McNair.tga"
-	expire = "1965.1.1"
-	ideology = leader_despotism_subtype
-}
-
-create_country_leader = {
-	name = "罗斯·迈克康奈尔"
-	desc = "POLITICS_Rose_McConnell_DESC"
-	picture = "Portrait_FRL_Rose_McConnell.tga"
-	expire = "1970.5.27"
-	ideology = authoritarian_oligarchy_subtype
-}
-
-create_country_leader = {
-	name = "夏尔·布里恩"
-	desc = "POLITICS_Charles_Brien_DESC"
-	picture = "Portrait_FRL_Charles_Brien.tga"
-	expire = "1965.1.1"
-	ideology = conservative_democracy_subtype
-}
-
-create_country_leader = {
-	name = "帕特·哈里森"
-	desc = "POLITICS_Pat_Harrison_DESC"
-	picture = "Portrait_FRL_Pat_Harrison.tga"
-	expire = "1965.1.1"
-	ideology = consociationalism_subtype
-}
-
-
-create_country_leader = {
-	name = "罗伯特·拉福莱特"
-	desc = "POLITICS_Robert_La_Follette_DESC"
-	picture = "Portrait_FRL_Robert_La_Follette.tga"
-	expire = "1965.1.1"
-	ideology = social_democrat_subtype
-}
-
-create_country_leader = {
-	name = "艾尔弗雷德·瓦根克内希特"
-	desc = "POLITICS_Alfred_Wagenknecht_DESC"
-	picture = "Portrait_FRL_Alfred_Wagenknecht.tga"
-	expire = "1965.1.1"
-	ideology = council_socialism_subtype
-}
-
-create_country_leader = {
-	name = "亚历山大·贝克曼"
-	desc = "POLITICS_Alexander_Berkman_DESC"
-	picture = "Portrait_FRL_Alexander_Berkman.tga"
-	expire = "1965.1.1"
-	ideology = agroindustrial_socialism_subtype
-}
+recruit_character = FRL_Louis_Lucien_Klose
+recruit_character = FRL_John_Smith
+recruit_character = FRL_John_Smit_III
+recruit_character = FRL_Lesley_J_McNair
+recruit_character = FRL_Rose_McConnell
+recruit_character = FRL_Charles_Brien
+recruit_character = FRL_Pat_Harrison
+recruit_character = FRL_Robert_La_Follette
+recruit_character = FRL_Alfred_Wagenknecht
+recruit_character = FRL_Alexander_Berkman
 
 
 
