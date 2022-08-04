@@ -3,6 +3,16 @@
 oob = "GER_1936"
 
 
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "GER_Naval_mtg"
+	else = {
+		set_naval_oob = "GER_Naval_legacy"
+	}
+}
+
+set_research_slots = 4
+
 set_politics = {
 	ruling_party = council_socialism
 	last_election = "1934.6.15"
@@ -57,20 +67,25 @@ set_technology = {
 	tech_engineers = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	gwtank = 1
 	early_fighter = 1
+                fighter1 = 1
 	cv_early_fighter = 1
 	cv_naval_bomber1 = 1
 	cv_CAS1 = 1
 	naval_bomber1 = 1
 	CAS1 = 1
 	early_bomber = 1
+                tactical_bomber1 = 1
 	superior_firepower = 1
 	base_strike = 1
 	motorised_infantry = 1
 	fuel_silos = 1
 	fuel_refining = 1
-	marines = 1	
+	marines = 1
+                synth_oil_experiments = 1
+                basic_train = 1
+                tech_mountaineers = 1
+                electronic_mechanical_engineering = 1	
 }
 
 if = {
@@ -89,6 +104,33 @@ if = {
 		transport = 1 
 	}
 }
+
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		improved_light_tank = 1
+                                basic_medium_tank = 1
+		basic_heavy_tank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		improved_light_tank_chassis = 1
+                                basic_medium_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+	}
+}
+
 if = {
 	limit = {
 		has_dlc = "Man the Guns"
@@ -122,12 +164,94 @@ if = {
 	}
 }
 
+### 陆军模板 ###
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	create_equipment_variant = {
+		name = "Leichttraktor"
+		type = light_tank_chassis_0
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_small_cannon
+			turret_type_slot = tank_light_one_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 1
+			tank_nsb_armor_upgrade = 0
+		}
+		obsolete = yes
+		icon = "GFX_gwtank_medium"
+   }
+create_equipment_variant = {
+		name = "Panzer I Ausf. C"
+		type = light_tank_chassis_1
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_auto_cannon
+			turret_type_slot = tank_light_two_man_tank_turret
+			suspension_type_slot = tank_christie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			special_type_slot_1 = tank_radio_1
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 5
+			tank_nsb_armor_upgrade = 1
+			}
+			icon = "GFX_GER_basic_light_tank_medium"
+	  }
+create_equipment_variant = {
+		name = "Panzer II Ausf. B"
+		type = light_tank_chassis_2
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_small_cannon_2
+			turret_type_slot = tank_light_two_man_tank_turret
+			suspension_type_slot = tank_christie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			special_type_slot_1 = tank_radio_1
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 5
+			tank_nsb_armor_upgrade = 2
+		}
+		icon = "GFX_GER_improved_light_tank_medium"
+	}
+}
+create_equipment_variant = {
+		name = "Großetraktor"
+		type = heavy_tank_chassis_1
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_close_support_gun
+			turret_type_slot = tank_heavy_three_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			special_type_slot_1 = tank_radio_1
+			special_type_slot_2 = secondary_turret_hmg
+			special_type_slot_3 = secondary_turret_hmg
+			special_type_slot_4 = secondary_turret_small_cannon
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 3
+			tank_nsb_armor_upgrade = 2
+		}
+		icon = "GFX_GER_basic_heavy_tank_medium"
+	}
 
 ### 海军模板 ###
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	create_equipment_variant = {
-		name = "工人国际级"
+		name = "International Class"
 		type = ship_hull_carrier_conversion_bb
 		name_group = GER_CV_HISTORICAL
 		parent_version = 0
@@ -138,13 +262,14 @@ if = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = carrier_ship_engine_1
 			fixed_ship_secondaries_slot = empty
-			front_1_custom_slot = ship_deck_space
+			mid_1_custom_slot = ship_deck_space
 		}
+
 	}
 		
 	create_equipment_variant = {
-		name = "巴伐利亚级"
-		type = ship_hull_heavy_2
+		name = "Bayern Class"
+		type = ship_hull_heavy_1
 		name_group = GER_BB_HISTORICAL
 		parent_version = 0
 		modules = {
@@ -163,8 +288,8 @@ if = {
 	}
 			
 	create_equipment_variant = {
-		name = "国王级"
-		type = ship_hull_heavy_2
+		name = "König Class"
+		type = ship_hull_heavy_1
 		name_group = GER_BB_HISTORICAL
 		parent_version = 0
 		modules = {
@@ -183,7 +308,7 @@ if = {
 	}
 		
 	create_equipment_variant = {
-		name = "凯撒级"
+		name = "Kaiser Class"
 		type = ship_hull_heavy_1
 		name_group = GER_CV_HISTORICAL
 		parent_version = 0
@@ -203,7 +328,7 @@ if = {
 	}
 
 	create_equipment_variant = {
-		name = "柏林级"
+		name = "Berlin Class"
 		type = ship_hull_cruiser_panzerschiff
 		name_group = GER_CA_HISTORICAL
 		parent_version = 0
@@ -223,7 +348,7 @@ if = {
 	}
 	
 	create_equipment_variant = {
-		name = "莱茵河级"
+		name = "Rhine Class"
 		type = ship_hull_cruiser_2
 		name_group = GER_CA_HISTORICAL
 		parent_version = 0
@@ -243,7 +368,7 @@ if = {
 	}
 	
 	create_equipment_variant = {
-		name = "科隆级"
+		name = "Köln Class"
 		type = ship_hull_cruiser_2
 		name_group = GER_CL_HISTORICAL
 		parent_version = 0
@@ -263,7 +388,7 @@ if = {
 	}
 		
 	create_equipment_variant = {
-		name = "莱比锡级"
+		name = "Leipzig Class"
 		type = ship_hull_cruiser_2
 		name_group = GER_CL_HISTORICAL
 		parent_version = 0
@@ -283,7 +408,7 @@ if = {
 	}
 		
 	create_equipment_variant = {
-		name = "威斯巴登级"
+		name = "Wiesbaden Class"
 		type = ship_hull_cruiser_1
 		name_group = GER_CL_HISTORICAL
 		parent_version = 0
@@ -302,7 +427,7 @@ if = {
 	}
 		
 	create_equipment_variant = {
-		name = "科尼斯堡级"
+		name = "Königsberg Class"
 		type = ship_hull_cruiser_1
 		name_group = GER_CL_HISTORICAL
 		parent_version = 0
@@ -321,7 +446,7 @@ if = {
 	}
 		
 	create_equipment_variant = {
-		name = "1925型驱逐舰"
+		name = "Zerstörer 1925 Class"
 		type = ship_hull_light_1
 		name_group = GER_DD_HISTORICAL
 		parent_version = 0
@@ -338,7 +463,7 @@ if = {
 	}
 		
 	create_equipment_variant = {
-		name = "1916型驱逐舰"
+		name = "Zerstörer 1916 Class"
 		type = ship_hull_light_1
 		name_group = GER_DD_HISTORICAL
 		parent_version = 0
@@ -355,7 +480,7 @@ if = {
 	}
 	
 	create_equipment_variant = {
-		name = "德弗林格尔级"
+		name = "Derfflinger Class"
 		type = ship_hull_heavy_1
 		name_group = GER_BC_HISTORICAL
 		parent_version = 0
@@ -375,7 +500,7 @@ if = {
 	}
 	
 	create_equipment_variant = {
-		name = "J型重巡洋舰"
+		name = "Schwere Kreuzer-J Class"
 		type = ship_hull_heavy_1
 		name_group = GER_BC_HISTORICAL
 		parent_version = 0
@@ -395,7 +520,7 @@ if = {
 	}
 	
 	create_equipment_variant = {
-		name = "F型重巡洋舰"
+		name = "Schwere Kreuzer-F Class"
 		type = ship_hull_heavy_1
 		name_group = GER_BC_HISTORICAL
 		parent_version = 0
@@ -415,7 +540,7 @@ if = {
 	}
 	
 	create_equipment_variant = {
-		name = "1930型驱逐舰"
+		name = "Zerstörer 1930 Class"
 		type = ship_hull_light_2
 		name_group = GER_DD_HISTORICAL
 		parent_version = 0
@@ -432,8 +557,8 @@ if = {
 	}
 	
 	create_equipment_variant = {
-		name = "德意志级"
-		type = ship_hull_heavy_1
+		name = "Deutschland Class"
+		type = ship_hull_pre_dreadnought
 		name_group = GER_BB_HISTORICAL
 		parent_version = 0
 		modules = {
@@ -451,7 +576,7 @@ if = {
 	}
 	
 	create_equipment_variant = {
-		name = "共和国级"
+		name = "Republik Class"
 		type = ship_hull_heavy_2
 		name_group = GER_BB_HISTORICAL
 		parent_version = 0
@@ -471,7 +596,7 @@ if = {
 	}	
 	
 	create_equipment_variant = {
-		name = "毛奇级"
+		name = "Moltke Class"
 		type = ship_hull_heavy_1
 		name_group = GER_BC_HISTORICAL
 		parent_version = 0
@@ -491,7 +616,7 @@ if = {
 	}
 	
 	create_equipment_variant = {
-		name = "德累斯顿级"
+		name = "Dersden Class"
 		type = ship_hull_cruiser_2
 		name_group = GER_CL_HISTORICAL
 		parent_version = 0
@@ -511,7 +636,7 @@ if = {
 	}
 	
 	create_equipment_variant = {
-		name = "汉堡级"
+		name = "Hamburg Class"
 		type = ship_hull_cruiser_2
 		name_group = GER_CL_HISTORICAL
 		parent_version = 0
@@ -531,7 +656,7 @@ if = {
 	}	
 	
 	create_equipment_variant = {
-		name = "皮劳级"
+		name = "Pillau Class"
 		type = ship_hull_cruiser_1
 		name_group = GER_CL_HISTORICAL
 		parent_version = 0
@@ -550,7 +675,7 @@ if = {
 	}
 	
 	create_equipment_variant = {
-		name = "绿头蝇级"
+		name = "Brummer Class"
 		type = ship_hull_cruiser_1
 		name_group = GER_CL_HISTORICAL
 		parent_version = 0
@@ -569,7 +694,7 @@ if = {
 	}
 	
 	create_equipment_variant = {
-		name = "III型潜艇"
+		name = "Type III Class"
 		type = ship_hull_submarine_2
 		name_group = GER_SS_HISTORICAL
 		parent_version = 0
@@ -581,7 +706,7 @@ if = {
 	}
 	
 	create_equipment_variant = {
-		name = "I型潜艇"
+		name = "Type I Class"
 		type = ship_hull_submarine_1
 		name_group = GER_SS_HISTORICAL
 		parent_version = 0
