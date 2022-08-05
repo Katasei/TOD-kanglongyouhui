@@ -13,7 +13,7 @@ add_ideas = {
 	export_focus
 	limited_conscription
 	civilian_economy
-	UKR_dulijingshen
+	UKR_dulijingshen1
 	UKR_zhengzhisaodong_ruo
 	UKR_danyijingji
 	UKR_bumandegongchangzhu
