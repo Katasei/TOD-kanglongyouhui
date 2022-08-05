@@ -1,0 +1,58 @@
+units = {
+	fleet = {
+		name = "Krasnyy Flot"		
+		naval_base = 6144
+		task_force = {
+			name = "Eskadrilir Linkor"
+			location = 6144
+			ship = { name = "Oktyabrskaya Revolutsiya" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "Marat" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "Komintern" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FIN }	} }	
+			ship = { name = "Krasnaya Finlyandiya" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "Bogatyr" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "Oleg" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "Volodarski" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "Azard" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			}
+	     
+		  }
+		  task_force = {
+			name = "Eskadrilir Minknkctsev"
+			location = 6144
+		               ship = { name = "Max" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+					   ship = { name = "Engels" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+					   ship = { name = "Lenin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+					   ship = { name = "Trotsky" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+					   ship = { name = "Uritski" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+					   ship = { name = "Sverdlov" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+					   ship = { name = "Kalinin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+		}
+	}
+	
+units = {
+	fleet = {
+		name = "Ohranenir Flot"		
+		naval_base = 3083
+		task_force = {
+			name = "Eskadrilir Ohranenir"
+			location = 3083
+	          ship = { name = "Diana" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FIN } } }
+			  ship = { name = "Avrora" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FIN } } }
+			  ship = { name = "Varyag" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FIN } } }
+			  ship = { name = "Liebknecht" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			  ship = { name = "Luxemburg" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			  ship = { name = "Marti" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN } } }
+			  }
+		}
+		task_force = {
+			name = "Eskadrilir Polvodnih Lodok"
+			ship = { name = "Veshiisi" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "Iku-Turso" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FIN } } }
+			ship = { name = "Vetehinen" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FIN } } }
+			  ship = { name = "Vesikko" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FIN } } }
+			  ship = { name = "Saukko" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FIN } } }
+			  ship = { name = "Turunmaa" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FIN } } }
+			  ship = { name = "Karjala" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FIN } } }
+			  ship = { name = "Uusimaa" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FIN } } }
+		 }
+ }
