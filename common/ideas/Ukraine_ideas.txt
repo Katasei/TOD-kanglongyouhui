@@ -1,7 +1,7 @@
 ideas = {
 	country = {
 		#独立精神
-		UKR_dulijingshen = {
+		UKR_dulijingshen1 = {
 			name = UKR_dulijingshen
 			
 		    picture = UKR_dulijingshen
@@ -30,6 +30,36 @@ ideas = {
 				conscription_factor = -0.1
 				national_corporatism_drift = 0.02
 				vanguard_socialism_drift = 0.02
+			}
+		}
+		#政治冲突：缓解
+		UKR_zhengzhisaodong_huanjie = {
+			name = UKR_zhengzhisaodong_huanjie
+			
+		    picture = UKR_zhengzhisaodong_ruo
+			
+			removal_cost = -1	
+			
+			allowed = { original_tag = UKR }
+			modifier = {
+				stability_factor = 0.1
+				industrial_capacity_factory = 0.1
+				conscription_factor = 0.1
+			}
+		}
+		#政治冲突：缓解1
+		UKR_zhengzhisaodong_huanjie1 = {
+			name = UKR_zhengzhisaodong_huanjie
+			
+		    picture = UKR_zhengzhisaodong_ruo
+			
+			removal_cost = -1	
+			
+			allowed = { original_tag = UKR }
+			modifier = {
+				stability_factor = 0.15
+				industrial_capacity_factory = 0.1
+				conscription_factor = 0.1
 			}
 		}
 		#单一的出口型经济
@@ -90,6 +120,157 @@ ideas = {
 			modifier = {
 				stability_factor = -0.1
 				political_power_factor = -0.5
+			}
+		}
+		#民主喉舌1
+		UKR_minzhuhoushe1 = {
+			name = UKR_minzhuhoushe
+			
+			removal_cost = -1	
+			
+		    picture = UKR_fubaichouwen
+			
+			allowed = { original_tag = UKR }
+			modifier = {
+				surrender_limit = 0.05
+				conservative_democracy_drift = 0.02
+			}
+		}
+		#民主喉舌2
+		UKR_minzhuhoushe2 = {
+			name = UKR_minzhuhoushe
+			
+			removal_cost = -1	
+			
+		    picture = UKR_fubaichouwen
+			
+			allowed = { original_tag = UKR }
+			modifier = {
+				surrender_limit = 0.1
+				political_power_factor = 0.2
+				war_support_factor = 0.05
+				conscription_factor = 0.1
+				conservative_democracy_drift = 0.02
+			}
+		}
+		#民主喉舌3
+		UKR_minzhuhoushe3 = {
+			name = UKR_minzhuhoushe
+			
+			removal_cost = -1	
+			
+		    picture = UKR_fubaichouwen
+			
+			allowed = { original_tag = UKR }
+			modifier = {
+				surrender_limit = 0.1
+				political_power_factor = 0.2
+				war_support_factor = 0.1
+				conscription_factor = 0.1
+				conservative_democracy_drift = 0.02
+				weekly_manpower = 300
+			}
+		}
+		#工业指导
+		UKR_gongyezhidao = {
+			name = UKR_gongyezhidao
+			
+			removal_cost = -1	
+			
+		    picture = UKR_fubaichouwen
+			
+			allowed = { original_tag = UKR }
+			modifier = {
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_infrastructure_factor = 0.1
+				local_building_slots_factor = 0.2
+				consumer_goods_factor = -0.05
+			}
+		}
+		#独立精神2
+		UKR_dulijingshen2 = {
+			name = UKR_dulijingshen
+			
+		    picture = UKR_dulijingshen
+			
+			removal_cost = -1	
+			
+			allowed = { original_tag = UKR }
+			modifier = {
+				stability_factor = 0.1
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+		}
+		#尚武精神1
+		UKR_shangwujingshen1 = {
+			name = UKR_shangwujingshen
+			
+		    picture = UKR_dulijingshen
+			
+			removal_cost = -1	
+			
+			allowed = { original_tag = UKR }
+			modifier = {
+				conscription_factor = 0.1
+			}
+		}
+		#尚武精神2
+		UKR_shangwujingshen2 = {
+			name = UKR_shangwujingshen
+			
+		    picture = UKR_dulijingshen
+			
+			removal_cost = -1	
+			
+			allowed = { original_tag = UKR }
+			modifier = {
+				conscription_factor = 0.1
+				cavalry_speed_factor = 0.05
+				cavalry_attack_factor = 0.1
+				supply_consumption_factor = -0.05
+				conscription_factor = 0.1
+			}
+		}
+		#尚武精神3
+		UKR_shangwujingshen3 = {
+			name = UKR_shangwujingshen
+			
+		    picture = UKR_dulijingshen
+			
+			removal_cost = -1	
+			
+			allowed = { original_tag = UKR }
+			modifier = {
+				conscription_factor = 0.1
+				cavalry_speed_factor = 0.05
+				cavalry_attack_factor = 0.1
+				supply_consumption_factor = -0.05
+				conscription_factor = 0.1
+				resistance_target = -0.15
+			}
+		}
+		#兵工总署
+		UKR_binggongzongshu = {
+			name = UKR_binggongzongshu
+			
+		    picture = UKR_dulijingshen
+			
+			removal_cost = -1	
+			
+			allowed = { original_tag = UKR }
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				equipment_bonus = {
+					infantry_equipment = {
+						build_cost_ic = -0.1
+						instant = yes
+					}
+					support_equipment = {
+						build_cost_ic = -0.1
+						instant = yes
+					}
+				}
 			}
 		}
 	}
