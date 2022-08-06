@@ -2,19 +2,20 @@ state=
 {
 	id=147
 	name="STATE_147"
-	manpower = 4630
+	manpower = 26622
 	
-	state_category = enclave
+	state_category = large_town
 	
 	history = {	
 		owner = FIN
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
+                                                industrial_complex = 2
 		}
 		add_core_of = FIN
 
 		victory_points = {
-			197 1
+			197 3
 		}
 	}
 
