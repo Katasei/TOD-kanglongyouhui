@@ -61,7 +61,7 @@ division_template = {
 	}
 	support = {
 		artillery = { x = 0 y = 0 } 
-        recon = { x = 0 y = 1 } 
+                               / recon = { x = 0 y = 1 } 
 		engineer = { x = 0 y = 2 } 
 	}
 }
@@ -349,58 +349,52 @@ units = {
 air_wings = {
 	6066 = {
 		fighter_equipment_0 = {
-			owner = "GER" 
+			owner = "FIN" 
 			amount = 96
 		}
 	}
-}
 
-air_wings = {
 	6066 = {
 		tac_bomber_equipment_0 = {
-			owner = "GER" 
+			owner = "FIN" 
 			amount = 24
 		}
 	}
  }
 
 ###生产线###
-nstant_effect = {
+instant_effect = {
+	### Variants ###
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_1
-			creator = "GER"
 		}
 		requested_factories = 3
-		progress = 0.68
+		progress = 0.82
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+		}
+		requested_factories = 1
+		progress = 0.83
 		efficiency = 100
 	}
 	add_equipment_production = {
 		equipment = {
 			type = support_equipment_1
-	
 		}
 		requested_factories = 1
-		progress = 0.60
+		progress = 0.44
 		efficiency = 100
 	}
-
-
-                 add_equipment_production = {
+                add_equipment_production = {
 		equipment = {
-			type = artillery_equipment_1
+			type = fighter_equipment_1
 		}
 		requested_factories = 1
-		progress = 0.68
+		progress = 0.44
 		efficiency = 100
 	}
-  add_equipment_production = {
-		equipment = {
-			type = motorized_equipment_1
-		}
-		requested_factories = 1
-		progress = 0.12
-		efficiency = 50
-	}
-    
 }
