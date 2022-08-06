@@ -13,6 +13,8 @@ if = {
 
 set_research_slots = 4
 
+create_faction = "共产国际"
+
 set_politics = {
 	ruling_party = council_socialism
 	last_election = "1934.6.15"
@@ -21,9 +23,9 @@ set_politics = {
 }
 
 add_ideas = {
-	free_trade
+	Limited_export 
 	limited_conscription
-	partial_economic_mobilisation
+	civilian_economy
 }
 
 add_ideas = {
