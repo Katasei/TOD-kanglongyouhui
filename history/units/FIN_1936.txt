@@ -389,7 +389,7 @@ instant_effect = {
 		progress = 0.44
 		efficiency = 100
 	}
-                add_equipment_production = {
+    add_equipment_production = {
 		equipment = {
 			type = fighter_equipment_1
 		}
