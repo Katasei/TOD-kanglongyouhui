@@ -1,212 +1,212 @@
 units = {
 	fleet = {
-		name = "人民海军"		
+		name = "Volksmarine"		
 		naval_base = 241
 		task_force = {
-			name = "公海舰队"
+			name = "Hochseeflotte"
 			location = 241
-			ship = { name = "VMS 工人国际" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = GER version_name = "工人国际级" } } 
+			ship = { name = "VMS International" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = GER version_name = "International Class" } } 
 				air_wings = {
 						cv_fighter_equipment_0 =  { owner = "GER" amount = 20 }
 						cv_nav_bomber_equipment_1 =  { owner = "GER" amount = 20 }
 				}
 			}
-			ship = { name = "VMS 红色阵线" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = GER version_name = "工人国际级" } } 
+			ship = { name = "VMS Rote Front" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = GER version_name = "International Class" } } 
 				air_wings = {
 						cv_fighter_equipment_0 =  { owner = "GER" amount = 20 }
 						cv_nav_bomber_equipment_1 =  { owner = "GER" amount = 20 }
 				}
 			}	
-			ship = { name = "VMS 卡尔.马克思" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER  version_name = "巴伐利亚级" } } }
-			ship = { name = "VMS 弗雷德里希.恩格斯" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = GER version_name = "巴伐利亚级" } } }
-			ship = { name = "VMS 威廉.李卜克内西" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = GER version_name = "国王级" } } }
-			ship = { name = "VMS 奥古斯特.倍倍尔" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = GER version_name = "国王级" } } }
-			ship = { name = "VMS 弗拉基米尔.列宁" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = GER  version_name = "国王级" } } }
-			ship = { name = "VMS 让·饶勒斯" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = GER version_name = "国王级" } } }
-			ship = { name = "VMS 五一劳动节" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = GER version_name = "凯撒级" } } }
-			ship = { name = "VMS 十一月革命" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = GER version_name = "凯撒级" } } }
-			ship = { name = "VMS 十月革命" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = GER version_name = "凯撒级" } } }
-			ship = { name = "VMS 柏林" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "柏林级" } } }
-			ship = { name = "VMS 基尔" definition = heavy_cruiser equipment = { ship_hull_cruiser_1= { amount = 1 owner = GER version_name = "柏林级" } } }
-			ship = { name = "VMS 科隆" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "科隆级" } } }
-			ship = { name = "VMS 科尼斯堡" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "科隆级" } } }
-			ship = { name = "VMS 莱比锡" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "莱比锡级" } } }
-			ship = { name = "VMS 纽伦堡" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "莱比锡级" } } }
-			ship = { name = "VMS 法兰克福" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "威斯巴登级" } } }
-			ship = { name = "VMS 卡尔斯鲁厄" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "科尼斯堡级" } } }
-			ship = { name = "VMS 埃姆登" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "科尼斯堡级" } } }
-			ship = { name = "VMS V-76" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS V-77" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS V-79" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS V-84" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS V-85" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS V-90" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS G-93" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS G-94" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS G-95" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS G-96" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS V-32" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS V-36" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS V-38" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS V-39" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS V-40" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS V-43" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS G-44" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS G-45" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS G-46" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS G-49" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS V-50" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS V-51" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS V-52" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS V-53" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS V-54" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS G-55" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS G-56" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS G-60" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS G-65" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS V-70" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS V-73" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS V-78" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS V-80" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS V-81" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS G-82" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS G-83" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS G-86" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS G-89" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS G-91" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS G-92" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
+			ship = { name = "VMS Karl Max" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER  version_name = "Bayern Class" } } }
+			ship = { name = "VMS Friedrich Engels" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = GER version_name = "Bayern Class" } } }
+			ship = { name = "VMS Wilhelm Liebknecht" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = GER version_name = "König Class" } } }
+			ship = { name = "VMS August Bebel" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = GER version_name = "König Class" } } }
+			ship = { name = "VMS Vladimir Lenin" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = GER  version_name = "König Class" } } }
+			ship = { name = "VMS Jean Jaures" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = GER version_name = "König Class" } } }
+			ship = { name = "VMS Erster Mai" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = GER version_name = "Kaiser Class" } } }
+			ship = { name = "VMS Novemberrevolution" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = GER version_name = "Kaiser Class" } } }
+			ship = { name = "VMS Oktoberrevolution" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = GER version_name = "Kaiser Class" } } }
+			ship = { name = "VMS Belin" definition = heavy_cruiser equipment = { ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "Berlin Class" } } }
+			ship = { name = "VMS Kiel" definition = heavy_cruiser equipment = { ship_hull_cruiser_panzerschiff= { amount = 1 owner = GER version_name = "Berlin Class" } } }
+			ship = { name = "VMS Köln" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Berlin Class" } } }
+			ship = { name = "VMS Königsberg" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Köln Class" } } }
+			ship = { name = "VMS Leipzig" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Leipzig Class" } } }
+			ship = { name = "VMS Nürnberg" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Leipzig Class" } } }
+			ship = { name = "VMS Frankfurt" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Wiesbaden Class" } } }
+			ship = { name = "VMS Karlsruhe" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Königsberg Class" } } }
+			ship = { name = "VMS Emden" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Königsberg Class" } } }
+			ship = { name = "VMS V-76" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS V-77" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS V-79" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS V-84" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS V-85" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS V-90" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS G-93" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS G-94" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS G-95" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS G-96" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS V-32" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS V-36" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS V-38" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS V-39" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS V-40" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS V-43" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS G-44" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS G-45" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS G-46" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS G-49" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS V-50" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS V-51" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS V-52" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS V-53" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS V-54" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS G-55" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS G-56" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS G-60" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS G-65" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS V-70" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS V-73" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS V-78" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS V-80" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS V-81" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS G-82" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS G-83" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS G-86" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS G-89" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS G-91" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS G-92" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
 		}
 
 		task_force = {
-			name = "北海舰队"
+			name = "Nordseeflotte"
 			location = 6389
-			ship = { name = "VMS 条顿堡森林" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = GER  version_name = "德弗林格尔级"} } }
-			ship = { name = "VMS 莱比锡会战" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = GER version_name = "德弗林格尔级" } } }
-			ship = { name = "VMS 里昂起义" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = GER version_name = "J型重巡洋舰" } } } 
-			ship = { name = "VMS 莱茵河" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "莱茵河级" } } }
-			ship = { name = "VMS 多瑙河" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "莱茵河级" } } }
-			ship = { name = "VMS 奥德河" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "莱茵河级" } } }
-			ship = { name = "VMS 易北河" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "莱茵河级" } } }
-			ship = { name = "VMS V-150" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "1930型驱逐舰" } } }
-			ship = { name = "VMS V-151" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "1930型驱逐舰" } } }
-			ship = { name = "VMS V-152" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "1930型驱逐舰" } } }
-			ship = { name = "VMS V-153" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "1930型驱逐舰" } } }
-			ship = { name = "VMS V-154" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "1930型驱逐舰" } } }
-			ship = { name = "VMS S-37" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS G-40" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS G-41" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS V-42" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS V-47" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS S-48" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS S-57" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS S-58" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS S-59" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS S-61" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS S-62" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS S-63" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS G-64" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS G-66" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS G-67" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS V-68" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS V-69" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS V-70" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS V-71" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS V-72" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS V-74" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS V-75" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS G-97" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS G-98" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS G-99" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS B-105" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS B-106" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS B-107" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
-			ship = { name = "VMS B-108" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1925型驱逐舰" } } }
+			ship = { name = "VMS Varusschlacht" definition = battle_cruiser equipment = {  ship_hull_heavy_1 = { amount = 1 owner = GER  version_name = "Derfflinger Class"} } }
+			ship = { name = "VMS Völkerschlacht bei Leipzig" definition = battle_cruiser equipment = {  ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Derfflinger Class" } } }
+			ship = { name = "VMS Révolte des canuts" definition = battle_cruiser equipment = {  ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Schwere Kreuzer-J Class" } } } 
+			ship = { name = "VMS Rhein" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Rhine Class" } } }
+			ship = { name = "VMS Donau" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Rhine Class" } } }
+			ship = { name = "VMS Oder" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Rhine Class" } } }
+			ship = { name = "VMS Elbe" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Rhine Class" } } }
+			ship = { name = "VMS V-150" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "Zerstörer 1930 Class" } } }
+			ship = { name = "VMS V-151" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "Zerstörer 1930 Class" } } }
+			ship = { name = "VMS V-152" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "Zerstörer 1930 Class" } } }
+			ship = { name = "VMS V-153" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "Zerstörer 1930 Class" } } }
+			ship = { name = "VMS V-154" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "Zerstörer 1930 Class" } } }
+			ship = { name = "VMS S-37" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS G-40" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS G-41" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS V-42" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS V-47" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS S-48" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS S-57" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS S-58" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS S-59" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS S-61" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS S-62" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS S-63" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS G-64" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS G-66" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS G-67" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS V-68" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS V-69" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS V-123" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS V-71" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS V-72" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS V-74" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS V-75" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS G-97" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS G-98" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS G-99" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS B-105" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS B-106" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS B-107" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
+			ship = { name = "VMS B-108" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1925 Class" } } }
 		}
 
 		task_force = {
-			name = "预备舰队"
+			name = "Reservegeschwader"
 			location = 362
-			ship = { name = "VMS 斯巴达克同盟" definition = battleship equipment = { ship_hull_heavy_1  = {amount = 1 owner = GER version_name = "凯撒级" } } }
-			ship = { name = "VMS 先锋" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = GER version_name = "凯撒级" } } }
-			ship = { name = "VMS 西里西亚" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = GER version_name = "德意志级" } } }
-			ship = { name = "VMS 石勒苏益格-赫尔施泰因" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = GER version_name = "德意志级" } } }
-			ship = { name = "VMS 汉堡战役" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = GER version_name = "毛奇级" } } }
-			ship = { name = "VMS 基尔起义" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = GER version_name = "F型重巡洋舰" } } }
-			ship = { name = "VMS 德累斯顿" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "德累斯顿级" } } }
-			ship = { name = "VMS 皮劳" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "皮劳级" } } }
-			ship = { name = "VMS 绿头蝇" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "绿头蝇级" } } }
-			ship = { name = "VMS 牛虻" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "绿头蝇级" } } }
-			ship = { name = "VMS V-100" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS V-101" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS V-102" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS V-103" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS V-104" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS B-109" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS B-110" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS B-111" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS B-112" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS V-125" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS V-126" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS V-127" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS V-128" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS V-129" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS S-131" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS S-132" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS S-136" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS S-137" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS S-138" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
-			ship = { name = "VMS H-145" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "1916型驱逐舰" } } }
+			ship = { name = "VMS Spsrtskusbund" definition = battleship equipment = { ship_hull_heavy_1  = {amount = 1 owner = GER version_name = "Kaiser Class" } } }
+			ship = { name = "VMS Pioniere" definition = battleship equipment = { ship_hull_heavy_1 = {amount = 1 owner = GER version_name = "Kaiser Class" } } }
+			ship = { name = "VMS Schlesien" definition = battleship equipment = { ship_hull_pre_dreadnought = {amount = 1 owner = GER version_name = "Deutschland Class" } } }
+			ship = { name = "VMS Schleswig-Holstein" definition = battleship equipment = { ship_hull_pre_dreadnought = {amount = 1 owner = GER version_name = "Deutschland Class" } } }
+			ship = { name = "VMS Schlacht um Hamburg" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Moltke Class" } } }
+			ship = { name = "VMS Kiel Aufstand" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = GER version_name = "Schwere Kreuzer-F Class" } } }
+			ship = { name = "VMS Dersden" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Dersden Class" } } }
+			ship = { name = "VMS Pillau" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Pillau Class" } } }
+			ship = { name = "VMS Brummer" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Brummer Class" } } }
+			ship = { name = "VMS Bremse" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Brummer Class" } } }
+			ship = { name = "VMS V-100" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS V-101" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS V-102" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS V-103" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS V-104" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS B-109" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS B-110" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS B-111" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS B-112" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS V-125" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS V-126" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS V-127" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS V-128" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS V-129" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS S-131" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS S-132" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS S-136" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS S-137" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS S-138" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
+			ship = { name = "VMS H-145" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Zerstörer 1916 Class" } } }
 		}
 	}
 	
 	fleet = {
-		name = "潜艇舰队"		
+		name = "Unterseeboots Flotte"		
 		naval_base = 241
 		task_force = {
-			name = "第一潜艇大队"
+			name = "I. U-Boots-Flot"
 			location = 241
-			ship = { name = "VMS U-200" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "III型潜艇"} } }
-			ship = { name = "VMS U-201" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "III型潜艇"} } }
-			ship = { name = "VMS U-202" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "III型潜艇"} } }
-			ship = { name = "VMS U-203" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "III型潜艇"} } }
-			ship = { name = "VMS U-204" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "III型潜艇"} } }
-			ship = { name = "VMS U-205" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "III型潜艇"} } }
-			ship = { name = "VMS U-175" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "I型潜艇"} } }
-			ship = { name = "VMS U-176" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "I型潜艇"} } }
-			ship = { name = "VMS U-177" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "I型潜艇"} } }
-			ship = { name = "VMS U-178" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "I型潜艇"} } }
-			ship = { name = "VMS U-179" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "I型潜艇"} } }
-			ship = { name = "VMS U-180" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "I型潜艇"} } }
-			ship = { name = "VMS U-181" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "I型潜艇"} } }
-			ship = { name = "VMS U-182" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "I型潜艇"} } }
-			ship = { name = "VMS U-183" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "I型潜艇"} } }
-			ship = { name = "VMS U-184" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "I型潜艇"} } }
-			ship = { name = "VMS U-185" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "I型潜艇"} } }
-			ship = { name = "VMS U-186" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "I型潜艇"} } }
-			ship = { name = "VMS U-187" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "I型潜艇"} } }
-			ship = { name = "VMS U-188" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "I型潜艇"} } }
-			ship = { name = "VMS U-189" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "I型潜艇"} } }
-			ship = { name = "VMS U-190" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "I型潜艇"} } }
-			ship = { name = "VMS U-191" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "I型潜艇"} } }
+			ship = { name = "VMS U-200" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class"} } }
+			ship = { name = "VMS U-201" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class"} } }
+			ship = { name = "VMS U-202" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class"} } }
+			ship = { name = "VMS U-203" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class"} } }
+			ship = { name = "VMS U-204" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class"} } }
+			ship = { name = "VMS U-205" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type III Class"} } }
+			ship = { name = "VMS U-175" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class"} } }
+			ship = { name = "VMS U-176" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class"} } }
+			ship = { name = "VMS U-177" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class"} } }
+			ship = { name = "VMS U-178" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class"} } }
+			ship = { name = "VMS U-179" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class"} } }
+			ship = { name = "VMS U-180" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class"} } }
+			ship = { name = "VMS U-181" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class"} } }
+			ship = { name = "VMS U-182" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class"} } }
+			ship = { name = "VMS U-183" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class"} } }
+			ship = { name = "VMS U-184" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class"} } }
+			ship = { name = "VMS U-185" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class"} } }
+			ship = { name = "VMS U-186" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class"} } }
+			ship = { name = "VMS U-187" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class"} } }
+			ship = { name = "VMS U-188" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class"} } }
+			ship = { name = "VMS U-189" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class"} } }
+			ship = { name = "VMS U-190" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class"} } }
+			ship = { name = "VMS U-191" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class"} } }
 		}
 		task_force = {
-			name = "第二潜艇大队"
+			name = "II. U-Boots-Flot"
 			location = 6389
-			ship = { name = "VMS U-191" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "I型潜艇"} } }
-			ship = { name = "VMS U-192" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "I型潜艇"} } }
-			ship = { name = "VMS U-193" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "I型潜艇"} } }
-			ship = { name = "VMS U-194" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "I型潜艇"} } }
-			ship = { name = "VMS U-195" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "I型潜艇"} } }
-			ship = { name = "VMS U-142" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "I型潜艇"} } }
-			ship = { name = "VMS U-143" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "I型潜艇"} } }
-			ship = { name = "VMS U-144" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "I型潜艇"} } }
-			ship = { name = "VMS U-145" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "I型潜艇"} } }
-			ship = { name = "VMS U-146" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "I型潜艇"} } }
-			ship = { name = "VMS U-147" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "I型潜艇"} } }
-			ship = { name = "VMS U-148" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "I型潜艇"} } }
-			ship = { name = "VMS U-150" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "I型潜艇"} } }
-			ship = { name = "VMS U-173" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "I型潜艇"} } }
-			ship = { name = "VMS U-174" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "I型潜艇"} } }
+			ship = { name = "VMS U-191" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class"} } }
+			ship = { name = "VMS U-192" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class"} } }
+			ship = { name = "VMS U-193" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class"} } }
+			ship = { name = "VMS U-194" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class"} } }
+			ship = { name = "VMS U-195" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class"} } }
+			ship = { name = "VMS U-142" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class"} } }
+			ship = { name = "VMS U-143" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class"} } }
+			ship = { name = "VMS U-144" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class"} } }
+			ship = { name = "VMS U-145" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class"} } }
+			ship = { name = "VMS U-146" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class"} } }
+			ship = { name = "VMS U-147" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class"} } }
+			ship = { name = "VMS U-148" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class"} } }
+			ship = { name = "VMS U-150" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class"} } }
+			ship = { name = "VMS U-173" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class"} } }
+			ship = { name = "VMS U-174" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type I Class"} } }
 		}
 	}
 }
@@ -216,10 +216,10 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_heavy_2
 			creator = "GER" 
-			version_name = "共和国级"
+			version_name = "Republik Class"
 		}
-		name = "HMS 共和国"
-		requested_factories = 1
+		name = "VMS Republik"
+		requested_factories = 3
 		progress = 0.70
 		amount = 1
 	}
@@ -227,10 +227,10 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_heavy_2
 			creator = "GER" 
-			version_name = "共和国级"
+			version_name = "Republik Class"
 		}
-		name = "HMS 统一"
-		requested_factories = 1
+		name = "VMS Einigkeit"
+		requested_factories = 3
 		progress = 0.65
 		amount = 1
 	}
@@ -238,9 +238,9 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_cruiser_2
 			creator = "GER" 
-			version_name = "汉堡级"
+			version_name = "Hamburg Class"
 		}
-		name = "HMS 汉堡"
+		name = "VMS Hamburg"
 		requested_factories = 1
 		progress = 0.90
 		amount = 1
@@ -249,9 +249,9 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_cruiser_2
 			creator = "GER" 
-			version_name = "汉堡级"
+			version_name = "Hamburg Class"
 		}
-		name = "HMS 吕贝克"
+		name = "VMS Lübeck"
 		requested_factories = 1
 		progress = 0.76
 		amount = 1
@@ -260,9 +260,9 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_light_2
 			creator = "GER" 
-			version_name = "1930型驱逐舰"
+			version_name = "Zerstörer 1930 Class"
 		}
-		name = "HMS S-133"
+		name = "VMS S-133"
 		requested_factories = 1
 		progress = 0.95
 		amount = 1
@@ -271,9 +271,9 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_light_2
 			creator = "GER" 
-			version_name = "1930型驱逐舰"
+			version_name = "Zerstörer 1930 Class"
 		}
-		name = "HMS S-134"
+		name = "VMS S-134"
 		requested_factories = 1
 		progress = 0.80
 		amount = 1
@@ -282,9 +282,9 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_light_2
 			creator = "GER" 
-			version_name = "1930型驱逐舰"
+			version_name = "Zerstörer 1930 Class"
 		}
-		name = "HMS S-135"
+		name = "VMS S-135"
 		requested_factories = 1
 		progress = 0.50
 		amount = 1
@@ -293,9 +293,9 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_submarine_2
 			creator = "GER" 
-			version_name = "III型潜艇"
+			version_name = "Type III Class"
 		}
-		name = "HMS U-206"
+		name = "VMS U-206"
 		requested_factories = 1
 		progress = 0.95
 		amount = 1
@@ -304,9 +304,9 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_submarine_2
 			creator = "GER" 
-			version_name = "III型潜艇"
+			version_name = "Type III Class"
 		}
-		name = "HMS U-207"
+		name = "VMS U-207"
 		requested_factories = 1
 		progress = 0.95
 		amount = 1
@@ -315,9 +315,9 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_submarine_2
 			creator = "GER" 
-			version_name = "III型潜艇"
+			version_name = "Type III Class"
 		}
-		name = "HMS U-208"
+		name = "VMS U-208"
 		requested_factories = 1
 		progress = 0.95
 		amount = 1
