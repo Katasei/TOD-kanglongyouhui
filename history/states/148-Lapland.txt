@@ -12,11 +12,17 @@ state={
 	}
 	history={
 		owner = FIN
+                             victory_points = {
+			          11164 1
+	                                 	}
 		buildings = {
 			infrastructure = 2
-            industrial_complex = 2
-            arms_factory = 1
-        }
+			industrial_complex = 2
+			arms_factory = 1
+			11164 = {
+				naval_base = 1
+			}
+		}
 		add_core_of = FIN
 	}
 
