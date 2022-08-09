@@ -2243,6 +2243,10 @@
  GER_motorized_equipment_1:0 "30式军用机动车"
  GER_motorized_equipment_1_short:0 "Kfz.30"
 
+ #芬兰卡车
+ FIN_motorized_equipment_1:0 "恩格斯-芬兰 166型卡车"
+ FIN_motorized_equipment_1_short:0 "Engels-166"
+
  SWE_motorized_equipment_1:0 "斯堪尼亚-瓦比斯"
  FRA_motorized_equipment_1:0 "雪铁龙 U23"
  ENG_motorized_equipment_1:1 "奥斯丁 K5"
@@ -2559,6 +2563,14 @@
  GER_artillery_equipment_2_short:0 "15cm sFH 36"
  GER_artillery_equipment_3:0 "21cm 41式重型炮架加农炮"
  GER_artillery_equipment_3_short:0 "21cm K.41 Mrs.Laf"
+
+ #芬兰火炮
+ FIN_artillery_equipment_1:0 "76.2mm M1902/30型野战炮"
+ FIN_artillery_equipment_1_short:0 "76.2mm K/02-30"
+ FIN_artillery_equipment_2:0 "107mm M1910/30型野战炮"
+ FIN_artillery_equipment_2_short:0 "107mm K/10-30"
+ FIN_artillery_equipment_3:0 "150mm 42型榴弹炮"
+ FIN_artillery_equipment_3_short:0 "15cm K/42"
 
  ENG_artillery_equipment_1:0 "QF 18磅火炮"
  ENG_artillery_equipment_1_short:0 "QF 18磅火炮"
@@ -2906,14 +2918,26 @@
  AUS_infantry_equipment_2_short:0 "斯太尔 MP34"
  AUS_infantry_equipment_3:0 "斯太尔MG30"
  AUS_infantry_equipment_3_short:0 "斯太尔MG30"
- FIN_infantry_equipment_0:0 "施皮茨M/27"
- FIN_infantry_equipment_0_short:0 "施皮茨M/27"
- FIN_infantry_equipment_1:0 "乌戈-佩卡M/39"
- FIN_infantry_equipment_1_short:0 "乌戈-佩卡M/39"
- FIN_infantry_equipment_2:0 "索米KP/-31"
- FIN_infantry_equipment_2_short:0 "索米KP/-31"
- FIN_infantry_equipment_3:0 "KP m/44"
- FIN_infantry_equipment_3_short:0 "KP m/44"
+
+ ###芬兰步枪
+ FIN_infantry_equipment_0:0 "三线步枪系统 1891-10"
+ FIN_infantry_equipment_0_short:0 "M/91-10"
+ FIN_infantry_equipment_1:0 "莫辛纳甘 M1928-36"
+ FIN_infantry_equipment_1_short:0 "M/28-36"
+ FIN_infantry_equipment_2:0 "索米 KP/-31"
+ FIN_infantry_equipment_2_short:0 "KP/-31"
+ FIN_infantry_equipment_3:0 "索米 KP/-41"
+ FIN_infantry_equipment_3_short:0 "KP/-41"
+ FIN_support_weapons_short:0 "Maxim M/10-21 & 3.2 Inch Stoles-Brandt"
+ FIN_support_weapons:0 "马克西姆1910/27重机枪&3.2英寸“斯托克斯-勃朗特”迫击炮"
+ FIN_support_weapons2_short:0 "LS M/26-33 & 50 Krh/36"
+ FIN_support_weapons2:0 "拉提 M1926/33通用机枪&5cm 36型迫击炮"
+ FIN_support_weapons3_short:0 "LS M/26-38 & 80 Krh/38"
+ FIN_support_weapons3:0 "拉提 M1926/38通用机枪&8cm 38型迫击炮"
+ FIN_support_weapons4_short:0 "MG-42 & 100 Krh/42"
+ FIN_support_weapons4:0 "MG-42通用机枪& 10cm 42型重型迫击炮"
+
+
  HUN_infantry_equipment_0:0 "FEG M95/31"
  HUN_infantry_equipment_0_short:0 "FEG M95/31"
  HUN_infantry_equipment_1:0 "FEG 35M"
