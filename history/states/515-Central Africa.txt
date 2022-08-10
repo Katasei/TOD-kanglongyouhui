@@ -9,7 +9,7 @@ state={
 		owner = FWA
 		add_core_of = NGR
 		buildings = {
-			infrastructure = 1
+			infrastructure = 0
 
 		}
 

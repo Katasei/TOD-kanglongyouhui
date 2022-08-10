@@ -7,7 +7,7 @@ state={
 		owner = IEA
 		add_core_of = ERI
 		buildings = {
-			infrastructure = 4
+			infrastructure = 0
 
 		}
 
