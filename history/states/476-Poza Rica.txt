@@ -13,7 +13,7 @@ state={
 	history={
 		owner = MES
 		buildings = {
-			infrastructure = 3
+			infrastructure = 0
 			air_base = 2
 			arms_factory = 2
 		}

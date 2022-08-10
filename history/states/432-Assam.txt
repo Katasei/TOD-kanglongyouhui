@@ -10,7 +10,7 @@ state={
 		owner = BNG
 		add_core_of = BNG
 		buildings = {
-			infrastructure = 3
+			infrastructure = 0
 
 		}
 
