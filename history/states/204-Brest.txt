@@ -15,7 +15,7 @@ state={
 		}
 		owner = LAB
 		buildings = {
-			infrastructure = 5
+			infrastructure = 1
 		}
 		add_core_of = RUS
 		add_core_of = LAB
