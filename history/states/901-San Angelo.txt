@@ -6,7 +6,7 @@ state = {
 		owner = USM
 		add_core_of = USM
 		buildings = {
-			infrastructure = 4
+			infrastructure = 0
 		}
 		victory_points = {
 			10740 5

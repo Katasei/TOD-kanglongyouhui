@@ -6,7 +6,7 @@ state={
 		owner = KAZ
 		add_core_of = KAZ
 		buildings = {
-			infrastructure = 2
+			infrastructure = 0
 			industrial_complex = 1
 
 		}

@@ -7,7 +7,7 @@ state={
 		add_core_of = ARG
 		owner = PAR
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 
 		}
 

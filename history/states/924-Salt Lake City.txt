@@ -10,7 +10,7 @@ state={
 	history={
 		owner = UTA
 		buildings = {
-			infrastructure = 6
+			infrastructure = 4
 			industrial_complex = 2
 			arms_factory = 2
 

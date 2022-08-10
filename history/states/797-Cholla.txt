@@ -9,7 +9,7 @@ state={
 	history={
 		owner = KOR        		
 		buildings = {
-			infrastructure = 4
+			infrastructure = 1
         		} 
 		victory_points = { 
 			10110 5 

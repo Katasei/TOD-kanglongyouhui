@@ -6,7 +6,7 @@ state = {
 		owner = CRI
 		add_core_of = CRI
 		buildings = {
-			infrastructure = 4
+			infrastructure = 1
 			air_base = 1
 			industrial_complex = 1
 		}

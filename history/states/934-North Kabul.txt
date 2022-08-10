@@ -6,7 +6,7 @@ state={
 	history={
 		owner = TAJ
 		buildings = {
-			infrastructure = 1
+			infrastructure = 0
 			arms_factory = 0
 			industrial_complex = 0
 
