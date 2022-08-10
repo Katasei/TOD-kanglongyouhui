@@ -9,7 +9,7 @@ state={
 	history={
 		owner = ZHR
 		buildings = {
-			infrastructure = 3
+			infrastructure = 0
 			13050 = {
 				naval_base = 1
 			}
