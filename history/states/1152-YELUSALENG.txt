@@ -6,7 +6,7 @@ state={
 	history={
 		owner = SYR
 		buildings = {
-			infrastructure = 5
+			infrastructure = 1
 			4206 = {
 				naval_base = 3
 

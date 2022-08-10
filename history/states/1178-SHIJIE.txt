@@ -5,7 +5,7 @@ state={
 		add_core_of = BRM
 		owner = BRM
 		buildings = {
-			infrastructure = 2
+			infrastructure = 0
 
 		}
 

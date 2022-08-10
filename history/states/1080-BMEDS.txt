@@ -6,7 +6,7 @@ state={
 		owner = FRA
 		add_core_of = ALG
 		buildings = {
-			infrastructure = 4
+			infrastructure = 1
 
 		}
 

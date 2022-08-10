@@ -6,7 +6,7 @@ state={
 		owner = LAN
 		add_core_of = LAN
 		buildings = {
-			infrastructure = 1
+			infrastructure = 0
 
 		}
 

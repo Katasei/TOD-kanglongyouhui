@@ -5,7 +5,7 @@ state={
 	history={
 		owner = ZHR
 		buildings = {
-			infrastructure = 4
+			infrastructure = 0
 			arms_factory = 1
 
 		}

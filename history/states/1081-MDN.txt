@@ -6,7 +6,7 @@ state={
 		owner = FTS
 		add_core_of = TUN
 		buildings = {
-			infrastructure = 3
+			infrastructure = 0
 
 		}
 

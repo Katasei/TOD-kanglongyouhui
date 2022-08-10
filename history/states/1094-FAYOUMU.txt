@@ -5,7 +5,7 @@ state={
 	history={
 		owner = EGY
 		buildings = {
-			infrastructure = 4
+			infrastructure = 0
 			infrastructure = 2
 			industrial_complex = 2
 

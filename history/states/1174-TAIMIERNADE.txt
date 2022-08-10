@@ -5,7 +5,7 @@ state={
 	history={
 		owner = IOF
 		buildings = {
-			infrastructure = 4
+			infrastructure = 1
 
 		}
 	}

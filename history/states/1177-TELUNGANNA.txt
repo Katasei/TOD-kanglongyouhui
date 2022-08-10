@@ -4,7 +4,7 @@ state={
 	history={
 		owner = HYD
 		buildings = {
-			infrastructure = 4
+			infrastructure = 1
 			industrial_complex = 1
 
 		}
