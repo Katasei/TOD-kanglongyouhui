@@ -5,7 +5,7 @@ state={
 		add_core_of = KMG
 		owner = KMG
 		buildings = {
-			infrastructure = 1
+			infrastructure = 0
 		victory_points = {
 			5222 2 
 		}

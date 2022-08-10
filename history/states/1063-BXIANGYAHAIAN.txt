@@ -6,7 +6,7 @@ state={
 		owner = FWA
 		add_core_of = IVO
 		buildings = {
-			infrastructure = 2
+			infrastructure = 0
 
 		}
 

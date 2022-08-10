@@ -6,7 +6,7 @@ state={
 		add_core_of = SCO
 		owner = ENG
 		buildings = {
-			infrastructure = 4
+			infrastructure = 0
 			anti_air_building = 2
 
 		}
