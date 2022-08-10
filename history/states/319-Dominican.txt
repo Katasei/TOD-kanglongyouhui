@@ -13,7 +13,7 @@ state=
 	{
 		owner = HDF
 		buildings = {
-			infrastructure = 4
+			infrastructure = 1
 			arms_factory = 1
 			industrial_complex = 3
 			air_base = 1

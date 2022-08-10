@@ -9,7 +9,7 @@ state={
 	history={
 		owner = FRL
 		buildings = {
-			infrastructure = 7
+			infrastructure = 2
 			industrial_complex = 6
 
 		}

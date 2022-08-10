@@ -14,7 +14,7 @@ state={
 	history={
 		owner = CAN
 		buildings = {
-			infrastructure = 3
+			infrastructure = 0
 
 			12503 = {
 				naval_base = 1
