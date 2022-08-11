@@ -21,7 +21,7 @@ add_ideas = {
 	UKR_fubaichouwen
 }
 set_popularities = {
-	national_corporatism = 27
+	leader_despotism = 27
 	conservative_democracy = 44
 	agroindustrial_socialism = 12
 	vanguard_socialism = 17
