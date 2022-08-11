@@ -22,7 +22,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=national_corporatism_subtype
+			ideology=leader_despotism_subtype
 			desc = "UKR_Simon_Vasilievich_petriula_DESC"
 			traits={  }
 			expire="1965.1.1.1"
