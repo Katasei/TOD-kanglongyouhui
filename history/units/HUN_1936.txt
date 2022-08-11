@@ -39,6 +39,7 @@ division_template = {
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
 		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 4 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
@@ -276,33 +277,33 @@ air_wings = {
 		fighter_equipment_0 = {
 			owner = "HUN" 
 			creator = "FRA"
-				amount = 50
+				amount = 24
 		}
 		fighter_equipment_1 = {
 			owner = "HUN" 
 			creator = "ITA"
-				amount = 50
+				amount = 24
 		}
 	}
 	154 = {
 		CAS_equipment_1 = {
 			owner = "HUN" 
-			amount = 40
+			amount = 36
 		}
 		tac_bomber_equipment_0 = {
 			owner = "HUN" 
 			creator = "ITA"
-			amount = 20
+			amount = 24
 		}
 	}
 	70 = {
 		CAS_equipment_1 = {
 			owner = "HUN" 
-			amount = 40
+			amount = 24
 		}
 		fighter_equipment_1 = {
 			owner = "HUN" 
-			amount = 40
+			amount = 48
 		}
 	}
 }
@@ -315,26 +316,26 @@ instant_effect = {
 			type = infantry_equipment_1
 			creator = "HUN"
 		}
-		requested_factories = 4
+		requested_factories = 3
 		progress = 0.68
 		efficiency = 100
 	}
 	
 	add_equipment_production = {
 		equipment = {
-			type = light_tank_equipment_1
-			creator = "HUN"
+			type = light_tank_chassis_1
+			version_name = "Toldi tartály I.típusa"
 		}
 		requested_factories = 1
-		progress = 0.68
-		efficiency = 100
+		progress = 0.59
+		efficiency = 50
 	}
 	add_equipment_production = {
 		equipment = {
 			type = support_equipment_1
 			creator = "HUN"
 		}
-		requested_factories = 3
+		requested_factories = 1
 		progress = 0.60
 		efficiency = 100
 	}
@@ -349,7 +350,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = CSA1_equipment_1
+			type = CAS_equipment_1
 			creator = "HUN"
 		}
 		requested_factories = 1
@@ -361,7 +362,7 @@ instant_effect = {
 			type = artillery_equipment_1
 			creator = "HUN"
 		}
-		requested_factories = 3
+		requested_factories = 2
 		progress = 0.60
 		efficiency = 100
 	}
