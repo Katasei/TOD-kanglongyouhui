@@ -59,7 +59,17 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		
-		cost = 1
+		select_effect = {
+			hidden_effect = {
+				country_event = { id = TODUkraine.1 days = 15 }
+				country_event = { id = TODUkraine.2 days = 30 }
+				country_event = { id = TODUkraine.3 days = 45 }
+				country_event = { id = TODUkraine.4 days = 60 }
+				country_event = { id = TODUkraine.5 days = 75 }
+			}
+		}
+		
+		cost = 13
 		
 		ai_will_do = {factor = 10}
 		available = {}
