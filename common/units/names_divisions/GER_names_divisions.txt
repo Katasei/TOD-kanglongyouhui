@@ -8,137 +8,35 @@ GER_INF_01 = {
 
 	division_types = { "infantry" }
 
-	fallback_name = "%d.VA Infanterie-Division"
+	fallback_name = "%d. VA Infanterie-Division"
 
 	ordered ={
-		1 = { "%d.VA Infanterie-Division" }		
-		2 = { "%d.VA Infanterie-Division" }
-		3 = { "%d.VA Infanterie-Division" }
-		4 = { "%d.VA Infanterie-Division" }
-		5 = { "%d.VA Infanterie-Division" }
-		6 = { "%d.VA Infanterie-Division" }
-		7 = { "%d.VA Infanterie-Division" }
-		8 = { "%d.VA Infanterie-Division" }
-		9 = { "%d.VA Infanterie-Division" }
-		10 = { "%d.VA Infanterie-Division" }
-		11 = { "%d.VA Infanterie-Division" }
-		12 = { "%d.VA Infanterie-Division" }
-		13 = { "%d.VA Infanterie-Division" }
-		14 = { "%d.VA Infanterie-Division" }
-		15 = { "%d.VA Infanterie-Division" }
-		16 = { "%d.VA Infanterie-Division" }		
-		17 = { "%d.VA Infanterie-Division" }
-		18 = { "%d.VA Infanterie-Division" }
-		19 = { "%d.VA Infanterie-Division" }
-		20 = { "%d.VA Infanterie-Division" }
-		21 = { "%d.VA Infanterie-Division" }
-		22 = { "%d.VA Infanterie-Division" }
-		23 = { "%d.VA Infanterie-Division" }		
-		24 = { "%d.VA Infanterie-Division" }
-		25 = { "%d.VA Infanterie-Division" }
-		26 = { "%d.VA Infanterie-Division" }
-		27 = { "%d.VA Infanterie-Division" }
-		28 = { "%d.VA Infanterie-Division" }
-		29 = { "%d.VA Infanterie-Division" }
-		30 = { "%d.VA Infanterie-Division" }
-		31 = { "%d.VA Infanterie-Division" }
-		32 = { "%d.VA Infanterie-Division" }
-		33 = { "%d.VA Infanterie-Division" }
-		34 = { "%d.VA Infanterie-Division" }
-		35 = { "%d.VA Infanterie-Division" }
-		36 = { "%d.VA Infanterie-Division" }
-		37 = { "%d.VA Infanterie-Division" }
-		38 = { "%d.VA Infanterie-Division" }
-		39 = { "%d.VA Infanterie-Division" }
-		40 = { "%d.VA Infanterie-Division" }
-		41 = { "%d.VA Infanterie-Division" }
-		42 = { "%d.VA Infanterie-Division" }
-		43 = { "%d.VA Infanterie-Division" }
-		44 = { "%d.VA Infanterie-Division" }	
-		45 = { "%d.VA Infanterie-Division" }
-		46 = { "%d.VA Infanterie-Division" }
-		47 = { "%d.VA Infanterie-Division" }
-		48 = { "%d.VA Infanterie-Division" }
-		49 = { "%d.VA Infanterie-Division" }
-		50 = { "%d.VA Infanterie-Division" }
-		51 = { "%d.VA Infanterie-Division" }
-		52 = { "%d.VA Infanterie-Division" }
-		53 = { "%d.VA Infanterie-Division" }
-		54 = { "%d.VA Infanterie-Division" }
-		55 = { "%d.VA Infanterie-Division" }
-		56 = { "%d.VA Infanterie-Division" }
-		57 = { "%d.VA Infanterie-Division" }
-		58 = { "%d.VA Infanterie-Division" }
-		59 = { "%d.VA Infanterie-Division" }
-		60 = { "%d.VA Infanterie-Division" }
-		61 = { "%d.VA Infanterie-Division" }
-		62 = { "%d.VA Infanterie-Division" }
-		63 = { "%d.VA Infanterie-Division" }
-		64 = { "%d.VA Infanterie-Division" }
-		65 = { "%d.VA Infanterie-Division" }
-		66 = { "%d.VA Infanterie-Division" }
-		67 = { "%d.VA Infanterie-Division" }
-		68 = { "%d.VA Infanterie-Division" }
-		69 = { "%d.VA Infanterie-Division" }
-		70 = { "%d.VA Infanterie-Division" }
-		71 = { "%d.VA Infanterie-Division" }
-		72 = { "%d.VA Infanterie-Division" }
-		73 = { "%d.VA Infanterie-Division" }
-		74 = { "%d.VA Infanterie-Division" }
-		75 = { "%d.VA Infanterie-Division" }
-		76 = { "%d.VA Infanterie-Division" }
-		77 = { "%d.VA Infanterie-Division" }
-		78 = { "%d.VA Infanterie-Division" }
-		79 = { "%d.VA Infanterie-Division" }
-		80 = { "%d.VA Infanterie-Division" }
-		81 = { "%d.VA Infanterie-Division" }
-		82 = { "%d.VA Infanterie-Division" }
-		83 = { "%d.VA Infanterie-Division" }
-		84 = { "%d.VA Infanterie-Division" }
-		85 = { "%d.VA Infanterie-Division" }
-		86 = { "%d.VA Infanterie-Division" }
-		87 = { "%d.VA Infanterie-Division" }
-		88 = { "%d.VA Infanterie-Division" }
-		89 = { "%d.VA Infanterie-Division" }
-		90 = { "%d.VA Infanterie-Division" }
-		91 = { "%d.VA Infanterie-Division" }
-		92 = { "%d.VA Infanterie-Division" }
-		93 = { "%d.VA Infanterie-Division" }
-		94 = { "%d.VA Infanterie-Division" }
-		95 = { "%d.VA Infanterie-Division" }
-		96 = { "%d.VA Infanterie-Division" }
-		97 = { "%d.VA Infanterie-Division" }
-		98 = { "%d.VA Infanterie-Division" }
-		99 = { "%d.VA Infanterie-Division" }
-		100 = { "%d.VA Infanterie-Division" }
-		101 = { "%d.VA Infanterie-Division" }
-		102 = { "%d.VA Infanterie-Division" }
-		103 = { "%d.VA Infanterie-Division" }
-		104 = { "%d.VA Infanterie-Division" }
-		105 = { "%d.VA Infanterie-Division" }
-		106 = { "%d.VA Infanterie-Division" }
-		107 = { "%d.VA Infanterie-Division" }
-		108 = { "%d.VA Infanterie-Division" }
-		109 = { "%d.VA Infanterie-Division" }
-		110 = { "%d.VA Infanterie-Division" }
-		111 = { "%d.VA Infanterie-Division" }
-		112 = { "%d.VA Infanterie-Division" }
-		113 = { "%d.VA Infanterie-Division" }
-		114 = { "%d.VA Infanterie-Division" }
-		115 = { "%d.VA Infanterie-Division" }
-		116 = { "%d.VA Infanterie-Division" }
-		117 = { "%d.VA Infanterie-Division" }
-		118 = { "%d.VA Infanterie-Division" }
-		119 = { "%d.VA Infanterie-Division" }
-		120 = { "%d.VA Infanterie-Division" }
-		121 = { "%d.VA Infanterie-Division" }
-		122 = { "%d.VA Infanterie-Division" }
-		123 = { "%d.VA Infanterie-Division" }
-		124 = { "%d.VA Infanterie-Division" }
-		125 = { "%d.VA Infanterie-Division" }
-		126 = { "%d.VA Infanterie-Division" }
-		127 = { "%d.VA Infanterie-Division" }
-
+		1 = { "%d. VA Infanterie-Division" }		
+		2 = { "%d. VA Infanterie-Division" }
+		3 = { "%d. VA Infanterie-Division" }
+		4 = { "%d. VA Infanterie-Division" }
+		5 = { "%d. VA Infanterie-Division" }
+		6 = { "%d. VA Infanterie-Division" }
+		7 = { "%d. VA Infanterie-Division" }
+		8 = { "%d. VA Infanterie-Division" }
+		9 = { "%d. VA Infanterie-Division" }
+		10 = { "%d. VA Infanterie-Division" }
+		11 = { "%d. VA Infanterie-Division" }
+		12 = { "%d. VA Infanterie-Division" }
+		13 = { "%d. VA Infanterie-Division" }
+		14 = { "%d. VA Infanterie-Division" }
+		15 = { "%d. VA Infanterie-Division" }
+		16 = { "%d. VA Infanterie-Division" }		
+		17 = { "%d. VA Infanterie-Division" }
+		18 = { "%d. VA Infanterie-Division" }
+		19 = { "%d. VA Infanterie-Division" }
+		20 = { "%d. VA Infanterie-Division" }
+		21 = { "%d. VA Infanterie-Division" }
+		22 = { "%d. VA Infanterie-Division" }
+		23 = { "%d. VA Infanterie-Division" }		
+		24 = { "%d. VA Infanterie-Division" }
+		25 = { "%d. VA Infanterie-Division" }
+		
 	}
 }
 
@@ -267,7 +165,7 @@ GER_MON_01 =
 #摩托化
 GER_KAF_01 = 
 {
-	name = "Motorized Divisions"
+	name = "Kraftwagen-Division"
 
 	for_countries = { GER }
 
@@ -275,28 +173,31 @@ GER_KAF_01 =
 
 	division_types = { "motorized"  }
 
-	fallback_name = "%d. Kraftwagen-Division"
+	fallback_name = "%d. VA Kraftwagen-Division"
 
 
 	# Names with numbers (only one number per entry)
 	ordered =
 	{
-		2 = { "%d. Kraftwagen Division" }
-                                4 = { "%d. Kraftwagen Division'Clara.Zetkin'" }
-		13 = { "%d. Kraftwagen Division" }
-		20 = { "%d. Kraftwagen Division" }
-		29 = { "%d. Kraftwagen Division" }
-		16 = { "%d. Kraftwagen Division" }
-		60 = { "%d. Kraftwagen Division" }
-		14 = { "%d. Kraftwagen Division" }
-		3 = { "%d. Kraftwagen Division" }
-		18 = { "%d. Kraftwagen Division" }
-		36 = { "%d. Kraftwagen Division" }
-		10 = { "%d. Kraftwagen Division" }
-		25 = { "%d. Kraftwagen Division" }
-		90 = { "%d. Kraftwagen Division" }
-		932 = { "%d. Kraftwagen Division" }
-		164 = { "%d. Kraftwagen Division" }
+                                1 = { "%d. VA Kraftwagen Division" }  
+		2 = { "%d. VA Kraftwagen Division" }
+                                3 = { "%d. VA Kraftwagen Division" }
+                                4 = { "%d. VA Kraftwagen Division'Clara.Zetkin'" }
+                                 5 = { "%d. VA Kraftwagen Division" }
+                                 6 = { "%d. VA Kraftwagen Division" }
+		13 = { "%d. VA Kraftwagen Division" }
+		20 = { "%d. VA Kraftwagen Division" }
+		29 = { "%d. VA Kraftwagen Division" }
+		16 = { "%d. VA Kraftwagen Division" }
+		60 = { "%d. VA Kraftwagen Division" }
+		14 = { "%d. VA Kraftwagen Division" }
+		18 = { "%d. VA Kraftwagen Division" }
+		36 = { "%d. VA Kraftwagen Division" }
+		10 = { "%d. VA Kraftwagen Division" }
+		25 = { "%d. VA Kraftwagen Division" }
+		90 = { "%d. VA Kraftwagen Division" }
+		932 = { "%d. VA Kraftwagen Division" }
+		164 = { "%d. VA Kraftwagen Division" }
 
 	}
 }
@@ -304,7 +205,7 @@ GER_KAF_01 =
 #陆战队
 GER_SEE_01 = 
 {
-	name = "Marine Divisions"
+	name = "Seeman Brigade"
 
 	for_countries = { GER }
 
@@ -374,35 +275,35 @@ GER_PAZ_01 =
 	# Names with numbers (only one number per entry)
 	ordered =
 	{
-		1 = { "%d.VA Panzer-Division" }
-		2 = { "%d.VA  Panzer-Division" }
-		3 = { "%d.VA Panzer-Division" }
-		4 = { "%d.VA Panzer-Division" }
-		5 = { "%d.VA Panzer-Division" }
-		10 = { "%d.VA Panzer-Division" }
-		8 = { "%d.VA Panzer-Division" }
-		6 = { "%d.VA Panzer-Division" }
-		7 = { "%d.VA Panzer-Division" }
-		9 = { "%d.VA Panzer-Division" }
-		11 = { "%d.VA Panzer-Division" }
-		14 = { "%d.VA Panzer-Division" }
-		12 = { "%d.VA Panzer-Division" }
-		13 = { "%d.VA Panzer-Division" }
-		20 = { "%d.VA Panzer-Division" }
-		18 = { "%d.VA Panzer-Division" }
-		15 = { "%d.VA Panzer-Division" }
-		16 = { "%d.VA Panzer-Division" }
-		17 = { "%d.VA Panzer-Division" }
-		19 = { "%d.VA Panzer-Division" }
-		21 = { "%d.VA Panzer-Division" }
-		23 = { "%d.VA Panzer-Division" }
-		22 = { "%d.VA Panzer-Division" }
-		24 = { "%d.VA Panzer-Division" }
-		25 = { "%d.VA Panzer-Division" }
-		26 = { "%d.VA Panzer-Division" }
-		27 = { "%d.VA Panzer-Division" }
-		116 = { "%d.VA Panzer-Division" }
-		232 = { "%d.VA Panzer-Division" }
+		1 = { "%d. VA Panzer-Division" }
+		2 = { "%d. VA  Panzer-Division" }
+		3 = { "%d. VA Panzer-Division" }
+		4 = { "%d. VA Panzer-Division" }
+		5 = { "%d. VA Panzer-Division" }
+		10 = { "%d. VA Panzer-Division" }
+		8 = { "%d. VA Panzer-Division" }
+		6 = { "%d. VA Panzer-Division" }
+		7 = { "%d. VA Panzer-Division" }
+		9 = { "%d. VA Panzer-Division" }
+		11 = { "%d. VA Panzer-Division" }
+		14 = { "%d. VA Panzer-Division" }
+		12 = { "%d. VA Panzer-Division" }
+		13 = { "%d. VA Panzer-Division" }
+		20 = { "%d. VA Panzer-Division" }
+		18 = { "%d. VA Panzer-Division" }
+		15 = { "%d. VA Panzer-Division" }
+		16 = { "%d. VA Panzer-Division" }
+		17 = { "%d. VA Panzer-Division" }
+		19 = { "%d. VA Panzer-Division" }
+		21 = { "%d. VA Panzer-Division" }
+		23 = { "%d. VA Panzer-Division" }
+		22 = { "%d. VA Panzer-Division" }
+		24 = { "%d. VA Panzer-Division" }
+		25 = { "%d. VA Panzer-Division" }
+		26 = { "%d. VA Panzer-Division" }
+		27 = { "%d. VA Panzer-Division" }
+		116 = { "%d. VA Panzer-Division" }
+		232 = { "%d. VA Panzer-Division" }
 	
 
 	}
@@ -410,49 +311,85 @@ GER_PAZ_01 =
 
 GER_PAZ_02 = 
 {
-	name = "Light Panzer Divisions"
+	name = "Leichter Panzer-Division"
 
 	for_countries = { GER }
 
 	can_use = { always = yes }
 
-	division_types = {  "Light_armor" }
+	division_types = {  "Light_armor" "mechanized" }
 
-	fallback_name = "%d.VA Panzer-Division"
+	fallback_name = "%d.VA Leichter Panzer-Division"
 
 	# Names with numbers (only one number per entry)
 	ordered =
 	{
-		1 = { "%d.VA Leichter Panzer-Division" }
-		2 = { "%d.VA  Leichter Panzer-Division" }
-		3 = { "%d.VA Leichter Panzer-Division" }
-		4 = { "%d.VA Leichter Panzer-Division" }
-		5 = { "%d.VA Leichter Panzer-Division" }
-		10 = { "%d.VA Leichter Panzer-Division" }
-		8 = { "%d.VA Leichter Panzer-Division" }
-		6 = { "%d.VA Leichter Panzer-Division" }
-		7 = { "%d.VA Leichter Panzer-Division" }
-		9 = { "%d.VA Leichter Panzer-Division" }
-		11 = { "%d.VA Leichter Panzer-Division" }
-		14 = { "%d.VA Leichter Panzer-Division" }
-		12 = { "%d.VA Leichter Panzer-Division" }
-		13 = { "%d.VA Leichter Panzer-Division" }
-		20 = { "%d.VA Leichter Panzer-Division" }
-		18 = { "%d.VA Leichter Panzer-Division" }
-		15 = { "%d.VA Leichter Panzer-Division" }
-		16 = { "%d.VA Leichter Panzer-Division" }
-		17 = { "%d.VA Leichter Panzer-Division" }
-		19 = { "%d.VA Leichter Panzer-Division" }
-		21 = { "%d.VA Leichter Panzer-Division" }
-		23 = { "%d.VA Leichter Panzer-Division" }
-		22 = { "%d.VA Leichter Panzer-Division" }
-		24 = { "%d.VA Leichter Panzer-Division" }
-		25 = { "%d.VA Leichter Panzer-Division" }
-		26 = { "%d.VA Leichter Panzer-Division" }
-		27 = { "%d.VA Leichter Panzer-Division" }
-		116 = { "%d.VA Leichter Panzer-Division" }
-		232 = { "%d.VA Leichter Panzer-Division" }
+		1 = { "%d. VA Leichter Panzer-Division" }
+		2 = { "%d. VA  Leichter Panzer-Division" }
+		3 = { "%d. VA Leichter Panzer-Division" }
+		4 = { "%d. VA Leichter Panzer-Division" }
+		5 = { "%d. VA Leichter Panzer-Division" }
+		10 = { "%d. VA Leichter Panzer-Division" }
+		8 = { "%d. VA Leichter Panzer-Division" }
+		6 = { "%d. VA Leichter Panzer-Division" }
+		7 = { "%d. VA Leichter Panzer-Division" }
+		9 = { "%d. VA Leichter Panzer-Division" }
+		11 = { "%d. VA Leichter Panzer-Division" }
+		14 = { "%d. VA Leichter Panzer-Division" }
+		12 = { "%d. VA Leichter Panzer-Division" }
+		13 = { "%d. VA Leichter Panzer-Division" }
+		20 = { "%d. VA Leichter Panzer-Division" }
+		18 = { "%d. VA Leichter Panzer-Division" }
+		15 = { "%d. VA Leichter Panzer-Division" }
+		16 = { "%d. VA Leichter Panzer-Division" }
+		17 = { "%d. VA Leichter Panzer-Division" }
+		19 = { "%d. VA Leichter Panzer-Division" }
+		21 = { "%d. VA Leichter Panzer-Division" }
+		23 = { "%d. VA Leichter Panzer-Division" }
+		22 = { "%d. VA Leichter Panzer-Division" }
+		24 = { "%d. VA Leichter Panzer-Division" }
+		25 = { "%d. VA Leichter Panzer-Division" }
+		26 = { "%d. VA Leichter Panzer-Division" }
+		27 = { "%d. VA Leichter Panzer-Division" }
+		116 = { "%d. VA Leichter Panzer-Division" }
+		232 = { "%d. VA Leichter Panzer-Division" }
 	
 
+	}
+}
+
+### 空降师
+
+GER_PAR_01 = 
+{
+	name = "VA Fallschirm-Division"
+
+	for_countries = { GER }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper"  }
+
+	fallback_name = "%d. VA Fallschirm-Division"
+
+	# Names with numbers (only one number per entry)
+	ordered =
+	{
+		1 = { "%d. VA Fallschirm-Division" }
+		2 = { "%d. VA Fallschirm-Division" }
+		3 = { "%d. VA Fallschirm-Division" }
+		4 = { "%d. VA Fallschirm-Division" }
+		5 = { "%d. VA Fallschirm-Division" }
+		6 = { "%d. VA Fallschirm-Division" }
+		7 = { "%d. VA Fallschirm-Division" }
+		8 = { "%d. VA Fallschirm-Division" }
+		9 = { "%d. VA Fallschirm-Division" }
+		10 = { "%d. VA Fallschirm-Division" }
+		11 = { "%d. VA Fallschirm-Division" }
+		20 = { "%d. VA Fallschirm-Division" }
+		
+		# sadly had to leave out 7. Flieger-Division, the original name of 1. FJD, as it wouldn't be worth the interface clutter to have an alternate name list with one division in it. Put it first in the name list despite formally receiving the 1. FJD designation after 2. Fallschirm-Division was formed, so at least it gets built first. 
+		# considered making 5th Division and above actually part of the infantry list since historically they had almost no jump trained personnel, but since this would conflict with players who might invest in a larger than historical airborne arm, decided against this.
+		# deleted Fallschirm-Division Erdmann as it was an unusually large Kampfgruppe raised in response to an operational crisis (Market-Garden), and not a properly planned and raised division. It was soon renamed 7. FJD.
 	}
 }

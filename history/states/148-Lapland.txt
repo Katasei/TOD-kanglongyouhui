@@ -4,7 +4,7 @@ state={
 	name="STATE_148"
 	manpower = 121737
 	
-	state_category = rural
+	state_category = large_town
 	
 	resources={
 		steel=7 # was: 8
@@ -12,8 +12,16 @@ state={
 	}
 	history={
 		owner = FIN
+                             victory_points = {
+			          11164 1
+	                                 	}
 		buildings = {
-			infrastructure = 0
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			11164 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = FIN
 	}
