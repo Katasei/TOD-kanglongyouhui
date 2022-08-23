@@ -4,26 +4,33 @@
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
-@@ -9,8 +10,8 @@
-		infantry = { x = 0 y = 4 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
-		infantry = { x = 1 y = 3 }
-		artillery_brigade = { x = 1 y = 2 }
-		artillery_brigade = { x = 1 y = 3 }
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
-@@ -19,6 +20,7 @@
+        artillery = { x = 0 y = 1 }
+		}
 }
+
 division_template = {
 	name = "Reservfördelningen" 					#步兵师
-	division_names_group = SWE_RF_01
+	division_names_group = SWE_GAR_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
-@@ -34,6 +36,7 @@ division_template = {
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+          }
 }
 division_template = {
 	name = "Kavallerfördelningen" 					#骑兵师
@@ -31,7 +38,15 @@ division_template = {
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
-@@ -49,6 +52,7 @@ division_template = {
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		}
+		support = {
+        recon = { x = 0 y = 0 }
+       }
 }
 division_template = {
 	name = "Motoriserfördelningen" 					#摩托师
@@ -39,39 +54,33 @@ division_template = {
 
 	regiments = {
 		motorized = { x = 0 y = 0 }
-@@ -60,24 +64,12 @@ division_template = {
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
 	}
 	support = {
 		artillery = { x = 0 y = 0 }
-		light_armor = { x = 0 y = 1 }
 	}
 }
-division_template = {
-	name = "Oreiní Merarchía Pezikoú" 					#山地师
 
-	regiments = {
-		mountaineers = { x = 0 y = 0 }
-		mountaineers = { x = 0 y = 1 }
-		mountaineers = { x = 0 y = 2 }
-		mountaineers = { x = 1 y = 0 }
-		mountaineers = { x = 1 y = 1 }
-		mountaineers = { x = 1 y = 2 }
-		light_tank_recon = { x = 0 y = 1 }
-	}
-}
 
 division_template = {
 	name = "Pansarregemente"					#坦克师
-	division_names_group = SWE_PG_01
+	division_names_group = SWE_ARM_01
 
 	regiments = {
 		light_armor = { x = 0 y = 0 }
-@@ -89,12 +81,13 @@ division_template = {
+		medium_armor = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
 	}
 	support = {
 		artillery = { x = 0 y = 0 }
-		light_armor = { x = 0 y = 1 }
 		light_tank_recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
 	}
 }
 
@@ -81,8 +90,16 @@ division_template = {
 
 	regiments = {
 		marine = { x = 0 y = 0 } 
-@@ -110,158 +103,314 @@ division_template = {
-}
+		marine = { x = 0 y = 1 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		}
+		support = {
+		recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+	}
+ }
+
 units = {
 	division= {	
 		division_name = {
@@ -90,7 +107,8 @@ units = {
 			name_order = 1
 		}
 		location = 6050
-		division_template = "Arméfördelningen" 
+		division_template = "Arméfördelningen"
+        start_experience_factor = 0.1 
 	}
 	division= {	
 		division_name = {
@@ -99,6 +117,7 @@ units = {
 		}
 		location = 6050
 		division_template = "Arméfördelningen" 
+		start_experience_factor = 0.1
 	}
 	division= {	
 		division_name = {
@@ -106,7 +125,8 @@ units = {
 			name_order = 3
 		}
 		location = 6209
-		division_template = "Arméfördelningen" 
+		division_template = "Arméfördelningen"
+        start_experience_factor = 0.1		
 	}
 	division= {	
 		division_name = {
@@ -114,7 +134,8 @@ units = {
 			name_order = 4
 		}
 		location = 161
-		division_template = "Arméfördelningen" 
+		division_template = "Arméfördelningen"
+        start_experience_factor = 0.1		
 	}
 	division= {	
 		division_name = {
@@ -123,14 +144,17 @@ units = {
 		}
 		location = 6345
 		division_template = "Arméfördelningen" 
+		start_experience_factor = 0.1
 	}
 	division= {	
 		division_name = {
 			is_name_ordered = yes
 			name_order = 6
+			
 		}
 		location = 6345
 		division_template = "Arméfördelningen" 
+		start_experience_factor = 0.1
 	}
 	division= {	
 		division_name = {
@@ -139,6 +163,7 @@ units = {
 		}
 		location = 9279
 		division_template = "Arméfördelningen" 
+		start_experience_factor = 0.1
 	}
 	division= {	
 		division_name = {
@@ -147,6 +172,7 @@ units = {
 		}
 		location = 9108
 		division_template = "Arméfördelningen" 
+		start_experience_factor = 0.1
 	}
 	division= {	
 		division_name = {
@@ -155,6 +181,7 @@ units = {
 		}
 		location = 9108
 		division_template = "Arméfördelningen" 
+		start_experience_factor = 0.1
 	}
 	division= {	
 		division_name = {
@@ -163,14 +190,16 @@ units = {
 		}
 		location = 156
 		division_template = "Arméfördelningen" 
+		start_experience_factor = 0.1
 	}
 	division= {	
 		division_name = {
 			is_name_ordered = yes
 			name_order = 11
 		}
-		location = 9173
+		location = 130
 		division_template = "Arméfördelningen" 
+		start_experience_factor = 0.1
 	}
 	division= {	
 		division_name = {
@@ -179,6 +208,7 @@ units = {
 		}
 		location = 9141
 		division_template = "Arméfördelningen" 
+		start_experience_factor = 0.1
 	}
 	division= {	
 		division_name = {
@@ -187,6 +217,7 @@ units = {
 		}
 		location = 11215
 		division_template = "Arméfördelningen" 
+		start_experience_factor = 0.1
 	}
 	division= {	
 		division_name = {
@@ -194,7 +225,8 @@ units = {
 			name_order = 14
 		}
 		location = 383
-		division_template = "Arméfördelningen" 
+		division_template = "Arméfördelningen"
+        start_experience_factor = 0.1		
 	}
 	division= {	
 		division_name = {
@@ -203,6 +235,7 @@ units = {
 		}
 		location = 11380
 		division_template = "Arméfördelningen" 
+		start_experience_factor = 0.1
 	}
 	division= {	
 		division_name = {
@@ -211,6 +244,7 @@ units = {
 		}
 		location = 11380
 		division_template = "Arméfördelningen" 
+		start_experience_factor = 0.1
 	}
 	division= {	
 		division_name = {
@@ -219,6 +253,7 @@ units = {
 		}
 		location = 242
 		division_template = "Arméfördelningen" 
+		start_experience_factor = 0.1
 	}
 	division= {	
 		division_name = {
@@ -227,6 +262,7 @@ units = {
 		}
 		location = 147
 		division_template = "Arméfördelningen" 
+		start_experience_factor = 0.1
 	}
 	division= {	
 		division_name = {
@@ -235,14 +271,16 @@ units = {
 		}
 		location = 69
 		division_template = "Arméfördelningen" 
+		start_experience_factor = 0.1
 	}
 	division= {	
 		division_name = {
 			is_name_ordered = yes
 			name_order = 20
 		}
-		location = 6084
+		location = 6412
 		division_template = "Arméfördelningen" 
+		start_experience_factor = 0.1
 	}
 	division= {	
 		division_name = {
@@ -251,6 +289,7 @@ units = {
 		}
 		location = 6170
 		division_template = "Reservfördelningen" 
+		start_experience_factor = 0.1
 	}
 	division= {	
 		division_name = {
@@ -259,6 +298,7 @@ units = {
 		}
 		location = 61
 		division_template = "Reservfördelningen" 
+		start_experience_factor = 0.1
 	}
 	division= {	
 		division_name = {
@@ -267,6 +307,7 @@ units = {
 		}
 		location = 201
 		division_template = "Reservfördelningen" 
+		start_experience_factor = 0.1
 	}
 	division= {	
 		division_name = {
@@ -275,6 +316,7 @@ units = {
 		}
 		location = 6168
 		division_template = "Reservfördelningen" 
+		start_experience_factor = 0.1
 	}
 	division= {	
 		division_name = {
@@ -283,6 +325,7 @@ units = {
 		}
 		location = 6208
 		division_template = "Reservfördelningen" 
+		start_experience_factor = 0.1
 	}
 	division= {	
 		division_name = {
@@ -291,6 +334,7 @@ units = {
 		}
 		location = 9147
 		division_template = "Reservfördelningen" 
+		start_experience_factor = 0.1
 	division= {	
 		division_name = {
 			is_name_ordered = yes
@@ -298,6 +342,7 @@ units = {
 		}
 		location = 6152
 		division_template = "Reservfördelningen" 
+		start_experience_factor = 0.1
 	}
 	division= {	
 		division_name = {
@@ -306,6 +351,7 @@ units = {
 		}
 		location = 9066
 		division_template = "Reservfördelningen" 
+		start_experience_factor = 0.1
 	}
 	}
 	division= {	
@@ -315,6 +361,7 @@ units = {
 		}
 		location = 6345
 		division_template = "Kavallerfördelningen" 
+		start_experience_factor = 0.1
 	}
 	division= {	
 		division_name = {
@@ -322,7 +369,8 @@ units = {
 			name_order = 2
 		}
 		location = 202
-		division_template = "Kavallerfördelningen" 
+		division_template = "Kavallerfördelningen"
+        start_experience_factor = 0.1		
 	}
 	division= {	
 		division_name = {
@@ -331,6 +379,7 @@ units = {
 		}
 		location = 9068
 		division_template = "Kavallerfördelningen" 
+		start_experience_factor = 0.1
 	}
 	division= {	
 		division_name = {
@@ -339,14 +388,16 @@ units = {
 		}
 		location = 6084
 		division_template = "Kavallerfördelningen" 
+		start_experience_factor = 0.1
 	}
 	division= {	
 		division_name = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 6084
-		division_template = "Motoriserfördelningen" 
+		location = 9149
+		division_template = "Motoriserfördelningen"
+        start_experience_factor = 0.1		
 	}
 	division= {	
 		division_name = {
@@ -355,46 +406,47 @@ units = {
 		}
 		location = 11311
 		division_template = "Motoriserfördelningen" 
+		start_experience_factor = 0.1
 	}
 	division= {	
-		division_name = {
-			is_name_ordered = yes
-			name_order = 1
-		}
+		 name = "Kungliga Göta Pansarlivgarde"
 		location = 11114
-		division_template = "Pansarregemente" 
+		division_template = "Pansarregemente"
+        start_experience_factor = 0.5		
 	}
 	division= {	
-		division_name = {
+                               division_name = {
 			is_name_ordered = yes
 			name_order = 1
 		}
 		location = 9108
 		division_template = "Kustjägarfördelningen" 
+		start_experience_factor = 0.1
+	}
+	division= {	
+		
+			name = "Gotlands regemente"
+		
+		location = 408
+		division_template = "Kustjägarfördelningen" 
+		start_experience_factor = 0.1
+	}
+	division= {	
+		
+			name = "Olan regemente"
+		
+		location = 9228
+		division_template = "Kustjägarfördelningen" 
+		start_experience_factor = 0.1
 	}
 	division= {	
 		division_name = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 408
-		division_template = "Kustjägarfördelningen" 
-	}
-	division= {	
-		division_name = {
-			is_name_ordered = yes
-			name_order = 3
-		}
-		location = 6258
-		division_template = "Kustjägarfördelningen" 
-	}
-	division= {	
-		division_name = {
-			is_name_ordered = yes
-			name_order = 4
-		}
 		location = 11215
 		division_template = "Kustjägarfördelningen" 
+		start_experience_factor = 0.1
 	}
 }
 
@@ -445,9 +497,9 @@ air_wings = {
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = infantry_equipment_0
+			type = infantry_equipment_1
 		}
-		requested_factories = 8
+		requested_factories = 4
 		progress = 0.68
 		efficiency = 100
 	}
@@ -455,7 +507,23 @@ instant_effect = {
 		equipment = {
 			type = support_equipment_1
 		}
-		requested_factories = 2
+		requested_factories = 1
+		progress = 0.60
+		efficiency = 100
+	}
+                add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+		}
+		requested_factories = 1
+		progress = 0.60
+		efficiency = 100
+	}
+               add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+		}
+		requested_factories = 1
 		progress = 0.60
 		efficiency = 100
 	}
