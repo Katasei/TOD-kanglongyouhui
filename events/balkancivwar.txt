@@ -5,7 +5,6 @@
 
 add_namespace = balkancivwar
 
-###新闻事件 news 
 #希腊发现土耳其空投
 country_event = {
 	id = balkancivwar.1
@@ -80,6 +79,7 @@ country_event = {
 		183 = {	set_demilitarized_zone = no }
 	}
 }
+###新闻事件 news 
 news_event = {
 	id = balkancivwar.1001
 	title = balkancivwar.1001.t
