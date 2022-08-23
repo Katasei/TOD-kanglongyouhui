@@ -2,7 +2,8 @@ state={
 	id=843
 	name="STATE_843"
 	resources={
-		oil = 4
+		oil = 8
+		steel=2
 	}
 
 	history={
@@ -11,9 +12,13 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+			synthetic_refinery = 1
 		}
 		victory_points = {
-			10724 5 
+			10724 10 
+		}
+		victory_points = {
+			13453 1
 		}
 
 	}
@@ -21,7 +26,7 @@ state={
 	provinces={
 		8081 10724 13450 13451 13452 13453
 	}
-	manpower=1137612
+	manpower=1210000
 	buildings_max_level_factor=1.000
-	state_category=three
+	state_category=town
 }

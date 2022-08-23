@@ -10,8 +10,8 @@ state={
 	}
 
 	history={
-		owner = KAZ
-		add_core_of = KAZ
+		owner = DAW
+		add_core_of = DAW
 		add_core_of = RUS
 		buildings = {
 			infrastructure = 1
@@ -33,9 +33,10 @@ state={
 	}
 
 	provinces={
-		1459 2058 10187 10488 11687 11687 12581 
+		1459 10488 11687 13657 
 	}
 	manpower=2363404
 	buildings_max_level_factor=1.000
 	state_category=city
+	local_supplies=0.000
 }

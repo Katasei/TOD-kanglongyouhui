@@ -6,16 +6,13 @@ state={
 		owner = KMG
 		buildings = {
 			infrastructure = 0
-		victory_points = {
+		    5222 = {
+			naval_base = 1
+            }
+		}
+        victory_points = {
 			5222 2 
 		}
-			5222 = {
-				naval_base = 1
-
-			}
-
-		}
-
 	}
 
 	name="STATE_1004"

@@ -3,8 +3,8 @@ state = {
 	name = "STATE_880"
 	
 	history = {
-		owner = MOB
-		add_core_of = MOB
+		owner = MNG
+		add_core_of = MNG
 	}
 	
 	manpower = 3620

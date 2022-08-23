@@ -2,7 +2,9 @@
 state={
 	id=754
 	name="STATE_754"
-
+    resources={
+		steel=1
+	}
 	history={
 		owner = MNG
 		add_core_of = MNG
@@ -11,7 +13,10 @@ state={
 			industrial_complex = 1
 		}
 		victory_points = {
-			12732 10 
+			12732 5 
+		}
+		victory_points = {
+			13465 1
 		}
 
 	}
@@ -19,7 +24,7 @@ state={
 	provinces={
 		2053 4888 7270 10490 10817 11448 12732 12815 13464 13465 13466 13467 13468 13469 
 	}
-	manpower=643589
+	manpower=675142
 	buildings_max_level_factor=1.000
-	state_category=two
+	state_category=three
 }

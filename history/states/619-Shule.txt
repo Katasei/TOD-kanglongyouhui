@@ -7,7 +7,7 @@ state={
 		owner = MNG
 		add_core_of = MNG
 		victory_points = {
-			2015 5 
+			1766 1 
 		}
 	}
 	resources={

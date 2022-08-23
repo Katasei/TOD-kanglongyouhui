@@ -1,14 +1,16 @@
 
 state={
 	id=940
-	name="azhe"
+	name="STATE_940"
 
 	history={
-		add_core_of = KAZ
-		owner = KAZ
+		owner = TAJ
+		add_core_of = TAJ
+		victory_points = {
+			1554 1 
+		}
 		buildings = {
 			infrastructure = 0
-
 		}
 		add_core_of = RUS
 

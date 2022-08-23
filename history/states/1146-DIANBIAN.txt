@@ -3,8 +3,8 @@ state={
 	name="STATE_1146"
 
 	history={
-		owner = LAN
-		add_core_of = LAN
+		owner = ANN
+		add_core_of = ANN
 		buildings = {
 			infrastructure = 0
 

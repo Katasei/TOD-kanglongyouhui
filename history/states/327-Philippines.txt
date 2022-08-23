@@ -1,27 +1,22 @@
-state=
-{
+
+state={
 	id=327
-	name="STATE_327" # Luzon
-	history=
-	{
-		owner = LPC
-		victory_points = {
-			10265 15 
-		}
+	name="STATE_327"
 
-		victory_points = {
-			1221 1 
-		}
-
+	history={
+		owner = MNG
 		victory_points = {
 			7351 1 
 		}
-		add_core_of = LPC
+		add_core_of = MNG
+
 	}
 
 	provinces={
-		1221 1288 7275 7323 7351 10165 10236 10265 12236 
+		1288 7275 7323 7351 10165 10236 12236 
 	}
-	manpower = 0
-	state_category = town
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

@@ -1,16 +1,19 @@
+
 state={
 	id=964
 	name="STATE_964"
 
 	history={
-		owner = KAZ
-		add_core_of = KAZ
+		owner = DAW
+		add_core_of = DAW
 		buildings = {
-			infrastructure = 0
+			infrastructure = 2
 			industrial_complex = 1
 
 		}
-
+		victory_points = {
+			1483 2 
+		}
 		add_core_of = RUS
 		1939.1.1 = {
 			buildings = {
@@ -21,10 +24,12 @@ state={
 		}
 
 	}
+
 	provinces={
-		1483 7706 10408 10530 10660 
+		1483 2058 4467 10187 10408 10530 10660 12581 
 	}
 	manpower=325140
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

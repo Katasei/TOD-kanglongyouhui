@@ -2,7 +2,7 @@
 state={
 	id=934
 	name="STATE_934"
-	
+
 	history={
 		owner = TAJ
 		buildings = {
@@ -11,16 +11,19 @@ state={
 			industrial_complex = 0
 
 		}
-		
+		victory_points = {
+			12248 1 
+		}
 		add_core_of = TAJ
 		add_core_of = AFG
 
 	}
 
 	provinces={
-		7448 7584 7984 10476 10852 10896 12248 12314 12653 12877
+		7448 7584 7984 10476 10896 12248 12877 
 	}
 	manpower=1545713
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

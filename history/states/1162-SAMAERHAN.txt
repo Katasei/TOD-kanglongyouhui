@@ -1,3 +1,4 @@
+
 state={
 	id=1162
 	name="STATE_1162"
@@ -11,9 +12,6 @@ state={
 
 		}
 		add_core_of = RUS
-		victory_points = {
-			10742 3
-		}
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 4
@@ -25,9 +23,10 @@ state={
 	}
 
 	provinces={
-		4482 4549 5003 7924 10414 10742 
+		756 4629 7775 10205 10671 12239 12722 
 	}
 	manpower=2718210
 	buildings_max_level_factor=1.000
 	state_category=city
+	local_supplies=0.000
 }

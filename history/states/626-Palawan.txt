@@ -5,8 +5,8 @@ state=
 	
 	history=
 	{
-		owner = LPC
-		add_core_of = LPC
+		owner = MNG
+		add_core_of = MNG
 	}
 
 	provinces={

@@ -2,23 +2,24 @@
 state={
 	id=760
 	name="STATE_760"
-
+    resources={
+		oil=3
+		steel=1
+	}
 	history={
 		owner = MNG
-		add_core_of = MNG
+		add_core_of = MNG		
 		victory_points = {
-			12656 1 
+		    1838 3 
 		}
 		victory_points = {
-			1838 2 
+		    4843 1
 		}
-
-	}
-
-	provinces={
-		1838 4704 4843 7732 10839 12598 12656 12671 13492 13493 13494 
-	}
-	manpower=175670
-	buildings_max_level_factor=1.000
-	state_category=town
+     }
+	 provinces={
+	 	1838 4704 4843 10839 12598 13492 13493 13494 
+	 }	
+	 manpower=232660
+	 buildings_max_level_factor=1.000
+	 state_category=rural
 }
