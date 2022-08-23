@@ -11,19 +11,12 @@ state={
 			9569 10 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 			arms_factory = 3
-			industrial_complex = 4
+			industrial_complex = 3
 			anti_air_building = 5
 
 		}
-		add_core_of = CZE
-		1939.3.14 = {
-			owner = GER
-			controller = GER
-
-		}
-
 	}
 	provinces={
 		6418 6592 9421 9541 9569 11556 

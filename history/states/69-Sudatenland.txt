@@ -15,8 +15,8 @@ state={
 		}
 		owner = AUS
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 2
+			infrastructure = 3
+			industrial_complex = 1
 			anti_air_building = 1
 			424 = {
 				bunker = 1
@@ -46,11 +46,6 @@ state={
 
 		}
 		add_core_of = CZE
-		1938.9.30 = {
-			owner = GER
-			controller = GER
-
-		}
 
 	}
 
