@@ -807,7 +807,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = { add_ideas = UKR_wukelanxinmoshi1 }
 	}
 	#清算法国援助产业
 	focus = {
@@ -826,7 +826,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = { }
+		completion_reward = { remove_ideas = UKR_fayuancheli }
 	}
 	#扩建第聂伯河工业基地
 	focus = {
@@ -845,7 +845,19 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = { }
+		completion_reward = {
+			add_extra_state_shared_building_slots = 2
+			202 = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+			202 = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
 	}
 	#联合投资
 	focus = {
@@ -865,7 +877,13 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = { }
+		completion_reward = { 
+			add_stability = 0.1
+			swap_ideas = {
+				remove_idea = UKR_wukelanxinmoshi1
+				add_idea = UKR_wukelanxinmoshi2
+			}
+		}
 	}
 	#克里沃罗格重工业中心
 	focus = {
@@ -884,7 +902,16 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = { }
+		completion_reward = { 
+			226 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	#第聂伯河水电站
 	focus = {
@@ -903,7 +930,11 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = { }
+		completion_reward = { 
+			swap_ideas = {
+				remove_idea = UKR_wukelanxinmoshi2
+				add_idea = UKR_wukelanxinmoshi3
+			}}
 	}
 	#功勋科学家
 	focus = {
@@ -942,7 +973,18 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = { }
+		completion_reward = {
+			add_tech_bonus = {
+				name = industry
+				bonus = 1.0
+				uses = 1
+				category = industry
+			} 
+			swap_ideas = {
+				remove_idea = UKR_wukelanxinmoshi3
+				add_idea = UKR_wukelanxinmoshi4
+			}
+		}
 	}
 	#招募闲散人口
 	focus = {
@@ -961,7 +1003,15 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = { }
+		completion_reward = { 
+			add_tech_bonus = {
+				name = industry
+				bonus = 1.0
+				uses = 1
+				category = industry
+			}
+			add_manpower = 20000
+		}
 	}
 	#提高质检水平
 	focus = {
@@ -980,7 +1030,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = { }
+		completion_reward = { add_ideas = UKR_gaoxiaosunguan }
 	}
 	#燃油增产项目
 	focus = {
@@ -999,7 +1049,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = { }
+		completion_reward = { add_resource = { type = oil amount = 16 state = 196 }}
 	}
 	#吸引外企进驻
 	focus = {
@@ -1019,7 +1069,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = { }
+		completion_reward = { add_ideas = UKR_menhukaifang1}
 	}
 	#瑞典轧钢技术
 	focus = {
@@ -1038,7 +1088,15 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = { }
+		completion_reward = {
+			add_tech_bonus = {
+				name = industry
+				bonus = 1.0
+				uses = 1
+				category = industry
+			}
+			add_resource = { type = steel amount = 12 state = 202 }
+		}
 	}
 	#德国电子科技
 	focus = {
@@ -1057,7 +1115,28 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = { }
+		completion_reward = { 
+			add_tech_bonus = {
+				name = electronics
+				bonus = 1.0
+				uses = 1
+				category = electronics
+			}
+			if = {
+				limit = { has_idea = UKR_menhukaifang1 }
+				swap_ideas = { 
+					remove_idea = UKR_menhukaifang1
+					add_idea = UKR_menhukaifang3
+				}
+			}
+			if = {
+				limit = { has_idea = UKR_menhukaifang2 }
+				swap_ideas = { 
+					remove_idea = UKR_menhukaifang2
+					add_idea = UKR_menhukaifang4
+				}
+			}
+		}
 	}
 	#匈牙利农用机械
 	focus = {
@@ -1115,7 +1194,23 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = { }
+		completion_reward = { 
+			if = {
+				limit = { has_idea = UKR_menhukaifang1}
+				swap_ideas = { 
+					remove_idea = UKR_menhukaifang1
+					add_idea = UKR_menhukaifang2
+				}
+			}
+			if = {
+				limit = { has_idea = UKR_menhukaifang3}
+				swap_ideas = { 
+					remove_idea = UKR_menhukaifang3
+					add_idea = UKR_menhukaifang4
+				}
+			}
+			192 = { add_extra_state_shared_building_slots = 2 }
+		}
 	}
 	#法式兵工厂
 	focus = {
@@ -1134,7 +1229,16 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = { }
+		completion_reward = { 
+			200 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 	}
 	#多元联合体
 	focus = {
@@ -1153,7 +1257,10 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = { }
+		completion_reward = { 
+			remove_ideas = UKR_menhukaifang4
+			add_ideas = UKR_kaifangzhichengguo
+		}
 	}
 	#工业安全保障
 	focus = {
@@ -1172,7 +1279,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = { }
+		completion_reward = { add_ideas = UKR_gaoxiaosunguan }
 	}
 	#经济作物种植区
 	focus = {
@@ -1191,7 +1298,29 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = { }
+		completion_reward = {  
+			202 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			201 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			203 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	#国家生产指导部
 	focus = {
@@ -1210,7 +1339,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = { }
+		completion_reward = { add_ideas = UKR_chengchanzhidao }
 	}
 	#希望在黑土地里
 	focus = {
@@ -1229,7 +1358,24 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = { }
+		completion_reward = { 
+			193 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			259 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	#中央电子设计局
 	focus = {
@@ -1248,7 +1394,14 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = { }
+		completion_reward = { 
+			add_tech_bonus = {
+				name = electronics
+				bonus = 1.0
+				uses = 1
+				category = electronics
+			}
+		}
 	}
 	#轻工业现代化
 	focus = {
@@ -1267,7 +1420,14 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = { }
+		completion_reward = { 
+			add_tech_bonus = {
+				name = industry
+				bonus = 1.0
+				uses = 1
+				category = industry
+			}
+		}
 	}
 	#基辅大学
 	focus = {
@@ -1284,9 +1444,9 @@ focus_tree = {
 		cost = 5
 		
 		ai_will_do = {factor = 10}
-		available = {}
+		available = {num_of_civilian_factories > 14}
 		
-		completion_reward = { }
+		completion_reward = { add_research_slot = 1}
 	}
 	#与巨龙的交易
 	focus = {
@@ -1324,7 +1484,10 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = { }
+		completion_reward = { 
+			add_manpower = 10000
+			add_offsite_building = { type = industrial_complex level = 1 }
+		}
 	}
 	#专注国内运输
 	focus = {
@@ -1343,7 +1506,22 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = { }
+		completion_reward = { 
+			198 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			201 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	#基辅州运输中心
 	focus = {
@@ -1362,7 +1540,12 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = { }
+		completion_reward = { 
+			build_railway = {
+				start_province = 525
+				target_province = 11450
+			}
+		}
 	}
 	#乡镇作坊
 	focus = {
@@ -1381,7 +1564,24 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = { }
+		completion_reward = { 
+			198 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			201 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	#扩大资源开采
 	focus = {
@@ -1400,7 +1600,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = { }
+		completion_reward = { add_ideas = UKR_jifaqianneng }
 	}
 	#扎波罗热研究所
 	focus = {
@@ -1419,9 +1619,9 @@ focus_tree = {
 		cost = 6
 		
 		ai_will_do = {factor = 10}
-		available = {}
+		available = { num_of_civilian_factories > 34 }
 		
-		completion_reward = { }
+		completion_reward = { add_research_slot = 1 }
 	}
 	#乌东综合工业基地
 	focus = {
@@ -1439,8 +1639,483 @@ focus_tree = {
 		cost = 10
 		
 		ai_will_do = {factor = 10}
+		available = { 227 = {is_owned_by = UKR} }
+		
+		completion_reward = { 
+			227 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	#生于微寒
+	focus = {
+		id = UKR_shengyuweihan
+		icon = GFX_UKR_shengyuweihan
+		x = 39
+		y = 1
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		cost = 1
+		
+		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = { }
+		completion_reward = { add_dynamic_modifier = { modifier = UKR_yeyudenongminjun }}
 	}
-}	
+	#整顿军官团
+	focus = {
+		id = UKR_zhengdunjunguantuan
+		icon = GFX_UKR_zhengdunjunguantuan
+		x = 39
+		y = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		prerequisite = { focus = UKR_shengyuweihan}
+		
+		cost = 2
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = { 
+			add_stability = -0.1
+			add_to_variable = { UKR_zuzhidu = 0.1 }
+			add_to_variable = { UKR_huifudu = 0.1 }
+			add_to_variable = { UKR_jihuashangxian = 0.4 }
+			add_to_variable = { UKR_zhihuidianshu = 40 }
+			add_to_variable = { UKR_jihuasudu = 0.4 }
+		}
+	}
+	#提高军饷
+	focus = {
+		id = UKR_tigaojunxiang
+		icon = GFX_UKR_tigaojunxiang
+		x = 39
+		y = 3
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		prerequisite = { focus = UKR_zhengdunjunguantuan}
+		
+		cost = 2
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = { 
+			add_to_variable = { UKR_zuzhidu = 0.1 }
+			add_to_variable = { UKR_huifudu = 0.1 }
+			add_to_variable = { UKR_junshangzengjia = 0.05 }
+			add_to_variable = { UKR_zhihuidianshu = 20 }
+		}
+	}
+	#更新轻型武器
+	focus = {
+		id = UKR_gengxinqingxingwuqi
+		icon = GFX_UKR_gengxinqingxingwuqi
+		x = 36
+		y = 4
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		prerequisite = { focus = UKR_tigaojunxiang}
+		
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = { 
+			add_tech_bonus = {
+				name = infantry_weapons
+				bonus = 1.0
+				uses = 1
+				category = infantry_weapons
+			}
+		}
+	}
+	#建立师属炮兵营
+	focus = {
+		id = UKR_jianlipaobingying
+		icon = GFX_UKR_jianlipaobingying
+		x = 36
+		y = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		prerequisite = { focus = UKR_gengxinqingxingwuqi}
+		
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = { 
+			add_tech_bonus = {
+				name = artillery
+				bonus = 1.0
+				uses = 1
+				category = artillery
+			}
+		}
+	}
+	#健全支援体系
+	focus = {
+		id = UKR_jianquanzhiyuantixi
+		icon = GFX_UKR_jianquanzhiyuantixi
+		x = 36
+		y = 6
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		prerequisite = { focus = UKR_jianlipaobingying}
+		
+		cost = 6
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = { 
+			add_tech_bonus = {
+				name = support_tech
+				bonus = 1.0
+				uses = 2
+				category = support_tech
+			}
+		}
+	}
+	#摩托化辎重部队
+	focus = {
+		id = UKR_motuohuazizhongbudui
+		icon = GFX_UKR_motuohuazizhongbudui
+		x = 36
+		y = 7
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		prerequisite = { focus = UKR_jianquanzhiyuantixi}
+		
+		cost = 6
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = { 
+			add_tech_bonus = {
+				name = motorized_equipment
+				bonus = 1.0
+				uses = 2
+				category = support_tech
+			}
+			division_template = {
+				name = "Experimental Mechanised Division"
+				priority = 2
+				regiments = {
+					motorized = { x = 0 y = 0 }
+					motorized = { x = 0 y = 1 }
+					motorized = { x = 0 y = 2 }
+					motorized = { x = 1 y = 0 }
+					motorized = { x = 1 y = 1 }
+					motorized = { x = 1 y = 2 }
+				}
+				support = {}
+			}
+			capital_scope = {
+				create_unit = {
+					division = {
+						name = "200. Mechanised Division" 
+						division_template = "Experimental Mechanised Division" 
+						start_experience_factor = 1.0
+						owner = ROOT
+					}
+				}
+			}
+		}
+	}
+	#实行新的训练操典
+	focus = {
+		id = UKR_xunliancaodian
+		icon = GFX_UKR_xunliancaodian
+		x = 38
+		y = 4
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		prerequisite = { focus = UKR_tigaojunxiang}
+		
+		cost = 4
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = { add_to_variable = { UKR_lujunjinyan = 0.03 } }
+	}
+	#统一的指挥中枢
+	focus = {
+		id = UKR_zhihuizhongshu
+		icon = GFX_UKR_zhihuizhongshu
+		x = 40
+		y = 4
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		prerequisite = { focus = UKR_tigaojunxiang}
+		
+		cost = 4
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = { add_to_variable = { UKR_zhihuidianshu = 40 } }
+	}
+	#落实纪律规章
+	focus = {
+		id = UKR_luoshijilvguizhang
+		icon = GFX_UKR_luoshijilvguizhang
+		x = 39
+		y = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		prerequisite = { focus = UKR_xunliancaodian}
+		prerequisite = { focus = UKR_zhihuizhongshu}
+		
+		cost = 5	
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = { 
+			remove_dynamic_modifier = { modifier = UKR_yeyudenongminjun }
+			add_dynamic_modifier = { modifier = UKR_gaigechuchengdejundui }
+			add_to_variable = { UKR_zuzhidu = 0.1 }
+			add_to_variable = { UKR_huifudu = 0.1 }
+		}
+	}
+	#扩大本土培训规模
+	focus = {
+		id = UKR_kuodapeixunguimo
+		icon = GFX_UKR_kuodapeixunguimo
+		x = 38
+		y = 6
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		prerequisite = { focus = UKR_luoshijilvguizhang}
+		
+		cost = 5	
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = { 
+			add_to_variable = { UKR_jihuashangxian = 0.15 }
+			add_to_variable = { UKR_jihuasudu = 0.15 }
+		}
+	}
+	#乡村地道小队
+	focus = {
+		id = UKR_xiangcundidaoxiaodui
+		icon = GFX_UKR_xiangcundidaoxiaodui
+		x = 40
+		y = 6
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		prerequisite = { focus = UKR_luoshijilvguizhang}
+		
+		cost = 5	
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = { 
+			add_to_variable = { UKR_qianhaosudu = 0.2 }
+			add_to_variable = { UKR_qianhao = 5 }
+		}
+	}
+	#树立老兵模范
+	focus = {
+		id = UKR_shulilaobingmofan
+		icon = GFX_UKR_shulilaobingmofan
+		x = 38
+		y = 7
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		prerequisite = { focus = UKR_kuodapeixunguimo}
+		
+		cost = 5	
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = { 
+			army_experience = 10
+			add_to_variable = { UKR_shibingsunshi = 0.2 }
+		}
+	}
+	#急行军训练
+	focus = {
+		id = UKR_jixingjunxunlian
+		icon = GFX_UKR_jixingjunxunlian
+		x = 40
+		y = 7
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		prerequisite = { focus = UKR_xiangcundidaoxiaodui}
+		
+		cost = 5	
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = { 
+			add_to_variable = { UKR_lujunsudu = 0.05 }
+			add_to_variable = { UKR_zuzhidu = 0.1 }
+		}
+	}
+	#保卫这片热土
+	focus = {
+		id = UKR_baoweizhepianretu
+		icon = GFX_UKR_baoweizhepianretu
+		x = 39
+		y = 8
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		prerequisite = { focus = UKR_shulilaobingmofan}
+		prerequisite = { focus = UKR_jixingjunxunlian}
+		
+		cost = 8
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = { 
+			remove_dynamic_modifier = { modifier = UKR_gaigechuchengdejundui }
+			add_ideas = UKR_quanxindeguofangjun
+		}
+	}
+	#敖德萨军事学院
+	focus = {
+		id = UKR_aodesajunshixueyuan
+		icon = GFX_UKR_aodesajunshixueyuan
+		x = 42
+		y = 4
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		prerequisite = { focus = UKR_tigaojunxiang }
+		
+		cost = 5	
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = { 
+			add_tech_bonus = {
+				name = land_doctrine
+				bonus = 1.0
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	#战术交流会
+	focus = {
+		id = UKR_zhanshujiaoliuhui
+		icon = GFX_UKR_zhanshujiaoliuhui
+		x = 42
+		y = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		prerequisite = { focus = UKR_aodesajunshixueyuan }
+		
+		cost = 5
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = { army_experience = 30 }
+	}
+	#雷达研究所
+	focus = {
+		id = UKR_leidaynjiusuo
+		icon = GFX_UKR_leidaynjiusuo
+		x = 42
+		y = 6
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		prerequisite = { focus = UKR_zhanshujiaoliuhui }
+		
+		cost = 6
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = electronics
+				bonus = 1.0
+				uses = 1
+				category = electronics
+			}
+		}
+	}
+	#理论实战化
+	focus = {
+		id = UKR_lilunshizhanhua
+		icon = GFX_UKR_lilunshizhanhua
+		x = 42
+		y = 7
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		prerequisite = { focus = UKR_leidaynjiusuo }
+		
+		cost = 6
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = land_doctrine
+				bonus = 1.0
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+}
