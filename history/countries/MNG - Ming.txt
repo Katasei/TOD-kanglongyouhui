@@ -17,7 +17,50 @@ if = {
 	}
 }
 
-
+1936.1.1 = {
+    if = { 
+		limit = { has_dlc = "Battle for the Bosporus" }	
+		1193 = {
+			add_dynamic_modifier = { modifier = asian_heart }
+		}
+		1128 = {
+			add_dynamic_modifier = { modifier = Fuyu_rare_earth_group }
+		}
+		617 = {
+			add_dynamic_modifier = { modifier = Yuanye_Oilfield }
+		}
+		1113 = {
+			add_dynamic_modifier = { modifier = Yumen_Oilfield }
+		}
+		756 = {
+			add_dynamic_modifier = { modifier = Gansu_mining_and_mining_group }
+		}
+		843 = {
+			add_dynamic_modifier = { modifier = Saishang_jiangnan }
+		}
+		744 = {
+			add_dynamic_modifier = { modifier = Fertile_soil }
+		}
+		324 = {
+			add_dynamic_modifier = { modifier = Forgotten_land }
+		}
+		759 = {
+			add_dynamic_modifier = { modifier = Forgotten_land }
+		}
+		1129 = {
+			add_dynamic_modifier = { modifier = Forgotten_land }
+		}
+		287 = {
+			add_dynamic_modifier = { modifier = Forgotten_land }
+		}
+		755 = {
+			add_dynamic_modifier = { modifier = Desolate_land }
+		}
+		746 = {
+			add_dynamic_modifier = { modifier = Desolate_land }
+		}
+	}
+}
 set_fuel_ratio = 0.8
 
 set_technology = {
