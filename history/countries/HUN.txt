@@ -1,4 +1,4 @@
-﻿capital = 43
+capital = 43
 
 oob = "HUN_1936"
 
@@ -44,6 +44,7 @@ add_ideas = {
 	HUN_pangdadejundui
 }
 
+
 set_popularities = {
 	national_corporatism = 18
 	sacred_revivalism = 15
@@ -57,6 +58,16 @@ set_popularities = {
 	moderate_socialism = 0
 	council_socialism = 3
 	vanguard_socialism = 6
+}
+
+every_owned_state = {
+	limit = { is_core_of = ROM }
+	start_resistance = yes
+	set_compliance = 40
+	set_resistance = 10
+	set_garrison_strength = 0.5
+	set_variable = { HUN_shaominfankang = -0.3 }
+	add_dynamic_modifier = { modifier = HUN_shaoshuminzufenzheng }
 }
 
 create_equipment_variant = {

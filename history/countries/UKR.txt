@@ -20,6 +20,18 @@ add_ideas = {
 	UKR_fayuancheli
 	UKR_fubaichouwen
 }
+add_dynamic_modifier = { modifier = UKR_yeyudenongminjun }
+set_variable = { UKR_shibingsunshi = 0.2}
+set_variable = { UKR_zuzhidu = -0.3 }
+set_variable = { UKR_huifudu = -0.3 }
+set_variable = { UKR_jihuasudu = -0.5 }
+set_variable = { UKR_jihuashangxian = -0.5 }
+set_variable = { UKR_zhihuidianshu = -100 }
+set_variable = { UKR_junshangzengjia = 0 }
+set_variable = { UKR_lujunjinyan = 0 }
+set_variable = { UKR_qianhao = 5 }
+set_variable = { UKR_qianhaosudu = 0 }
+set_variable = { UKR_lujunsudu = 0 }
 set_popularities = {
 	leader_despotism = 27
 	conservative_democracy = 44
