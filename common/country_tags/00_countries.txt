@@ -109,6 +109,7 @@ ARM = "countries/MidEast.txt"
 AZR = "countries/MidEast.txt"
 GEO = "countries/MidEast.txt"
 UZB = "countries/Asian.txt"
+TMS = "countries/Turkmenistan.txt"
 TAJ = "countries/Asian.txt"
 KAZ = "countries/Asian.txt"
 JOF = "countries/WestEur.txt"
@@ -122,6 +123,10 @@ CAU = "countries/EastEur.txt"
 KYR = "countries/EastEur.txt"
 SIB = "countries/EastEur.txt"
 FET = "countries/EastEur.txt"
+
+#大宛宣慰司
+
+DAW = "countries/Dawanxuanweisi.txt"
 
 #大明势力
 
