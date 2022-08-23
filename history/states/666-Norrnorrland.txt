@@ -9,7 +9,7 @@ state={
 		chromium = 25 # was: 40
 	}
 	
-	state_category = rural
+	state_category = town
 
 	history={
 		owner = SWE
@@ -17,10 +17,13 @@ state={
 			9108 1 
 		}
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 1
+			infrastructure = 2
+			industrial_complex = 2
 			9108 = {
 				naval_base = 2
+			}
+                                                9147 = {
+				naval_base = 1
 			}
 		}
 		add_core_of = SWE
