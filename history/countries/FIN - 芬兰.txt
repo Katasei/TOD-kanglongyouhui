@@ -103,6 +103,7 @@ if = {
 	set_technology = {
 		gwtank_chassis = 1
 		basic_light_tank_chassis = 1
+                                engine_tech_1 = 1
 	}
 }
 
@@ -292,7 +293,7 @@ if = {
    }
    
    create_equipment_variant = {
-		name = "Panzer I Ausf. C1"
+		name = "BT-2"
 		type = light_tank_chassis_1
 		parent_version = 0
 		modules = {
@@ -304,10 +305,9 @@ if = {
 			special_type_slot_1 = tank_radio_1
 		}
 		upgrades = {
-			tank_nsb_engine_upgrade = 5
+			tank_nsb_engine_upgrade = 8
 			tank_nsb_armor_upgrade = 1
 			}
-			icon = "GFX_GER_basic_light_tank_medium"
 	  }
 	  
 	  
