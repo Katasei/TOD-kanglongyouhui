@@ -1293,8 +1293,6 @@
  SWE_tac_bomber_equipment_1_short:0 "Saab B18"
  SWE_tac_bomber_equipment_2:0 "萨博 轰炸机20型"
  SWE_tac_bomber_equipment_2_short:0 "Saab B20"
- SWE_tac_bomber_equipment_3:0 "萨博 轰炸机26型"
- SWE_tac_bomber_equipment_3_short:0 "Saab B26"
  
  SWE_nav_bomber_equipment_1:0 "哥塔公司 鱼雷轰炸机6型"
  SWE_nav_bomber_equipment_1_short:0 "GV T6"
@@ -1346,12 +1344,7 @@
  SWE_strat_bomber_equipment_2_short:0 "Saab B26"
  SWE_strat_bomber_equipment_3:0 "萨博 轰炸机30型"
  SWE_strat_bomber_equipment_3_short:0 "Saab B30"
- SWE_jet_tac_bomber_equipment_1:0 "萨博 喷气轰炸机45型"
- SWE_jet_tac_bomber_equipment_1_short:0 "Saab B45"
- SWE_jet_tac_bomber_equipment_2:0 "萨博 喷气轰炸机50型"
- SWE_jet_tac_bomber_equipment_2_short:0 "Saab B50"
- SWE_jet_strat_bomber_equipment_1:0 "萨博 喷气轰炸机100型"
- SWE_jet_strat_bomber_equipment_1_short:0 "Saab B100"
+ 
  
  SWI_fighter_equipment_0:0 "德瓦蒂纳 D.27"
  SWI_fighter_equipment_0_short:0 "D.27"

@@ -2944,8 +2944,6 @@
  SWE_support_weapons4_short:0 "Ksp m/40 & 8cm m/38"
  SWE_support_weapons4:0 "6.5mm 1942型机枪&12cm 40型重型迫击炮"
  SWE_support_weapons4_short:0 "Ksp m/42 & 12cm m/40"
- SWE_infantry_at:0 "卡尔-古斯塔夫m/42型反坦克枪"
- SWE_infantry_at2:0 "卡尔-古斯塔夫m/43型无后座力炮"
  
  CAN_infantry_equipment_0:0 "罗斯步枪"
  CAN_infantry_equipment_0_short:0 "罗斯步枪"
