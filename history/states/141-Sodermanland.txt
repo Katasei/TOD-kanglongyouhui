@@ -2,8 +2,8 @@
 state={
 	id=141
 	name="STATE_141" # Svealand
-	manpower = 1488181
-	state_category = city
+	manpower = 3052268
+	state_category = metropolis
 	
 	resources={
 		steel=24 # was: 40
@@ -13,13 +13,13 @@ state={
 	history={
 		owner = SWE
 		victory_points = {
-			6050 20 
+			6050 30 
 		}
 		buildings = {
 			infrastructure = 3
-			arms_factory = 2
+			arms_factory = 3
 			industrial_complex = 3
-			dockyard = 1
+			dockyard = 2
 			air_base = 6
 			6050 = {
 				naval_base = 5
