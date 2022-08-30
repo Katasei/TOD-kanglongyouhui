@@ -133,7 +133,6 @@
 		generic = { "Jagdgeschwader" }
 		generic_pattern = AIR_WING_NAME_GER_GENERIC
 		unique = {
-		 "JG 1 Oesau" "JG 2 Richthofen" "JG 3 Udet" "JG 5 Eismeer" "JG 6 Horst Wessel" "JG 7 Nowotny" "JG 26 Schlageter" "JG 27 Afrika" "JG 51 Mölders" "JG 53 Pik As" "JG 54 Grünherz" "JG 77 Herz As"
 		}	
 	}
 
@@ -147,7 +146,12 @@
 
 	jet_fighter_equipment = {
 		prefix = ""
-		generic = { "Sonder-Jagdverband" "Jagdverband" "Erprobungskommando" "Lehrgeschwader" "Erprobungsgruppe" }
+		generic = { 
+		"Sonder-Jagdverband"
+		"Jagdverband"
+		"Erprobungskommando"
+		"Lehrgeschwader"
+		"Erprobungsgruppe" }
 		generic_pattern = AIR_WING_NAME_GER_GENERIC
 		unique = {
 		}	
@@ -163,7 +167,7 @@
 
 	CAS_equipment = {
 		prefix = ""
-		generic = { "Schlachtgeschwader" "Stukageschwader" "Schnellkampfgeschwader" }
+		generic = { "Schlachtgeschwader" "Schnellkampfgeschwader" }
 		generic_pattern = AIR_WING_NAME_GER_GENERIC
 		unique = {
 		}	
@@ -179,7 +183,7 @@
 
 	cv_CAS_equipment = {
 		prefix = ""
-		generic = { "Träger-Stukagruppe" }
+		generic = { "Träger-Schlachtgruppe" }
 		generic_pattern = AIR_WING_NAME_GER_GENERIC
 		unique = {
 		}	
