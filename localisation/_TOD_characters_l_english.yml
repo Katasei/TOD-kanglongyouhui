@@ -41,15 +41,16 @@
  #FRA
  FRA_Philippe_VIII:0 "Philippe VIII"
  #GER
- GER_Rosa_Luxemburg:0 "罗莎· 卢森堡"
- GER_Paul_Levi:0 "保罗· 列维"
- GER_Richard_Muller:0 "里夏德·米勒"
+ GER_Rosa_Luxemburg:0 "罗莎·卢森堡"
+ GER_Paul_Levi:0 "保罗·列维"
+ GER_Richard_Muller:0 "理查德·穆勒"
  GER_Rudolf_Rocker:0 "鲁道夫·洛克"
  GER_Ernst_Thalmann:0 "恩斯特·台尔曼"
- GER_Wilhelm_Pieck:0 "威廉·皮克"
+ GER_Wilhelm_Pieck_1:0 "威廉·皮克"
+ GER_Wilhelm_Pieck_2:0 "威廉·皮克"
  GER_Otto_Strasser:0 "奥托·施特拉瑟"
  GER_Georg_Ledebour:0 "格奥尔格·雷德布尔"
- GER_Walther_Stocker:0 "瓦尔特·施特克尔"
+ GER_Walther_Stocker:0 "沃尔特·斯托克"
  GER_Heinrich_Brandler:0 "海因里希·布兰德勒"
  #HUN
  HUN_Istvan_Tisza:0 "伊斯特万· 蒂萨"
@@ -94,6 +95,14 @@
  MOL_zhatongsiji:0 "沃拉迪米尔·扎通斯基"
  MOL_ratz:0 "耶诺·拉茨"
  MOL_mahenuo:0 "内斯托尔·马赫诺"
+ 
+ #RUS
+ RUS_Mikhail_IV:0 "米哈伊尔四世"
+ RUS_Pavel_Nikolayevich_Milyukov:0 "帕威尔· 米留可夫"
+ RUS_Alexander_Nikolayevich_potlesov:0 "亚历山大·波特莱索夫"
+ RUS_Mikhail_Gordeevich_Drozdovsky:0 "米哈伊尔·德罗兹多夫斯基"
+ RUS_Anastasy_Vonsiatsky:0 "安纳斯塔西·冯夏茨基"
+ RUS_Vyacheslav_Mikhailovich_Molotov:0 "维亚切斯拉夫·莫洛托夫"
  
  #SWE
  SWE_Carl_Gustaf_Ekman:0 "卡尔·古斯塔夫·艾克曼"
