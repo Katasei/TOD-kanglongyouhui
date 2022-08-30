@@ -224,7 +224,7 @@ units = {
 		start_experience_factor = 0.1
 	}
 	division= {	
-		location = 6534
+		location = 506
 		division_template = "VA Infanterie Division" 	
 		start_experience_factor = 0.1
 	}
@@ -249,7 +249,7 @@ units = {
 		start_experience_factor = 0.1
 	}
 	division= {	
-		location = 11467
+		location = 6464
 		division_template = "VA Infanterie Division" 	
 		start_experience_factor = 0.1
 	}
@@ -445,7 +445,7 @@ units = {
 		start_experience_factor = 0.1
 	}
 	division= {	
-		location = 3535
+		location = 11467
 		division_template = "Rote Garde" 	
 		start_experience_factor = 0.1
 	}
