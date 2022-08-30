@@ -12,7 +12,7 @@ if = {
 }
 
 set_research_slots = 4
-
+set_convoys = 200
 create_faction = "共产国际"
 
 set_politics = {
@@ -54,7 +54,8 @@ recruit_character = GER_Paul_Levi
 recruit_character = GER_Richard_Muller
 recruit_character = GER_Rudolf_Rocker
 recruit_character = GER_Ernst_Thalmann
-recruit_character = GER_Wilhelm_Pieck
+recruit_character = GER_Wilhelm_Pieck_1
+recruit_character = GER_Wilhelm_Pieck_2
 recruit_character = GER_Otto_Strasser
 recruit_character = GER_Georg_Ledebour
 recruit_character = GER_Walther_Stocker
