@@ -9868,7 +9868,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GER_que_bao_yi_dang_zhuan_zheng_shine"
+		name = "GFX_GER_que_bao_yi_dang_zhuan_zheng_shine"
 		texturefile = "gfx/interface/goals/GER_que_bao_yi_dang_zhuan_zheng.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -9901,10 +9901,10 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_GER_cheng_li_ji_ti_nong_zhuang_he_zuo_she_shine"
-		texturefile = "gfx/interface/goals/GFX_GER_cheng_li_ji_ti_nong_zhuang_he_zuo_she.png"
+		texturefile = "gfx/interface/goals/GER_cheng_li_ji_ti_nong_zhuang_he_zuo_she.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_GER_cheng_li_ji_ti_nong_zhuang_he_zuo_she.png"
+			animationmaskfile = "gfx/interface/goals/GER_cheng_li_ji_ti_nong_zhuang_he_zuo_she.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -9917,7 +9917,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_GER_cheng_li_ji_ti_nong_zhuang_he_zuo_she.png"
+			animationmaskfile = "gfx/interface/goals/GER_cheng_li_ji_ti_nong_zhuang_he_zuo_she.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -9933,10 +9933,10 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_GER_tu_di_fa_ling_shine"
-		texturefile = "gfx/interface/goals/GFX_GER_tu_di_fa_ling.png"
+		texturefile = "gfx/interface/goals/GER_tu_di_fa_ling.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_GER_tu_di_fa_ling.png"
+			animationmaskfile = "gfx/interface/goals/GER_tu_di_fa_ling.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -9949,7 +9949,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_GER_tu_di_fa_ling.png"
+			animationmaskfile = "gfx/interface/goals/GER_tu_di_fa_ling.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -9964,11 +9964,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GER_de_yi_zhi_shao_nian_xian_feng_dui_shine"
+		name = "GFX_GER_de_yi_zhi_shao_nian_xian_feng_dui_shine"
 		texturefile = "gfx/interface/goals/GER_de_yi_zhi_shao_nian_xian_feng_dui.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_GER_de_yi_zhi_shao_nian_xian_feng_dui.png"
+			animationmaskfile = "gfx/interface/goals/GER_de_yi_zhi_shao_nian_xian_feng_dui.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -9981,7 +9981,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_GER_de_yi_zhi_shao_nian_xian_feng_dui.png"
+			animationmaskfile = "gfx/interface/goals/GER_de_yi_zhi_shao_nian_xian_feng_dui.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -9996,7 +9996,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GER_shi_wu_nian_de_jie_ji_dou_zheng_shine"
+		name = "GFX_GER_shi_wu_nian_de_jie_ji_dou_zheng_shine"
 		texturefile = "gfx/interface/goals/GER_shi_wu_nian_de_jie_ji_dou_zheng.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -10028,7 +10028,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GER_ge_ming_xian_feng_shine"
+		name = "GFX_GER_ge_ming_xian_feng_shine"
 		texturefile = "gfx/interface/goals/GER_ge_ming_xian_feng.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -10060,7 +10060,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GER_mo_gui_de_qi_yue_shine"
+		name = "GFX_GER_mo_gui_de_qi_yue_shine"
 		texturefile = "gfx/interface/goals/GER_mo_gui_de_qi_yue.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -10092,7 +10092,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GER_wei_ren_zhi_si_shine"
+		name = "GFX_GER_wei_ren_zhi_si_shine"
 		texturefile = "gfx/interface/goals/GER_wei_ren_zhi_si.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -10124,7 +10124,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GER_jie_san_zhong_yang_wei_yuan_hui_shine"
+		name = "GFX_GER_jie_san_zhong_yang_wei_yuan_hui_shine"
 		texturefile = "gfx/interface/goals/GER_jie_san_zhong_yang_wei_yuan_hui.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -10156,7 +10156,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GER_zheng_he_shi_bing_wei_yuan_hui_shine"
+		name = "GFX_GER_zheng_he_shi_bing_wei_yuan_hui_shine"
 		texturefile = "gfx/interface/goals/GER_zheng_he_shi_bing_wei_yuan_hui.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -10188,7 +10188,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GER_qing_xi_dang_nei_yi_jian_zhe_shine"
+		name = "GFX_GER_qing_xi_dang_nei_yi_jian_zhe_shine"
 		texturefile = "gfx/interface/goals/GER_qing_xi_dang_nei_yi_jian_zhe.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -10252,7 +10252,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GER_quan_mian_zhang_kong_shine"
+		name = "GFX_GER_quan_mian_zhang_kong_shine"
 		texturefile = "gfx/interface/goals/GER_quan_mian_zhang_kong.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -10316,7 +10316,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GER_quan_guo_jie_yan_ling_shine"
+		name = "GFX_GER_quan_guo_jie_yan_ling_shine"
 		texturefile = "gfx/interface/goals/GER_quan_guo_jie_yan_ling.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -10384,7 +10384,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/GFX_GER_hong_se_feitelie.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_GER_hong_se_feitelie.png"
+			animationmaskfile = "gfx/interface/goals/GER_hong_se_feitelie.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -10397,7 +10397,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GFX_GER_hong_se_feitelie.png"
+			animationmaskfile = "gfx/interface/goals/GER_hong_se_feitelie.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
