@@ -57,7 +57,7 @@ focus_tree = {
 		y = 1
 		
 		
-		cost = 5
+		cost = 0
 		
 		ai_will_do = {factor = 10}
 		available = {
@@ -65,7 +65,7 @@ focus_tree = {
 		}
 		
 		bypass = {
-			has_country_flag = GER_luoshaqushi
+			has_country_flag = GER_luoshatuixiu
 		}
 		completion_reward = {}
 	}
@@ -77,11 +77,13 @@ focus_tree = {
 		y = 2
 
 		cost = 5
-		prerequisite = { focus = GER_zaijianluosha}
+		prerequisite = { focus = GER_zaijianluosha }
 	
 		ai_will_do = {factor = 10}
-		available = {}
-		
+		available = {
+		has_country_flag = GER_wenmingzuobi
+		}
+		bypass = {}
 		completion_reward = {}
 	}
 	#团结FAUD
@@ -277,8 +279,8 @@ focus_tree = {
 		prerequisite = {focus = GER_zaijianluosha}
 	
 		ai_will_do = {factor = 10}
-		available = {}
-		
+		available = {always = no}
+		bypass = {has_country_flag = GER_baobaobashi}
 		completion_reward = {}
 	}
 	#反对激进主义
@@ -430,8 +432,10 @@ focus_tree = {
 		prerequisite = {focus = GER_zaijianluosha}
 	
 		ai_will_do = {factor = 10}
-		available = {}
-		
+		available = {
+		              has_country_flag = GER_wochaojizuo
+					 }
+		bypass = {}
 		completion_reward = {}
 	}
 	#导师的理想
@@ -445,9 +449,9 @@ focus_tree = {
 		prerequisite = {focus = GER_douzhengdechiqi}
 	
 		ai_will_do = {factor = 10}
-		available = {}
+		available = {has_country_flag = GER_wochaolie}
 		
-		completion_reward = {}
+		completion_reward = {always = no}
 	}
 	#成立全国工会中心组织
 	focus = {
@@ -598,9 +602,11 @@ focus_tree = {
 		prerequisite = {focus = GER_douzhengdechiqi}
 	
 		ai_will_do = {factor = 10}
-		available = {}
+		available = {has_country_flag = GER_wochaominbu}
 		
-		completion_reward = {}
+		completion_reward = {
+		hidden_effect = {country_event = {id = TODgermany.11}}
+		}
 	}
 	#伟人之死
 	focus = {
@@ -609,12 +615,12 @@ focus_tree = {
 		x = 29
 		y = 4
 
-		cost = 5
+		cost = 1
 		prerequisite = {focus = GER_moguideqiyue}
 	
 		ai_will_do = {factor = 10}
-		available = {}
-		
+		available = {has_country_flag = GER_zuobiqushi}
+		bypass = {}
 		completion_reward = {}
 	}
 	#解散中央委员会
