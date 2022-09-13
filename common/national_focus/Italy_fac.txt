@@ -53,6 +53,8 @@ focus_tree = {
 #
 #		}
 #	}
+#内战结束后获得的民族精神“内战后的经济损伤”：建造速度-40%，生活消费品+20%，工厂产出-40%，生产效率上线-20%，生产效率增长-40%；“意大利厌战情绪”：战争支持度-40%，适役人口-4%，工厂产出-20%；“糟糕的政府”：稳定度-40%，生活消费品+20%，政治点数-25%
+
 	#墨索里尼的胜利
 	focus = {
 		id = ITA_mosuolinideshengli
@@ -60,7 +62,7 @@ focus_tree = {
 		x = 6
 		y = 1
 
-		cost = 5
+		cost = 1
 		
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -69,7 +71,9 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = { 
+			add_political_power = 50
+		}
 	}
 	#长刀之夜
 	focus = {
@@ -88,7 +92,10 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_stability = -0.1
+
+		}#添加国家法团主义支持率40，调整民族精神“糟糕的政府”：稳定度+10%，生活消费品-5%，政治点数+25%
 	}
 	#废除议会
 	focus = {
@@ -107,7 +114,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#墨索里尼添加领袖特质“大独裁者”：政治点数15%；调整民族精神“糟糕的政府”：稳定度+10%，生活消费品-5%
 	}
 	#帝国第一元帅
 	focus = {
@@ -126,7 +133,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#特质“大独裁者”追加：适役人口修正+5%，最大指挥点数提高乘数-10%，战争支持度+5%；调整民族精神“糟糕的政府”：稳定度+10%，生活消费品-5%
 	}
 	#巩固统治
 	focus = {
@@ -146,7 +153,9 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			set_country_flag = ITA_zhengfuzanshiwending
+		}#特质“大独裁者”追加：稳定度+5%，政党支持度对稳定度修正+10%；调整民族精神“糟糕的政府”：稳定度+10%，生活消费品-5%
 	}
 	#签订拉特朗条约
 	focus = {
@@ -165,7 +174,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#添加民族精神“拉特朗条约”：稳定度+10%，战争支持度+10%，适役人口修正+5%
 	}
 	#加大宣传
 	focus = {
@@ -184,7 +193,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#调整民族精神“意大利厌战情绪”：战争支持度+10%，适役人口+1%，工厂产出+5%
 	}
 	#意大利青年军
 	focus = {
@@ -203,7 +212,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#调整民族精神“意大利厌战情绪”：战争支持度+10%，适役人口+1%，工厂产出+5%
 	}
 	#意大利军国主义
 	focus = {
@@ -222,7 +231,8 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#调整民族精神“意大利厌战情绪”：战争支持度+20%，适役人口+2%，工厂产出+10%
+
 	}
 	#兼任多职
 	focus = {
@@ -241,7 +251,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#特质“大独裁者”追加：经济、贸易和征兵法案花费-15%
 	}
 	#私人内阁
 	focus = {
@@ -260,7 +270,9 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_political_power = 100
+		}#特质“大独裁者”追加：政治顾问花费-20%
 	}
 	#建设SIS
 	focus = {
@@ -279,7 +291,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#成立情报机构，添加"秘密军事情报局"特工位+1
 	}
 	#独揽大权
 	focus = {
@@ -290,6 +302,8 @@ focus_tree = {
 
 		cost = 5
 		prerequisite = { focus = ITA_jianrenduozhi}
+		prerequisite = { focus = ITA_sirenneige}
+		prerequisite = { focus = ITA_jiansheSIS}
 		
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -298,7 +312,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#特质“大独裁者”追加：投降界限+5%，战争状态稳定度+15%,意识形态变化抵制力度+15%；"秘密军事情报局"追加敌方特工被捕几率+5%，敌方特工被发现几率+10%
 	}
 	#罗马帝国的继承者
 	focus = {
@@ -314,7 +328,7 @@ focus_tree = {
 		available_if_capitulated = no
 		
 		ai_will_do = {factor = 10}
-		available = {}
+		available = {}#没有民族精神“内战后的经济损伤”“意大利厌战情绪”“糟糕的政府”
 		
 		completion_reward = {}
 	}
@@ -325,7 +339,7 @@ focus_tree = {
 		x = 4
 		y = 10
 
-		cost = 5
+		cost = 2
 		prerequisite = { focus = ITA_luomadiguodejichengzhe }
 		
 		cancel_if_invalid = yes
@@ -335,7 +349,20 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			all_country = {
+				if = {
+					limit = {
+						OR = {
+							has_government = vanguard_socialism
+							has_government = council_socialism
+							has_government = moderate_socialism
+						}
+					}
+					add_opinion_modifier = { target = FROM modifier = -40 }
+				}
+			}
+		}#所有社会主义国家的好感度-40
 	}
 	#反共条约
 	focus = {
@@ -344,7 +371,7 @@ focus_tree = {
 		x = 3
 		y = 11
 
-		cost = 5
+		cost = 2
 		prerequisite = { focus = ITA_yingduiweixie }
 		
 		cancel_if_invalid = yes
@@ -354,7 +381,22 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			all_country = {
+				if = {
+					limit = {
+						NOT = {
+							OR = {
+								has_government = vanguard_socialism
+								has_government = council_socialism
+								has_government = moderate_socialism
+							}
+						}
+					}
+					add_opinion_modifier = { target = FROM modifier = 20 }
+				}
+			}
+		}#所有非社会主义国家的好感度+20
 	}
 	#先发制人
 	focus = {
@@ -373,7 +415,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = { create_wargoal = { target = GER type = puppet_wargoal_focus } }#获得对红德的战争借口：颠覆政权
 	}
 	#对法友好
 	focus = {
@@ -390,10 +432,10 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		
-		ai_will_do = {factor = 10}
+		ai_will_do = {factor = 12}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = { add_opinion_modifier = { target = FRA modifier = 50 } }#法兰西好感度+50
 	}
 	#联合法兰西
 	focus = {
@@ -409,10 +451,14 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		
-		ai_will_do = {factor = 10}
+		ai_will_do = {factor = 12}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			FRA = {
+				add_to_faction = ITA
+			}
+		}#申请加入法兰西的阵营
 	}
 	#大意大利计划
 	focus = {
@@ -431,7 +477,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#获得宣称：阿尔巴尼亚，西马其顿，黑山
 	}
 	#对法领土需求
 	focus = {
@@ -451,7 +497,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#获得宣称：突尼斯四省，科西嘉，尼斯，萨伏伊，上萨瓦
 	}
 	#对法作战
 	focus = {
@@ -470,7 +516,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = { create_wargoal = { target = FRA type = take_state } }#获得对法兰西的战争借口：征服
 	}
 	#巴尔干战争计划
 	focus = {
@@ -489,7 +535,9 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_war_support = 0.05
+		}
 	}
 	#塞尔维亚的最后通牒
 	focus = {
@@ -499,7 +547,7 @@ focus_tree = {
 		y = 12
 
 		cost = 5
-		prerequisite = { focus = ITA_dayidalijihua }
+		prerequisite = { focus = ITA_baerganzhanzheng }
 		
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -508,7 +556,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#塞尔维亚触发事件“意大利要求臣服”
 	}
 	#克罗地亚的最后通牒
 	focus = {
@@ -518,7 +566,7 @@ focus_tree = {
 		y = 12
 
 		cost = 5
-		prerequisite = { focus = ITA_dayidalijihua }
+		prerequisite = { focus = ITA_baerganzhanzheng }
 		
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -527,7 +575,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#克罗地亚触发事件“意大利要求臣服”
 	}
 	#对希腊战争
 	focus = {
@@ -546,7 +594,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = { create_wargoal = { target = GRE type = take_state } }#获得对希腊战争借口：征服
 	}
 	#征服土耳其
 	focus = {
@@ -565,7 +613,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = { create_wargoal = { target = GRE type = take_state } }#获得对土耳其战争借口：征服
 	}
 	#索取巴利阿里群岛
 	focus = {
@@ -584,7 +632,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#西班牙触发事件“意大利索取巴利阿里群岛”
 	}
 	#要求直布罗陀
 	focus = {
@@ -603,7 +651,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#直布罗陀拥有国触发事件“意大利索取直布罗陀”
 	}
 	#夺回意属东非
 	focus = {
@@ -622,7 +670,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = { create_wargoal = { target = ETH type = take_state } }#获得对埃塞俄比亚的战争理由：征服
 	}
 	#要求埃塞俄比亚屈服
 	focus = {
@@ -660,7 +708,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = { create_wargoal = { target = EGY type = take_state } }#获得对埃及战争借口：征服
 	}
 	#控制苏伊士运河
 	focus = {
@@ -679,7 +727,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#如果法国是盟友则法国触发事件“意大利希望转交苏伊士运河控制权”，如果不是则触发事件“意大利要求苏伊士运河控制权”；
 	}
 	#三年计划
 	focus = {
@@ -695,9 +743,18 @@ focus_tree = {
 		available_if_capitulated = no
 		
 		ai_will_do = {factor = 10}
-		available = {}
+		available = {
+			has_completed_focus = ITA_gonggutongzhi
+		}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_tech_bonus = {
+				name = industry
+				bonus = 1.0
+				uses = 2
+				category = industry
+			}
+		}#获得民族精神“国家重建”建造速度+40%，生活消费品10%；调整民族精神“内战后的经济损伤”：建造速度+10%，生活消费品-5%，工厂产出+10%，生产效率上线+5%，生产效率增长+10%
 	}
 	#发展IRI
 	focus = {
@@ -716,16 +773,16 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#获得民族精神“工业复兴”：地区最大工业值+10%，建造速度+10%；调整民族精神“内战后的经济损伤”：建造速度+10%，生活消费品-5%，工厂产出+10%，生产效率上线+5%，生产效率增长+10%
 	}
 	#推进民生建设
 	focus = {
 		id = ITA_tuijinminshengjianshe
 		icon = GFX_ITA_tuijinminshengjianshe
-		x = 12
+		x = 11
 		y = 3
 
-		cost = 5
+		cost = 6
 		prerequisite = { focus = ITA_fazhanIRI }
 		
 		cancel_if_invalid = yes
@@ -735,16 +792,16 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#民族精神“工业复兴”追加：民用工厂建造速度+20%，生活消费品-4%；调整民族精神“内战后的经济损伤”：建造速度+10%，生活消费品-5%，工厂产出+10%，生产效率上线+5%，生产效率增长+10%
 	}
-	#人民福祉
+	#人民生活保障
 	focus = {
-		id = ITA_renminfuzhi
-		icon = GFX_ITA_renminfuzhi
+		id = ITA_renminshenghuobaozhang
+		icon = GFX_ITA_renminshenghuobaozhang
 		x = 11
 		y = 4
 
-		cost = 5
+		cost = 6
 		prerequisite = { focus = ITA_fazhanIRI }
 		
 		cancel_if_invalid = yes
@@ -754,16 +811,16 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#民族精神“工业复兴”追加：生活消费品-2%，生产效率保持+10%
 	}
 	#军备扩大就业
 	focus = {
 		id = ITA_junbeikuodajiuye
 		icon = GFX_ITA_junbeikuodajiuye
-		x = 14
+		x = 15
 		y = 3
 
-		cost = 5
+		cost = 6
 		prerequisite = { focus = ITA_fazhanIRI }
 		
 		cancel_if_invalid = yes
@@ -773,7 +830,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#民族精神“工业复兴”追加：军用工厂建造速度+20%，工厂产出+10%；调整民族精神“内战后的经济损伤”：建造速度+10%，生活消费品-5%，工厂产出+10%，生产效率上线+5%，生产效率增长+10%
 	}
 	#生产线上的工人
 	focus = {
@@ -782,7 +839,7 @@ focus_tree = {
 		x = 15
 		y = 4
 
-		cost = 5
+		cost = 6
 		prerequisite = { focus = ITA_junbeikuodajiuye }
 		
 		cancel_if_invalid = yes
@@ -792,7 +849,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#民族精神“工业复兴”追加：生产效率上限+5%，生产效率增长+10%
 	}
 	#石油短缺
 	focus = {
@@ -811,7 +868,14 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_tech_bonus = {
+				name = ITA_shiyouduanque
+				bonus = 1.0
+				uses = 2
+				category = synth_resources #合成油
+			}
+		}
 	}
 	#煤液化
 	focus = {
@@ -828,9 +892,28 @@ focus_tree = {
 		available_if_capitulated = no
 		
 		ai_will_do = {factor = 10}
-		available = {}
+		available = {
+			has_tech = synth_oil_experiments #合成石油实验
+		}
 		
-		completion_reward = {}
+		completion_reward = {
+			any_core_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+			any_core_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+		}#任意2个核心省份获得1个炼油厂1个建筑位
 	}
 	#利比亚油田
 	focus = {
@@ -849,7 +932,26 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_tech_bonus = {
+				name = ITA_shiyouduanque
+				bonus = 1.0
+				uses = 1
+				category = construction_tech
+			}
+			273 = {
+				add_resource = {
+					type = oil
+					amount = 2
+				}
+			}
+			1084 = {
+				add_resource = {
+					type = oil
+					amount = 4
+				}
+			}
+		}#省份273添加2点油，1084添加4点油
 	}
 	#利比亚炼油厂
 	focus = {
@@ -868,7 +970,24 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			450 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+			448 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+		}#省份450获得1个炼油厂1个建筑位，448获得1个炼油厂1个建筑位
 	}
 	#意大利高速公路
 	focus = {
@@ -877,7 +996,7 @@ focus_tree = {
 		x = 13
 		y = 4
 
-		cost = 5
+		cost = 14
 		prerequisite = { focus = ITA_tuijinminshengjianshe focus = ITA_junbeikuodajiuye }
 		
 		cancel_if_invalid = yes
@@ -887,8 +1006,69 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
-	}
+		completion_reward = {
+			158 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 5
+						instant_build = yes
+					}
+				}
+			}
+			159 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+						type = infrastructure
+						level = 5
+						instant_build = yes						
+					}
+				}	
+			}
+			161 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 5
+						instant_build = yes
+					}
+				}
+			}
+			162 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 5
+						instant_build = yes
+					}
+				}
+			}
+			991 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 5
+						instant_build = yes
+					}
+				}
+			}
+			117 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 5
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}#这是给基建
 	#吸引资本
 	focus = {
 		id = ITA_xiyinziben
@@ -896,7 +1076,7 @@ focus_tree = {
 		x = 12
 		y = 5
 
-		cost = 5
+		cost = 6
 		prerequisite = { focus = ITA_yidaligaosugonglu }
 		
 		cancel_if_invalid = yes
@@ -906,7 +1086,21 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			any_core_state = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}#任意一个核心地区2军工2民工4建筑位
 	}
 	#改善条件
 	focus = {
@@ -915,7 +1109,7 @@ focus_tree = {
 		x = 14
 		y = 5
 
-		cost = 5
+		cost = 6
 		prerequisite = { focus = ITA_yidaligaosugonglu }
 		
 		cancel_if_invalid = yes
@@ -925,7 +1119,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#获得民族精神“农业科学”：月度人力+20%
 	}
 	#工业投资
 	focus = {
@@ -934,7 +1128,7 @@ focus_tree = {
 		x = 12
 		y = 6
 
-		cost = 5
+		cost = 6
 		prerequisite = { focus = ITA_xiyinziben }
 		
 		cancel_if_invalid = yes
@@ -944,7 +1138,21 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			any_core_state = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}#任意一个核心地区2军工2民工4建筑位
 	}
 	#农业独立
 	focus = {
@@ -953,7 +1161,7 @@ focus_tree = {
 		x = 14
 		y = 6
 
-		cost = 5
+		cost = 6
 		prerequisite = { focus = ITA_gaishantiaojian }
 		
 		cancel_if_invalid = yes
@@ -963,26 +1171,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
-	}
-	#扩建大学
-	focus = {
-		id = ITA_kuojiandaxue
-		icon = GFX_ITA_kuojiandaxue
-		x = 13
-		y = 7
-
-		cost = 5
-		prerequisite = { focus = ITA_renminfuzhi focus = ITA_shengchanxianshangdegongren }
-		
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		
-		ai_will_do = {factor = 10}
-		available = {}
-		
-		completion_reward = {}
+		completion_reward = {}#民族精神“农业科学”追加生活消费品-5%
 	}
 	#崭新的意大利
 	focus = {
@@ -1002,6 +1191,107 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#获得民族精神“意大利经济奇迹”：10%工厂产出，5生产效率
+	}
+	#火箭计划
+	focus = {
+		id = ITA_huojianjihua
+		icon = GFX_ITA_huojianjihua
+		x = 15
+		y = 8
+
+		cost = 5
+		prerequisite = { focus = ITA_kuojiandaxue }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = ITA_huojianjihua
+				bonus = 1.0
+				uses = 2
+				category = rocketry
+			}
+		}
+	}
+	#扩建大学
+	focus = {
+		id = ITA_kuojiandaxue
+		icon = GFX_ITA_kuojiandaxue
+		x = 13
+		y = 7
+
+		cost = 5
+		prerequisite = { focus = ITA_renminfuzhi focus = ITA_shengchanxianshangdegongren }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = ITA_yuanzinengshiyan
+				bonus = 1.0
+				uses = 2
+				category = electronics
+			}
+			add_research_slot = 1
+		}#添加1个科研槽
+	}
+	#崭新的意大利
+	focus = {
+		id = ITA_kuojiandaxue
+		icon = GFX_ITA_kuojiandaxue
+		x = 13
+		y = 8
+
+		cost = 5
+		prerequisite = { focus = ITA_renminfuzhi }
+		prerequisite = { focus = ITA_shengchanxianshangdegongren }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {
+			add_stability = 0.1
+		}#获得民族精神“意大利经济奇迹”：10%工厂产出，5生产效率；移除民族精神“国家重建”
+	}
+	#原子能实验
+	focus = {
+		id = ITA_yuanzinengshiyan
+		icon = GFX_ITA_yuanzinengshiyan
+		x = 15
+		y = 9
+
+		cost = 5
+		prerequisite = { focus = ITA_huojianjihua }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = ITA_yuanzinengshiyan
+				bonus = 1.0
+				uses = 2
+				category = nuclear
+			}
+		}
 	}
 }

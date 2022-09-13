@@ -15,7 +15,7 @@ focus_tree = {
 	
 	default = no
 
-	continuous_focus_position = { x = 2000 y = 2000 }
+	continuous_focus_position = { x = 2000 y = 1500 }
 
 #	focus = {
 #		id = ITA_
@@ -52,6 +52,7 @@ focus_tree = {
 #
 #		}
 #	}
+#内战结束后获得的民族精神“内战后的经济损伤”：建造速度-40%，生活消费品+20%，工厂产出-40%，生产效率上线-20%，生产效率增长-40%；“意大利厌战情绪”：战争支持度-40%，适役人口-4%，工厂产出-20%；“糟糕的政府”：稳定度-40%，生活消费品+20%，政治点数-25%
 	#三年计划
 	focus = {
 		id = ITA_sannianjihua
@@ -69,7 +70,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#获得民族精神“国家重建”建造速度+40%，生活消费品10%
 	}
 	#战后重建
 	focus = {
@@ -88,7 +89,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#调整民族精神“内战后的经济损伤”：建造速度+10%，生活消费品-5%，工厂产出+10%，生产效率上线+5%，生产效率增长+10%
 	}
 	#发展IRI
 	focus = {
@@ -107,7 +108,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#获得民族精神“工业复兴”：地区最大工业值+10%，建造速度+10%
 	}
 	#北意大利工业复兴
 	focus = {
@@ -126,7 +127,24 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			159 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			161 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}#省份159加俩民工和建筑格，省份161加俩民工和建筑格
 	}
 	#国家投资
 	focus = {
@@ -145,7 +163,24 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			992 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			160 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}#省份992加俩军工和建筑格，省份160加俩军工和建筑格；调整民族精神“内战后的经济损伤”：建造速度+10%，生活消费品-5%，工厂产出+10%，生产效率上线+5%，生产效率增长+10%
 	}
 	#合并小微企业
 	focus = {
@@ -165,7 +200,22 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			any_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = -1
+					instant_build = yes
+				}
+			}
+			any_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = -1
+					instant_build = yes
+				}
+			}
+		}#任意2个地区减少1个民工；民族精神“工业复兴”追加：工厂产出+10%
 	}
 	#改良生产
 	focus = {
@@ -184,7 +234,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#民族精神“工业复兴”追加：生产效率上线+10%，生产效率保持+10%
 	}
 	#意大利基础设施建设
 	focus = {
@@ -194,7 +244,7 @@ focus_tree = {
 		x = 7
 		y = 4
 
-		cost = 5
+		cost = 6
 		
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -203,7 +253,48 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			2 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			991 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			162 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			157 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
 	}
 	#北意大利高速公路
 	focus = {
@@ -213,7 +304,7 @@ focus_tree = {
 		x = 6
 		y = 5
 
-		cost = 5
+		cost = 6
 		
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -222,7 +313,38 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			158 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 5
+						instant_build = yes
+					}
+				}
+			}
+			159 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 5
+						instant_build = yes
+					}
+				}
+			}
+			160 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 5
+						instant_build = yes
+					}
+				}
+			}
+		}
 	}
 	#南意大利高速公路
 	focus = {
@@ -241,12 +363,33 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			117 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			156 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
 	}
-	#全意大利高速公路
+	#民生建设计划
 	focus = {
-		id = ITA_quanyidaligaosugonglu
-		icon = GFX_ITA_quanyidaligaosugonglu
+		id = ITA_minshengjianshejihua
+		icon = GFX_ITA_minshengjianshejihua
 		prerequisite = { focus = ITA_beiyidaligaosugonglu }
 		prerequisite = { focus = ITA_nanyidaligaosugonglu }
 		x = 7
@@ -261,12 +404,12 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#民族精神“工业复兴”追加生活消费品-5%；调整民族精神“内战后的经济损伤”：建造速度+10%，生活消费品-5%，工厂产出+10%，生产效率上线+5%，生产效率增长+10%
 	}
 	#皇家研究院
 	focus = {
 		id = ITA_huangjiayanjiuyuan
-		icon = GFX_ITA_quanyidaligaosugonglu
+		icon = GFX_ITA_minshengjianshejihua
 		prerequisite = { focus = ITA_beiyidaligaosugonglu }
 		prerequisite = { focus = ITA_nanyidaligaosugonglu }
 		x = 7
@@ -281,7 +424,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = { add_research_slot = 1	}#加1个科研槽
 	}
 	#南意大利发展计划
 	focus = {
@@ -300,8 +443,26 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			117 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			156 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}#省份117加俩民工和建筑格，省份156加俩民工和建筑格
 	}
+	
 	#鼓励农民
 	focus = {
 		id = ITA_gulinongmin
@@ -319,7 +480,8 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+		}#获得民族精神“农业科学”：月度人力+20%
 	}
 	#吸引投资
 	focus = {
@@ -339,7 +501,16 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			117 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}#省份117添加俩民工和建筑格；调整民族精神“内战后的经济损伤”：建造速度+10%，生活消费品-5%，工厂产出+10%，生产效率上线+5%，生产效率增长+10%
 	}
 	#机械化农业
 	focus = {
@@ -358,7 +529,11 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			117 = { add_extra_state_shared_building_slots = 1 }
+			156 = { add_extra_state_shared_building_slots = 1 }
+			115 = { add_extra_state_shared_building_slots = 1 }
+		}#民族精神“农业科学”追加：生活消费品-2%，省份117、156、115添加1个建筑格
 	}
 	#流水线秩序井然
 	focus = {
@@ -379,7 +554,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#民族精神“工业复兴”追加：生产效率上线+5%，生产效率增长+10%
 	}
 	#农业独立
 	focus = {
@@ -400,7 +575,9 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_stability = 0.1
+		}#民族精神“农业科学”追加：生活消费品-3%；调整民族精神“内战后的经济损伤”：建造速度+10%，生活消费品-5%，工厂产出+10%，生产效率上线+5%，生产效率增长+10%
 	}
 	#国王外交
 	focus = {
@@ -416,9 +593,11 @@ focus_tree = {
 		available_if_capitulated = no
 		
 		ai_will_do = {factor = 10}
-		available = {}
+		available = {}#没有民族精神“内战后的经济损伤”“意大利厌战情绪”“糟糕的政府”
 		
-		completion_reward = {}
+		completion_reward = {
+			add_war_support = 0.05
+		}#调整民族精神“意大利厌战情绪”：战争支持度+20%
 	}
 	#新的威胁
 	focus = {
@@ -457,33 +636,18 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
-	}
-	#避免第二个卡波雷托
-	focus = {
-		id = ITA_bimiandiergekaboleituo
-		icon = GFX_ITA_bimiandiergekaboleituo
-		prerequisite = { focus = ITA_jiumengyou }
-		x = 3
-		y = 14
-
-		cost = 5
-		
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		
-		ai_will_do = {factor = 10}
-		available = {}
-		
-		completion_reward = {}
+		completion_reward = {
+			FRA = {
+				add_to_faction = ITA
+			}
+		}#加入法国阵营
 	}
 	#法意联合军演
 	focus = {
 		id = ITA_fayilianhejunyan
 		icon = GFX_ITA_fayilianhejunyan
 		prerequisite = { focus = ITA_jiumengyou }
-		x = 5
+		x = 4
 		y = 14
 
 		cost = 5
@@ -495,14 +659,23 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			FRA = {
+				army_experience = 25
+				air_experience = 25
+				navy_experience = 25
+			}
+			army_experience = 25
+			air_experience = 25
+			navy_experience = 25
+		}#法意加三军经验25
 	}
 	#制裁德国
 	focus = {
 		id = ITA_zhicaideguo
 		icon = GFX_ITA_zhicaideguo
 		prerequisite = { focus = ITA_jiumengyou }
-		x = 7
+		x = 6
 		y = 14
 
 		cost = 5
@@ -514,7 +687,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {GER = {trade_opinion_factor = -100}}#对德国贸易影响-100
 	}
 	#宣称萨伏依
 	focus = {
@@ -533,7 +706,11 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_state_claim = 944
+			add_state_claim = 943
+			add_state_claim = 735
+		}#获得宣称：尼斯，萨伏伊，上萨瓦
 	}
 	#索要法国王位
 	focus = {
@@ -553,7 +730,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = { create_wargoal = { target = FRA type = take_state } }#获得对法国宣战理由
 	}
 	#宣称西班牙王位
 	focus = {
@@ -572,7 +749,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = { create_wargoal = { target = SPA type = take_state } }#获得对西班牙宣战借口
 	}
 	#与保加利亚的关系
 	focus = {
@@ -591,7 +768,20 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {	
+			BUL = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = 50
+				}
+			}
+			ROOT = {
+				add_opinion_modifier = {
+					target = BUL
+					modifier = 50
+				}
+			}
+		}#实际内容未来在定，现在先就保加利亚和意大利互相加好感+50
 	}
 	#希腊领地
 	focus = {
@@ -610,7 +800,12 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_state_claim = 44
+			add_state_claim = 105
+			add_state_claim = 976
+			create_wargoal = { target = GRE type = take_claimed_state }
+		}#获得宣称：阿尔巴尼亚，西马其顿，黑山；获得对希腊宣战理由
 	}
 	#王国依存
 	focus = {
@@ -619,7 +814,7 @@ focus_tree = {
 		x = 14
 		y = 1
 
-		cost = 5
+		cost = 1
 		
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -628,7 +823,9 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_political_power = 50
+		}
 	}
 	#政府内的敌人
 	focus = {
@@ -647,7 +844,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#获得民族精神“清除法团主义敌人”：国家法团主义每日-0.5
 	}
 	#王国的命运
 	focus = {
@@ -664,9 +861,9 @@ focus_tree = {
 		available_if_capitulated = no
 		
 		ai_will_do = {factor = 10}
-		available = {}
+		available = {}#国家法团主义支持度低于20解锁
 		
-		completion_reward = {}
+		completion_reward = {}#调整民族精神“糟糕的政府”：稳定度+10%，生活消费品-5%
 	}
 	#重新任用法西斯官僚
 	focus = {
@@ -685,7 +882,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#移除民族精神“清除法团主义敌人”，添加国家法团主义支持率5%；调整民族精神“糟糕的政府”：稳定度+10%，生活消费品-5%
 	}
 	#军队的支持
 	focus = {
@@ -704,7 +901,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#调整民族精神“意大利厌战情绪”：战争支持度+20%，适役人口+2%，工厂产出+10%
 	}
 	#确立宪法
 	focus = {
@@ -723,7 +920,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#维托里奥·埃马努埃莱三世移除特质“糟糕的治理能力”，获得“立宪君主”：每日政治点+0.1，+5%稳定度；调整民族精神“糟糕的政府”：稳定度+10%，生活消费品-5%
 	}
 	#教宗问题
 	focus = {
@@ -743,7 +940,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#原本想来个事件链决定民族精神效果，未来再说，先无效果
 	}
 	#天主根源
 	focus = {
@@ -762,7 +959,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#添加民族精神“拉特朗条约”：稳定度+10%，战争支持度+10%，适役人口修正+5%（这个民族精神先用着）
 	}
 	#加强参议院
 	focus = {
@@ -781,7 +978,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#调整民族精神“糟糕的政府”：政治点数+25%
 	}
 	#依人而治
 	focus = {
@@ -800,7 +997,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#调整民族精神“糟糕的政府”：稳定度+10%，生活消费品-5%；调整民族精神“意大利厌战情绪”：适役人口+1%，工厂产出+5%
 	}
 	#强硬行政
 	focus = {
@@ -819,7 +1016,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#调整民族精神“糟糕的政府”：稳定度+10%，生活消费品-5%；调整民族精神“意大利厌战情绪”：适役人口+1%，工厂产出+5%
 	}
 	#皇家陆军
 	focus = {
@@ -837,7 +1034,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = { army_experience = 10 }#陆军经验+10
 	}
 	#阿尔卑斯防线
 	focus = {
@@ -847,7 +1044,7 @@ focus_tree = {
 		x = 21
 		y = 2
 
-		cost = 5
+		cost = 10
 		
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -856,7 +1053,98 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 611
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 6780
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 9738
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 11721
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 770
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 11891
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 6661
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 6631
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 656
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 11598
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 3657
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 9613
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 11595
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 599
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 11564
+			}
+		}#法国和奥地利边境添加2级要塞
 	}
 	#殖民地驻防
 	focus = {
@@ -875,7 +1163,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#如果意属东非还在那么省份269和559的海军基地+2级海防要塞，利比亚的胜利点加2级海防要塞和陆上要塞
 	}
 	#两岛驻防
 	focus = {
@@ -894,7 +1182,44 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_building_construction = {
+				type = coastal_bunker
+				level = 2
+				instant_build = yes
+				province = 11773
+			}
+			add_building_construction = {
+				type = coastal_bunker
+				level = 2
+				instant_build = yes
+				province = 10074
+			}
+			add_building_construction = {
+				type = coastal_bunker
+				level = 2
+				instant_build = yes
+				province = 4159
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 11773
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 10074
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 4159
+			}
+		}#俩西西里和萨丁尼亚的胜利点获得2级海防要塞和陆上要塞
 	}
 	#保守派
 	focus = {
@@ -934,7 +1259,14 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_doctrine_cost_reduction = { 
+				name = ITA_juezhanjihua
+			    cost_reduction = 0.75
+			    uses = 1
+				category = land_doctrine
+			}
+		}#决战计划75%1张
 	}
 	#火力杀伤
 	focus = {
@@ -954,7 +1286,14 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_doctrine_cost_reduction = { 
+				name = ITA_juezhanjihua
+			    cost_reduction = 0.75
+			    uses = 1
+				category = land_doctrine
+			}
+		}#优势火力75%1张
 	}
 	#支援部队
 	focus = {
@@ -973,7 +1312,14 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_tech_bonus = {
+				name = ITA_zhiyuanbudui
+				bonus = 1.0
+				uses = 2
+				category = support_tech
+			}
+		}#100%支援连加成卡2张
 	}
 	#改良火炮
 	focus = {
@@ -992,7 +1338,14 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_tech_bonus = {
+				name = ITA_gailianghuopao
+				bonus = 1.0
+				uses = 2
+				category = artillery
+			}
+		}#100%支援连加成卡2张
 	}
 	#加强军备生产
 	focus = {
@@ -1012,7 +1365,19 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			random_owned_controlled_state = {
+				if = {
+					limit = { is_core_of = ROOT }
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+		}#任意一个核心地区2军工2建筑位
 	}
 	#阿尔卑斯军团
 	focus = {
@@ -1031,7 +1396,14 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_tech_bonus = {
+				name = ITA_aerbeisijuntuan
+				bonus = 1.5
+				uses = 1
+				category = mountaineers_tech
+			}
+		}#150%山地加成卡1张
 	}
 	#武器现代化
 	focus = {
@@ -1050,7 +1422,14 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_tech_bonus = {
+				name = ITA_wuqixiandaihua
+				bonus = 1.0
+				uses = 2
+				category = infantry_weapons
+			}
+		}#100%步兵加成卡2张
 	}
 	#火炮现代化
 	focus = {
@@ -1069,7 +1448,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#火炮软攻+5%生产花费-5%
 	}
 	#装甲部队
 	focus = {
@@ -1088,7 +1467,14 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_tech_bonus = {
+				name = ITA_zhuangjiabudui
+				bonus = 1.0
+				uses = 2
+				category = armor
+			}
+		}#100%装甲加成卡2张
 	}
 	#军队现代化
 	focus = {
@@ -1108,7 +1494,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#解锁几个决议（在解决军队腐败后可点，每个决议被选中后持续70天）：1）军队改革1阶段20陆军经验，5组织度，5恢复速度；2）5移动组织度损耗，5移动速度；3）5单位攻击，-5%地形惩罚
 	}
 	#解决军队腐败
 	focus = {
@@ -1127,7 +1513,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#获得“军队反腐”持续100天：指挥点数增长-10%,组织度-10%，补给消耗+10%，陆军经验获取-10%
 	}
 	#重视摩托化
 	focus = {
@@ -1146,7 +1532,14 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_tech_bonus = {
+				name = ITA_zhongshimotuohua
+				bonus = 1.0
+				uses = 1
+				category = motorized_equipment
+			}
+		}#100%摩托化加成卡1张，卡车可靠度+5%
 	}
 	#坦克机动
 	focus = {
@@ -1165,7 +1558,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#装甲速度+5%
 	}
 	#机动作战
 	focus = {
@@ -1185,7 +1578,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#机动作战卡75%1张
 	}
 	#军队新面貌
 	focus = {
@@ -1204,7 +1597,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#获得民族精神“皇家陆军”：组织度+10%，单位攻防+5%，补给消耗-10%
 	}
 	#皇家海军
 	focus = {
@@ -1222,7 +1615,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#获得民族精神“皇家海军”
 	}
 	#意大利商船队
 	focus = {
@@ -1241,7 +1634,14 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_tech_bonus = {
+				name = ITA_yidalishangchuandui
+				bonus = 0.75
+				uses = 1
+				category = tp_tech
+			}
+		}#运输船建造花费-5%，登陆艇75%1张
 	}
 	#地中海霸权
 	focus = {
@@ -1261,7 +1661,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#存在舰队75%1张
 	}
 	#改进驱逐舰
 	focus = {
@@ -1280,7 +1680,14 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_tech_bonus = {
+				name = ITA_gaijinquzhujian
+				bonus = 1.0
+				uses = 1
+				category = dd_tech
+			}
+		}#驱逐舰100%1张，建造花费-10%，对海对潜探测+10%
 	}
 	#改进巡洋舰
 	focus = {
@@ -1300,7 +1707,14 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_tech_bonus = {
+				name = ITA_gaijinxunyangjian
+				bonus = 1.0
+				uses = 1
+				category = cl_tech
+			}
+		}#巡洋舰100%1张，建造花费-10%，轻炮伤+5%
 	}
 	#新战列
 	focus = {
@@ -1319,7 +1733,14 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_tech_bonus = {
+				name = ITA_xinzhanlie
+				bonus = 1.0
+				uses = 1
+				category = bb_tech
+			}
+		}#战列舰100%1张，建造花费-10%，重炮伤+5%
 	}
 	#新航母
 	focus = {
@@ -1338,7 +1759,14 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_tech_bonus = {
+				name = ITA_xinhangmu
+				bonus = 1.0
+				uses = 1
+				category = cv_tech
+			}
+		}#航母100%1张，建造花费-10%，出击效率+5%
 	}
 	#训练海上航空兵
 	focus = {
@@ -1357,7 +1785,14 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_tech_bonus = {
+				name = ITA_haishanghangkongbing
+				bonus = 1.0
+				uses = 2
+				category = naval_bomber
+			}
+		}#舰载机100%2张
 	}
 	#海军陆战队
 	focus = {
@@ -1376,7 +1811,14 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_tech_bonus = {
+				name = ITA_haijunluzhandui
+				bonus = 1.0
+				uses = 1
+				category = marine_tech
+			}
+		}#海军陆战队100%1张
 	}
 	#海狼
 	focus = {
@@ -1395,7 +1837,14 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_tech_bonus = {
+				name = ITA_hailang
+				bonus = 1.0
+				uses = 1
+				category = ss_tech
+			}
+		}#潜艇100%1张，建造花费-10%，鱼雷伤+5%
 	}
 	#大西洋海军
 	focus = {
@@ -1415,7 +1864,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#基地打击75%1张
 	}
 	#那不勒斯造船厂
 	focus = {
@@ -1434,7 +1883,16 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			117 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}#那不勒斯2建筑位和船坞
 	}
 	#扩建船坞
 	focus = {
@@ -1453,7 +1911,16 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			992 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}#省份热那亚2建筑位和船坞
 	}
 	#非洲之角海军基地
 	focus = {
@@ -1472,7 +1939,30 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		bypass = {
+			NOT = {
+				269 = {is_controlled_by = ROOT}
+				559 = {is_controlled_by = ROOT}
+			}
+		}
+		completion_reward = {
+			992 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			559 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}#如果意属东非还在那么省份269和559的海军基地+2级
 	}
 	#皇家空军
 	focus = {
@@ -1490,7 +1980,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#获得民族精神“皇家空军”
 	}
 	#新型雷达
 	focus = {
@@ -1509,7 +1999,14 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_tech_bonus = {
+				name = ITA_xinxingleida
+				bonus = 1.0
+				uses = 2
+				category = electronics
+			}
+		}#无线电100%2张
 	}
 	#海上支援
 	focus = {
@@ -1528,7 +2025,14 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_tech_bonus = {
+				name = ITA_haishangzhiyuan
+				bonus = 1.0
+				uses = 1
+				category = naval_bomber
+			}
+		}#海轰100%1张，对海攻击+5%
 	}
 	#空海合作
 	focus = {
@@ -1547,7 +2051,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#舰载机机动+5%，最大速度+5%
 	}
 	#重视战略空军
 	focus = {
@@ -1567,7 +2071,14 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_tech_bonus = {
+				name = ITA_zhongshizhanluekongjun
+				bonus = 1.0
+				uses = 1
+				category = cat_strategic_bomber
+			}
+		}#战略轰炸机100%1张，战略轰炸学说75%1张，战略轰炸+5%
 	}
 	#重视战术空军
 	focus = {
@@ -1587,7 +2098,14 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_tech_bonus = {
+				name = ITA_zhongshizhanshukongjun
+				bonus = 1.0
+				uses = 1
+				category = tactical_bomber
+			}
+		}#战术轰炸机100%1张
 	}
 	#远程护航
 	focus = {
@@ -1625,7 +2143,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#战场支援15%1张
 	}
 	#空地合作
 	focus = {
@@ -1644,7 +2162,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#近地支援机+5%对地攻击
 	}
 	#资助研究喷气式发动机
 	focus = {
@@ -1663,7 +2181,14 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_tech_bonus = {
+				name = ITA_penqishi
+				bonus = 1.5
+				uses = 1
+				category = jet_technology
+			}
+		}#喷气研究150%1张
 	}
 	#天空霸权
 	focus = {
@@ -1682,7 +2207,14 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			add_tech_bonus = {
+				name = ITA_tiankongbaquan
+				bonus = 1.0
+				uses = 1
+				category = light_fighter
+			}
+		}#战斗机100%1张，建造花费-5%
 	}
 	#新一代战斗机
 	focus = {
@@ -1701,7 +2233,7 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#战斗机机动+5%，最大速度+5%，对空攻击+5%
 	}
 	#扩建机场
 	focus = {
@@ -1720,7 +2252,36 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {
+			159 = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			114 = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			2 = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			116 = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+		}#萨丁尼亚、伦巴第、马耳他、罗马的空军基地+2级
 	}
 	#加强生产
 	focus = {
@@ -1739,6 +2300,28 @@ focus_tree = {
 		ai_will_do = {factor = 10}
 		available = {}
 		
-		completion_reward = {}
+		completion_reward = {}#所有飞机可靠性-5%，生产花费-10%
+	}
+	#崭新的意大利
+	focus = {
+		id = ITA_zhanxindeyidali
+		icon = GFX_ITA_ITA_zhanxindeyidali
+		prerequisite = { focus = ITA_liushuixianzhixujingran }
+		prerequisite = { focus = ITA_nongyeduli }
+		x = 7
+		y = 9
+
+		cost = 5
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		ai_will_do = {factor = 10}
+		available = {}
+		
+		completion_reward = {
+			add_stability = 0.1
+		}#获得民族精神“意大利经济奇迹”：10%工厂产出，5生产效率；移除民族精神“国家重建”
 	}
 }
