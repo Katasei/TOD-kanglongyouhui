@@ -23,7 +23,7 @@ division_template = {
 division_template = {                        
 	name = "RKKA Strelkovaya Diviziya"  	
 
-	division_names_group = 	FIN_INF_01
+	division_names_group = 	FIN_INF_SOV
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -46,7 +46,7 @@ division_template = {
 division_template = {
 	name = "TTPA Vuoristojääkäridivisioona"  	
 
-	division_names_group = 	FIN_INF_01
+	division_names_group = 	FIN_MOU_01
 
 	regiments = {
 		mountaineers = { x = 0 y = 0 }
@@ -70,7 +70,7 @@ division_template = {
 division_template = {
 	name = "SJSK Divisioona"  	
 
-	division_names_group = 	FIN_INF_01
+	division_names_group = 	FIN_INF_02
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -86,7 +86,7 @@ division_template = {
 division_template = {
 	name = "TTPA Ratsuväkiprikaati"  	
 
-	division_names_group = 	FIN_INF_01
+	division_names_group = FIN_CAV_01
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
@@ -105,7 +105,7 @@ division_template = {
 division_template = {
 	name = "Motostrelkovaya Diviziya"  	
 
-	division_names_group = 	FIN_INF_01
+	division_names_group = 	FIN_MOT_01
 
 	regiments = {
 		motorized = { x = 0 y = 0 }
@@ -124,7 +124,7 @@ division_template = {
 division_template = {
 	name = "TTPA Panssaridivisioona"  	
 
-	division_names_group = 	FIN_INF_01
+	division_names_group = 	FIN_AOR_01
 
 	regiments = {
 		light_armor = { x = 0 y = 0 }
