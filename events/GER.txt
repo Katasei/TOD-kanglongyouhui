@@ -364,11 +364,11 @@ country_event = { #欧服男枪
 	
 	trigger = {tag = GER}
 	
-	option = { #成功击毙
+	option = { #行刺失败
 		name = TODgermany.11.a
 		GER = {country_event = { id = TODgermany.12 days = 1 }}
 	}
-	option = { #行刺失败
+	option = { #成功击毙
 		name = TODgermany.11.b
 		GER = {country_event = { id = TODgermany.13 days = 1 }}
 	}
@@ -389,7 +389,11 @@ country_event = {
 		set_country_flag = GER_wenmingzuobi
 		name = TODgermany.12.a
 		retire_country_leader = yes
-		set_politics = { ruling_party = council_socialism }
+		set_politics = { 
+		 ruling_party = council_socialism
+		 election_frequency = 60
+	     elections_allowed = yes
+		 }
 		promote_character = GER_Ernst_Thalmann
 	}
 }
